@@ -1,13 +1,14 @@
 {
   "files": {
-    "main.css": "/static/css/main.2a50ea72.css",
-    "main.js": "/static/js/main.fc13b976.js",
+    "main.css": "/static/css/main.16222122.css",
+    "main.js": "/static/js/main.32860b32.js",
+    "static/media/chrome_banner_5184x3456.jpg": "/static/media/chrome_banner_5184x3456.2a6e5dbdf2fd099264c9.jpg",
     "index.html": "/index.html",
-    "main.2a50ea72.css.map": "/static/css/main.2a50ea72.css.map",
-    "main.fc13b976.js.map": "/static/js/main.fc13b976.js.map"
+    "main.16222122.css.map": "/static/css/main.16222122.css.map",
+    "main.32860b32.js.map": "/static/js/main.32860b32.js.map"
   },
   "entrypoints": [
-    "static/css/main.2a50ea72.css",
-    "static/js/main.fc13b976.js"
+    "static/css/main.16222122.css",
+    "static/js/main.32860b32.js"
   ]
 }
