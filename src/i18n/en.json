@@ -1,0 +1,46 @@
+{
+    "nav": {
+      "home": "Home",
+      "about": "About",
+      "services": "Services",
+      "portfolio": "Portfolio",
+      "contact": "Contact"
+    },
+    "home": {
+      "title": "Innovative Web Solutions",
+      "description": "We create cutting-edge web and mobile applications, combining European standards with affordable prices.",
+      "cta": "Contact Us"
+    },
+    "about": {
+      "title": "About Us",
+      "description": "We are an innovative web studio based in the heart of the Czech Republic, combining deep understanding of the Czech market with the talent and efficiency of Ukrainian developers."
+    },
+    "services": {
+      "title": "Our Services",
+      "webDev": "Web Development",
+      "mobileDev": "Mobile App Development",
+      "uiuxDesign": "UI/UX Design"
+    },
+    "portfolio": {
+      "title": "Our Portfolio",
+      "description": "Check out some of our recent projects"
+    },
+    "contact": {
+      "title": "Contact Us",
+      "name": "Name",
+      "email": "Email",
+      "message": "Message",
+      "submit": "Send Message"
+    },
+    "footer": {
+        "about": "About Us",
+        "aboutDescription": "We create innovative web solutions, combining European quality with competitive prices.",
+        "quickLinks": "Quick Links",
+        "contact": "Contact",
+        "address": "Prague, Czech Republic",
+        "phone": "Phone",
+        "email": "Email",
+        "followUs": "Follow Us",
+        "allRightsReserved": "All rights reserved."
+      }
+  }

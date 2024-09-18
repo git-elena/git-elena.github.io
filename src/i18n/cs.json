@@ -1,0 +1,35 @@
+{
+    "nav": {
+      "home": "Domů",
+      "about": "O nás",
+      "services": "Služby",
+      "portfolio": "Portfolio",
+      "contact": "Kontakt"
+    },
+    "home": {
+      "title": "Inovativní webová řešení",
+      "description": "Vytváříme špičkové webové a mobilní aplikace, kombinujeme evropské standardy s dostupnými cenami.",
+      "cta": "Kontaktujte nás"
+    },
+    "about": {
+      "title": "O nás",
+      "description": "Jsme inovativní webové studio sídlící v srdci České republiky, kombinujeme hluboké porozumění českému trhu s talentem a efektivitou ukrajinských vývojářů."
+    },
+    "services": {
+      "title": "Naše služby",
+      "webDev": "Vývoj webových aplikací",
+      "mobileDev": "Vývoj mobilních aplikací",
+      "uiuxDesign": "UI/UX Design"
+    },
+    "portfolio": {
+      "title": "Naše portfolio",
+      "description": "Podívejte se na některé z našich nedávných projektů"
+    },
+    "contact": {
+      "title": "Kontaktujte nás",
+      "name": "Jméno",
+      "email": "Email",
+      "message": "Zpráva",
+      "submit": "Odeslat zprávu"
+    }
+  }

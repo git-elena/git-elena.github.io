@@ -1,0 +1,27 @@
+.langSw {
+    margin: auto;
+    display: flex;
+    justify-content: center; /* Центрирование по горизонтали */
+    align-items: center; /* Центрирование по вертикали */
+}
+
+.langSw select {
+    padding: 10px; /* Внутренние отступы для удобства */
+    font-size: 16px; /* Размер шрифта */
+    color: wheat;
+    /*border: 1px solid #ccc; /* Граница */
+    border: none;
+    border-radius: 4px; /* Скругленные углы */
+    background-color: transparent; /* Цвет фона */
+    cursor: pointer; /* Курсор при наведении */
+    appearance: none; /* Убирает стандартный стиль браузера */
+    -webkit-appearance: none; /* Убирает стандартный стиль браузера для WebKit */
+    -moz-appearance: none; /* Убирает стандартный стиль браузера для Firefox */
+}
+
+.langSw select:focus {
+    color: white;
+    outline: none; /* Убирает стандартное выделение при фокусе */
+    /*border-color: orange; /* Цвет границы при фокусе */
+    box-shadow: 0 0 5px rgba(255, 165, 0, 0.5); /* Тень при фокусе */
+}

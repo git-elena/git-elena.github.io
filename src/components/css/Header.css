@@ -1,0 +1,32 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(42, 42, 42);
+}
+header ul {
+    display: flex;
+    list-style-type: none;
+    /* margin: auto; */
+}
+
+header li {
+    padding-right: 30px;
+    text-transform: uppercase;
+    
+}
+
+header li :hover {
+    border-bottom: 1px solid orange;
+}
+
+header a {
+    text-decoration: none;
+    color:#fff;
+}
+
+header .active {
+    font-weight: bold;
+    color: #fff;
+    border-bottom: 1px solid orange;
+}
