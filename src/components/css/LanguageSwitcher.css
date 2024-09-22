@@ -8,7 +8,7 @@
 .langSw select {
     padding: 10px; /* Внутренние отступы для удобства */
     font-size: 16px; /* Размер шрифта */
-    color: wheat;
+    color: #ffffff77;
     /*border: 1px solid #ccc; /* Граница */
     border: none;
     border-radius: 4px; /* Скругленные углы */
@@ -20,8 +20,7 @@
 }
 
 .langSw select:focus {
-    color: white;
+    color: var(--bs-primary-text-emphasis);
     outline: none; /* Убирает стандартное выделение при фокусе */
-    /*border-color: orange; /* Цвет границы при фокусе */
-    box-shadow: 0 0 5px rgba(255, 165, 0, 0.5); /* Тень при фокусе */
+    
 }

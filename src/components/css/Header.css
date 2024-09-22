@@ -7,7 +7,7 @@ header {
 header ul {
     display: flex;
     list-style-type: none;
-    /* margin: auto; */
+    margin: auto;
 }
 
 header li {
@@ -17,10 +17,10 @@ header li {
 }
 
 header li :hover {
-    border-bottom: 1px solid orange;
+    border-bottom: 1px solid var(--bs-primary-text-emphasis);
 }
 
-header a {
+header a , header a:hover{
     text-decoration: none;
     color:#fff;
 }
@@ -28,5 +28,5 @@ header a {
 header .active {
     font-weight: bold;
     color: #fff;
-    border-bottom: 1px solid orange;
+    border-bottom: 1px solid var(--bs-primary-text-emphasis);
 }

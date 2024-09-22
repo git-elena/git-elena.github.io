@@ -4,3 +4,8 @@ body {
 h1 {
   text-align: center;
 }
+
+:root {
+  --bs-primary-text-emphasis: rgb(255, 140, 0); 
+  --my-main-text-color: #424242;
+}

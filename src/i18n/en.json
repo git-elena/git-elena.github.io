@@ -7,16 +7,22 @@
       "contact": "Contact"
     },
     "home": {
-      "title": "Innovative Web Solutions",
-      "description": "We create cutting-edge web and mobile applications, combining European standards with affordable prices.",
+      "title-left": "",
+      "title-center": "Web and Mobile",
+      "title-right": "Development Studio",
+      "description": "International quality, affordable solutions: creating the digital future together.",
       "cta": "Contact Us"
     },
     "about": {
-      "title": "About Us",
-      "description": "We are an innovative web studio based in the heart of the Czech Republic, combining deep understanding of the Czech market with the talent and efficiency of Ukrainian developers."
+      "title-left": "",
+      "title-center": "A",
+      "title-right": "bout Us",
+      "description": "We develop modern websites and mobile applications, offering our clients a high level of quality at affordable prices. By attracting talented Ukrainian developers, our projects stand out for their high efficiency and optimal use of resources, allowing us not only to meet but exceed client expectations in terms of both quality and cost."
     },
     "services": {
-      "title": "Our Services",
+      "title-left": "Our ",
+      "title-center": "S",
+      "title-right": "ervices",
       "webDev": "Web Development",
       "mobileDev": "Mobile App Development",
       "uiuxDesign": "UI/UX Design"
@@ -33,14 +39,18 @@
       "submit": "Send Message"
     },
     "footer": {
-        "about": "About Us",
+        "about-left": "A",
+        "about-right": "bout Us",
         "aboutDescription": "We create innovative web solutions, combining European quality with competitive prices.",
-        "quickLinks": "Quick Links",
-        "contact": "Contact",
-        "address": "Prague, Czech Republic",
+        "quickLinks-left": "Q",
+        "quickLinks-right": "uick Links",
+        "contact-left": "C",
+        "contact-right": "ontact",
+        "address": "Plzen, Czech Republic",
         "phone": "Phone",
         "email": "Email",
-        "followUs": "Follow Us",
+        "followUs-left": "F",
+        "followUs-right": "ollow Us",
         "allRightsReserved": "All rights reserved."
       }
   }

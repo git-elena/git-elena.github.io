@@ -7,8 +7,10 @@
       "contact": "Kontakt"
     },
     "home": {
-      "title": "Inovativní webová řešení",
-      "description": "Vytváříme špičkové webové a mobilní aplikace, kombinujeme evropské standardy s dostupnými cenami.",
+      "title-left": "Studio pro",
+      "title-center": "Webový a Mobilní",
+      "title-right": "Vývoj",
+      "description": "Mezinárodní kvalita, dostupná řešení: vytváříme digitální budoucnost společně.",
       "cta": "Kontaktujte nás"
     },
     "about": {

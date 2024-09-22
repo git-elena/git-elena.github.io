@@ -1,0 +1,14 @@
+footer {
+    background-color: rgba(0, 0, 0, 0.6);
+    background-image: url('../../images/noisy-net.png');
+    
+    /* background-size: cover; */
+    /* background-repeat: repeat; */
+    /* background-position: center; */
+}
+footer .container {
+    padding: 0;
+}
+footer i {
+    margin-right: 18px;
+}
