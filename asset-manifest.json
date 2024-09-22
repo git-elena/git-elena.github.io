@@ -1,14 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.16222122.css",
-    "main.js": "/static/js/main.32860b32.js",
+    "main.css": "/static/css/main.4b5f5461.css",
+    "main.js": "/static/js/main.0dce3ec6.js",
     "static/media/chrome_banner_5184x3456.jpg": "/static/media/chrome_banner_5184x3456.2a6e5dbdf2fd099264c9.jpg",
+    "static/media/phone_25.webp": "/static/media/phone_25.fa8a5d662930e78ca2ab.webp",
+    "static/media/bootstrap-icons.woff?": "/static/media/bootstrap-icons.39795c0b4513de014cf8.woff",
+    "static/media/bootstrap-icons.woff2?": "/static/media/bootstrap-icons.b7bcc075b395c14ce8c2.woff2",
+    "static/media/noisy-net.png": "/static/media/noisy-net.a95b845d398eae24139c.png",
     "index.html": "/index.html",
-    "main.16222122.css.map": "/static/css/main.16222122.css.map",
-    "main.32860b32.js.map": "/static/js/main.32860b32.js.map"
+    "main.4b5f5461.css.map": "/static/css/main.4b5f5461.css.map",
+    "main.0dce3ec6.js.map": "/static/js/main.0dce3ec6.js.map"
   },
   "entrypoints": [
-    "static/css/main.16222122.css",
-    "static/js/main.32860b32.js"
+    "static/css/main.4b5f5461.css",
+    "static/js/main.0dce3ec6.js"
   ]
 }
