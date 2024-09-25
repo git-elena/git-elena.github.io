@@ -1,0 +1,14 @@
+/* .portfolio {
+    background-color: slategrey;
+} */
+
+.portfolio .btn {
+    border-radius: 3rem;
+}
+
+.portfolio .start-0 {
+    margin-left: -7px;
+}
+.portfolio .end-0 {
+    margin-right: -7px;
+}

@@ -23,9 +23,19 @@
       "title-left": "Our ",
       "title-center": "S",
       "title-right": "ervices",
-      "webDev": "Web Development",
-      "mobileDev": "Mobile App Development",
-      "uiuxDesign": "UI/UX Design"
+      "webAppDev": "Web App Development",
+      "webAppDescription":"We build tailor-made web applications, integrating innovative features and intuitive interfaces to support your unique business needs and enhance user experience.",
+      "mobAppDev": "Mobile App Development",
+      "mobAppDescription":"Our team creates visually stunning and user-friendly mobile apps, leveraging the latest technologies to help you reach and engage your audience effectively.",
+      "webSites": "Websites Creation",
+      "webSitesDescription":"Take your online retail presence to the next level with our e-commerce solutions, optimized for seamless transactions and a compelling shopping experience.",
+      "design": "UI/UX Design",
+      "designDescription":"We offer expert guidance on user interface and experience design, ensuring your digital platforms are intuitive, visually appealing, and conversion-optimized.",
+      "btnTitleReadmore": "Read more..."
+    },
+    "technologies":{
+      "title-left": "T",
+      "title-right": "echnologies"
     },
     "portfolio": {
       "title": "Our Portfolio",
