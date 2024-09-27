@@ -160,8 +160,16 @@ function Home() {
             </div> 
         </section>
         
-        <section className='section portfolio py-5 bg-dark bg-gradient'>
-            <PortfolioGallery />
+        <section className='section portfolio pb-3 bg-dark bg-gradient'>
+            <div className="container-fluid">
+                <h2 className="mb-0 pt-5 text-center text-white">
+                    
+                    <span className="text-primary-emphasis">{t('portfolio.title-left')}</span>
+                        {t('portfolio.title-right')}
+                </h2>
+                
+                    <PortfolioGallery />
+            </div>
         </section>
         
         <section className='section'>

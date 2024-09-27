@@ -1,14 +1,16 @@
-/* .portfolio {
-    background-color: slategrey;
-} */
 
-.portfolio .btn {
-    border-radius: 3rem;
-}
 
 .portfolio .start-0 {
     margin-left: -7px;
 }
 .portfolio .end-0 {
     margin-right: -7px;
+}
+
+.portfolio .card {
+    box-shadow: .4rem .5rem 1.3rem rgba(0, 0, 0, 1);;
+}
+
+.portfolio .next {
+    border-radius: 100%;
 }

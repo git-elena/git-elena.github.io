@@ -38,7 +38,8 @@
       "title-right": "echnologies"
     },
     "portfolio": {
-      "title": "Our Portfolio",
+      "title-left": "P",
+      "title-right": "ortfolio",
       "description": "Check out some of our recent projects"
     },
     "contact": {

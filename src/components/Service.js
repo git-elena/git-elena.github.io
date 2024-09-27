@@ -23,12 +23,17 @@ const Service = ({img, title, description, btnTitle, btnLink, sideImgLeft}) => {
             
             <p className="mx-5 pe-5">{t(description)}</p>
             
-            <div class="d-grid gap-2 d-md-flex">
-                <button class="btn btn-secondary button-2" type="button" >
+            <div className="d-grid gap-2 d-md-flex">
+                {/* <button className="btn btn-secondary button-2" type="button" >
                     <a href={t(btnLink)}>
                       {t(btnTitle)}
                     </a>
-                </button>
+          </button> */}
+          <a href="#" 
+                    class="btn btn-secondary button-2 m-0" 
+                    tabindex="-1" 
+                    role="button" 
+                    aria-disabled="true">Read more...</a>
             </div>
         </div> 
         
