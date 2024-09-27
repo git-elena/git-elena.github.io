@@ -1,18 +1,43 @@
 {
   "files": {
-    "main.css": "/static/css/main.4b5f5461.css",
-    "main.js": "/static/js/main.0dce3ec6.js",
-    "static/media/chrome_banner_5184x3456.jpg": "/static/media/chrome_banner_5184x3456.2a6e5dbdf2fd099264c9.jpg",
-    "static/media/phone_25.webp": "/static/media/phone_25.fa8a5d662930e78ca2ab.webp",
+    "main.css": "/static/css/main.49d32ff8.css",
+    "main.js": "/static/js/main.8de70a8c.js",
+    "static/media/main-img.webp": "/static/media/main-img.7b79a5396ee1f0d5e060.webp",
+    "static/media/mibile-app.webp": "/static/media/mibile-app.1a843d2b4520007aee50.webp",
+    "static/media/web-app.webp": "/static/media/web-app.cb1ec5cb35cb4359a4a7.webp",
+    "static/media/design.webp": "/static/media/design.b389cfd12837183b503f.webp",
+    "static/media/webpages.webp": "/static/media/webpages.8b0a6f8ef92e24558e61.webp",
     "static/media/bootstrap-icons.woff?": "/static/media/bootstrap-icons.39795c0b4513de014cf8.woff",
     "static/media/bootstrap-icons.woff2?": "/static/media/bootstrap-icons.b7bcc075b395c14ce8c2.woff2",
-    "static/media/noisy-net.png": "/static/media/noisy-net.a95b845d398eae24139c.png",
+    "static/media/portfolio-website3.jpg": "/static/media/portfolio-website3.c57c340ac6f7d72e1455.jpg",
+    "static/media/portfolio-website2.jpg": "/static/media/portfolio-website2.b7bcd9d42358b408e366.jpg",
+    "static/media/portfolio-helpcenter.jpg": "/static/media/portfolio-helpcenter.745ea0ab3d06ef6b1c7a.jpg",
+    "static/media/portfolio-hirosaki.jpg": "/static/media/portfolio-hirosaki.d11f3210370e416bfc19.jpg",
+    "static/media/portfolio-design2.jpg": "/static/media/portfolio-design2.f420bdeb14a7d07c2d8f.jpg",
+    "static/media/portfolio-design1.jpg": "/static/media/portfolio-design1.2cd4d9438105e117b5dd.jpg",
+    "static/media/portfolio-design3.jpg": "/static/media/portfolio-design3.1a2bdcf0ca2b6f8b4361.jpg",
+    "static/media/portfolio-design4.jpg": "/static/media/portfolio-design4.31de7993ede25028f91c.jpg",
+    "static/media/portfolio-website1.jpg": "/static/media/portfolio-website1.1a502e9d330f4097e846.jpg",
+    "static/media/portfolio-website4.jpg": "/static/media/portfolio-website4.9e61b21edde281b8aeab.jpg",
+    "static/media/portfolio-website5.jpg": "/static/media/portfolio-website5.6fc44f1d9e862d017571.jpg",
+    "static/media/logo-xcode.svg": "/static/media/logo-xcode.b31073315b4f7b90614ba696ddc34957.svg",
+    "static/media/logo-react.svg": "/static/media/logo-react.1f0f10ece9178ea9cd901921644967d3.svg",
+    "static/media/logo-android-studio.svg": "/static/media/logo-android-studio.2c9a711a363fbcc5c1680ce30f83a56b.svg",
+    "static/media/logo-java.svg": "/static/media/logo-java.6cf9b95610c3b03023e9535e590945e3.svg",
+    "static/media/logo-swift.svg": "/static/media/logo-swift.fc83488ad25096a8d8dab8dee31e8216.svg",
+    "static/media/logo-modx.svg": "/static/media/logo-modx.15cc671f8e9c21e0d30eb9032acf22ce.svg",
+    "static/media/logo-firebase.svg": "/static/media/logo-firebase.d770ed71d4d33ffa60f8cae9b7ba0350.svg",
+    "static/media/logo-flutter.svg": "/static/media/logo-flutter.dd2833dd347fcacff5152abc8d6a99de.svg",
+    "static/media/logo-js.svg": "/static/media/logo-js.a1b4cf4cecec70fb7f6a66c8e1a20212.svg",
+    "static/media/logo-figma.svg": "/static/media/logo-figma.aa8b47f4f6e0492ecbf8bd8df5f2243f.svg",
     "index.html": "/index.html",
-    "main.4b5f5461.css.map": "/static/css/main.4b5f5461.css.map",
-    "main.0dce3ec6.js.map": "/static/js/main.0dce3ec6.js.map"
+    "static/media/logo-typo3.svg": "/static/media/logo-typo3.594f3858cf4560a5abe7812254961d2c.svg",
+    "static/media/logo-kotlin.svg": "/static/media/logo-kotlin.6d108dcd884eb40d0197a78e0a6fca62.svg",
+    "main.49d32ff8.css.map": "/static/css/main.49d32ff8.css.map",
+    "main.8de70a8c.js.map": "/static/js/main.8de70a8c.js.map"
   },
   "entrypoints": [
-    "static/css/main.4b5f5461.css",
-    "static/js/main.0dce3ec6.js"
+    "static/css/main.49d32ff8.css",
+    "static/js/main.8de70a8c.js"
   ]
 }
