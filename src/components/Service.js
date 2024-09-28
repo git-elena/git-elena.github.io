@@ -30,8 +30,8 @@ const Service = ({img, title, description, btnTitle, btnLink, sideImgLeft}) => {
                     </a>
           </button> */}
           <a href="#" 
-                    class="btn btn-secondary button-2 m-0" 
-                    tabindex="-1" 
+                    className="btn btn-secondary button-2 m-0" 
+                    tabIndex="-1" 
                     role="button" 
                     aria-disabled="true">Read more...</a>
             </div>

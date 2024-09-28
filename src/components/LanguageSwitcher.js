@@ -11,7 +11,7 @@ function LanguageSwitcher() {
   };
 
     return (
-      <div class="langSw">
+      <div className="langSw">
         <select 
             id="languageSwitcher"
             onChange={handleLanguageChange}

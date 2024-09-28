@@ -103,10 +103,10 @@ const PortfolioGallery = () => {
                       <h5 className="card-title text-center">{image.title}</h5>
                       <p>{image.desc}</p>
               </div>
-              <div class="d-grid gap-2 d-md-flex justify-content-md-end pe-3">
+              <div className="d-grid gap-2 d-md-flex justify-content-md-end pe-3">
                 <a href="#" 
-                    class="btn btn-secondary button-2 m-0" 
-                    tabindex="-1" 
+                    className="btn btn-secondary button-2 m-0" 
+                    tabIndex="-1" 
                     role="button" 
                     aria-disabled="true">Read more...</a>
               </div>

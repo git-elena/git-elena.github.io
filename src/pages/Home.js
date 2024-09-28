@@ -17,14 +17,13 @@ import { ReactComponent as FlutterIcon } from '../images/home/logos/logo-flutter
 import { ReactComponent as JavaIcon } from '../images/home/logos/logo-java.svg';
 import { ReactComponent as JsIcon } from '../images/home/logos/logo-js.svg';
 import { ReactComponent as ModxIcon } from '../images/home/logos/logo-modx.svg';
-// import { ReactComponent as PhotoshopIcon } from '../images/home/logos/logo-photoshop.svg';
-// import { ReactComponent as PhpIcon } from '../images/home/logos/logo-php.svg';
 import { ReactComponent as FirebaseIcon } from '../images/home/logos/logo-firebase.svg';
 import { ReactComponent as Typo3Icon } from '../images/home/logos/logo-typo3.svg';
 import { ReactComponent as KotlinIcon } from '../images/home/logos/logo-kotlin.svg';
 import { ReactComponent as XcodeIcon } from '../images/home/logos/logo-xcode.svg';
 import { ReactComponent as SwiftIcon } from '../images/home/logos/logo-swift.svg';
 import PortfolioGallery from '../components/PortfolioGallery';
+import Choose from '../components/Choose';
 
 function Home() {
   const { t } = useTranslation();
@@ -60,7 +59,7 @@ function Home() {
             </div>
         </section>
         
-        <section className='section services py-5 bg-white bg-gray'>
+        <section className='section services py-5 bg-white'>
             <div className="container">
                 <h2 className="mb-4 text-center">
                     {t('services.title-left')}
@@ -172,9 +171,16 @@ function Home() {
             </div>
         </section>
         
-        <section className='section'>
-            comments
+        <section className='section services py-5 bg-white'>
+            <div className="container">
+                <h2 className="mb-5 text-center">
+                    {/* {t('Why Choose')} */}
+                    <span className="text-primary-emphasis">{t('W')}</span>
+                    {t('hy Choose Us')}
+                </h2>
             
+                <Choose />
+            </div>
         </section>
   </main>
   );
