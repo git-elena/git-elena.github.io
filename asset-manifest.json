@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.c3a69b72.css",
-    "main.js": "/static/js/main.08844e34.js",
+    "main.js": "/static/js/main.21430338.js",
     "static/media/main-img.webp": "/static/media/main-img.7b79a5396ee1f0d5e060.webp",
     "static/media/mibile-app.webp": "/static/media/mibile-app.1a843d2b4520007aee50.webp",
     "static/media/choose-2.webp": "/static/media/choose-2.1bbfbb46e05f092af359.webp",
@@ -40,10 +40,10 @@
     "static/media/logo-typo3.svg": "/static/media/logo-typo3.594f3858cf4560a5abe7812254961d2c.svg",
     "static/media/logo-kotlin.svg": "/static/media/logo-kotlin.6d108dcd884eb40d0197a78e0a6fca62.svg",
     "main.c3a69b72.css.map": "/static/css/main.c3a69b72.css.map",
-    "main.08844e34.js.map": "/static/js/main.08844e34.js.map"
+    "main.21430338.js.map": "/static/js/main.21430338.js.map"
   },
   "entrypoints": [
     "static/css/main.c3a69b72.css",
-    "static/js/main.08844e34.js"
+    "static/js/main.21430338.js"
   ]
 }
