@@ -1,5 +1,8 @@
 {
-    "nav": {
+  "button": {
+    "readmore": "Reead more..."
+  },  
+  "nav": {
       "home": "Home",
       "about": "About",
       "services": "Services",
@@ -42,8 +45,23 @@
       "title-right": "ortfolio",
       "description": "Check out some of our recent projects"
     },
+    "choose": {
+      "title-left": "W",
+      "title-right": "hy Choose Us",
+      "title1": "High Quality and Professionalism",
+      "title2": "Comprehensive Approach",
+      "title3": "Tailored Solutions",
+      "title4": "On-Time Delivery",
+      "title5": "Affordable Prices",
+      "desc1": "Our team consists of experienced developers and designers who use cutting-edge technologies to create modern and reliable solutions. We ensure that each project is executed with the utmost attention to detail and care.",
+      "desc2": "We offer a full range of services: from website and mobile app development to UI/UX design and post-launch support. We accompany projects through all stages, from the initial concept to the finished product.",
+      "desc3": "Every project is unique, and we customize our solutions to fit the specific needs of our clients. We take the time to understand your business and deliver a product that aligns with your goals and expectations.",
+      "desc4": "We value your time and always strive to complete projects within the agreed deadlines. Transparent planning and strict control over the development process ensure timely completion of tasks.",
+      "desc5": "We offer competitive prices for development services without compromising on quality. Thanks to our flexible approach to projects, we can provide the best solutions at reasonable costs."     
+    },
     "contact": {
-      "title": "Contact Us",
+      "title-left": "C",
+      "title-right": "ontact Us",
       "name": "Name",
       "email": "Email",
       "message": "Message",

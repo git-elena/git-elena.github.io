@@ -33,7 +33,7 @@ const Service = ({img, title, description, btnTitle, btnLink, sideImgLeft}) => {
                     className="btn btn-secondary button-2 m-0" 
                     tabIndex="-1" 
                     role="button" 
-                    aria-disabled="true">Read more...</a>
+                    aria-disabled="true">{t('button.readmore')}.</a>
             </div>
         </div> 
         

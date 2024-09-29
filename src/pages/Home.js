@@ -176,8 +176,8 @@ function Home() {
             <div className="container">
                 <h2 className="mb-5 text-center">
                     {/* {t('Why Choose')} */}
-                    <span className="text-primary-emphasis">{t('W')}</span>
-                    {t('hy Choose Us')}
+                    <span className="text-primary-emphasis">{t('choose.title-left')}</span>
+                    {t('choose.title-right')}
                 </h2>
             
                 <Choose />
@@ -186,8 +186,8 @@ function Home() {
 
         <section className='section contact-form py-5 bg-light'>
             <h2 className="mb-5 text-center">
-                <span className="text-primary-emphasis">{t('C')}</span>
-                {t('ontact Us')}
+                <span className="text-primary-emphasis">{t('contact.title-left')}</span>
+                {t('contact.title-right')}
             </h2>
             <ContactForm />
         </section>

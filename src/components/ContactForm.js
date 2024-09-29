@@ -1,6 +1,7 @@
 
 import React, { useState } from 'react';
 import formImg from '../images/contact-form.webp'
+import { Telegram } from '../servers/Telegram';
 
 const ContactForm = () => {
   const [formData, setFormData] = useState({
@@ -18,8 +19,9 @@ const ContactForm = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
+    Telegram.sendMessage({message:formData.message, name:formData.name, email:formData.email})
     // Здесь можно добавить логику для обработки отправки формы
-    console.log('Form Data:', formData);
+    // console.log('Name:', formData.name);
   };
 
   return (

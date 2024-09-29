@@ -1,23 +1,24 @@
 import React from 'react'
-import chose1 from '../images/chose/chose-1.webp'
-import chose2 from '../images/chose/chose-2.webp'
-import chose3 from '../images/chose/chose-3.webp'
-import chose4 from '../images/chose/chose-4.webp'
-import chose5 from '../images/chose/chose-5.webp'
+import { useTranslation } from 'react-i18next';
+import choose1 from '../images/choose/choose-1.webp'
+import choose2 from '../images/choose/choose-2.webp'
+import choose3 from '../images/choose/choose-3.webp'
+import choose4 from '../images/choose/choose-4.webp'
+import choose5 from '../images/choose/choose-5.webp'
 
 const Choose = () => {
-
+    const { t } = useTranslation();
     // Массив изображений для галереи
     const images_II = [
-        { src: chose1, title: 'High Quality and Professionalism', desc: 'Our team consists of experienced developers and designers who use cutting-edge technologies to create modern and reliable solutions. We ensure that each project is executed with the utmost attention to detail and care.'},
-        { src: chose5, title: 'Affordable Prices', desc: 'Our team consists of experienced developers and designers who use cutting-edge technologies to create modern and reliable solutions. We ensure that each project is executed with the utmost attention to detail and care.' },
+        { src: choose1, title: t('choose.title1'), desc: t('choose.desc1')},
+        { src: choose5, title: t('choose.title5'), desc: t('choose.desc5')},
         
     ];
 
     const images_III = [
-      { src: chose3, title: 'Tailored Solutions', desc: 'Our team consists of experienced developers and designers who use cutting-edge technologies to create modern and reliable solutions. We ensure that each project is executed with the utmost attention to detail and care.' },
-        { src: chose4, title: 'On-Time Delivery', desc: 'Our team consists of experienced developers and designers who use cutting-edge technologies to create modern and reliable solutions. We ensure that each project is executed with the utmost attention to detail and care.' },
-        { src: chose2, title: 'Comprehensive Approach', desc: 'Our team consists of experienced developers and designers who use cutting-edge technologies to create modern and reliable solutions. We ensure that each project is executed with the utmost attention to detail and care.' },
+      { src: choose3, title: t('choose.title3'), desc: t('choose.desc3')},
+      { src: choose4, title: t('choose.title4'), desc: t('choose.desc4')},
+      { src: choose2, title: t('choose.title2'), desc: t('choose.desc2')},
     ];
 
     return (
