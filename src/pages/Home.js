@@ -24,6 +24,7 @@ import { ReactComponent as XcodeIcon } from '../images/home/logos/logo-xcode.svg
 import { ReactComponent as SwiftIcon } from '../images/home/logos/logo-swift.svg';
 import PortfolioGallery from '../components/PortfolioGallery';
 import Choose from '../components/Choose';
+import ContactForm from '../components/ContactForm';
 
 function Home() {
   const { t } = useTranslation();
@@ -171,7 +172,7 @@ function Home() {
             </div>
         </section>
         
-        <section className='section services py-5 bg-white'>
+        <section className='section chose py-5 bg-white'>
             <div className="container">
                 <h2 className="mb-5 text-center">
                     {/* {t('Why Choose')} */}
@@ -181,6 +182,14 @@ function Home() {
             
                 <Choose />
             </div>
+        </section>
+
+        <section className='section contact-form py-5 bg-light'>
+            <h2 className="mb-5 text-center">
+                <span className="text-primary-emphasis">{t('C')}</span>
+                {t('ontact Us')}
+            </h2>
+            <ContactForm />
         </section>
   </main>
   );

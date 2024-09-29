@@ -22,7 +22,7 @@ const Choose = () => {
 
     return (
     <div className="container">
-     <div className="row mb-md-5  border-bottom">
+     <div className="row mb-md-5  border-bottom py-md-5">
         {images_II.map((image, index) => (
           <div className="col-md-6"
           key={index}>
@@ -49,7 +49,7 @@ const Choose = () => {
           </div>
         ))}
     </div>
-    <div className='row'>
+    <div className='row  py-md-5'>
       {images_III.map((image, index) => (
         <div className="col-md-4 " key={index}>
           <div className="row">

@@ -87,7 +87,7 @@ const PortfolioGallery = () => {
         >
           {images.map((image, index) => (
             <div
-              className="card mx-2 bg-dark text-white py-3"
+              className="card mx-3 bg-dark text-white py-3"
               key={index}
               style={{ minWidth: '300px' }}
               >

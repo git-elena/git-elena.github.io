@@ -8,7 +8,7 @@
 }
 
 .portfolio .card {
-    box-shadow: .4rem .5rem 1.3rem rgba(0, 0, 0, 1);;
+    box-shadow: .4rem .5rem 1.3rem rgba(0, 0, 0, .8);;
 }
 
 .portfolio .next {
