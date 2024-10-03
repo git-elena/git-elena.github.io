@@ -14,12 +14,12 @@ const Footer = () => {
           <div className="row">
             {/* Первая колонка */}
             <div className="col-lg-3 col-md-6 mb-4">
-              <h3 className="h5"><span className='text-primary-emphasis'>{t('footer.about-left')}</span>{t('footer.about-right')}</h3>
-              <p>{t('footer.aboutDescription')}</p>
+              <h3 className="h5"><span className='text-primary-emphasis'>{t('footer.about.left')}</span>{t('footer.about.right')}</h3>
+              <p>{t('footer.about.desc')}</p>
             </div>
             {/* Вторая колонка */}
             <div className="col-lg-3 col-md-6 mb-4">
-              <h3 className="h5"><span className='text-primary-emphasis'>{t('footer.quickLinks-left')}</span>{t('footer.quickLinks-right')}</h3>
+              <h3 className="h5"><span className='text-primary-emphasis'>{t('footer.quickLinks.left')}</span>{t('footer.quickLinks.right')}</h3>
               <ul className="list-unstyled">
                 <li>
                   <Link to="/" className="text-white text-decoration-none">
@@ -52,11 +52,15 @@ const Footer = () => {
             <div className="col-lg-3 col-md-6 mb-4">
               <h3 className="h5"><span className='text-primary-emphasis'>{t('footer.contact-left')}</span>{t('footer.contact-right')}</h3>
               <p>{t('footer.address')}</p>
+              
               <p>
-                +420 728 056 984
+                +380 987 654 321  
+                <br/> +420 728 056 984
               </p>
+              
               <p>
                 <span className='text-primary-emphasis'>add.software.developer@gmail.com</span>
+                
               </p>
             </div>
             {/* Четвертая колонка */}
@@ -64,17 +68,17 @@ const Footer = () => {
               <h3 className="h5"><span className='text-primary-emphasis'>{t('footer.followUs-left')}</span>{t('footer.followUs-right')}</h3>
               <div>
                 <a href="#"
-                  className="text-white me-3"
+                  className="text-white me-1"
                   aria-label="Facebook">
                   <i className="bi bi-facebook"></i>
                 </a>
                 <a href="#"
-                  className="text-white me-3"
+                  className="text-white me-1"
                   aria-label="Twitter">
                   <i className="bi bi-twitter"></i>
                 </a>
                 <a href="#"
-                  className="text-white me-3"
+                  className="text-white me-1"
                   aria-label="LinkedIn">
                   <i className="bi bi-linkedin"></i>
                 </a>

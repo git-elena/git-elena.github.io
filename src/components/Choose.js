@@ -10,15 +10,15 @@ const Choose = () => {
     const { t } = useTranslation();
     // Массив изображений для галереи
     const images_II = [
-        { src: choose1, title: t('choose.title1'), desc: t('choose.desc1')},
-        { src: choose5, title: t('choose.title5'), desc: t('choose.desc5')},
+        { src: choose1, title: t('choose.1.title'), desc: t('choose.1.desc')},
+        { src: choose5, title: t('choose.5.title'), desc: t('choose.5.desc')},
         
     ];
 
     const images_III = [
-      { src: choose3, title: t('choose.title3'), desc: t('choose.desc3')},
-      { src: choose4, title: t('choose.title4'), desc: t('choose.desc4')},
-      { src: choose2, title: t('choose.title2'), desc: t('choose.desc2')},
+      { src: choose3, title: t('choose.3.title'), desc: t('choose.3.desc')},
+      { src: choose4, title: t('choose.4.title'), desc: t('choose.4.desc')},
+      { src: choose2, title: t('choose.2.title'), desc: t('choose.2.desc')},
     ];
 
     return (
@@ -39,7 +39,7 @@ const Choose = () => {
             </div>
             <div className="col-md-8 text-center text-md-start mb-5">
             
-                <h5 className="card-title">{image.title}</h5>
+                <h5 className="card-title pb-2">{image.title}</h5>
                 <p className="card-text">
                   {image.desc}
                 </p>
@@ -64,7 +64,7 @@ const Choose = () => {
             </div>
             <div className="col-md-8 text-center text-md-start mb-5">
             
-                <h5 className="card-title">{image.title}</h5>
+                <h5 className="card-title pb-2">{image.title}</h5>
                 <p className="card-text">
                   {image.desc}
                 </p>

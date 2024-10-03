@@ -12,9 +12,10 @@ import projectDesign1 from '../images/portfolio/portfolio-design1.jpg'
 import projectDesign2 from '../images/portfolio/portfolio-design2.jpg'
 import projectDesign3 from '../images/portfolio/portfolio-design3.jpg'
 import projectDesign4 from '../images/portfolio/portfolio-design4.jpg'
+import { useTranslation } from 'react-i18next';
 
 const PortfolioGallery = () => {
-  
+  const { t } = useTranslation();
 
   const [showLeftArrow, setShowLeftArrow] = useState(false);
   const [showRightArrow, setShowRightArrow] = useState(true);
@@ -22,19 +23,17 @@ const PortfolioGallery = () => {
 
   // Массив изображений для галереи
   const images = [
-    { src: projectHirosaki, title: 'HIROSAKI', desc: 'Sushi Delivery Service', entry: 'Mobile Application'},
-    { src: projectHelpcenter, title: 'Help Center 24', desc: 'Sushi Delivery Service', entry: 'Mobile Application'},
-    { src: projectDesign2, title: 'Kinu Liutas', desc: 'Tibetan Mastiffs Kennel', entry: 'Design' },
-    { src: projectDesign4, title: 'Tribo', desc: 'Metal Products', entry: 'Design' },
-    { src: projectDesign1, title: 'Designer', desc: 'Sites Creator', entry: 'Design' },
-
-    { src: projectDesign3, title: 'Arabora', desc: 'Decore Studio', entry: 'Design' },
-
-    { src: projectWebsite1, title: 'Omelchenko Olena', desc: 'Makeup Artist', entry: 'Website' },
-    { src: projectWebsite3, title: 'KRP', desc: 'Kyiv River Port', entry: 'Website' },
-    { src: projectWebsite2, title: 'MONDIS', desc: 'Wholesale vegetables. Delivery', entry: 'Website' },
-    { src: projectWebsite4, title: 'GV', desc: 'Grand Vision', entry: 'Website' },
-    { src: projectWebsite5, title: 'M GROUP', desc: 'Engineering & Construction company', entry: 'Website' },
+    {link:'/', src: projectHirosaki, title: t('portfolio.project.Hirosaki.title'), desc: t('portfolio.project.Hirosaki.desc'), entry: t('portfolio.project.Hirosaki.entry')},
+    {link:'/', src: projectHelpcenter, title: t('portfolio.project.HelpCenter.title'), desc: t('portfolio.project.HelpCenter.desc'), entry:  t('portfolio.project.HelpCenter.entry')},
+    {link:'/', src: projectDesign2, title: t('portfolio.project.KinuLiutas.title'), desc: t('portfolio.project.KinuLiutas.desc'), entry: t('portfolio.project.KinuLiutas.entry') },
+    {link:'/', src: projectDesign4, title: t('portfolio.project.Tribo.title'), desc: t('portfolio.project.Tribo.desc'), entry: t('portfolio.project.Tribo.entry') },
+    {link:'/', src: projectDesign1, title: t('portfolio.project.Designer.title'), desc: t('portfolio.project.Designer.desc'), entry: t('portfolio.project.Designer.entry') },
+    {link:'/', src: projectDesign3, title: t('portfolio.project.Arabora.title'), desc: t('portfolio.project.Arabora.desc'), entry: t('portfolio.project.Arabora.entry') },
+    {link:'/', src: projectWebsite1, title: 'Omelchenko Olena', desc: 'Makeup Artist', entry: 'Website' },
+    {link:'/', src: projectWebsite3, title: 'KRP', desc: 'Kyiv River Port', entry: 'Website' },
+    {link:'/', src: projectWebsite2, title: 'MONDIS', desc: 'Wholesale vegetables. Delivery', entry: 'Website' },
+    {link:'/', src: projectWebsite4, title: 'GV', desc: 'Grand Vision', entry: 'Website' },
+    {link:'/', src: projectWebsite5, title: 'M GROUP', desc: 'Engineering & Construction company', entry: 'Website' },
     
   ];
 
@@ -83,33 +82,36 @@ const PortfolioGallery = () => {
         <div
           className="d-flex overflow-auto p-5"
           ref={scrollRef}
-          style={{ whiteSpace: 'nowrap' }}
+          // style={{ whiteSpace: 'nowrap' }}
         >
           {images.map((image, index) => (
+            <div>
+              <h6 className='text-center text-white-50'>{image.entry}</h6>
             <div
-              className="card mx-3 bg-dark text-white py-3"
+              className="card mx-3 bg-dark text-white pb-3"
               key={index}
               style={{ minWidth: '300px' }}
               >
                 
-                <h6 className='text-center '>{image.entry}</h6>
+                {/* <h6 className='text-center '>{image.entry}</h6> */}
               <img
                 src={image.src}
                 alt={image.title}
-                className="card-img"
+                className=""
                 style={{ cursor: 'pointer', maxWidth: '100%' }}
               />
               <div className="card-body">
                       <h5 className="card-title text-center">{image.title}</h5>
-                      <p>{image.desc}</p>
+                      <p className='text-secondary desc'>{image.desc}</p>
               </div>
               <div className="d-grid gap-2 d-md-flex justify-content-md-end pe-3">
-                <a href="#" 
+                <a href={image.link} 
                     className="btn btn-secondary button-2 m-0" 
                     tabIndex="-1" 
                     role="button" 
-                    aria-disabled="true">Read more...</a>
+                    aria-disabled="true">{t('button.readmore')}</a>
               </div>
+            </div>
             </div>
           ))}
         </div>

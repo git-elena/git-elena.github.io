@@ -1,6 +1,6 @@
 {
   "button": {
-    "readmore": "Reead more..."
+    "readmore": "Reead more"
   },  
   "nav": {
       "home": "Home",
@@ -43,36 +43,86 @@
     "portfolio": {
       "title-left": "P",
       "title-right": "ortfolio",
-      "description": "Check out some of our recent projects"
+      "description": "Check out some of our recent projects",
+      "project": {
+        "Hirosaki": {
+          "entry": "Mobile Application & Design",
+          "title": "HIROSAKI",
+          "desc": "The app provides users with a convenient interface for quickly placing orders and selecting a delivery or pickup time. Additionally, integration with social media and the payment functionality makes the ordering process as easy and fast as possible for users."
+        },
+        "HelpCenter": {
+          "entry": "Mobile Application",
+          "title": "Help Center 24",
+          "desc": "The app combines media content, interactive features, and a user-friendly interface, making it a valuable tool for believers who want to stay connected with the church and keep up with all events and news."
+        },
+        "KinuLiutas": {
+          "entry": "Design",
+          "title": "Kinu Liutas",
+          "desc": "The website design emphasizes the uniqueness and luxury of Tibetan Mastiffs, with a strong focus on visual elements. Simple navigation and a focus on the breed's history and the kennel's achievements help users easily find the necessary information and make a decision about purchasing a puppy."
+        },
+        "Tribo": {
+          "entry": "Design",
+          "title": "Tribo",
+          "desc": "The website design was created in accordance with the client's requirements for minimalism and a focus on visual solutions. The site became the perfect platform for showcasing the company's creative approach and its ability to bring unique architectural metal projects to life."
+        },
+        "Designer": {
+          "entry": "Design",
+          "title": "Designer",
+          "desc": "The website design combines humor and professionalism, allowing the company to easily engage with clients. Penguins — a symbol of friendliness and creativity — capture attention, while animations and bright colors add uniqueness. Thanks to this style, the website is memorable, and its content is easy for users to perceive."
+        },
+        "Arabora": {
+          "entry": "Design",
+          "title": "Arabora",
+          "desc": "The website design is created to maximally showcase the quality and uniqueness of the products. The simplicity of navigation and the visual emphasis on the products help the company attract potential clients and build a strong connection between the brand and the audience."
+        }
+      }
     },
     "choose": {
       "title-left": "W",
       "title-right": "hy Choose Us",
-      "title1": "High Quality and Professionalism",
-      "title2": "Comprehensive Approach",
-      "title3": "Tailored Solutions",
-      "title4": "On-Time Delivery",
-      "title5": "Affordable Prices",
-      "desc1": "Our team consists of experienced developers and designers who use cutting-edge technologies to create modern and reliable solutions. We ensure that each project is executed with the utmost attention to detail and care.",
-      "desc2": "We offer a full range of services: from website and mobile app development to UI/UX design and post-launch support. We accompany projects through all stages, from the initial concept to the finished product.",
-      "desc3": "Every project is unique, and we customize our solutions to fit the specific needs of our clients. We take the time to understand your business and deliver a product that aligns with your goals and expectations.",
-      "desc4": "We value your time and always strive to complete projects within the agreed deadlines. Transparent planning and strict control over the development process ensure timely completion of tasks.",
-      "desc5": "We offer competitive prices for development services without compromising on quality. Thanks to our flexible approach to projects, we can provide the best solutions at reasonable costs."     
+      "1": {
+        "title": "High Quality and Professionalism",
+        "desc": "Our team consists of experienced developers and designers who use cutting-edge technologies to create modern and reliable solutions. We ensure that each project is executed with the utmost attention to detail and care."
+      },
+      "2": {
+        "title": "Comprehensive Approach",
+        "desc": "We offer a full range of services: from website and mobile app development to UI/UX design and post-launch support. We accompany projects through all stages, from the initial concept to the finished product."
+      },
+      "3": {
+        "title": "Tailored Solutions",
+        "desc": "Every project is unique, and we customize our solutions to fit the specific needs of our clients. We take the time to understand your business and deliver a product that aligns with your goals and expectations."
+      },
+      "4": {
+        "title": "On-Time Delivery",
+        "desc": "We value your time and always strive to complete projects within the agreed deadlines. Transparent planning and strict control over the development process ensure timely completion of tasks."
+      },
+      "5": {
+        "title": "Affordable Prices",
+        "desc": "We offer competitive prices for development services without compromising on quality. Thanks to our flexible approach to projects, we can provide the best solutions at reasonable costs."
+      }    
     },
     "contact": {
-      "title-left": "C",
-      "title-right": "ontact Us",
+      "title": {
+        "left": "C",
+        "right": "ontact Us"
+      },
       "name": "Name",
       "email": "Email",
       "message": "Message",
       "submit": "Send Message"
     },
     "footer": {
-        "about-left": "A",
-        "about-right": "bout Us",
-        "aboutDescription": "We create innovative web solutions, combining European quality with competitive prices.",
-        "quickLinks-left": "Q",
-        "quickLinks-right": "uick Links",
+        "about": {
+          "left": "A",
+          "right": "bout Us",
+          "desc": "We create innovative web solutions, combining European quality with competitive prices."
+        },
+        
+        "quickLinks": {
+          "left": "Q",
+          "right": "uick Links"
+        },
+        
         "contact-left": "C",
         "contact-right": "ontact",
         "address": "Plzen, Czech Republic",
