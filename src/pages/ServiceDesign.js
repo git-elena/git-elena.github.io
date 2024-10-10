@@ -4,6 +4,7 @@ import ContentPageServiceDesign from '../components/PagesServices/PagesServiceCo
 
 const ServiceDesign = () => {
     return (
+        
         <div className='services-page page mt-5 pt-5 '>
             <BannerPageServiceDesign />
             <section className='section p-5 mx-lg-5 row '>
