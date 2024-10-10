@@ -1,7 +1,9 @@
 {
   "files": {
-    "main.css": "/static/css/main.c3a69b72.css",
-    "main.js": "/static/js/main.ac315562.js",
+    "main.css": "/static/css/main.e01acb7b.css",
+    "main.js": "/static/js/main.870af0ed.js",
+    "static/media/about-banner.jpg": "/static/media/about-banner.96296980ab1e5625f31f.jpg",
+    "static/media/services-banner.webp": "/static/media/services-banner.74c8e456c4a7abe4f420.webp",
     "static/media/main-img.webp": "/static/media/main-img.7b79a5396ee1f0d5e060.webp",
     "static/media/mibile-app.webp": "/static/media/mibile-app.1a843d2b4520007aee50.webp",
     "static/media/choose-2.webp": "/static/media/choose-2.1bbfbb46e05f092af359.webp",
@@ -19,7 +21,7 @@
     "static/media/portfolio-website2.jpg": "/static/media/portfolio-website2.b7bcd9d42358b408e366.jpg",
     "static/media/portfolio-helpcenter.jpg": "/static/media/portfolio-helpcenter.745ea0ab3d06ef6b1c7a.jpg",
     "static/media/portfolio-hirosaki.jpg": "/static/media/portfolio-hirosaki.d11f3210370e416bfc19.jpg",
-    "static/media/portfolio-design2.jpg": "/static/media/portfolio-design2.f420bdeb14a7d07c2d8f.jpg",
+    "static/media/portfolio-design2.jpg": "/static/media/portfolio-design2.52bbf8b833b989e05eda.jpg",
     "static/media/portfolio-design1.jpg": "/static/media/portfolio-design1.2cd4d9438105e117b5dd.jpg",
     "static/media/portfolio-design3.jpg": "/static/media/portfolio-design3.1a2bdcf0ca2b6f8b4361.jpg",
     "static/media/portfolio-design4.jpg": "/static/media/portfolio-design4.31de7993ede25028f91c.jpg",
@@ -39,11 +41,11 @@
     "index.html": "/index.html",
     "static/media/logo-typo3.svg": "/static/media/logo-typo3.594f3858cf4560a5abe7812254961d2c.svg",
     "static/media/logo-kotlin.svg": "/static/media/logo-kotlin.6d108dcd884eb40d0197a78e0a6fca62.svg",
-    "main.c3a69b72.css.map": "/static/css/main.c3a69b72.css.map",
-    "main.ac315562.js.map": "/static/js/main.ac315562.js.map"
+    "main.e01acb7b.css.map": "/static/css/main.e01acb7b.css.map",
+    "main.870af0ed.js.map": "/static/js/main.870af0ed.js.map"
   },
   "entrypoints": [
-    "static/css/main.c3a69b72.css",
-    "static/js/main.ac315562.js"
+    "static/css/main.e01acb7b.css",
+    "static/js/main.870af0ed.js"
   ]
 }
