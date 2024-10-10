@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.e01acb7b.css",
-    "main.js": "/static/js/main.e4fe34df.js",
+    "main.js": "/static/js/main.0f48db3b.js",
     "static/media/about-banner.jpg": "/static/media/about-banner.96296980ab1e5625f31f.jpg",
     "static/media/services-banner.webp": "/static/media/services-banner.74c8e456c4a7abe4f420.webp",
     "static/media/main-img.webp": "/static/media/main-img.7b79a5396ee1f0d5e060.webp",
@@ -42,10 +42,10 @@
     "static/media/logo-typo3.svg": "/static/media/logo-typo3.594f3858cf4560a5abe7812254961d2c.svg",
     "static/media/logo-kotlin.svg": "/static/media/logo-kotlin.6d108dcd884eb40d0197a78e0a6fca62.svg",
     "main.e01acb7b.css.map": "/static/css/main.e01acb7b.css.map",
-    "main.e4fe34df.js.map": "/static/js/main.e4fe34df.js.map"
+    "main.0f48db3b.js.map": "/static/js/main.0f48db3b.js.map"
   },
   "entrypoints": [
     "static/css/main.e01acb7b.css",
-    "static/js/main.e4fe34df.js"
+    "static/js/main.0f48db3b.js"
   ]
 }
