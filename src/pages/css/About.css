@@ -1,0 +1,24 @@
+
+
+.about-page .banner{
+  background-image: url('../../images/about/about-banner.jpg');
+  background-size: cover;
+  background-color: grey;
+  background-blend-mode: multiply;
+  background-position: top center;
+}
+
+.about-page h2 {
+    text-align: center;
+}
+
+.about-content {
+    /* background-image: url('../../images/about/about-side2.jpg'); */
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: left ;
+}
+
+.about-page ul {
+    padding-left: 70px;
+}

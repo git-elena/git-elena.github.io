@@ -1,13 +1,13 @@
 import React from 'react';
 import './css/Home.css'
 
-import HomeBanner from '../components/sections/HomeBanner';
-import HomeAboutUs from '../components/sections/HomeAboutUs';
-import HomeServices from '../components/sections/HomeServices';
-import HomeTechnologies from '../components/sections/HomeTechnologies';
-import HomePortfolio from '../components/sections/HomePortfolio';
-import HomeChooseUs from '../components/sections/HomeChooseUs';
-import HomeContact from '../components/sections/HomeContact';
+import HomeAboutUs from '../components/HomeSections/HomeAboutUs';
+import HomeServices from '../components/HomeSections/HomeServices';
+import HomeTechnologies from '../components/HomeSections/HomeTechnologies';
+import HomePortfolio from '../components/HomeSections/HomePortfolio';
+import HomeChooseUs from '../components/HomeSections/HomeChooseUs';
+import HomeContact from '../components/HomeSections/HomeContact';
+import HomeBanner from '../components/HomeSections/HomeBanner';
 
 
 function Home() {

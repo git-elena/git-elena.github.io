@@ -22,6 +22,74 @@
       "title-right": "bout Us",
       "description": "We develop modern websites and mobile applications, offering our clients a high level of quality at affordable prices. By attracting talented Ukrainian developers, our projects stand out for their high efficiency and optimal use of resources, allowing us not only to meet but exceed client expectations in terms of both quality and cost."
     },
+        "about-page": {
+          "p1": {
+            "title":{
+              "left":"W",
+              "right":"elcome to ADDSOFTWARE"
+            },
+            "text":"A dedicated team of professionals specializing in web and mobile app development, design, and digital marketing solutions. Our mission is to help businesses of all sizes establish a strong online presence by creating unique, engaging, and highly functional digital products."
+          },
+          "p2": {
+            "title":{
+              "left":"W",
+              "right":"ho We Are"
+            },
+            "text":"At ADDSOFTWARE, we believe in combining creativity with technology to deliver outstanding results. With years of experience in the industry, our team of developers, designers, and strategists is passionate about crafting digital experiences that resonate with your audience and drive measurable results."
+          },
+          "p3": {
+            "title":{
+              "left":"W",
+              "right":"hat We Do"
+            },
+            "text":"We offer a full range of services to help you succeed in the digital world",
+            "list": {
+              "1": {
+                "title":"Web Development:",
+                "text":"From landing pages to complex e-commerce platforms, we build websites that are fast, secure, and easy to manage."
+              },
+              "2": {
+                "title":"Mobile App Development:",
+                "text":"Our team creates high-quality mobile applications for both Android and iOS, tailored to your business needs."
+              },
+              "3": {
+                "title":"UI/UX Design:",
+                "text":"We focus on user experience to create intuitive and visually appealing designs that leave a lasting impression."
+              },
+              "4": {
+                "title":"SEO & Digital Marketing:",
+                "text":"Boost your online visibility with our expert SEO and marketing strategies, ensuring your brand reaches its full potential."
+              }
+            }
+          },
+          "p4": {
+            "title":{
+              "left":"O",
+              "right":"ur Values"
+            },
+            "list": {
+              "1": {
+                "title":"Innovation:",
+                "text":"We stay ahead of the curve by using the latest technologies and trends to ensure our solutions are always cutting-edge."
+              },
+              "2": {
+                "title":"Quality:",
+                "text":"Every project we work on is crafted with attention to detail and a commitment to excellence."
+              },
+              "3": {
+                "title":"Collaboration:",
+                "text":"We believe in working closely with our clients to understand their needs and bring their vision to life."
+              }
+            }
+          },
+          "p5": {
+            "title":{
+              "left":"W",
+              "right":"hy Choose Us"
+            },
+            "text":"At ADDSOFTWARE, we pride ourselves on our personalized approach to every project. Whether you're a startup looking to build your first website or a large corporation in need of a custom mobile app, we have the expertise to make it happen. Our team works tirelessly to ensure every project exceeds expectations and delivers tangible results for your business. Let’s bring your ideas to life. Contact us today and take the first step towards digital success!"
+          }
+        },
     "services": {
       "title-left": "Our ",
       "title-center": "S",
@@ -36,6 +104,68 @@
       "designDescription":"We offer expert guidance on user interface and experience design, ensuring your digital platforms are intuitive, visually appealing, and conversion-optimized.",
       "btnTitleReadmore": "Read more..."
     },
+        "services-page": {
+          "webAppDevelopment": {
+            "title": {
+              "left":"W",
+              "right":"eb Application Development"
+            },
+            "description": "We create powerful web applications that help your business thrive in the digital environment. Our team uses modern technologies like React, Angular, and Node.js to develop high-performance, scalable, and secure solutions. We carefully analyze client needs and offer custom solutions tailored to the specifics of the business. Whether you need a corporate portal, CRM system, or custom web application, we guarantee high quality and timely project delivery.",
+            "whyUs": "Why Us?",
+            "whyUsList": {
+              "point1": "Experienced developers",
+              "point2": "Responsive and cross-browser solutions",
+              "point3": "Modern technologies",
+              "point4": "Guaranteed results"
+            },
+            "extra": "Our web development services go beyond just creating applications. We focus on ensuring seamless performance, security, and user satisfaction. By choosing us, you're partnering with experts dedicated to helping your business succeed."
+          },
+          "mobileAppDevelopment": {
+            "title":{
+              "left": "M",
+              "right": "obile Application Development"
+            },
+            "description": "We develop mobile applications for iOS and Android that attract and retain users. Our mobile applications help your business reach new heights. Using technologies like React Native and Flutter, we create applications with native user interfaces and high performance. Regardless of the complexity, we guarantee that your app will work efficiently and stably across all devices.",
+            "benefits": "Our Benefits:",
+            "benefitsList": {
+              "point1": "Native and cross-platform apps",
+              "point2": "Convenient user interface",
+              "point3": "High performance",
+              "point4": "Full support from concept to publication"
+            },
+            "extra": "Our end-to-end mobile development process ensures that your app is not only fully functional but also a delight to use. We walk with you from the initial concept all the way to app store publication, ensuring success at every step."
+          },
+          "websiteDevelopment": {
+            "title": {
+              "left":"W",
+              "right":"ebsite Development"
+            },
+            "description": "Websites that reflect your brand and attract clients. We offer comprehensive website creation services—from corporate portals and online stores to landing pages and blogs. We build unique websites on popular platforms like WordPress, Shopify, and more, ensuring fast loading times, intuitive navigation, and modern design. Your website will not only look great but will also be functional, enabling you to engage with your audience and increase conversions.",
+            "weOffer": "We Offer:",
+            "weOfferList": {
+              "point1": "Corporate websites and online stores",
+              "point2": "Search engine optimization (SEO)",
+              "point3": "Fast loading and responsive design",
+              "point4": "Support and updates"
+            },
+            "extra": "Every website we build is a reflection of your brand. With a focus on user engagement and functionality, we make sure that your online presence resonates with your audience and drives business growth."
+          },
+          "uiUxDesign": {
+            "title":{
+              "left": "U",
+              "right": "I/UX Design"
+            },
+            "description": "We create intuitive interfaces that improve user experience. Quality design is not just about looks; it's about user convenience. We design interfaces that are easy to understand and improve user interaction. Our approach is based on deep analysis of user behavior and target audience, allowing us to create solutions that lead to maximum conversions and user loyalty.",
+            "servicesInclude": "Our Services Include:",
+            "servicesIncludeList": {
+              "point1": "UI design",
+              "point2": "Prototyping and testing",
+              "point3": "User behavior analysis",
+              "point4": "Unique and responsive design"
+            },
+            "extra": "Good design isn't just about aesthetics; it's about delivering a seamless user experience. We combine creativity with analytical insights to craft designs that meet user needs and business objectives alike."
+          }
+        },    
     "technologies":{
       "title-left": "T",
       "title-right": "echnologies"

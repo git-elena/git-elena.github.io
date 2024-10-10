@@ -10,6 +10,11 @@ h1 {
   --my-main-text-color: #424242;
 }
 
+.page {
+  color: var(--my-main-text-color);
+  background-color: white;
+}
+
 /* btn - 2 */
 .button-2 {
   /* background-color: rgba(51, 51, 51, 0.05); */
@@ -37,3 +42,30 @@ h1 {
 /* .button-2 {
   background-color: var(--bs-primary-text-emphasis)!important;
 } */
+.banner {
+  overflow: hidden; 
+  position: relative;
+  background-color: rgba(0, 0, 0, 0.575);
+}
+
+.banner::before {
+ 
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  opacity: 0.8;  
+  z-index: -1; 
+}
+
+/* text */
+.banner h1 {
+  font-size: 5rem;
+}
+.banner p {
+  font-size: 1.5rem;
+  margin: 2em 0 3em 0;
+}

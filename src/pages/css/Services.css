@@ -1,0 +1,23 @@
+
+.services-page .banner{
+    background-image: url('../../images/services/services-banner.webp');
+    background-size: cover;
+    background-color: grey;
+    background-blend-mode: multiply;
+    background-position: center;
+  }
+  
+  .services-page h2 {
+      text-align: center;
+  }
+  
+  .services-content {
+      /* background-image: url('../../images/services/services-side1.jpg'); */
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-position: left;
+  }
+  
+  .services-page ul {
+      padding-left: 70px;
+  }
