@@ -7,7 +7,7 @@ import AboutContent from '../components/PageAbout/AboutContent'
 const About = () => {
   return (
     <div className='about-page page mt-5 pt-5 '>
-      <AboutBanner />
+      {/* <AboutBanner /> */}
       <div className=''>
         <div className='row px-lg-5 ms-lg-0 about-content'>
           

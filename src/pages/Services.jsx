@@ -6,7 +6,7 @@ import ServicesContent from '../components/PagesServices/ServicesContent'
 const Services = () => {
   return (
     <div className='services-page page mt-5 pt-5 '>
-      <ServicesBanner />
+      {/* <ServicesBanner /> */}
 
       <div className='row px-lg-5 ms-lg-0 services-content'>
 
