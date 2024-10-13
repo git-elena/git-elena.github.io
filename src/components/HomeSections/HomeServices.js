@@ -52,28 +52,28 @@ const HomeServices = () => {
                         img={imgMobileApp}
                         title={'services.mobAppDev'}
                         description={'services.mobAppDescription'}
-                        btnLink='/'
+                        btnLink='/service/mob-app'
                         sideImgLeft={true}
                     />
                     <Service
                         img={imgWebApp}
                         title={'services.webAppDev'}
                         description={'services.webAppDescription'}
-                        btnLink='/'
+                        btnLink='/service/web-app'
                         sideImgLeft={true}
                     />  
                     <Service 
                         img={imgWebpage}
                         title={'services.webSites'}
                         description={'services.webSitesDescription'}
-                        btnLink='/'
+                        btnLink='/service/website'
                         sideImgLeft={true}
                     />
                     <Service
                         img={imgDesign}
                         title={'services.design'}
                         description={'services.designDescription'}
-                        btnLink='/'
+                        btnLink='/service/design'
                         sideImgLeft={true}
                     />
                 </div>

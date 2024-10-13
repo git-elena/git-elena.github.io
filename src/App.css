@@ -10,6 +10,10 @@ h1 {
   --my-main-text-color: #424242;
 }
 
+.bg-gray {
+  background-color: #343a40;
+}
+
 .page {
   color: var(--my-main-text-color);
   background-color: white;

@@ -1,4 +1,147 @@
-{
+{ "pages": {
+  "mobAppDev": {
+    "mobileAppServices": {
+      "mobileAppDevelopment": {
+        "title": {
+          "left":"M",
+          "right":"obile Application Development"
+        },
+        "description": "We specialize in creating highly effective mobile applications that provide a smooth and intuitive user experience."
+      },
+      "androidIosSupport": {
+        "title":{ 
+          "left":"A",
+          "right":"ndroid and iOS Support"
+        },
+        "description": "Our team develops applications for both Android and iOS, ensuring that your product is refined, intuitive, and works flawlessly on both platforms. We use technologies such as Flutter and React Native to create high-speed cross-platform applications with optimized interfaces. We also offer native application development for maximum performance and deep platform integration."
+      },
+      "userFriendlyInterfaces": {
+        "title":{ 
+          "left":"U",
+          "right":"ser-Friendly Interfaces"
+        },
+        "description": "We create smooth and attractive designs that provide easy navigation for users, making interaction with the application enjoyable and simple."
+      },
+      "crossPlatformNativeSolutions": {
+        "title":{ 
+          "left":"C",
+          "right":"ross-Platform and Native Solutions"
+        },
+        "description": "Our cross-platform applications work equally well on both iOS and Android while maintaining high performance. If deeper integration is required, we also offer native application development to provide the most natural user experience."
+      },
+      "fullDevelopmentCycle": {
+        "title":{ 
+          "left":"F",
+          "right":"ull Development Cycle"
+        },
+        "description": "We offer a full cycle of mobile application development – from idea and design to launch and ongoing support. Our team will support you at every stage to ensure your application meets all set goals."
+      }
+    }
+  },
+  "webAppDev":{
+    "webAppServices": {
+      "webAppDevelopment": {
+        "title": {
+        "left": "W",
+        "right": "eb Application Development"
+      },
+        "description": "Our team develops high-quality web applications that provide your business with powerful tools to thrive in the digital space. We use modern frameworks like React, Angular, and Node.js to create custom solutions optimized for performance, scalability, and security."
+      },
+      "digitalSolutions": {
+        "title": {
+        "left": "P",
+        "right": "owerful Digital Solutions"
+      },
+        "description": "From e-commerce platforms to business management systems, our web applications help make your business more efficient and innovative. We offer customized solutions that meet your business requirements."
+      },
+      "scalabilityFlexibility": {
+        "title": {
+        "left": "S",
+        "right": "calability and Flexibility"
+      },
+        "description": "Our web applications grow with your business. Scalable architectures ensure easy expansion and adaptation to changing needs, allowing your business to evolve dynamically."
+      },
+      "cloudIntegration": {
+        "title": {
+        "left": "C",
+        "right": "loud Integration"
+      },
+        "description": "We provide secure and efficient integration with cloud services, ensuring reliable and fast data storage and processing, creating a seamless experience for your users."
+      },
+      "dataDrivenSolutions": {
+        "title": {
+        "left": "D",
+        "right": "ata-Driven Solutions"
+      },
+        "description": "Our tools for data analysis enable informed decision-making, contributing to your business growth. We develop web applications that not only perform their functions but also help you analyze data for successful business decisions."
+      }
+    }
+  },
+  "webSite": {
+    "webSiteServices": {
+      "websiteDevelopment": {
+        "title": {
+          "left": "W",
+          "right": "ebsite Development"
+        },
+        "description": "We create websites that are not only visually appealing but also highly functional. Whether it is an elegant landing page, a corporate website, or a powerful online store, we craft solutions that deliver results. Each website is designed to represent your brand, attract customers, and enhance your market presence."
+      },
+      "responsiveDesign": {
+        "title": {
+          "left": "R",
+          "right": "esponsive Design"
+        },
+        "description": "Websites that look great on every device. We ensure that your website is fully responsive and adapts seamlessly to different screen sizes, providing an optimal user experience."
+      },
+      "seoOptimization": {
+        "title": {
+          "left": "S",
+          "right": "EO Optimization"
+        },
+        "description": "Built to rank higher on search engines. Our SEO-optimized websites help improve your online visibility and attract more visitors to your site."
+      },
+      "highPerformance": {
+        "title": {
+          "left": "H",
+          "right": "igh Performance"
+        },
+        "description": "Fast, reliable, and easy to navigate. We focus on creating high-performance websites that load quickly, ensuring a smooth browsing experience for users."
+      }
+    }
+  },
+  "design":{
+    "uiUxServices": {
+      "uiUxDesign": {
+        "title": {
+          "left": "U",
+          "right": "I/UX Design"
+        },
+        "description": "Design is at the heart of what we do. Our UI/UX services focus on creating user-friendly and engaging experiences. We take the time to understand your audience and design intuitive interfaces that align with user needs. Good design can be the deciding factor between a potential customer staying or leaving your site."
+      },
+      "customUiDesign": {
+        "title": {
+          "left": "C",
+          "right": "ustom UI Design"
+        },
+        "description": "Unique visual identity to set you apart. Our custom UI design services create a unique look for your brand that distinguishes you from competitors."
+      },
+      "prototypingTesting": {
+        "title": {
+          "left": "P",
+          "right": "rototyping and Testing"
+        },
+        "description": "Ensuring your interface meets user expectations. We develop prototypes and conduct thorough testing to ensure the final product delivers the best user experience."
+      },
+      "userResearch": {
+        "title": {
+          "left": "U",
+          "right": "ser Research"
+        },
+        "description": "Tailored designs based on real audience insights. Our user research services help us create designs that truly meet the needs and preferences of your audience."
+      }
+  }
+  }
+},
   "button": {
     "readmore": "Reead more"
   },  
@@ -7,7 +150,12 @@
       "about": "About",
       "services": "Services",
       "portfolio": "Portfolio",
-      "contact": "Contact"
+      "contact": "Contact",
+
+      "mobApp":"Mobile App Development",
+      "webApp":"Web App Development",
+      "website":"Websites Creation",
+      "design":"UI/UX Design"
     },
     "home": {
       "title-left": "",

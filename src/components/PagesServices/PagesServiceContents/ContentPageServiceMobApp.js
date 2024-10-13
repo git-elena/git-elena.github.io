@@ -1,6 +1,7 @@
 import React from 'react'
 import { useTranslation } from 'react-i18next'
 
+
 const ContentPageServiceMobApp = () => {
   const { t } = useTranslation()
   return (
@@ -15,6 +16,7 @@ const ContentPageServiceMobApp = () => {
         <li>{t('services-page.mobileAppDevelopment.benefitsList.point4')}</li>
       </ul>
       <p>{t('services-page.mobileAppDevelopment.extra')}</p>
+
 
     </div>
   )

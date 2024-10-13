@@ -24,14 +24,14 @@ const Service = ({img, title, description, btnLink, sideImgLeft}) => {
             
             <p className="mx-5 pe-5">{t(description)}</p>
             
-            <div className="d-grid gap-2 d-md-flex">
+            {/* <div className="d-grid gap-2 d-md-flex"> */}
              
           <Link to={btnLink} 
                     className="btn btn-secondary button-2 m-0" 
                     tabIndex="-1" 
                     role="button" 
                     aria-disabled="true">{t('button.readmore')}</Link>
-            </div>
+            {/* </div> */}
         </div> 
         
           {!sideImgLeft && (
