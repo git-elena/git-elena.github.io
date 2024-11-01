@@ -80,7 +80,7 @@ const PortfolioGallery = () => {
 
         {/* Контейнер для горизонтальной прокрутки */}
         <div
-          className="d-flex overflow-auto p-5"
+          className="d-flex overflow-auto py-5"
           ref={scrollRef}
           // style={{ whiteSpace: 'nowrap' }}
         >
