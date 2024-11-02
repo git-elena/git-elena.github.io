@@ -8,3 +8,7 @@
     color: #fff;
 } */
 
+.services h4 {
+    border-left: 3px solid var(--bs-primary-text-emphasis);
+    padding-left: 8px;
+}

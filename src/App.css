@@ -50,6 +50,7 @@ h1 {
   overflow: hidden; 
   position: relative;
   background-color: rgba(0, 0, 0, 0.575);
+  /* height: ull-screen-display; */
 }
 
 .banner::before {
@@ -74,11 +75,6 @@ h1 {
   margin: 2em 0 3em 0;
 }
 
-@media (max-width: 480px) {
-  .banner h1 {
-    font-size: 3em;
-  }
-  .banner {
-    margin-top: 8em;
-  }
+.page-content {
+  margin-top: 100px;
 }

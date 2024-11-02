@@ -1,6 +1,5 @@
 import React from 'react'
 import './css/About.css'
-import AboutBanner from '../components/PageAbout/AboutBanner'
 import AboutContent from '../components/PageAbout/AboutContent'
 
 

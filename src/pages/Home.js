@@ -13,7 +13,7 @@ import HomeBanner from '../components/HomeSections/HomeBanner';
 function Home() {
 
     return (
-        <main className='home-page mt-5'>
+        <main className='home-page page-content'>
             <HomeBanner />
             <HomeAboutUs />
             <HomeServices />

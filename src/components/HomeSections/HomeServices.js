@@ -16,7 +16,17 @@ const HomeServices = () => {
                     <span className="text-primary-emphasis">{t('services.title-center')}</span>
                         {t('services.title-right')}
                 </h2>
+            
+
                 <div className="d-none d-lg-block">
+                <Service
+                        img={imgWebApp}
+                        title={'services.webAppDev'}
+                        description={'services.webAppDescription'}
+                        btnLink='/service/web-app'
+                        sideImgLeft={true}
+                />  
+
                     <Service 
                         img={imgMobileApp}
                         title={'services.mobAppDev'}
@@ -25,29 +35,32 @@ const HomeServices = () => {
                         sideImgLeft={false}
                     />
 
+                    
+                    {/* <Service 
+                        img={imgWebpage}
+                        title={'services.webSites'}
+                        description={'services.webSitesDescription'}
+                        btnLink='/service/website'
+                        sideImgLeft={false}
+                    /> */}
+
                     <Service
+                        img={imgDesign}
+                        title={'services.design'}
+                        description={'services.designDescription'}
+                        btnLink='/service/design'
+                        sideImgLeft={true}
+                    />
+                </div>
+                <div className="d-lg-none">
+                <Service
                         img={imgWebApp}
                         title={'services.webAppDev'}
                         description={'services.webAppDescription'}
                         btnLink='/service/web-app'
                         sideImgLeft={true}
                     />  
-                    <Service 
-                        img={imgWebpage}
-                        title={'services.webSites'}
-                        description={'services.webSitesDescription'}
-                        btnLink='/service/website'
-                        sideImgLeft={false}
-                    />
-                    <Service
-                        img={imgDesign}
-                        title={'services.design'}
-                        description={'about.description'}
-                        btnLink='/service/design'
-                        sideImgLeft={true}
-                    />
-                </div>
-                <div className="d-lg-none">
+
                     <Service 
                         img={imgMobileApp}
                         title={'services.mobAppDev'}
@@ -55,20 +68,15 @@ const HomeServices = () => {
                         btnLink='/service/mob-app'
                         sideImgLeft={true}
                     />
-                    <Service
-                        img={imgWebApp}
-                        title={'services.webAppDev'}
-                        description={'services.webAppDescription'}
-                        btnLink='/service/web-app'
-                        sideImgLeft={true}
-                    />  
-                    <Service 
+                    
+                    {/* <Service 
                         img={imgWebpage}
                         title={'services.webSites'}
                         description={'services.webSitesDescription'}
                         btnLink='/service/website'
                         sideImgLeft={true}
-                    />
+                    /> */}
+
                     <Service
                         img={imgDesign}
                         title={'services.design'}

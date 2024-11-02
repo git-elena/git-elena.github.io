@@ -4,10 +4,10 @@ import { useTranslation } from 'react-i18next';
 const HomeBanner = () => {
     const { t } = useTranslation();
   return (
-    <section className="top-banner ">
+    <section className="top-banner  full-screen-display">
             <div className="banner d-flex align-items-center justify-content-center">
-                <div className="container text-center text-white py-5 my-5">
-                <h1 className='mt-5'>
+                <div className="container text-center text-white py-5">
+                <h1 className=''>
                     {t('home.title-left')}{' '}
                     <span className="text-primary-emphasis">{t('home.title-center')}</span>{' '}
                     {t('home.title-right')}

@@ -1,7 +1,7 @@
 import React from 'react'
 import { useTranslation } from 'react-i18next';
 import './css/Service.css'
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 
 const Service = ({img, title, description, btnLink, sideImgLeft}) => {
   const { t } = useTranslation();
@@ -26,11 +26,11 @@ const Service = ({img, title, description, btnLink, sideImgLeft}) => {
             
             {/* <div className="d-grid gap-2 d-md-flex"> */}
              
-          <Link to={btnLink} 
+          {/* <Link to={btnLink} 
                     className="btn btn-secondary button-2 m-0" 
                     tabIndex="-1" 
                     role="button" 
-                    aria-disabled="true">{t('button.readmore')}</Link>
+                    aria-disabled="true">{t('button.readmore')}</Link> */}
             {/* </div> */}
         </div> 
         

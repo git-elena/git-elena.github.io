@@ -158,17 +158,17 @@
       "design":"UI/UX Design"
     },
     "home": {
-      "title-left": "",
+      "title-left": "Your Reliable Freelancers for ",
       "title-center": "Web and Mobile",
-      "title-right": "Development Studio",
-      "description": "International quality, affordable solutions: creating the digital future together.",
+      "title-right": "App Development",
+      "description": "We are a small but experienced team of developers ready to help your business grow in the digital world. Our solutions are high-quality, effective, and affordable.",
       "cta": "Contact Us"
     },
     "about": {
       "title-left": "",
       "title-center": "A",
       "title-right": "bout Us",
-      "description": "We develop modern websites and mobile applications, offering our clients a high level of quality at affordable prices. By attracting talented Ukrainian developers, our projects stand out for their high efficiency and optimal use of resources, allowing us not only to meet but exceed client expectations in terms of both quality and cost."
+      "description": "We are a group of professional freelance developers specializing in web and mobile app development. We strive to offer clients simple and effective solutions at affordable prices. Our services are aimed at small businesses and startups that need reliable digital products for growth and development."
     },
         "about-page": {
           "p1": {
@@ -242,14 +242,14 @@
       "title-left": "Our ",
       "title-center": "S",
       "title-right": "ervices",
-      "webAppDev": "Web App Development",
-      "webAppDescription":"We build tailor-made web applications, integrating innovative features and intuitive interfaces to support your unique business needs and enhance user experience.",
+      "webAppDev": "Web Development",
+      "webAppDescription":"We create adaptive and functional websites that attract customers and help your business stand out. Our solutions include landing pages, corporate websites, and e-commerce platforms.",
       "mobAppDev": "Mobile App Development",
-      "mobAppDescription":"Our team creates visually stunning and user-friendly mobile apps, leveraging the latest technologies to help you reach and engage your audience effectively.",
+      "mobAppDescription":"We develop high-quality mobile applications for Android and iOS, focusing on user-friendliness and stability. We use modern technologies like Flutter and React Native to achieve the best results.",
       "webSites": "Websites Creation",
       "webSitesDescription":"Take your online retail presence to the next level with our e-commerce solutions, optimized for seamless transactions and a compelling shopping experience.",
       "design": "UI/UX Design",
-      "designDescription":"We offer expert guidance on user interface and experience design, ensuring your digital platforms are intuitive, visually appealing, and conversion-optimized.",
+      "designDescription":"Our designers create unique interfaces that provide users with the best experience interacting with your product. We focus on convenience and simplicity, so that every user finds it easy and enjoyable to use your application or website.",
       "btnTitleReadmore": "Read more..."
     },
         "services-page": {
