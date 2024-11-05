@@ -1,0 +1,10 @@
+/* Pages/KISS/Portfolio/helpcenter24.css */
+
+.portfolio-banner {
+    background-image: url('/src/images/portfolio/helpcenter24/helpcenter24_banner_01.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 200px;
+}

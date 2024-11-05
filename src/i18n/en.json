@@ -158,17 +158,18 @@
       "design":"UI/UX Design"
     },
     "home": {
-      "title-left": "Your Reliable Freelancers for ",
-      "title-center": "Web and Mobile",
-      "title-right": "App Development",
-      "description": "We are a small but experienced team of developers ready to help your business grow in the digital world. Our solutions are high-quality, effective, and affordable.",
+      
+      "title-left": "Talent Freelancers Available to Create",
+      "title-center": "Websites & Mobile",
+      "title-right": "Aapplications",
+      "description": "We are a group of developers, with expertise ready to help your company grow its online presence using high quality solutions that are effective and budget friendly.",
       "cta": "Contact Us"
     },
     "about": {
       "title-left": "",
       "title-center": "A",
       "title-right": "bout Us",
-      "description": "We are a group of professional freelance developers specializing in web and mobile app development. We strive to offer clients simple and effective solutions at affordable prices. Our services are aimed at small businesses and startups that need reliable digital products for growth and development."
+      "description": "We are a group of programmers specializing in designing websites and applications, for web and smartphone use. We aim to offer solutions to clients at prices. Our main customer base includes companies and startups looking for resources to enhance their growth and competitiveness, in the industry."
     },
         "about-page": {
           "p1": {

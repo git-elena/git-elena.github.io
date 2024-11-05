@@ -13,6 +13,7 @@ import projectDesign2 from '../images/portfolio/portfolio-design2.jpg'
 import projectDesign3 from '../images/portfolio/portfolio-design3.jpg'
 import projectDesign4 from '../images/portfolio/portfolio-design4.jpg'
 import { useTranslation } from 'react-i18next';
+import { Link } from 'react-router-dom';
 
 const PortfolioGallery = () => {
   const { t } = useTranslation();
@@ -24,7 +25,7 @@ const PortfolioGallery = () => {
   // Массив изображений для галереи
   const images = [
     {link:'/', src: projectHirosaki, title: t('portfolio.project.Hirosaki.title'), desc: t('portfolio.project.Hirosaki.desc'), entry: t('portfolio.project.Hirosaki.entry')},
-    {link:'/', src: projectHelpcenter, title: t('portfolio.project.HelpCenter.title'), desc: t('portfolio.project.HelpCenter.desc'), entry:  t('portfolio.project.HelpCenter.entry')},
+    {link:'/portfolio/helpcenter24', src: projectHelpcenter, title: t('portfolio.project.HelpCenter.title'), desc: t('portfolio.project.HelpCenter.desc'), entry:  t('portfolio.project.HelpCenter.entry')},
     {link:'/', src: projectDesign2, title: t('portfolio.project.KinuLiutas.title'), desc: t('portfolio.project.KinuLiutas.desc'), entry: t('portfolio.project.KinuLiutas.entry') },
     {link:'/', src: projectDesign4, title: t('portfolio.project.Tribo.title'), desc: t('portfolio.project.Tribo.desc'), entry: t('portfolio.project.Tribo.entry') },
     {link:'/', src: projectDesign1, title: t('portfolio.project.Designer.title'), desc: t('portfolio.project.Designer.desc'), entry: t('portfolio.project.Designer.entry') },
@@ -105,11 +106,13 @@ const PortfolioGallery = () => {
                       <p className='text-secondary desc'>{image.desc}</p>
               </div>
               <div className="d-grid gap-2 d-md-flex justify-content-md-end pe-3">
-                <a href={image.link} 
-                    className="btn btn-secondary button-2 m-0" 
+                <Link to={image.link}
+                    className="btn btn-secondary button-2 m-0"
                     tabIndex="-1" 
                     role="button" 
-                    aria-disabled="true">{t('button.readmore')}</a>
+                    aria-disabled="true"
+                >{t('button.readmore')}</Link>
+                
               </div>
             </div>
             </div>

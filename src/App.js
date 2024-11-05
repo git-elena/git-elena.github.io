@@ -15,10 +15,11 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min.js'; // Включает Popper.js
 import './App.css';
 import ScrollToTop from './servers/ScrollToTop';
-import ServiceMobApp from './pages/ServiceMobApp';
-import ServiceWebApp from './pages/ServiceWebApp';
-import ServiceWebsite from './pages/ServiceWebsite';
-import ServiceDesign from './pages/ServiceDesign';
+import ServiceMobApp from './pages/services/ServiceMobApp';
+import ServiceWebApp from './pages/services/ServiceWebApp';
+import ServiceWebsite from './pages/services/ServiceWebsite';
+import ServiceDesign from './pages/services/ServiceDesign';
+import PortfolioHelpCenter24 from './pages/portfolio/PortfolioHelpCenter24';
 
 function App() {
 
@@ -38,6 +39,8 @@ function App() {
           <Route path="/service/web-app" element={<ServiceWebApp />} />
           <Route path="/service/website" element={<ServiceWebsite />} />
           <Route path="/service/design" element={<ServiceDesign />} />
+
+          <Route path="/portfolio/helpcenter24" element={<PortfolioHelpCenter24 />} />
         </Routes>
         <Footer />
       </div>

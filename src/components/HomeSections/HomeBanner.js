@@ -12,7 +12,7 @@ const HomeBanner = () => {
                     <span className="text-primary-emphasis">{t('home.title-center')}</span>{' '}
                     {t('home.title-right')}
                 </h1>
-                <p className="lead">{t('home.description')}</p>
+                <p className="h5">{t('home.description')}</p>
                 <button className="btn btn-primary button-85 mt-3 mb-5">
                     {t('home.cta')}
                 </button>
