@@ -1,19 +1,26 @@
 {
   "files": {
-    "main.css": "/static/css/main.f426b99d.css",
-    "main.js": "/static/js/main.8f104fd5.js",
+    "main.css": "/static/css/main.68130082.css",
+    "main.js": "/static/js/main.eda93370.js",
+    "static/media/YouTubePlayer.png": "/static/media/YouTubePlayer.874a974fd0875c8d78bc.png",
     "static/media/about-banner.jpg": "/static/media/about-banner.96296980ab1e5625f31f.jpg",
+    "static/media/SpiritualLibrary.png": "/static/media/SpiritualLibrary.cd5520c63834c669eb2e.png",
+    "static/media/StreamingTV.png": "/static/media/StreamingTV.a6490924f48b7d4749a2.png",
     "static/media/services-banner.webp": "/static/media/services-banner.74c8e456c4a7abe4f420.webp",
     "static/media/main-img.webp": "/static/media/main-img.7b79a5396ee1f0d5e060.webp",
+    "static/media/YouTubePlayer_Messengers.jpg": "/static/media/YouTubePlayer_Messengers.b36a31cd69db2b7a938f.jpg",
+    "static/media/homeAudioPlayers.jpg": "/static/media/homeAudioPlayers.c9e30c1c026837d5cf26.jpg",
     "static/media/mibile-app.webp": "/static/media/mibile-app.1a843d2b4520007aee50.webp",
+    "static/media/Messengers.png": "/static/media/Messengers.d6a35c21be39092b7779.png",
     "static/media/choose-2.webp": "/static/media/choose-2.1bbfbb46e05f092af359.webp",
     "static/media/choose-4.webp": "/static/media/choose-4.0b48bebbd834c5cc197f.webp",
     "static/media/web-app.webp": "/static/media/web-app.cb1ec5cb35cb4359a4a7.webp",
     "static/media/design.webp": "/static/media/design.b389cfd12837183b503f.webp",
     "static/media/choose-1.webp": "/static/media/choose-1.d4bd608d9a569fb3dfc1.webp",
     "static/media/contact-form.webp": "/static/media/contact-form.43e2fa1340c8d31b8b54.webp",
-    "static/media/webpages.webp": "/static/media/webpages.8b0a6f8ef92e24558e61.webp",
     "static/media/bootstrap-icons.woff?": "/static/media/bootstrap-icons.39795c0b4513de014cf8.woff",
+    "static/media/homeListVideo.png": "/static/media/homeListVideo.030b40e8d824814e9cb5.png",
+    "static/media/Contacts.jpg": "/static/media/Contacts.7f69279bbd0e8a46750a.jpg",
     "static/media/choose-3.webp": "/static/media/choose-3.546908a128eb2de7f49b.webp",
     "static/media/bootstrap-icons.woff2?": "/static/media/bootstrap-icons.b7bcc075b395c14ce8c2.woff2",
     "static/media/choose-5.webp": "/static/media/choose-5.7b6d3f928c23174a8992.webp",
@@ -41,11 +48,11 @@
     "index.html": "/index.html",
     "static/media/logo-typo3.svg": "/static/media/logo-typo3.594f3858cf4560a5abe7812254961d2c.svg",
     "static/media/logo-kotlin.svg": "/static/media/logo-kotlin.6d108dcd884eb40d0197a78e0a6fca62.svg",
-    "main.f426b99d.css.map": "/static/css/main.f426b99d.css.map",
-    "main.8f104fd5.js.map": "/static/js/main.8f104fd5.js.map"
+    "main.68130082.css.map": "/static/css/main.68130082.css.map",
+    "main.eda93370.js.map": "/static/js/main.eda93370.js.map"
   },
   "entrypoints": [
-    "static/css/main.f426b99d.css",
-    "static/js/main.8f104fd5.js"
+    "static/css/main.68130082.css",
+    "static/js/main.eda93370.js"
   ]
 }
