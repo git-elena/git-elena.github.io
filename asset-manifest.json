@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.68130082.css",
-    "main.js": "/static/js/main.eda93370.js",
+    "main.css": "/static/css/main.f9aca5e1.css",
+    "main.js": "/static/js/main.0b7616e7.js",
     "static/media/YouTubePlayer.png": "/static/media/YouTubePlayer.874a974fd0875c8d78bc.png",
     "static/media/about-banner.jpg": "/static/media/about-banner.96296980ab1e5625f31f.jpg",
     "static/media/SpiritualLibrary.png": "/static/media/SpiritualLibrary.cd5520c63834c669eb2e.png",
@@ -48,11 +48,11 @@
     "index.html": "/index.html",
     "static/media/logo-typo3.svg": "/static/media/logo-typo3.594f3858cf4560a5abe7812254961d2c.svg",
     "static/media/logo-kotlin.svg": "/static/media/logo-kotlin.6d108dcd884eb40d0197a78e0a6fca62.svg",
-    "main.68130082.css.map": "/static/css/main.68130082.css.map",
-    "main.eda93370.js.map": "/static/js/main.eda93370.js.map"
+    "main.f9aca5e1.css.map": "/static/css/main.f9aca5e1.css.map",
+    "main.0b7616e7.js.map": "/static/js/main.0b7616e7.js.map"
   },
   "entrypoints": [
-    "static/css/main.68130082.css",
-    "static/js/main.eda93370.js"
+    "static/css/main.f9aca5e1.css",
+    "static/js/main.0b7616e7.js"
   ]
 }
