@@ -140,7 +140,90 @@
         "description": "Tailored designs based on real audience insights. Our user research services help us create designs that truly meet the needs and preferences of your audience."
       }
   }
+  },
+  "portfolio": {
+    "helpCenter24": {
+      "title": "Help Center 24",
+      "subtitle": "Mobile Application",
+      "maintitle":"Holy Spirit Church",
+      "description": "Cross-platform application created using the Flutter framework.",
+      "body": {
+  "holySpiritChurch": {
+    "projectTitle": "Project: Mobile Application \"Holy Spirit Church\"",
+    "overview": "Overview",
+    "introduction1": "\"Holy Spirit Church\" is a mobile application developed for an Orthodox church to provide a modern digital solution for connecting with parishioners. The app offers convenient access to information about services, religious events, and spiritual materials. The main goal of the project was to improve communication between the church and its parishioners, as well as to create new opportunities for engaging users through digital channels.",
+    "introduction2": "This application demonstrates our capabilities in developing customized mobile solutions for religious and non-profit organizations, providing an intuitive interface and extensive functionality to support audience interaction.",
+    
+    "keyFeatures": "Key Features",
+    "features": {
+      "serviceSchedule": {
+        "title": "Service Schedule",
+        "description": "Display of up-to-date information about upcoming services and religious events, helping parishioners plan their time and stay informed about important events."
+      },
+      "news": {
+        "title": "News and Announcements",
+        "description": "Notifications about news, promotions, and other significant events of the church, ensuring effective communication within the community."
+      },
+      "library": {
+        "title": "Spiritual Library",
+        "description": "Access to prayers, sacred scriptures, sermons, and other spiritual materials that foster users' spiritual growth and strengthen their connection to faith."
+      },
+      "feedback": {
+        "title": "Feedback",
+        "description": "A convenient form for contacting the church's clergy or administration, allowing users to quickly ask questions or offer help."
+      },
+      "pushNotifications": {
+        "title": "Push Notifications",
+        "description": "Timely reminders about important religious holidays, events, and live broadcasts, helping users stay connected with the church's life."
+      },
+      "video": {
+        "title": "Video and Broadcasts",
+        "description": "Ability to watch live broadcasts of services via video stream links, as well as recordings from the church's YouTube channel, allowing participation for those who cannot attend in person."
+      },
+      "radio": {
+        "title": "Online Radio",
+        "description": "A 24/7 online radio feature with spiritual music, sermons, and educational programs, creating an atmosphere of spiritual unity at any time."
+      },
+      "contacts": {
+        "title": "Church Contacts and Addresses",
+        "description": "The app contains a database of contact information and addresses of churches in all cities and countries where the church is represented, simplifying the search for the nearest church and obtaining necessary information."
+      },
+      "messengers": {
+        "title": "Communication via Messengers",
+        "description": "Ability to contact the church via Viber or WhatsApp, allowing users from any country to quickly get answers to their questions or clarify information."
+      }
+    },
+
+    "technologiesTitle": "Technologies and Tools",
+    "technologies": {
+      "flutter": {
+        "title": "Flutter (Dart)",
+        "description": "Used for cross-platform development for iOS and Android, reducing costs and development time while maintaining a single codebase for both platforms."
+      },
+      "restApi": {
+        "title": "REST API",
+        "description": "To provide up-to-date data on services, news, and other updates, ensuring reliable communication between the server and the application."
+      },
+      "firebase": {
+        "title": "Firebase",
+        "description": "Used for push notifications, user authentication, and analytics, helping to better understand the audience and improve user engagement."
+      },
+      "multimedia": {
+        "title": "Multimedia",
+        "description": "Integration with YouTube API for video playback and streaming services for online radio, expanding the app's capabilities for engaging users through multimedia."
+      }
+    },
+
+    "businessImpactTitle": "Why This Matters for Your Business",
+    "businessImpact": "This project highlights our expertise in creating functional and user-friendly mobile applications for religious and non-profit organizations. We offer solutions that not only enhance communication but also increase audience engagement, simplify donation processes, and maintain constant connection with users through multimedia channels."
   }
+}
+
+      
+    }
+    
+  }
+  
 },
   "button": {
     "readmore": "Reead more"
