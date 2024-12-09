@@ -169,7 +169,7 @@
     color: #ddd;
   }
   
-  .project-intro, .features, .technologies, .business-impact {
+  .portfolio-page .project-intro, .features, .portfolio-page .technologies, .portfolio-page .business-impact {
     padding: 40px 20px;
     max-width: 1200px;
     margin: 0 auto;
@@ -244,7 +244,7 @@
     /* background-color: #f9f9f9; */
     /* text-align: center; */
     height: 100%;
-    display: grid;
+    /* display: grid; */
   }
   .full-height {
     height: 100%;
@@ -262,7 +262,7 @@
         background-size: contain;
         background-position: right bottom;
         background-repeat: no-repeat;
-        display: grid;
+        /* display: grid; */
     }
 }
 

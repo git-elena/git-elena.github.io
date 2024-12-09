@@ -20,6 +20,7 @@ import ServiceWebApp from './pages/services/ServiceWebApp';
 import ServiceWebsite from './pages/services/ServiceWebsite';
 import ServiceDesign from './pages/services/ServiceDesign';
 import PortfolioHelpCenter24 from './pages/portfolio/PortfolioHelpCenter24';
+import PortfolioHirosaki from './pages/portfolio/PortfolioHirosaki';
 
 function App() {
 
@@ -41,6 +42,7 @@ function App() {
           <Route path="/service/design" element={<ServiceDesign />} />
 
           <Route path="/portfolio/helpcenter24" element={<PortfolioHelpCenter24 />} />
+          <Route path="/portfolio/hirosaki" element={<PortfolioHirosaki />} />
         </Routes>
         <Footer />
       </div>

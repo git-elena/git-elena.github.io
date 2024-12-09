@@ -24,7 +24,7 @@ const PortfolioGallery = () => {
 
   // Массив изображений для галереи
   const images = [
-    {link:'/', src: projectHirosaki, title: t('portfolio.project.Hirosaki.title'), desc: t('portfolio.project.Hirosaki.desc'), entry: t('portfolio.project.Hirosaki.entry')},
+    {link:'/portfolio/hirosaki', src: projectHirosaki, title: t('portfolio.project.Hirosaki.title'), desc: t('portfolio.project.Hirosaki.desc'), entry: t('portfolio.project.Hirosaki.entry')},
     {link:'/portfolio/helpcenter24', src: projectHelpcenter, title: t('portfolio.project.HelpCenter.title'), desc: t('portfolio.project.HelpCenter.desc'), entry:  t('portfolio.project.HelpCenter.entry')},
     {link:'/', src: projectDesign2, title: t('portfolio.project.KinuLiutas.title'), desc: t('portfolio.project.KinuLiutas.desc'), entry: t('portfolio.project.KinuLiutas.entry') },
     {link:'/', src: projectDesign4, title: t('portfolio.project.Tribo.title'), desc: t('portfolio.project.Tribo.desc'), entry: t('portfolio.project.Tribo.entry') },

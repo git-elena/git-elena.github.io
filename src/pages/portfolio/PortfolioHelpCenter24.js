@@ -89,7 +89,7 @@ const PortfolioHelpCenter24 = () => {
 <section className="project-intro">
 <div className="container">
   <div className="row row-img">
-    <div className="col-md-9 table-cell">
+    <div className="col-md-9 table-cell d-md-grid">
       <div>
       <h2  className="section-title">{t('pages.portfolio.helpCenter24.body.holySpiritChurch.overview')}</h2>
       <p>{t('pages.portfolio.helpCenter24.body.holySpiritChurch.introduction1')}</p>

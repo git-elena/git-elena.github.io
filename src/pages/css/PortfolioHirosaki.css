@@ -1,0 +1,88 @@
+@font-face {
+    font-family: 'MadeInChina';
+    src: url('../../fonts/MADEinCHINA.TTF');
+}
+
+:root {
+    
+    --hi-main-text: #202020;
+    --hi-ascent-text:  #FF4132;
+    --hi-ascent2-text:  #8b1215;
+    --hi-body-text: var(--bs-dark-rgb);
+    --hi-second-text: #757575;
+   
+  }
+
+.hirosaki {
+    font-family: 'Roboto';
+}
+
+.hirosaki .portfolio-banner {
+    background-image: url('../../images/portfolio/hirosaki/header_photo.jpg');
+    height: unset;
+    padding-bottom: 7em;
+}
+
+.hirosaki .container h1 {
+    text-align: left;
+    font-family: 'MadeInChina';
+    font-size: 9em;
+    line-height: 0.5em;
+    margin-top: 1em;
+    /* margin: 40px 0; */
+    color: var(--hi-body-text);
+    
+}
+
+.hirosaki .container h2 {
+    text-align: left;
+    font-size: 3em;
+    font-weight: 400;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;;
+    color: var(--hi-ascent2-text);
+    
+}
+
+.hirosaki .container h3 {
+    text-align: left;
+    font-size: 1.5em;
+    margin: 40px 0;
+    margin-left: -5%;
+
+    text-transform: lowercase;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 500;
+    color: var(--hi-ascent2-text);
+    
+}
+
+.hirosaki .container p {
+    text-align: left;
+   
+    color: var(--hi-body-text);
+    width: 30%;
+}
+
+.hirosaki .phone-logos {
+    margin: 40px 0;
+}
+
+.hirosaki .phone-logo {
+    height: 40px;
+    width: 170px;
+    margin: 15px 0;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 7px;
+}
+
+.hirosaki .android-logo {
+    background-image: url('../../images/portfolio/hirosaki/os_logos/android.jpg');
+    
+}
+
+.hirosaki .iphone-logo {
+    background-image: url('../../images/portfolio/hirosaki/os_logos/iPhone.jpeg');
+      
+}
