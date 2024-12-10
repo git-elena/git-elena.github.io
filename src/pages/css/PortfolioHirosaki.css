@@ -8,15 +8,23 @@
     --hi-main-text: #202020;
     --hi-ascent-text:  #FF4132;
     --hi-ascent2-text:  #8b1215;
+    --hi-ascent3-text:  #FF9900;
     --hi-body-text: var(--bs-dark-rgb);
     --hi-second-text: #757575;
    
   }
 
+
 .hirosaki {
     font-family: 'Roboto';
+    
 }
 
+.hirosaki .container {
+    padding: 0 10%;
+}
+
+/* banner */
 .hirosaki .portfolio-banner {
     background-image: url('../../images/portfolio/hirosaki/header_photo.jpg');
     height: unset;
@@ -27,9 +35,9 @@
     text-align: left;
     font-family: 'MadeInChina';
     font-size: 9em;
-    line-height: 0.5em;
+    line-height: 0em;
     margin-top: 1em;
-    /* margin: 40px 0; */
+   
     color: var(--hi-body-text);
     
 }
@@ -40,14 +48,14 @@
     font-weight: 400;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;;
     color: var(--hi-ascent2-text);
-    
+    margin: 1em 0;
 }
 
 .hirosaki .container h3 {
     text-align: left;
     font-size: 1.5em;
-    margin: 40px 0;
-    margin-left: -5%;
+    margin: 40px -10%;
+    
 
     text-transform: lowercase;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -56,11 +64,14 @@
     
 }
 
+.hirosaki .portfolio-banner .container p {
+    width: 30%;
+}
+
 .hirosaki .container p {
     text-align: left;
-   
+    font-size: 1em;
     color: var(--hi-body-text);
-    width: 30%;
 }
 
 .hirosaki .phone-logos {
@@ -85,4 +96,84 @@
 .hirosaki .iphone-logo {
     background-image: url('../../images/portfolio/hirosaki/os_logos/iPhone.jpeg');
       
+}
+
+@media (max-width: 1200px) {
+    .hirosaki .container h1  {
+        font-size: 6em;
+    }
+    .hirosaki .container h2 {
+        font-size: 2em;
+    }
+    .hirosaki .container h3 {
+        font-size: 1em;
+    }
+}
+@media (max-width: 768px) {
+    .hirosaki .container p {
+        width: 50%;
+    }
+}
+
+/* overview */
+.hirosaki .project-overview .container {
+ height: 25em;
+ margin-bottom: -6em;  
+}
+.hirosaki .project-overview-table {
+    width: 100%;
+    
+}
+
+.hirosaki .project-overview-table td {
+    /* border: 1px solid gray; */
+    vertical-align: top;
+}
+
+.hirosaki .project-overview-table .td-50 {
+    width: 50%;
+}
+
+.hirosaki .devices {
+    display: flex;
+}
+
+.hirosaki .device img {
+    width: 120%;
+    
+}
+
+.hirosaki .device00 {
+    width: 80%;
+    margin-right: -40%;
+    margin-top: -170px;
+   
+    z-index: 100;
+}
+
+.hirosaki .device02 {
+    width: 100%;
+    margin-top: -270px;
+    margin-right: 15%;
+   
+}
+
+/* project-design */
+.project-design {
+    /* background-color: white; */
+    background-image: url('../../images/portfolio/hirosaki/footer_bg.jpg');
+    background-position: center top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+    z-index: 999;
+    position: relative;
+
+    padding-top: 1px;
+    height: 22em;
+}
+
+.project-design h3 {
+    color: var(--hi-ascent3-text)!important;
+    
 }

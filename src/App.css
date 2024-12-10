@@ -79,3 +79,8 @@ h1 {
 .page-content {
   margin-top: 100px;
 }
+
+.App footer {
+  z-index: 9999;
+  position: relative;
+}
