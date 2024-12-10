@@ -1,14 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.f9aca5e1.css",
-    "main.js": "/static/js/main.0b7616e7.js",
+    "main.css": "/static/css/main.fa57aab5.css",
+    "main.js": "/static/js/main.545bfb45.js",
+    "static/media/footer_bg.jpg": "/static/media/footer_bg.7e8d15c195cce9e51420.jpg",
+    "static/media/header_photo.jpg": "/static/media/header_photo.a06a0bc9ae5801a7377e.jpg",
     "static/media/YouTubePlayer.png": "/static/media/YouTubePlayer.874a974fd0875c8d78bc.png",
     "static/media/about-banner.jpg": "/static/media/about-banner.96296980ab1e5625f31f.jpg",
     "static/media/SpiritualLibrary.png": "/static/media/SpiritualLibrary.cd5520c63834c669eb2e.png",
     "static/media/StreamingTV.png": "/static/media/StreamingTV.a6490924f48b7d4749a2.png",
     "static/media/services-banner.webp": "/static/media/services-banner.74c8e456c4a7abe4f420.webp",
+    "static/media/clear-device-02.png": "/static/media/clear-device-02.eccd7af6981322d9da54.png",
     "static/media/main-img.webp": "/static/media/main-img.7b79a5396ee1f0d5e060.webp",
     "static/media/YouTubePlayer_Messengers.jpg": "/static/media/YouTubePlayer_Messengers.b36a31cd69db2b7a938f.jpg",
+    "static/media/clear-device-00.png": "/static/media/clear-device-00.d4d4ee6289e7621cca87.png",
     "static/media/homeAudioPlayers.jpg": "/static/media/homeAudioPlayers.c9e30c1c026837d5cf26.jpg",
     "static/media/mibile-app.webp": "/static/media/mibile-app.1a843d2b4520007aee50.webp",
     "static/media/Messengers.png": "/static/media/Messengers.d6a35c21be39092b7779.png",
@@ -35,9 +39,12 @@
     "static/media/portfolio-website1.jpg": "/static/media/portfolio-website1.1a502e9d330f4097e846.jpg",
     "static/media/portfolio-website4.jpg": "/static/media/portfolio-website4.9e61b21edde281b8aeab.jpg",
     "static/media/portfolio-website5.jpg": "/static/media/portfolio-website5.6fc44f1d9e862d017571.jpg",
-    "static/media/logo-xcode.svg": "/static/media/logo-xcode.b31073315b4f7b90614ba696ddc34957.svg",
+    "static/media/MADEinCHINA.TTF": "/static/media/MADEinCHINA.40fa961f7cef429bcd40.TTF",
+    "static/media/logo-xcode.svg": "/static/media/logo-xcode.e01f9dc984dc8fb67ea0bda82ee3152b.svg",
+    "static/media/android.jpg": "/static/media/android.3d44d2cd1128966ffe52.jpg",
+    "static/media/iPhone.jpeg": "/static/media/iPhone.9670a6c60a0f4321fc00.jpeg",
     "static/media/logo-react.svg": "/static/media/logo-react.1f0f10ece9178ea9cd901921644967d3.svg",
-    "static/media/logo-android-studio.svg": "/static/media/logo-android-studio.2c9a711a363fbcc5c1680ce30f83a56b.svg",
+    "static/media/logo-android-studio.svg": "/static/media/logo-android-studio.67be26fe954cfd133fe78cc779a7eb58.svg",
     "static/media/logo-java.svg": "/static/media/logo-java.6cf9b95610c3b03023e9535e590945e3.svg",
     "static/media/logo-swift.svg": "/static/media/logo-swift.fc83488ad25096a8d8dab8dee31e8216.svg",
     "static/media/logo-modx.svg": "/static/media/logo-modx.15cc671f8e9c21e0d30eb9032acf22ce.svg",
@@ -48,11 +55,11 @@
     "index.html": "/index.html",
     "static/media/logo-typo3.svg": "/static/media/logo-typo3.594f3858cf4560a5abe7812254961d2c.svg",
     "static/media/logo-kotlin.svg": "/static/media/logo-kotlin.6d108dcd884eb40d0197a78e0a6fca62.svg",
-    "main.f9aca5e1.css.map": "/static/css/main.f9aca5e1.css.map",
-    "main.0b7616e7.js.map": "/static/js/main.0b7616e7.js.map"
+    "main.fa57aab5.css.map": "/static/css/main.fa57aab5.css.map",
+    "main.545bfb45.js.map": "/static/js/main.545bfb45.js.map"
   },
   "entrypoints": [
-    "static/css/main.f9aca5e1.css",
-    "static/js/main.0b7616e7.js"
+    "static/css/main.fa57aab5.css",
+    "static/js/main.545bfb45.js"
   ]
 }
