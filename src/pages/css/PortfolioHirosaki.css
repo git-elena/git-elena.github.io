@@ -3,6 +3,11 @@
     src: url('../../fonts/MADEinCHINA.TTF');
 }
 
+@font-face {
+    font-family: 'SanFrancisco';
+    src: url('../../fonts/SFUIDisplay-Regular.otf');
+}
+
 :root {
     
     --hi-main-text: #202020;
@@ -144,10 +149,7 @@
 }
 
 /* overview */
-.hirosaki .project-overview .container {
- /* height: 27em; */
- /* margin-bottom: -6em;   */
-}
+
 .hirosaki .project-overview-table {
     width: 100%;
     display: flex;
@@ -163,7 +165,8 @@
 
 .hirosaki  .desc {
     display: flex;
-    margin-bottom: -20em;
+    margin-bottom: -15em;
+    justify-content: center;
 }
 .hirosaki  .pad {
     display: none;
@@ -174,24 +177,27 @@
 }
 
 .hirosaki .device00 {
-    width: 80%;
-    margin-right: -30%;
+    width: 40%;
+    margin-right: -15%;
     margin-top: -180px;
    
     z-index: 100;
 }
 
 .hirosaki .device02 {
-    width: 100%;
+    width: 50%;
     margin-top: -270px;
     /* margin-right: 15%; */
    
 }
 
 @media (max-width: 1200px) {
-    /* .hirosaki .project-overview-table .td-50 {
-        width: 50%;
-    } */
+    .hirosaki  .device00 {
+        margin-top: -10px;
+    }
+    .hirosaki  .device02 {
+        margin-top: -70px;
+    }
     .hirosaki .project-overview-table .pad {
         display: none;
     }
@@ -227,7 +233,7 @@
 .project-design {
     z-index: 999;
     padding-top: 1px;
-    height: 22em;
+    
     width: 100%;
     position: relative;
 }
@@ -250,13 +256,15 @@
     color: #ffffff!important;
 }
 
-.project-design .container-fonts {
+.project-design .container-fonts,
+.project-design .container-colors {
     width: 100%;
     display: flex;
     justify-content: end;
-    height: 9em;
+    /* height: 9em; */
 }
-.project-design .fonts {
+.project-design .fonts,
+.project-design .colors {
     display: flex;
     width: 80%;
     justify-content: space-between;
@@ -269,6 +277,39 @@
     border-radius: 16px;
 }
 
+.project-design .color {
+   text-align: center;
+   align-items: center;
+}
+
+.project-design .font,
+.project-design .color-content {
+    box-shadow: 7px 14px 25px #00000050;
+}
+
+.project-design .color-content {
+   
+   border-radius: 100px;
+   width: 130px;
+   height: 130px;
+   margin-top: 3em;
+}
+
+.project-design .color-example {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.project-design .color-title {
+    text-align: center;
+    color: white;
+    margin-top: 1em;
+    margin-bottom: 2em;
+}
+
+
+
 .project-design .font-title {
     display: flex;
     justify-content: space-between;
@@ -279,5 +320,70 @@
     justify-content: center;
     align-items: center;
     height: 80%;
-    font-size: 72px;
+    font-size: 96px;
+}
+
+.project-design .font-logo .font-content {
+    font-family: 'MadeInChina';
+  
+}
+.project-design .font-android .font-content {
+    font-family: 'Roboto';
+
+}
+.project-design .font-iphone .font-content {
+    font-family: 'SanFrancisco';
+
+}
+.project-design .color-main .color-content {
+    background-color: #FF4132;
+}
+.project-design .color-back .color-content {
+    background-color: #FFFFFF;
+}
+.project-design .color-text .color-content {
+    background-color: #202020;
+}
+.project-design .color-ascent .color-content {
+    background-color: #FFC200;
+}
+.project-design .color-hint .color-content {
+    background-color: #FF9900;
+}
+
+@media (max-width: 992px) {
+    .project-design .fonts,
+    .project-design .colors {
+        width: 100%;
+    }
+
+    .project-design .color-content {
+        width: 100px;
+        height: 100px;
+     }
+}
+@media (max-width: 624px) {
+    .project-design .color-content {
+        width: 80px;
+        height: 80px;
+     }
+}
+
+@media (max-width: 576px) {
+    .project-design .color-content {
+        width: 50px;
+        height: 50px;
+     }
+    .project-design  .font-content {
+        
+        font-size: 52px;
+    }
+    .project-design  .font-title {
+        display: block;
+    }
+    .project-design  .font-name,
+    .project-design  .color-name {
+        font-weight: bold;
+        min-height: 3em;
+    }
 }

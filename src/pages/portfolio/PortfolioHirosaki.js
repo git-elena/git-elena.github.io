@@ -91,30 +91,66 @@ const PortfolioHirosaki = () => {
                             </div>
                         </div>
                     </div>
-                    <div className='colors'>
-                        <div className='color font-logo'>
-                            <div className='font-title'>
-                                <div className='font-position'>Logo</div>
-                                <div className='font-name'>Made In China</div>
+                    <div className='container-colors'>
+                        <div className='colors'>
+                            <div className='color color-main'>
+                                <div className='color-example'>
+                                    <div className='color-content'></div>
+                                </div>
+                                <div className='color-title'>
+                                    <div className='color-name'>Main Color</div>
+                                    <div className='color-val'>#FF4132</div>
+                                </div>
                             </div>
-                            <div className='font-content'>Aa</div>
-                        </div>
-                        <div className='font font-android'>
-                            <div className='font-title'>
-                                <div className='font-position'>Android</div>
-                                <div className='font-name'>Roboto</div>
+                            <div className='color color-back'>
+                                <div className='color-example'>
+                                    <div className='color-content'></div>
+                                </div>
+                                
+                                <div className='color-title'>
+                                    <div className='color-name'>Background</div>
+                                    <div className='color-val'>#FFFFFF</div>
+                                </div>
                             </div>
-                            <div className='font-content'>Aa</div>
-                        </div>
-                        <div className='font font-iphone'>
-                            <div className='font-title'>
-                                <div className='font-position'>iPhone</div>
-                                <div className='font-name'>San Francisco</div>
+                            <div className='color color-text'>
+                                <div className='color-example'>
+                                    <div className='color-content'></div>
+                                </div>
+                                <div className='color-title'>
+                                    <div className='color-name'>Main Text</div>
+                                    <div className='color-val'>#202020</div>
+                                </div>
                             </div>
-                            <div className='font-content'>Aa</div>
+                            <div className='color color-ascent'>
+                                <div className='color-example'>
+                                    <div className='color-content'></div>
+                                </div>
+                                <div className='color-title'>
+                                    <div className='color-name'>Ascent Text</div>
+                                    <div className='color-val'>#FF9900</div>
+                                </div>
+                            </div>
+                            <div className='color color-hint'>
+                                <div className='color-example'>
+                                    <div className='color-content'></div>
+                                </div>
+                                <div className='color-title'>
+                                    <div className='color-name'>Hint</div>
+                                    <div className='color-val'>#FFC200</div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
+            </section>
+            <section className='key-features'>
+            <h3>Key Features</h3>
+            <div className='container'>
+                <div className='text'>
+                    
+                </div>
+                <div className='imgs'></div>
+            </div>
             </section>
         </div>
     );
