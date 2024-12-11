@@ -80,6 +80,11 @@ h1 {
   margin-top: 100px;
 }
 
+@media (max-width: 450px) {
+  .page-content {
+    margin-top: 144px;
+  } 
+}
 .App footer {
   z-index: 9999;
   position: relative;
