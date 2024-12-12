@@ -1,10 +1,18 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
-// import '../../../src/pages/css/Portfolio.css';
 import '../../../src/pages/css/PortfolioHirosaki.css';
 
-import device00 from '../../images/portfolio/hirosaki/devices/clear-device-00.png'
-import device02 from '../../images/portfolio/hirosaki/devices/clear-device-02.png'
+import HirosakiKeyFeature from '../../components/PagePortfolio/HirosakiKeyFeature';
+
+import overviewDevice00 from '../../images/portfolio/hirosaki/devices/overview-device-00.png'
+import overviewDevice02 from '../../images/portfolio/hirosaki/devices/overview-device-02.png'
+
+import keyDevice01 from '../../images/portfolio/hirosaki/devices/key-device-01.png'
+import keyDevice02 from '../../images/portfolio/hirosaki/devices/key-device-02.png'
+import keyDevice03 from '../../images/portfolio/hirosaki/devices/key-device-03.png'
+import keyDevice04 from '../../images/portfolio/hirosaki/devices/key-device-04.png'
+import keyDevice05 from '../../images/portfolio/hirosaki/devices/key-device-05.png'
+import keyDevice06 from '../../images/portfolio/hirosaki/devices/key-device-06.png'
 
 
 const PortfolioHirosaki = () => {
@@ -38,19 +46,19 @@ const PortfolioHirosaki = () => {
                         <div className='td td-50'>
                             <div className=' desc devices'>
                                 <div className='device device00'>
-                                    <img src={device00} alt='Device Screenshot' />
+                                    <img src={overviewDevice00} alt='Device Screenshot' />
                                 </div>
                                 <div className='device device02'>
-                                    <img src={device02} alt='Device Screenshot' />
+                                    <img src={overviewDevice02} alt='Device Screenshot' />
                                 </div>
                             </div>
 
                             <div className='pad devices '>
                                 <div className='device device00'>
-                                    <img src={device00} alt='Device Screenshot' />
+                                    <img src={overviewDevice00} alt='Device Screenshot' />
                                 </div>
                                 <div className='device device02'>
-                                    <img src={device02} alt='Device Screenshot' />
+                                    <img src={overviewDevice02} alt='Device Screenshot' />
                                 </div>
                             </div>
                         </div>
@@ -147,9 +155,57 @@ const PortfolioHirosaki = () => {
             <h3>Key Features</h3>
             <div className='container'>
                 <div className='text'>
+                    <HirosakiKeyFeature 
+                    title='Online Ordering' 
+                    text='An intuitive ordering system allows customers to place orders for delivery or pickup and even schedule them at a convenient time.'/>
+                    
+                    <HirosakiKeyFeature 
+                    title='Online Ordering' 
+                    text='An intuitive ordering system allows customers to place orders for delivery or pickup and even schedule them at a convenient time.'/>
+                    <HirosakiKeyFeature 
+                    title='Online Ordering' 
+                    text='An intuitive ordering system allows customers to place orders for delivery or pickup and even schedule them at a convenient time.'/>
+                    <HirosakiKeyFeature 
+                    title='Online Ordering' 
+                    text='An intuitive ordering system allows customers to place orders for delivery or pickup and even schedule them at a convenient time.'/>
+                    <HirosakiKeyFeature 
+                    title='Online Ordering' 
+                    text='An intuitive ordering system allows customers to place orders for delivery or pickup and even schedule them at a convenient time.'/>
+                    <HirosakiKeyFeature 
+                    title='Online Ordering' 
+                    text='An intuitive ordering system allows customers to place orders for delivery or pickup and even schedule them at a convenient time.'/>
+                    <HirosakiKeyFeature 
+                    title='Online Ordering' 
+                    text='An intuitive ordering system allows customers to place orders for delivery or pickup and even schedule them at a convenient time.'/>
+                    <HirosakiKeyFeature 
+                    title='Online Ordering' 
+                    text='An intuitive ordering system allows customers to place orders for delivery or pickup and even schedule them at a convenient time.'/>
                     
                 </div>
-                <div className='imgs'></div>
+                <div className='imgs'>
+                    <div className='keys-imgs-first keys-imgs'>
+                        <div className='keys-img-first keys-img-01 keys-img'>
+                            <img src={keyDevice01} alt='Device Screenshot' />
+                        </div>
+                        <div className='keys-img-first keys-img-02 keys-img'>
+                            <img src={keyDevice02} alt='Device Screenshot' />
+                        </div>
+                        <div className='keys-img-first keys-img-03 keys-img'>
+                            <img src={keyDevice03} alt='Device Screenshot' />
+                        </div>
+                    </div>
+                    <div className='keys-imgs-second keys-imgs'>
+                        <div className='keys-img-second keys-img-04 keys-img'>
+                        <img src={keyDevice04} alt='Device Screenshot' />
+                        </div>
+                        <div className='keys-img-second keys-img-05 keys-img'>
+                        <img src={keyDevice05} alt='Device Screenshot' />
+                        </div>
+                        <div className='keys-img-second keys-img-06 keys-img'>
+                        <img src={keyDevice06} alt='Device Screenshot' />
+                        </div>
+                    </div>
+                </div>
             </div>
             </section>
         </div>

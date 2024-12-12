@@ -387,3 +387,32 @@
         min-height: 3em;
     }
 }
+
+
+/* Key Features */
+
+.key-features .container {
+    display: flex;
+}
+
+.key-features .keys-imgs {
+    display: flex;
+    padding-left: 5%;
+    
+}
+
+.key-features .keys-img img {
+    width: 100%;
+}
+
+.key-features .keys-img-02 img {
+   margin-top: 4.5em;
+   margin-left: -40%;
+}
+
+.key-features .keys-img-05 img {
+    margin-top: 4.5em;
+    z-index: 9;
+    position: relative;
+    margin-left: 40%;
+ }

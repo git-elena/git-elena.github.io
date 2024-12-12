@@ -1,0 +1,12 @@
+.key-item {
+    width: 90%;
+}
+
+.key-item .keyItem-title {
+    font-weight: bold;
+    margin: .5em 0;
+}
+
+.key-item .keyItem-text {
+    margin-bottom: 2em;
+}
