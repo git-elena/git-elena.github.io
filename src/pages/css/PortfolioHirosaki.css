@@ -78,6 +78,15 @@
     color: var(--hi-body-text);
 }
 
+/* images section */
+
+.img-sushi-01 {
+    height: 35em;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-image: url('../../images/portfolio/hirosaki/image_sushi_01.jpg');
+}
 
 /* .portfolio-header */
 
@@ -136,16 +145,16 @@
         height: unset;
    
     }
-    
+    .hirosaki .portfolio-header .container p {
+        width: 80%;
+    }
 }
 
 @media (max-width: 468px) {
     .hirosaki .container h1 {
         font-size: 3.5em;
     }
-    .hirosaki .portfolio-header .container p {
-        width: 80%;
-    }
+    
 }
 
 /* overview */
@@ -239,7 +248,7 @@
 }
 .project-design::before {
     z-index: -1;
-    background-image: url('../../images/portfolio/hirosaki/footer_bg.jpg');
+    background-image: url('../../images/portfolio/hirosaki/image_sushi_00.jpg');
     background-position: center top;
     background-size: cover;
     background-repeat: no-repeat;
@@ -387,8 +396,26 @@
         min-height: 3em;
     }
 }
+@media (max-width: 390px) {
+    .project-design .colors {
+        display: block;
+        margin-bottom: 2em;
+    }
+    .project-design .color-title {
+        margin-bottom: 0;
+    }
+    
+    .project-design  .color-name {
+        min-height: 1em;
+    }
 
-
+    .project-design .color-content {
+   
+        width: 130px;
+        height: 130px;
+     }    
+    
+}
 /* Key Features */
 
 .key-features .container {
@@ -415,4 +442,47 @@
     z-index: 9;
     position: relative;
     margin-left: 40%;
- }
+}
+
+@media (max-width: 1200px) {
+    .key-features .container {
+        display: block;
+    }
+
+    .key-features .container .text {
+        display: flex;
+    }
+
+    
+}
+
+@media (min-width: 1980px) {
+    .key-features .keys-imgs-second {
+        display: none;
+    }
+    
+}
+/* Screenshots */
+
+.screenshots .container .screen-imgs {
+    display: flex;
+
+}
+
+.screenshots .screen-img img {
+   width: 100%;
+   transform: rotate(17deg);
+}
+
+
+/* Tools */
+
+.tools {
+    position: relative;
+    /* margin-top: -20em; */
+    padding-bottom: 1em;
+    z-index: 9;
+    background-color: #f5f5f5;
+    
+}
+

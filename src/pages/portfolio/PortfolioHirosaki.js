@@ -3,6 +3,7 @@ import { useTranslation } from 'react-i18next';
 import '../../../src/pages/css/PortfolioHirosaki.css';
 
 import HirosakiKeyFeature from '../../components/PagePortfolio/HirosakiKeyFeature';
+import HirosakiTool from '../../components/PagePortfolio/HirosakiTool';
 
 import overviewDevice00 from '../../images/portfolio/hirosaki/devices/overview-device-00.png'
 import overviewDevice02 from '../../images/portfolio/hirosaki/devices/overview-device-02.png'
@@ -13,6 +14,11 @@ import keyDevice03 from '../../images/portfolio/hirosaki/devices/key-device-03.p
 import keyDevice04 from '../../images/portfolio/hirosaki/devices/key-device-04.png'
 import keyDevice05 from '../../images/portfolio/hirosaki/devices/key-device-05.png'
 import keyDevice06 from '../../images/portfolio/hirosaki/devices/key-device-06.png'
+
+import screenDevice01 from '../../images/portfolio/hirosaki/devices/screenshot-device-01.png'
+import screenDevice02 from '../../images/portfolio/hirosaki/devices/screenshot-device-02.png'
+// import screenDevice03 from '../../images/portfolio/hirosaki/devices/screenshot-device-03.png'
+import screenDevice04 from '../../images/portfolio/hirosaki/devices/screenshot-device-04.png'
 
 
 const PortfolioHirosaki = () => {
@@ -155,6 +161,7 @@ const PortfolioHirosaki = () => {
             <h3>Key Features</h3>
             <div className='container'>
                 <div className='text'>
+                    <div>
                     <HirosakiKeyFeature 
                     title='Online Ordering' 
                     text='An intuitive ordering system allows customers to place orders for delivery or pickup and even schedule them at a convenient time.'/>
@@ -162,25 +169,32 @@ const PortfolioHirosaki = () => {
                     <HirosakiKeyFeature 
                     title='Online Ordering' 
                     text='An intuitive ordering system allows customers to place orders for delivery or pickup and even schedule them at a convenient time.'/>
-                    <HirosakiKeyFeature 
-                    title='Online Ordering' 
-                    text='An intuitive ordering system allows customers to place orders for delivery or pickup and even schedule them at a convenient time.'/>
-                    <HirosakiKeyFeature 
-                    title='Online Ordering' 
-                    text='An intuitive ordering system allows customers to place orders for delivery or pickup and even schedule them at a convenient time.'/>
-                    <HirosakiKeyFeature 
-                    title='Online Ordering' 
-                    text='An intuitive ordering system allows customers to place orders for delivery or pickup and even schedule them at a convenient time.'/>
-                    <HirosakiKeyFeature 
-                    title='Online Ordering' 
-                    text='An intuitive ordering system allows customers to place orders for delivery or pickup and even schedule them at a convenient time.'/>
-                    <HirosakiKeyFeature 
-                    title='Online Ordering' 
-                    text='An intuitive ordering system allows customers to place orders for delivery or pickup and even schedule them at a convenient time.'/>
+                    
                     <HirosakiKeyFeature 
                     title='Online Ordering' 
                     text='An intuitive ordering system allows customers to place orders for delivery or pickup and even schedule them at a convenient time.'/>
                     
+                    <HirosakiKeyFeature 
+                    title='Online Ordering' 
+                    text='An intuitive ordering system allows customers to place orders for delivery or pickup and even schedule them at a convenient time.'/>
+                    </div>
+                    <div>
+                    <HirosakiKeyFeature 
+                    title='Online Ordering' 
+                    text='An intuitive ordering system allows customers to place orders for delivery or pickup and even schedule them at a convenient time.'/>
+                    
+                    <HirosakiKeyFeature 
+                    title='Online Ordering' 
+                    text='An intuitive ordering system allows customers to place orders for delivery or pickup and even schedule them at a convenient time.'/>
+                    
+                    <HirosakiKeyFeature 
+                    title='Online Ordering' 
+                    text='An intuitive ordering system allows customers to place orders for delivery or pickup and even schedule them at a convenient time.'/>
+                    
+                    <HirosakiKeyFeature 
+                    title='Online Ordering' 
+                    text='An intuitive ordering system allows customers to place orders for delivery or pickup and even schedule them at a convenient time.'/>
+                    </div>
                 </div>
                 <div className='imgs'>
                     <div className='keys-imgs-first keys-imgs'>
@@ -208,6 +222,55 @@ const PortfolioHirosaki = () => {
                 </div>
             </div>
             </section>
+            <section className='screenshots'>
+            <h3>Screenshots</h3>
+            <div className='container'>
+                <div className='screen-imgs'>
+                    <div className='screen-img'>
+                        <div className=' screen-img-01'>
+                            <img src={screenDevice01} alt='Device Screenshot' />
+                        </div>
+                    </div>
+                    <div className='screen-img'>
+                        <div className=' screen-img-02 '>
+                            <img src={screenDevice02} alt='Device Screenshot' />
+                        </div>
+                    </div>
+                    <div className='screen-img'>
+                        <div className=' screen-img-04 '>
+                            <img src={screenDevice04} alt='Device Screenshot' />
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </section>
+            <section className='tools'>
+                <h3>Technologies and Tools</h3>
+                <div className='container'>
+                    <HirosakiTool 
+                        title='Flutter and Dart' 
+                        text='We used Flutter to build a single codebase for both iOS and Android, ensuring a consistent experience across platforms. Dart was utilized to implement the app’s business logic.' />
+                    <HirosakiTool 
+                        title='Flutter and Dart' 
+                        text='We used Flutter to build a single codebase for both iOS and Android, ensuring a consistent experience across platforms. Dart was utilized to implement the app’s business logic.' />
+                    <HirosakiTool 
+                        title='Flutter and Dart' 
+                        text='We used Flutter to build a single codebase for both iOS and Android, ensuring a consistent experience across platforms. Dart was utilized to implement the app’s business logic.' />
+                    <HirosakiTool 
+                        title='Flutter and Dart' 
+                        text='We used Flutter to build a single codebase for both iOS and Android, ensuring a consistent experience across platforms. Dart was utilized to implement the app’s business logic.' />
+                    <HirosakiTool 
+                        title='Flutter and Dart' 
+                        text='We used Flutter to build a single codebase for both iOS and Android, ensuring a consistent experience across platforms. Dart was utilized to implement the app’s business logic.' />
+                    <HirosakiTool 
+                        title='Flutter and Dart' 
+                        text='We used Flutter to build a single codebase for both iOS and Android, ensuring a consistent experience across platforms. Dart was utilized to implement the app’s business logic.' />
+                    
+                    
+                </div>
+            </section>
+            <section className='img-sushi-01'></section>
+            <section className='img-sushi-02'></section>
         </div>
     );
 }

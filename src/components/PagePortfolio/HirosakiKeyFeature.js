@@ -1,5 +1,5 @@
 import React from 'react'
-import '../../../src/components/css/portfolio/HirosakiKeyFeature.css'
+import '../css/portfolio/HirosakiKeyFeature.css'
 
 const HirosakiKeyFeature  = ({title, text}) => {
   
