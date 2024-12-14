@@ -1,0 +1,14 @@
+
+
+.sol .right {
+    text-align: right;
+}
+
+.sol .solItem-title {
+    font-weight: bold;
+    margin-bottom: 1em;
+}
+
+.sol .solItem-text {
+    margin-bottom: 3em;
+}

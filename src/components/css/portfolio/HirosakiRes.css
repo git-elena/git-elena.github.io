@@ -1,0 +1,23 @@
+
+.res .right {
+    text-align: right;
+}
+
+.res .resItem-title {
+    font-weight: bold;
+    margin-bottom: 1em;
+}
+
+.res .resItem-text {
+    margin-bottom: 3em;
+}
+
+.res .res-img img {
+    margin-top: -17em;
+    width: 100%;
+}
+
+.res .symbol {
+    color: green;
+    font-weight: 900;
+}

@@ -1,0 +1,23 @@
+.role .role-left, 
+.role .role-right {
+    width: 40%;
+}
+
+.role .role-right {
+    padding-right: 5%;
+}
+
+.role .right {
+    text-align: right;
+    
+}
+
+.role .roleItem-title {
+    font-weight: bold;
+    margin-bottom: 1em;
+}
+
+.role .roleItem-text {
+    
+    margin-bottom: 2em;
+}

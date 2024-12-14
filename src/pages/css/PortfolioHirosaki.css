@@ -80,13 +80,22 @@
 
 /* images section */
 
-.img-sushi-01 {
-    height: 35em;
+.img-sushi-01, .img-sushi-02 {
+    height: 30em;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+}
+
+.img-sushi-01 {
     background-image: url('../../images/portfolio/hirosaki/image_sushi_01.jpg');
 }
+
+.img-sushi-02 {
+
+    background-image: url('../../images/portfolio/hirosaki/image_sushi_02.jpg');
+}
+
 
 /* .portfolio-header */
 
@@ -158,6 +167,9 @@
 }
 
 /* overview */
+.project-overview {
+    background-color: #f5f5f5;
+ }
 
 .hirosaki .project-overview-table {
     width: 100%;
@@ -418,6 +430,10 @@
 }
 /* Key Features */
 
+.key-features {
+   background-color: #f5f5f5;
+}
+
 .key-features .container {
     display: flex;
 }
@@ -483,6 +499,69 @@
     padding-bottom: 1em;
     z-index: 9;
     background-color: #f5f5f5;
-    
 }
 
+
+/* role */
+
+.role {
+    background-color: #f5f5f5;
+}
+.role .container .context-role {
+    display: flex;
+    justify-content: center;
+}
+
+
+/* sol */
+.sol {
+    background-color: #f5f5f5;
+}
+
+.sol .container {
+    display: flex;
+    justify-content: center;
+}
+
+.sol .context-sol-left, 
+.sol .context-sol-right {
+    width: 40%;
+}
+
+.sol .context-sol-left {
+    padding-right: 5%;
+}
+
+/* res */
+
+
+
+.res .container {
+    display: flex;
+    justify-content: center;
+}
+
+.res .context-res-left, 
+.res .context-res-right {
+    width: 40%;
+}
+
+.res .context-res-left {
+    padding-right: 5%;
+}
+
+
+/* end */
+
+.end div {
+    text-align: center;
+    background-color: #757575;
+    margin: 0 5% 40px  5%;
+    padding: 1em 0;
+    border-radius: 27px;
+
+    color: #FFC200;
+    font-size: 5em;
+    font-weight: 500;
+    text-shadow: 0 0 30px rgba(0, 0, 0, 0.3);
+}

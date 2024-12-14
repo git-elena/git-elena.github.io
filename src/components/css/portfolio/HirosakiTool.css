@@ -1,17 +1,18 @@
 .tools .tool-item {
     display: flex;
+    justify-content: center;
     margin-bottom: 3em;
     border-top: 1px solid rgba(128, 128, 128, 0.27);
     padding-top: 1em;
 }
 
 .tools .tool-item .toolItem-title {
-    width: 48.3%;
+    width: 40%;
     font-weight: bold;
     text-align: right;
-    padding-right: 2%;
+    padding-right: 5%;
 }
 
 .tools .tool-item .toolItem-text {
-    width: 30%;
+    width: 40%;
 }
