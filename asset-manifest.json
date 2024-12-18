@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.f53d150b.css",
-    "main.js": "/static/js/main.c1ac295b.js",
+    "main.js": "/static/js/main.93ede745.js",
     "static/media/image_sushi_00.jpg": "/static/media/image_sushi_00.7e8d15c195cce9e51420.jpg",
     "static/media/header_photo.jpg": "/static/media/header_photo.a06a0bc9ae5801a7377e.jpg",
     "static/media/image_sushi_02.jpg": "/static/media/image_sushi_02.050338df1465708897f8.jpg",
@@ -15,6 +15,7 @@
     "static/media/main-img.webp": "/static/media/main-img.7b79a5396ee1f0d5e060.webp",
     "static/media/screenshot-device-01.png": "/static/media/screenshot-device-01.7298cadad51e1d0dfc36.png",
     "static/media/YouTubePlayer_Messengers.jpg": "/static/media/YouTubePlayer_Messengers.b36a31cd69db2b7a938f.jpg",
+    "static/media/screenshot-device-03.png": "/static/media/screenshot-device-03.f0fa83747fea9dde1935.png",
     "static/media/key-device-04.png": "/static/media/key-device-04.884f6cb1100c0363d1b4.png",
     "static/media/overview-device-00.png": "/static/media/overview-device-00.d4d4ee6289e7621cca87.png",
     "static/media/homeAudioPlayers.jpg": "/static/media/homeAudioPlayers.c9e30c1c026837d5cf26.jpg",
@@ -68,10 +69,10 @@
     "static/media/logo-typo3.svg": "/static/media/logo-typo3.594f3858cf4560a5abe7812254961d2c.svg",
     "static/media/logo-kotlin.svg": "/static/media/logo-kotlin.6d108dcd884eb40d0197a78e0a6fca62.svg",
     "main.f53d150b.css.map": "/static/css/main.f53d150b.css.map",
-    "main.c1ac295b.js.map": "/static/js/main.c1ac295b.js.map"
+    "main.93ede745.js.map": "/static/js/main.93ede745.js.map"
   },
   "entrypoints": [
     "static/css/main.f53d150b.css",
-    "static/js/main.c1ac295b.js"
+    "static/js/main.93ede745.js"
   ]
 }
