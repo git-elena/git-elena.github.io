@@ -88,19 +88,19 @@
 }
 
 .img-sushi-01 {
-    background-image: url('../../images/portfolio/hirosaki/image_sushi_01.jpg');
+    background-image: url('../../images/portfolio/hirosaki/XXL/image_sushi_01.jpg');
 }
 
 .img-sushi-02 {
 
-    background-image: url('../../images/portfolio/hirosaki/image_sushi_02.jpg');
+    background-image: url('../../images/portfolio/hirosaki/XXL/image_sushi_02.jpg');
 }
 
 
 /* .portfolio-header */
 
 .hirosaki .portfolio-header {
-    background-image: url('../../images/portfolio/hirosaki/header_photo.jpg');
+    background-image: url('../../images/portfolio/hirosaki/XXL/header_photo.jpg');
     height: unset;
     padding-bottom: 7em;
     background-size: cover;
@@ -260,7 +260,7 @@
 }
 .project-design::before {
     z-index: -1;
-    background-image: url('../../images/portfolio/hirosaki/image_sushi_00.jpg');
+    background-image: url('../../images/portfolio/hirosaki/XXL/image_sushi_00.jpg');
     background-position: center top;
     background-size: cover;
     background-repeat: no-repeat;

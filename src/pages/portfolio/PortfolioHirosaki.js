@@ -5,25 +5,29 @@ import '../../../src/pages/css/PortfolioHirosaki.css';
 import HirosakiKeyFeature from '../../components/PagePortfolio/HirosakiKeyFeature';
 import HirosakiTool from '../../components/PagePortfolio/HirosakiTool';
 
-import overviewDevice00 from '../../images/portfolio/hirosaki/devices/overview-device-00.png'
-import overviewDevice02 from '../../images/portfolio/hirosaki/devices/overview-device-02.png'
+import overviewDevice00 from '../../images/portfolio/hirosaki/XXL/devices/overview-device-00.png';
+import overviewDevice02 from '../../images/portfolio/hirosaki/XXL/devices/overview-device-02.png';
 
-import keyDevice01 from '../../images/portfolio/hirosaki/devices/key-device-01.png'
-import keyDevice02 from '../../images/portfolio/hirosaki/devices/key-device-02.png'
-import keyDevice03 from '../../images/portfolio/hirosaki/devices/key-device-03.png'
-import keyDevice04 from '../../images/portfolio/hirosaki/devices/key-device-04.png'
-import keyDevice05 from '../../images/portfolio/hirosaki/devices/key-device-05.png'
-import keyDevice06 from '../../images/portfolio/hirosaki/devices/key-device-06.png'
+import keyDevice01 from '../../images/portfolio/hirosaki/XXL/devices/key-device-01.png';
+import keyDevice02 from '../../images/portfolio/hirosaki/XXL/devices/key-device-02.png';
+import keyDevice03 from '../../images/portfolio/hirosaki/XXL/devices/key-device-03.png';
+import keyDevice04 from '../../images/portfolio/hirosaki/XXL/devices/key-device-04.png';
+import keyDevice05 from '../../images/portfolio/hirosaki/XXL/devices/key-device-05.png';
+import keyDevice06 from '../../images/portfolio/hirosaki/XXL/devices/key-device-06.png';
 
-import screenDevice01 from '../../images/portfolio/hirosaki/devices/screenshot-device-01.png'
-import screenDevice02 from '../../images/portfolio/hirosaki/devices/screenshot-device-02.png'
-// import screenDevice03 from '../../images/portfolio/hirosaki/devices/screenshot-device-03.png'
-import screenDevice04 from '../../images/portfolio/hirosaki/devices/screenshot-device-04.png'
+import screenDevice01 from '../../images/portfolio/hirosaki/XXL/devices/screenshot-device-01.png';
+import screenDevice02 from '../../images/portfolio/hirosaki/XXL/devices/screenshot-device-02.png';
+import screenDevice03 from '../../images/portfolio/hirosaki/XXL/devices/screenshot-device-03.png';
+import screenDevice04 from '../../images/portfolio/hirosaki/XXL/devices/screenshot-device-04.png';
 
 import HirosakiRole from '../../components/PagePortfolio/HirosakiRole';
-import HirosakiSol from '../../components/PagePortfolio/HirosakiSol';
-import HirosakiRes from '../../components/PagePortfolio/HirosakiRes';
+import HirosakiSol  from '../../components/PagePortfolio/HirosakiSol';
+import HirosakiRes  from '../../components/PagePortfolio/HirosakiRes';
+import ResponsiveImage from '../../components/ResponsiveImage';
 
+const img_path = 'src/images/portfolio/hirosaki'
+const img_name_screenshot = 'devices/screenshot-device-'
+const img_name_screenshot_end = '.png'
 
 const PortfolioHirosaki = () => {
     const { t } = useTranslation();
@@ -232,6 +236,7 @@ const PortfolioHirosaki = () => {
                 <div className='screen-imgs'>
                     <div className='screen-img'>
                         <div className=' screen-img-01'>
+                            <ResponsiveImage file_path={img_path} file_name={`${img_name_screenshot}01${img_name_screenshot_end}`} />
                             <img src={screenDevice01} alt='Device Screenshot' />
                         </div>
                     </div>
@@ -242,7 +247,7 @@ const PortfolioHirosaki = () => {
                     </div>
                     <div className='screen-img'>
                         <div className=' screen-img-04 '>
-                            <img src={screenDevice04} alt='Device Screenshot' />
+                            <img src={screenDevice03} alt='Device Screenshot' />
                         </div>
                     </div>
                 </div>
