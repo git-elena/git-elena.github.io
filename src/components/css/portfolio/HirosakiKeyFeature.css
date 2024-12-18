@@ -1,13 +1,26 @@
-.key-item {
-    width: 90%;
-}
+/* .key-item {
+    width: 100%;
+} */
 
-.key-item .keyItem-title {
+.key-features .key-item .keyItem-title {
     font-weight: bold;
     margin: .5em 0;
     
 }
 
-.key-item .keyItem-text {
+.key-features .key-item .keyItem-text {
     margin-bottom: 2em;
+}
+
+
+@media (max-width: 1440px) {
+    .key-features .left .key-item {
+        padding-right: 10%;
+    }
+}
+
+@media (max-width: 375px) {
+    .key-features .right .key-item {
+        padding-left: 5%;
+    }
 }

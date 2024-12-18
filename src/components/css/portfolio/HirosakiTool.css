@@ -16,3 +16,18 @@
 .tools .tool-item .toolItem-text {
     width: 40%;
 }
+
+@media (max-width: 1440px) {
+
+}
+
+@media (max-width: 768px) {
+    .tools .tool-item .toolItem-title {
+        width: 100%;
+        text-align: left;
+        padding-right: 0;
+    }
+    .tools .tool-item .toolItem-text {
+        width: 100%;
+    }
+}

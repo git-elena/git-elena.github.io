@@ -81,7 +81,7 @@
 /* images section */
 
 .img-sushi-01, .img-sushi-02 {
-    height: 30em;
+    height: 500px;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -92,8 +92,31 @@
 }
 
 .img-sushi-02 {
-
     background-image: url('../../images/portfolio/hirosaki/XXL/image_sushi_02.jpg');
+}
+
+@media (max-width: 1440px) {
+    .img-sushi-01, .img-sushi-02 {
+        height: 500px;
+    }
+    .img-sushi-01 {
+        background-image: url('../../images/portfolio/hirosaki/max-1440/image_sushi_01.jpg');
+    }
+    .img-sushi-02 {
+        background-image: url('../../images/portfolio/hirosaki/max-1440/image_sushi_02.jpg');
+    } 
+}
+
+@media (max-width: 768px) {
+    .img-sushi-01, .img-sushi-02 {
+        height: 300px;
+    }
+    .img-sushi-01 {
+        background-image: url('../../images/portfolio/hirosaki/max-768/image_sushi_01.jpg');
+    }
+    .img-sushi-02 {
+        background-image: url('../../images/portfolio/hirosaki/max-768/image_sushi_02.jpg');
+    } 
 }
 
 
@@ -101,7 +124,7 @@
 
 .hirosaki .portfolio-header {
     background-image: url('../../images/portfolio/hirosaki/XXL/header_photo.jpg');
-    height: unset;
+    height: 85vh;
     padding-bottom: 7em;
     background-size: cover;
 }
@@ -138,6 +161,12 @@
       
 }
 
+@media (max-width: 1440px) {
+    .hirosaki .portfolio-header {
+        background-image: url('../../images/portfolio/hirosaki/max-1440/header_photo.jpg');
+    }
+}
+
 @media (max-width: 1200px) {
     .hirosaki .container h1  {
         font-size: 6em;
@@ -150,12 +179,11 @@
     }
 }
 @media (max-width: 768px) {
-    .hirosaki .container {
-        height: unset;
-   
+    .hirosaki .portfolio-header {
+        background-image: url('../../images/portfolio/hirosaki/max-768/header_photo.jpg');
     }
     .hirosaki .portfolio-header .container p {
-        width: 80%;
+        width: 50%;
     }
 }
 
@@ -163,7 +191,9 @@
     .hirosaki .container h1 {
         font-size: 3.5em;
     }
-    
+    .hirosaki .portfolio-header .container p {
+        width: 80%;
+    }
 }
 
 /* overview */
@@ -259,7 +289,6 @@
     position: relative;
 }
 .project-design::before {
-    z-index: -1;
     background-image: url('../../images/portfolio/hirosaki/XXL/image_sushi_00.jpg');
     background-position: center top;
     background-size: cover;
@@ -270,6 +299,7 @@
     top: 0;
     left: 0;
     position: absolute;
+    z-index: -1;
 }
 
 
@@ -372,6 +402,13 @@
     background-color: #FF9900;
 }
 
+@media (max-width: 1440px) {
+    .project-design::before {
+        background-image: url('../../images/portfolio/hirosaki/max-1440/image_sushi_00.jpg');
+    }    
+}
+
+
 @media (max-width: 992px) {
     .project-design .fonts,
     .project-design .colors {
@@ -383,6 +420,7 @@
         height: 100px;
      }
 }
+
 @media (max-width: 624px) {
     .project-design .color-content {
         width: 80px;
@@ -409,6 +447,9 @@
     }
 }
 @media (max-width: 390px) {
+    .project-design::before {
+        background-image: url('../../images/portfolio/hirosaki/max-768/image_sushi_00.jpg');
+    }
     .project-design .colors {
         display: block;
         margin-bottom: 2em;
@@ -564,4 +605,16 @@
     font-size: 5em;
     font-weight: 500;
     text-shadow: 0 0 30px rgba(0, 0, 0, 0.3);
+}
+
+@media (max-width: 1440px) {
+    .end div {
+        font-size: 3em;
+    }
+}
+
+@media (max-width: 768px) {
+    .end div {
+        font-size: 2em;
+    }
 }

@@ -5,29 +5,32 @@ import '../../../src/pages/css/PortfolioHirosaki.css';
 import HirosakiKeyFeature from '../../components/PagePortfolio/HirosakiKeyFeature';
 import HirosakiTool from '../../components/PagePortfolio/HirosakiTool';
 
-import overviewDevice00 from '../../images/portfolio/hirosaki/XXL/devices/overview-device-00.png';
-import overviewDevice02 from '../../images/portfolio/hirosaki/XXL/devices/overview-device-02.png';
+// import overviewDevice00 from '../../images/portfolio/hirosaki/XXL/devices/overview-device-00.png';
+// import overviewDevice02 from '../../images/portfolio/hirosaki/XXL/devices/overview-device-02.png';
 
-import keyDevice01 from '../../images/portfolio/hirosaki/XXL/devices/key-device-01.png';
-import keyDevice02 from '../../images/portfolio/hirosaki/XXL/devices/key-device-02.png';
-import keyDevice03 from '../../images/portfolio/hirosaki/XXL/devices/key-device-03.png';
-import keyDevice04 from '../../images/portfolio/hirosaki/XXL/devices/key-device-04.png';
-import keyDevice05 from '../../images/portfolio/hirosaki/XXL/devices/key-device-05.png';
-import keyDevice06 from '../../images/portfolio/hirosaki/XXL/devices/key-device-06.png';
+// import keyDevice01 from '../../images/portfolio/hirosaki/XXL/devices/key-device-01.png';
+// import keyDevice02 from '../../images/portfolio/hirosaki/XXL/devices/key-device-02.png';
+// import keyDevice03 from '../../images/portfolio/hirosaki/XXL/devices/key-device-03.png';
+// import keyDevice04 from '../../images/portfolio/hirosaki/XXL/devices/key-device-04.png';
+// import keyDevice05 from '../../images/portfolio/hirosaki/XXL/devices/key-device-05.png';
+// import keyDevice06 from '../../images/portfolio/hirosaki/XXL/devices/key-device-06.png';
 
-import screenDevice01 from '../../images/portfolio/hirosaki/XXL/devices/screenshot-device-01.png';
-import screenDevice02 from '../../images/portfolio/hirosaki/XXL/devices/screenshot-device-02.png';
-import screenDevice03 from '../../images/portfolio/hirosaki/XXL/devices/screenshot-device-03.png';
-import screenDevice04 from '../../images/portfolio/hirosaki/XXL/devices/screenshot-device-04.png';
+// import screenDevice01 from '../../images/portfolio/hirosaki/XXL/devices/screenshot-device-01.png';
+// import screenDevice02 from '../../images/portfolio/hirosaki/XXL/devices/screenshot-device-02.png';
+// import screenDevice03 from '../../images/portfolio/hirosaki/XXL/devices/screenshot-device-03.png';
+// import screenDevice04 from '../../images/portfolio/hirosaki/XXL/devices/screenshot-device-04.png';
 
 import HirosakiRole from '../../components/PagePortfolio/HirosakiRole';
 import HirosakiSol  from '../../components/PagePortfolio/HirosakiSol';
 import HirosakiRes  from '../../components/PagePortfolio/HirosakiRes';
 import ResponsiveImage from '../../components/ResponsiveImage';
 
-const img_path = 'src/images/portfolio/hirosaki'
+const img_path = '/images/portfolio/hirosaki'
 const img_name_screenshot = 'devices/screenshot-device-'
 const img_name_screenshot_end = '.png'
+const img_name_screenshot_overview = 'devices/overview-device-'
+const img_name_screenshot_key = 'devices/key-device-'
+
 
 const PortfolioHirosaki = () => {
     const { t } = useTranslation();
@@ -58,21 +61,37 @@ const PortfolioHirosaki = () => {
                             <p>The application provides users with a convenient way to browse the menu, place orders, pay online, and stay informed about special offers.</p>
                         </div>
                         <div className='td td-50'>
-                            <div className=' desc devices'>
+                            <div className='desc devices'>
                                 <div className='device device00'>
-                                    <img src={overviewDevice00} alt='Device Screenshot' />
+                                <ResponsiveImage 
+                                    file_path={img_path} 
+                                    file_name={`${img_name_screenshot_overview}00${img_name_screenshot_end}`} 
+                                    alt='Device Screenshot' />
+                                    {/* <img src={overviewDevice00} alt='Device Screenshot' /> */}
                                 </div>
                                 <div className='device device02'>
-                                    <img src={overviewDevice02} alt='Device Screenshot' />
+                                <ResponsiveImage 
+                                    file_path={img_path} 
+                                    file_name={`${img_name_screenshot_overview}02${img_name_screenshot_end}`} 
+                                    alt='Device Screenshot' />
+                                    {/* <img src={overviewDevice02} alt='Device Screenshot' /> */}
                                 </div>
                             </div>
 
                             <div className='pad devices '>
                                 <div className='device device00'>
-                                    <img src={overviewDevice00} alt='Device Screenshot' />
+                                <ResponsiveImage 
+                                    file_path={img_path} 
+                                    file_name={`${img_name_screenshot_overview}00${img_name_screenshot_end}`} 
+                                    alt='Device Screenshot' />
+                                    {/* <img src={overviewDevice00} alt='Device Screenshot' /> */}
                                 </div>
                                 <div className='device device02'>
-                                    <img src={overviewDevice02} alt='Device Screenshot' />
+                                <ResponsiveImage 
+                                    file_path={img_path} 
+                                    file_name={`${img_name_screenshot_overview}02${img_name_screenshot_end}`} 
+                                    alt='Device Screenshot' />
+                                    {/* <img src={overviewDevice02} alt='Device Screenshot' /> */}
                                 </div>
                             </div>
                         </div>
@@ -169,7 +188,7 @@ const PortfolioHirosaki = () => {
             <h3>Key Features</h3>
             <div className='container'>
                 <div className='text'>
-                    <div>
+                    <div className='left'>
                     <HirosakiKeyFeature 
                     title='Online Ordering' 
                     text='An intuitive ordering system allows customers to place orders for delivery or pickup and even schedule them at a convenient time.'/>
@@ -186,7 +205,7 @@ const PortfolioHirosaki = () => {
                     title='Online Ordering' 
                     text='An intuitive ordering system allows customers to place orders for delivery or pickup and even schedule them at a convenient time.'/>
                     </div>
-                    <div>
+                    <div  className='right'>
                     <HirosakiKeyFeature 
                     title='Online Ordering' 
                     text='An intuitive ordering system allows customers to place orders for delivery or pickup and even schedule them at a convenient time.'/>
@@ -207,24 +226,48 @@ const PortfolioHirosaki = () => {
                 <div className='imgs'>
                     <div className='keys-imgs-first keys-imgs'>
                         <div className='keys-img-first keys-img-01 keys-img'>
-                            <img src={keyDevice01} alt='Device Screenshot' />
+                            <ResponsiveImage 
+                                    file_path={img_path} 
+                                    file_name={`${img_name_screenshot_key}01${img_name_screenshot_end}`} 
+                                    alt='Device Screenshot' />
+                            {/* <img src={keyDevice01} alt='Device Screenshot' /> */}
                         </div>
                         <div className='keys-img-first keys-img-02 keys-img'>
-                            <img src={keyDevice02} alt='Device Screenshot' />
+                            <ResponsiveImage 
+                                    file_path={img_path} 
+                                    file_name={`${img_name_screenshot_key}02${img_name_screenshot_end}`} 
+                                    alt='Device Screenshot' />
+                            {/* <img src={keyDevice02} alt='Device Screenshot' /> */}
                         </div>
                         <div className='keys-img-first keys-img-03 keys-img'>
-                            <img src={keyDevice03} alt='Device Screenshot' />
+                            <ResponsiveImage 
+                                    file_path={img_path} 
+                                    file_name={`${img_name_screenshot_key}03${img_name_screenshot_end}`} 
+                                    alt='Device Screenshot' />
+                            {/* <img src={keyDevice03} alt='Device Screenshot' /> */}
                         </div>
                     </div>
                     <div className='keys-imgs-second keys-imgs'>
                         <div className='keys-img-second keys-img-04 keys-img'>
-                        <img src={keyDevice04} alt='Device Screenshot' />
+                            <ResponsiveImage 
+                                    file_path={img_path} 
+                                    file_name={`${img_name_screenshot_key}04${img_name_screenshot_end}`} 
+                                    alt='Device Screenshot' />
+                            {/* <img src={keyDevice04} alt='Device Screenshot' /> */}
                         </div>
                         <div className='keys-img-second keys-img-05 keys-img'>
-                        <img src={keyDevice05} alt='Device Screenshot' />
+                            <ResponsiveImage 
+                                    file_path={img_path} 
+                                    file_name={`${img_name_screenshot_key}05${img_name_screenshot_end}`} 
+                                    alt='Device Screenshot' />
+                            {/* <img src={keyDevice05} alt='Device Screenshot' /> */}
                         </div>
                         <div className='keys-img-second keys-img-06 keys-img'>
-                        <img src={keyDevice06} alt='Device Screenshot' />
+                            <ResponsiveImage 
+                                    file_path={img_path} 
+                                    file_name={`${img_name_screenshot_key}06${img_name_screenshot_end}`} 
+                                    alt='Device Screenshot' />
+                            {/* <img src={keyDevice06} alt='Device Screenshot' /> */}
                         </div>
                     </div>
                 </div>
@@ -236,18 +279,29 @@ const PortfolioHirosaki = () => {
                 <div className='screen-imgs'>
                     <div className='screen-img'>
                         <div className=' screen-img-01'>
-                            <ResponsiveImage file_path={img_path} file_name={`${img_name_screenshot}01${img_name_screenshot_end}`} />
-                            <img src={screenDevice01} alt='Device Screenshot' />
+                            <ResponsiveImage 
+                                file_path={img_path} 
+                                file_name={`${img_name_screenshot}01${img_name_screenshot_end}`} 
+                                alt='Device Screenshot' />
+                            {/* <img src={screenDevice01} alt='Device Screenshot' /> */}
                         </div>
                     </div>
                     <div className='screen-img'>
                         <div className=' screen-img-02 '>
-                            <img src={screenDevice02} alt='Device Screenshot' />
+                        <ResponsiveImage 
+                                file_path={img_path} 
+                                file_name={`${img_name_screenshot}02${img_name_screenshot_end}`} 
+                                alt='Device Screenshot' />
+                            {/* <img src={screenDevice02} alt='Device Screenshot' /> */}
                         </div>
                     </div>
                     <div className='screen-img'>
                         <div className=' screen-img-04 '>
-                            <img src={screenDevice03} alt='Device Screenshot' />
+                        <ResponsiveImage 
+                                file_path={img_path} 
+                                file_name={`${img_name_screenshot}03${img_name_screenshot_end}`} 
+                                alt='Device Screenshot' />
+                            {/* <img src={screenDevice03} alt='Device Screenshot' /> */}
                         </div>
                     </div>
                 </div>
@@ -358,7 +412,11 @@ const PortfolioHirosaki = () => {
                     </div>
                     <div className='context-res-right'>
                         <div className='res-img '>
-                            <img src={screenDevice02} alt='Device Screenshot' />
+                        <ResponsiveImage 
+                                    file_path={img_path} 
+                                    file_name={`${img_name_screenshot}02${img_name_screenshot_end}`} 
+                                    alt='Device Screenshot' />
+                            {/* <img src={screenDevice02} alt='Device Screenshot' /> */}
                         </div>
                         
                     </div>
