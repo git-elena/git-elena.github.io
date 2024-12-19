@@ -29,9 +29,6 @@
     text-align: left;
     display: block;
 }
-.hirosaki .container {
-    padding: 0 10%;
-}
 
 .hirosaki .container {
     padding: 0;
@@ -83,6 +80,11 @@
     width: 100%;
 }
 
+@media (max-width: 768px) {
+    .hirosaki .container {
+        margin: 0 40px;
+    }
+}
 /* images section */
 
 .img-sushi-01, .img-sushi-02 {
@@ -129,6 +131,7 @@
 
 .hirosaki .portfolio-header {
     background-image: url('../../images/portfolio/hirosaki/XXL/header_photo.jpg');
+    background-position-x: center;
     height: 85vh;
     padding-bottom: 7em;
     background-size: cover;
@@ -204,17 +207,24 @@
         font-size: 4em;
     }
     .hirosaki .container h2 {
-        font-size: 1.4em;
+        font-size: 1.2em;
     }
 }
 
 @media (max-width: 468px) {
     .hirosaki .container h1 {
-        font-size: 3.5em;
+        font-size: 3.2em;
     }
     .hirosaki .portfolio-header .container p {
         width: 80%;
     }
+}
+
+@media (max-width: 320px) {
+    .hirosaki .container h1 {
+        font-size: 3em;
+    }
+ 
 }
 
 /* overview */
