@@ -22,7 +22,7 @@ const ScrollToTopButton = () => {
       className={`scroll-to-top ${isVisible ? 'visible' : 'hidden'}`}
       onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
     >
-      🠁
+    ↑
     </button>
   );
 };
