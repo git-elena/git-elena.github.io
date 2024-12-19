@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.0decdb20.css",
+    "main.css": "/static/css/main.41d2ae99.css",
     "main.js": "/static/js/main.059781be.js",
     "static/media/image_sushi_00.jpg": "/static/media/image_sushi_00.a589ca4fd5e78188aac9.jpg",
     "static/media/header_photo.jpg": "/static/media/header_photo.4e939372952c2dc041be.jpg",
@@ -41,11 +41,11 @@
     "static/media/portfolio-website4.jpg": "/static/media/portfolio-website4.9e61b21edde281b8aeab.jpg",
     "static/media/portfolio-website5.jpg": "/static/media/portfolio-website5.6fc44f1d9e862d017571.jpg",
     "static/media/MADEinCHINA.TTF": "/static/media/MADEinCHINA.40fa961f7cef429bcd40.TTF",
-    "static/media/logo-xcode.svg": "/static/media/logo-xcode.e01f9dc984dc8fb67ea0bda82ee3152b.svg",
+    "static/media/logo-xcode.svg": "/static/media/logo-xcode.b31073315b4f7b90614ba696ddc34957.svg",
     "static/media/android.jpg": "/static/media/android.3d44d2cd1128966ffe52.jpg",
     "static/media/iPhone.jpeg": "/static/media/iPhone.9670a6c60a0f4321fc00.jpeg",
     "static/media/logo-react.svg": "/static/media/logo-react.1f0f10ece9178ea9cd901921644967d3.svg",
-    "static/media/logo-android-studio.svg": "/static/media/logo-android-studio.67be26fe954cfd133fe78cc779a7eb58.svg",
+    "static/media/logo-android-studio.svg": "/static/media/logo-android-studio.2c9a711a363fbcc5c1680ce30f83a56b.svg",
     "static/media/logo-java.svg": "/static/media/logo-java.6cf9b95610c3b03023e9535e590945e3.svg",
     "static/media/logo-swift.svg": "/static/media/logo-swift.fc83488ad25096a8d8dab8dee31e8216.svg",
     "static/media/logo-modx.svg": "/static/media/logo-modx.15cc671f8e9c21e0d30eb9032acf22ce.svg",
@@ -56,11 +56,11 @@
     "index.html": "/index.html",
     "static/media/logo-typo3.svg": "/static/media/logo-typo3.594f3858cf4560a5abe7812254961d2c.svg",
     "static/media/logo-kotlin.svg": "/static/media/logo-kotlin.6d108dcd884eb40d0197a78e0a6fca62.svg",
-    "main.0decdb20.css.map": "/static/css/main.0decdb20.css.map",
+    "main.41d2ae99.css.map": "/static/css/main.41d2ae99.css.map",
     "main.059781be.js.map": "/static/js/main.059781be.js.map"
   },
   "entrypoints": [
-    "static/css/main.0decdb20.css",
+    "static/css/main.41d2ae99.css",
     "static/js/main.059781be.js"
   ]
 }
