@@ -7,14 +7,14 @@
 }
 
 .tools .tool-item .toolItem-title {
-    width: 40%;
+    width: 100%;
     font-weight: bold;
-    text-align: right;
-    padding-right: 5%;
+    text-align: left;;
+    /* padding-right: 5%; */
 }
 
 .tools .tool-item .toolItem-text {
-    width: 40%;
+    width: 100%;
 }
 
 @media (max-width: 1440px) {

@@ -374,22 +374,24 @@ const PortfolioHirosaki = () => {
             <section className='sol'>
                 <h3>Challenges And Solutions</h3>
                 <div className='container'>
-                    <div className='context-sol-left'>
-                        <HirosakiSol 
-                            title='Timely Order Notifications for Staff' 
-                            text='We integrated a Telegram bot to ensure that orders were instantly sent to the staff, minimizing delays in processing.' 
-                            align='right' />
-                        <HirosakiSol 
-                            title='Bitrix24 Integration' 
-                            text='By connecting the app with Bitrix24, we helped the restaurant automate its order management, simplifying administrative tasks.' 
-                            align='right' />
-                    </div>
-                    <div className='context-sol-right'>
-                        <HirosakiSol 
-                            title='PayPal Integration'
-                            text="We successfully implemented PayPal to provide users with a fast and secure online payment option."
-                            align='left'/>
+                    <div className='desc'>
+                        <div className='context-sol-left'>
+                            <HirosakiSol
+                                title='Timely Order Notifications for Staff'
+                                text='We integrated a Telegram bot to ensure that orders were instantly sent to the staff, minimizing delays in processing.'
+                                align='right' />
+                            <HirosakiSol
+                                title='Bitrix24 Integration'
+                                text='By connecting the app with Bitrix24, we helped the restaurant automate its order management, simplifying administrative tasks.'
+                                align='right' />
+                        </div>
+                        <div className='context-sol-right'>
+                            <HirosakiSol
+                                title='PayPal Integration'
+                                text="We successfully implemented PayPal to provide users with a fast and secure online payment option."
+                                align='left'/>
                         
+                        </div>
                     </div>
                 </div>
             </section>
@@ -400,15 +402,18 @@ const PortfolioHirosaki = () => {
                         <HirosakiRes 
                             title='Successful Launch' 
                             text='The app was launched on both Google Play and the App Store, receiving positive reviews for its ease of use and functionality.' 
-                            align='right' />
+                            align='right'
+                            num='1' />
                         <HirosakiRes 
                             title='Increased Sales' 
                             text='The simple and convenient ordering process contributed to a 25% increase in online sales during the first month of launch.' 
-                            align='right' />
+                            align='right'
+                            num='2' />
                         <HirosakiRes 
                             title='Improved Customer Satisfaction'
                             text="The intuitive interface, seamless navigation, fast payment system, and the ability to view orders offline received high praise from users, increasing customer loyalty."
-                            align='right'/>
+                            align='right'
+                            num='3' />
                     </div>
                     <div className='context-res-right'>
                         <div className='res-img '>

@@ -19,5 +19,7 @@
 }
 
 @media (max-width: 768px) {
-    
+    .sol .right {
+        text-align: left;
+    }
 }
