@@ -219,12 +219,18 @@
         width: 80%;
     }
 }
-
+@media (max-width: 375px) {
+    .hirosaki .container h1 {
+        font-size: 3em;
+    }
+    .hirosaki .portfolio-header .container p {
+        width: 60%;
+    }
+}
 @media (max-width: 320px) {
     .hirosaki .container h1 {
         font-size: 3em;
     }
- 
 }
 
 /* overview */
