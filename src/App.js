@@ -21,6 +21,7 @@ import ServiceWebsite from './pages/services/ServiceWebsite';
 import ServiceDesign from './pages/services/ServiceDesign';
 import PortfolioHelpCenter24 from './pages/portfolio/PortfolioHelpCenter24';
 import PortfolioHirosaki from './pages/portfolio/PortfolioHirosaki';
+import ScrollToTopButton from './components/ScrollToTopButton';
 
 function App() {
 
@@ -45,6 +46,7 @@ function App() {
           <Route path="/portfolio/hirosaki" element={<PortfolioHirosaki />} />
         </Routes>
         <Footer />
+        <ScrollToTopButton />
       </div>
     </Router>
   );
