@@ -51,15 +51,15 @@ const Footer = () => {
             {/* Третья колонка */}
             <div className="col-lg-3 col-md-6 mb-4">
               <h3 className="h5"><span className='text-primary-emphasis'>{t('footer.contact-left')}</span>{t('footer.contact-right')}</h3>
-              <p>{t('footer.address')}</p>
+              <p>{t('contacts.address')}</p>
               
               <p>
-                +380 987 654 321  
-                <br/> +420 728 056 984
+                {t('contacts.phone1')}  
+                <br/> {t('contacts.phone2')}
               </p>
               
               <p>
-                <span className='text-primary-emphasis'>add.software.developer@gmail.com</span>
+                <span className='text-primary-emphasis'>{t('contacts.email')}</span>
                 
               </p>
             </div>

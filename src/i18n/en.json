@@ -1,4 +1,12 @@
-{ "pages": {
+{ 
+  "contacts": {
+    "address":"Plzen, Czech Republic",
+    "phone1":"+380 987 654 321",
+    "phone2":"+420 728 056 984", 
+    "email":"add.software.developer@gmail.com"
+  },
+
+  "pages": {
   "mobAppDev": {
     "mobileAppServices": {
       "mobileAppDevelopment": {
@@ -252,7 +260,8 @@
       "title-left": "",
       "title-center": "A",
       "title-right": "bout Us",
-      "description": "We are a group of programmers specializing in designing websites and applications, for web and smartphone use. We aim to offer solutions to clients at prices. Our main customer base includes companies and startups looking for resources to enhance their growth and competitiveness, in the industry."
+      "description": "We offer a full range of services for creating and supporting websites, as well as mobile and web applications, in the Czech Republic. With years of experience, our team can provide clients with solutions of any complexity, tailored to their individual needs.",
+      "description1": "We are a group of programmers specializing in designing websites and applications, for web and smartphone use. We aim to offer solutions to clients at prices. Our main customer base includes companies and startups looking for resources to enhance their growth and competitiveness, in the industry."
     },
         "about-page": {
           "p1": {
@@ -277,7 +286,7 @@
             "text":"We offer a full range of services to help you succeed in the digital world",
             "list": {
               "1": {
-                "title":"Web Development:",
+                "title":"Website Development:",
                 "text":"From landing pages to complex e-commerce platforms, we build websites that are fast, secure, and easy to manage."
               },
               "2": {
@@ -326,15 +335,35 @@
       "title-left": "Our ",
       "title-center": "S",
       "title-right": "ervices",
-      "webAppDev": "Web Development",
-      "webAppDescription":"We create adaptive and functional websites that attract customers and help your business stand out. Our solutions include landing pages, corporate websites, and e-commerce platforms.",
+      
+      "websiteDev":{
+        "left": "Website",
+        "right": "Development"
+      },
+      "websiteDescription":"We create adaptive and functional websites that attract customers and help your business stand out. Our solutions include landing pages, corporate websites, and e-commerce platforms.",
+      
+      "appDev":{
+        "color_Mobile":"Mobile",
+        "color_WebApp":"Web App",
+        
+        "black_Dev":"Development"
+      },
+      "appDevDescription":"We offer a full range of mobile and web application development services using modern technologies and approaches. Our team develops solutions of any complexity, tailored to meet your business needs.",
+      
+      "design": {
+        "color": "UI/UX",
+        "black": "Design"
+      },
+      "designDescription":"Our designers create unique interfaces that provide users with the best experience interacting with your product. We focus on convenience and simplicity, so that every user finds it easy and enjoyable to use your application or website.",
+
+      "btnTitleReadmore": "Read more...",
+
+
+
       "mobAppDev": "Mobile App Development",
       "mobAppDescription":"We develop high-quality mobile applications for Android and iOS, focusing on user-friendliness and stability. We use modern technologies like Flutter and React Native to achieve the best results.",
       "webSites": "Websites Creation",
-      "webSitesDescription":"Take your online retail presence to the next level with our e-commerce solutions, optimized for seamless transactions and a compelling shopping experience.",
-      "design": "UI/UX Design",
-      "designDescription":"Our designers create unique interfaces that provide users with the best experience interacting with your product. We focus on convenience and simplicity, so that every user finds it easy and enjoyable to use your application or website.",
-      "btnTitleReadmore": "Read more..."
+      "webSitesDescription":"Take your online retail presence to the next level with our e-commerce solutions, optimized for seamless transactions and a compelling shopping experience."      
     },
         "services-page": {
           "webAppDevelopment": {
@@ -487,7 +516,7 @@
         
         "contact-left": "C",
         "contact-right": "ontact",
-        "address": "Plzen, Czech Republic",
+        
         "phone": "Phone",
         "email": "Email",
         "followUs-left": "F",

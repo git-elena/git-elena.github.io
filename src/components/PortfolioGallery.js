@@ -70,6 +70,7 @@ const PortfolioGallery = () => {
         {/* Левая стрелка */}
         {showLeftArrow && (
           <button
+          key='left'
             className="btn next btn-secondary position-absolute start-0 top-50 translate-middle-y"
             onClick={scrollLeft}
             style={{ zIndex: 1 }}
@@ -122,6 +123,7 @@ const PortfolioGallery = () => {
         {/* Правая стрелка */}
         {showRightArrow && (
           <button
+            key='right'
             className="btn next btn-secondary position-absolute end-0 top-50 translate-middle-y"
             onClick={scrollRight}
             style={{ zIndex: 1 }}

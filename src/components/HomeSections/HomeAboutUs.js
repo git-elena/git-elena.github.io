@@ -11,7 +11,7 @@ const HomeAboutUs = () => {
                         {t('about.title-left')}
                         <span className="text-primary-emphasis">{t('about.title-center')}</span>
                         {t('about.title-right')}</h2>
-                    <p className="h5">{t('about.description')}</p>
+                    <p className="text px-lg-5">{t('about.description')}</p>
                 </div>
             </div>
         </section>

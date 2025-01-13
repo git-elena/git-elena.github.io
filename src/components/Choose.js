@@ -25,49 +25,45 @@ const Choose = () => {
     <div className="container">
      <div className="row mb-md-5  border-b py-md-5">
         {images_II.map((image, index) => (
-          <div className="col-md-6"
-          key={index}>
+          <div className="col-md-6" key={index}>
             
-          <div className="row">
-            
-            <div className="col-4 m-auto m-md-0">
-              <img
-                src= {image.src}
-                className="rounded-circle border p-1 w-75 m-auto d-block"
-                alt={image.title}
-              />
+            <div className="row myCard">
+              
+              <div className="col-4 m-auto m-md-0">
+                <img
+                  src= {image.src}
+                  className="cardImg rounded-circle border p-1 w-75 m-auto d-block"
+                  alt={image.title}
+                />
+              </div>
+              <div className="col-md-8 text-center text-md-start mb-5">
+              
+                  <div className="cardTitle">{image.title}</div>
+                  <div className="cardText">{image.desc}</div>
+                  
+              </div>
+              
             </div>
-            <div className="col-md-8 text-center text-md-start mb-5">
-            
-                <h5 className="card-title pb-2">{image.title}</h5>
-                <p className="card-text">
-                  {image.desc}
-                </p>
-                
-            </div>
-            
-          </div>
+
           </div>
         ))}
     </div>
     <div className='row  py-md-5'>
       {images_III.map((image, index) => (
         <div className="col-md-4 " key={index}>
-          <div className="row">
+          <div className="row myCard">
             
             <div className="col-4 m-auto m-md-0">
               <img
                 src= {image.src}
-                className="border p-1 w-75 m-auto d-block"
+                className="cardImg border p-1 w-75 m-auto d-block"
                 alt={image.title}
               />
             </div>
             <div className="col-md-8 text-center text-md-start mb-5">
             
-                <h5 className="card-title pb-2">{image.title}</h5>
-                <p className="card-text">
-                  {image.desc}
-                </p>
+                <div className="cardTitle pb-2">{image.title}</div>
+                <div className="cardText">{image.desc}</div>
                 
             </div>
             
