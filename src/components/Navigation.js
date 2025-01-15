@@ -4,8 +4,9 @@ import { useTranslation } from 'react-i18next';
 import LanguageSwitcher from './LanguageSwitcher';
 
 import './css/Navigation.css';
-import Logo from './Logo';
-import { Link, NavLink, useLocation, useNavigate } from 'react-router-dom';
+// import Logo from './Logo';
+import { NavLink, useLocation, useNavigate } from 'react-router-dom';
+import LogoComponent from './logo/Logo';
 
 function Navigation() {
   const { t } = useTranslation();
@@ -47,7 +48,7 @@ function Navigation() {
   return (
     <nav className='navbar navbar-expand-lg navbar-dark bg-dark fixed-top'>
       <div className="container">
-          <Logo />
+          <LogoComponent />
           
           {/* Кнопка для открытия меню на мобильных устройствах */}
           <button

@@ -36,7 +36,7 @@ const Choose = () => {
                   alt={image.title}
                 />
               </div>
-              <div className="col-md-8 text-center text-md-start mb-5">
+              <div className="col-md-8 text-md-start mb-5">
               
                   <div className="cardTitle">{image.title}</div>
                   <div className="cardText">{image.desc}</div>
@@ -60,7 +60,7 @@ const Choose = () => {
                 alt={image.title}
               />
             </div>
-            <div className="col-md-8 text-center text-md-start mb-5">
+            <div className="col-md-8 text-md-start mb-5">
             
                 <div className="cardTitle pb-2">{image.title}</div>
                 <div className="cardText">{image.desc}</div>

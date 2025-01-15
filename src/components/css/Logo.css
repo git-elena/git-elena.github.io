@@ -1,7 +1,16 @@
 .logo {
     margin: auto;
+    padding: 10px;
 }
 
 .logo a:hover {
     border: none!important;
+}
+
+@media (max-width: 375px) {
+    .logo {
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+    }
 }

@@ -5,6 +5,12 @@
     align-items: center; /* Центрирование по вертикали */
 }
 
+@media (max-width: 375px) {
+    .langSw {
+        margin: unset;
+    }
+}
+
 .langSw select {
     padding: 10px; /* Внутренние отступы для удобства */
     font-size: 16px; /* Размер шрифта */
