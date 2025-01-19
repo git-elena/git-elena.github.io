@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.d122db98.css",
-    "main.js": "/static/js/main.2b4f39aa.js",
+    "main.css": "/static/css/main.450e4385.css",
+    "main.js": "/static/js/main.9ff3fb57.js",
     "static/media/image_sushi_00.jpg": "/static/media/image_sushi_00.a589ca4fd5e78188aac9.jpg",
     "static/media/header_photo.jpg": "/static/media/header_photo.4e939372952c2dc041be.jpg",
     "static/media/image_sushi_02.jpg": "/static/media/image_sushi_02.1881242da92f4d3e8972.jpg",
@@ -14,12 +14,9 @@
     "static/media/main-img.webp": "/static/media/main-img.7b79a5396ee1f0d5e060.webp",
     "static/media/YouTubePlayer_Messengers.jpg": "/static/media/YouTubePlayer_Messengers.b36a31cd69db2b7a938f.jpg",
     "static/media/homeAudioPlayers.jpg": "/static/media/homeAudioPlayers.c9e30c1c026837d5cf26.jpg",
-    "static/media/mibile-app.webp": "/static/media/mibile-app.1a843d2b4520007aee50.webp",
     "static/media/Messengers.png": "/static/media/Messengers.d6a35c21be39092b7779.png",
     "static/media/choose-2.webp": "/static/media/choose-2.1bbfbb46e05f092af359.webp",
     "static/media/choose-4.webp": "/static/media/choose-4.0b48bebbd834c5cc197f.webp",
-    "static/media/web-app.webp": "/static/media/web-app.cb1ec5cb35cb4359a4a7.webp",
-    "static/media/design.webp": "/static/media/design.b389cfd12837183b503f.webp",
     "static/media/choose-1.webp": "/static/media/choose-1.d4bd608d9a569fb3dfc1.webp",
     "static/media/bootstrap-icons.woff?": "/static/media/bootstrap-icons.39795c0b4513de014cf8.woff",
     "static/media/homeListVideo.png": "/static/media/homeListVideo.030b40e8d824814e9cb5.png",
@@ -60,11 +57,11 @@
     "index.html": "/index.html",
     "static/media/logo-typo3.svg": "/static/media/logo-typo3.594f3858cf4560a5abe7812254961d2c.svg",
     "static/media/logo-kotlin.svg": "/static/media/logo-kotlin.6d108dcd884eb40d0197a78e0a6fca62.svg",
-    "main.d122db98.css.map": "/static/css/main.d122db98.css.map",
-    "main.2b4f39aa.js.map": "/static/js/main.2b4f39aa.js.map"
+    "main.450e4385.css.map": "/static/css/main.450e4385.css.map",
+    "main.9ff3fb57.js.map": "/static/js/main.9ff3fb57.js.map"
   },
   "entrypoints": [
-    "static/css/main.d122db98.css",
-    "static/js/main.2b4f39aa.js"
+    "static/css/main.450e4385.css",
+    "static/js/main.9ff3fb57.js"
   ]
 }
