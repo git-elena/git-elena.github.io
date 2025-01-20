@@ -9,8 +9,8 @@ const HomeChooseUs = () => {
                 <div className="container">
                     <h2 className="mb-5 text-center">
                         
-                        <span className="text-primary-emphasis">{t('choose.title-left')}</span>
-                        {t('choose.title-right')}
+                        <span className="text-primary-emphasis">{t('home.choose.title.left')}</span>
+                        {t('home.choose.title.right')}
                     </h2>
 
                     <Choose />

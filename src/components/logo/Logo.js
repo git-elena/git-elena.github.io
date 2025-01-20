@@ -3,12 +3,12 @@ import '../css/Logo.css'
 import SVGComponent from './LogoSVG'
 import { Link } from 'react-router-dom'
 
-const Logo = () => {
+const Logo = ({width}) => {
   return (
     <div className='logo'>
       <Link to='/'>
           {/* <img src={logoFromSrc} alt="Logo" /> */}
-          <SVGComponent width={200} color={'white'} />
+          <SVGComponent width={width} color={'white'} />
       </Link>
     </div>
   )

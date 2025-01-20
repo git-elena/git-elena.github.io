@@ -7,3 +7,13 @@ footer .container {
 footer i {
     margin-right: 18px;
 }
+
+.footer .logo {
+    padding: 10px 0;
+}
+
+.footer .about {
+    font-size: .8rem;
+    font-style: italic;
+    padding-right: 25%;
+}

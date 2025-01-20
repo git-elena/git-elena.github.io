@@ -9,8 +9,8 @@ const HomePortfolio = () => {
                 <div className="container-fluid">
                     <h2 className="mb-0 pt-5 text-center text-white">
 
-                        <span className="text-primary-emphasis">{t('portfolio.title-left')}</span>
-                        {t('portfolio.title-right')}
+                        <span className="text-primary-emphasis">{t('home.portfolio.title.left')}</span>
+                        {t('home.portfolio.title.right')}
                     </h2>
 
                     <PortfolioGallery />

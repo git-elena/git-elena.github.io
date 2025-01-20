@@ -10,15 +10,15 @@ const Choose = () => {
     const { t } = useTranslation();
     // Массив изображений для галереи
     const images_II = [
-        { src: choose1, title: t('choose.1.title'), desc: t('choose.1.desc')},
-        { src: choose5, title: t('choose.5.title'), desc: t('choose.5.desc')},
+        { src: choose1, title: t('home.choose.item_1.title'), desc: t('home.choose.item_1.desc')},
+        { src: choose5, title: t('home.choose.item_5.title'), desc: t('home.choose.item_5.desc')},
         
     ];
 
     const images_III = [
-      { src: choose3, title: t('choose.3.title'), desc: t('choose.3.desc')},
-      { src: choose4, title: t('choose.4.title'), desc: t('choose.4.desc')},
-      { src: choose2, title: t('choose.2.title'), desc: t('choose.2.desc')},
+      { src: choose3, title: t('home.choose.item_3.title'), desc: t('home.choose.item_3.desc')},
+      { src: choose4, title: t('home.choose.item_4.title'), desc: t('home.choose.item_4.desc')},
+      { src: choose2, title: t('home.choose.item_2.title'), desc: t('home.choose.item_2.desc')},
     ];
 
     return (

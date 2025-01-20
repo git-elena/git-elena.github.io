@@ -5,16 +5,16 @@ const ContentContentPageServiceWebsite = () => {
     const { t } = useTranslation()
   return (
     <div>
-      <h3><span className="text-primary-emphasis">{t('services-page.websiteDevelopment.title.left')}</span>{t('services-page.websiteDevelopment.title.right')}</h3>
-      <p>{t('services-page.websiteDevelopment.description')}</p>
-      <h5>{t('services-page.websiteDevelopment.weOffer')}</h5>
+      <h3><span className="text-primary-emphasis">{t('pages.services-page.websiteDevelopment.title.left')}</span>{t('pages.services-page.websiteDevelopment.title.right')}</h3>
+      <p>{t('pages.services-page.websiteDevelopment.description')}</p>
+      <h5>{t('pages.services-page.websiteDevelopment.weOffer')}</h5>
       <ul>
-        <li>{t('services-page.websiteDevelopment.weOfferList.point1')}</li>
-        <li>{t('services-page.websiteDevelopment.weOfferList.point2')}</li>
-        <li>{t('services-page.websiteDevelopment.weOfferList.point3')}</li>
-        <li>{t('services-page.websiteDevelopment.weOfferList.point4')}</li>
+        <li>{t('pages.services-page.websiteDevelopment.weOfferList.point1')}</li>
+        <li>{t('pages.services-page.websiteDevelopment.weOfferList.point2')}</li>
+        <li>{t('pages.services-page.websiteDevelopment.weOfferList.point3')}</li>
+        <li>{t('pages.services-page.websiteDevelopment.weOfferList.point4')}</li>
       </ul>
-      <p>{t('services-page.websiteDevelopment.extra')}</p>
+      <p>{t('pages.services-page.websiteDevelopment.extra')}</p>
     </div>
   )
 }

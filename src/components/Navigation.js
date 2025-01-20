@@ -1,10 +1,8 @@
 import React, { useState } from 'react';
-// import { Link, useLocation } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import LanguageSwitcher from './LanguageSwitcher';
 
 import './css/Navigation.css';
-// import Logo from './Logo';
 import { NavLink, useLocation, useNavigate } from 'react-router-dom';
 import LogoComponent from './logo/Logo';
 
@@ -48,7 +46,7 @@ function Navigation() {
   return (
     <nav className='navbar navbar-expand-lg navbar-dark bg-dark fixed-top'>
       <div className="container">
-          <LogoComponent />
+          <LogoComponent width={150} />
           
           {/* Кнопка для открытия меню на мобильных устройствах */}
           <button
@@ -103,7 +101,7 @@ function Navigation() {
                 </NavLink>
                 <ul className={`dropdown-menu bg-gray ${dropdownOpen ? 'show' : ''}`} aria-labelledby="navbarDropdown">
                   
-                  <li >
+                  {/* <li >
                     <NavLink 
                           className={({ isActive }) => isActive ? "nav-link dropdown-item active" : "nav-link dropdown-item"}
                           to="/service/mob-app" 
@@ -119,7 +117,7 @@ function Navigation() {
                           onClick={() => { closeMobileMenu(); setDropdownOpen(false); }}>
                       {t('nav.webApp')}
                     </NavLink>
-                  </li>
+                  </li> */}
                   
                   <li>
                     <NavLink 
@@ -127,6 +125,15 @@ function Navigation() {
                           to="/service/website" 
                           onClick={() => { closeMobileMenu(); setDropdownOpen(false); }}>
                       {t('nav.website')}
+                    </NavLink>
+                  </li>
+
+                  <li>
+                    <NavLink 
+                          className={({ isActive }) => isActive ? "nav-link dropdown-item active" : "nav-link dropdown-item"}
+                          to="/service/app" 
+                          onClick={() => { closeMobileMenu(); setDropdownOpen(false); }}>
+                      {t('nav.app')}
                     </NavLink>
                   </li>
 

@@ -5,6 +5,13 @@ header ul {
     margin: auto;
 }
 
+.App .navbar .container {
+    padding: .5rem 0;
+}
+
+#navbarNav .nav-link {
+    padding: 0 .5rem;
+}
 .navbar-nav .nav-item {
     padding-right: 30px;
     text-transform: uppercase;

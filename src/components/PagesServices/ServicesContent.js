@@ -1,11 +1,12 @@
 import React from 'react'
 // import { useTranslation } from 'react-i18next'
-import ContentPageServiceWebApp from './PagesServiceContents/ContentPageServiceWebApp'
-import ContentPageServiceMobApp from './PagesServiceContents/ContentPageServiceMobApp'
+// import ContentPageServiceWebApp from './PagesServiceContents/ContentPageServiceWebApp'
+// import ContentPageServiceMobApp from './PagesServiceContents/ContentPageServiceMobApp'
 import PageServiceWebsite from './PagesServiceContents/ContentPageServiceWebsite'
 import PageServiceDesign from './PagesServiceContents/ContentPageServiceDesign'
 import { useTranslation } from 'react-i18next'
 import { Link } from 'react-router-dom'
+import PageServiceApp from './PagesServiceContents/ContentPageServiceApp'
 
 const ServicesContent = () => {
   const { t } = useTranslation()
@@ -13,13 +14,13 @@ const ServicesContent = () => {
   return (
     <section className='section p-5 mx-lg-5 row'>
       
-      <ContentPageServiceMobApp />
+      {/* <ContentPageServiceMobApp />
       <div>
         <Link to='/service/mob-app' 
               className="btn btn-secondary button-2 mb-5" 
               tabIndex="-1" 
               role="button" 
-              aria-disabled="true">{t('button.readmore')}</Link>
+              aria-disabled="true">{t('btn.readmore')}</Link>
       </div>
 
       <ContentPageServiceWebApp />
@@ -28,8 +29,8 @@ const ServicesContent = () => {
               className="btn btn-secondary button-2 mb-5" 
               tabIndex="-1" 
               role="button" 
-              aria-disabled="true">{t('button.readmore')}</Link>
-      </div>
+              aria-disabled="true">{t('btn.readmore')}</Link>
+      </div> */}
 
       <PageServiceWebsite />
       <div>
@@ -37,7 +38,16 @@ const ServicesContent = () => {
               className="btn btn-secondary button-2 mb-5" 
               tabIndex="-1" 
               role="button" 
-              aria-disabled="true">{t('button.readmore')}</Link>
+              aria-disabled="true">{t('btn.readmore')}</Link>
+      </div>
+
+      <PageServiceApp />
+      <div>
+        <Link to='/service/app' 
+              className="btn btn-secondary button-2 mb-5" 
+              tabIndex="-1" 
+              role="button" 
+              aria-disabled="true">{t('btn.readmore')}</Link>
       </div>
 
       <PageServiceDesign />
@@ -46,7 +56,7 @@ const ServicesContent = () => {
               className="btn btn-secondary button-2 mb-5" 
               tabIndex="-1" 
               role="button" 
-              aria-disabled="true">{t('button.readmore')}</Link>
+              aria-disabled="true">{t('btn.readmore')}</Link>
       </div>
 
     </section>

@@ -19,7 +19,7 @@ const HomeTechnologies = () => {
   return (
     <section className='section technologies py-5 bg-light '>
                 <div className="container">
-                    <h2 className='mb-4 text-center'><span className="text-primary-emphasis">{t('technologies.title-left')}</span>{t('technologies.title-right')}</h2>
+                    <h2 className='mb-4 text-center'><span className="text-primary-emphasis">{t('home.technologies.title.left')}</span>{t('home.technologies.title.right')}</h2>
                     <div className="row d-flex align-items-center text-center ">
                         <div className='col-lg-1 col-md-3 col-sm-4 col-4' ><Technologie IconComponent={ReactIcon} title="React" /></div>
                         <div className='col-lg-1 col-md-3 col-sm-4 col-4' ><Technologie IconComponent={FlutterIcon} title="Flutter" /></div>

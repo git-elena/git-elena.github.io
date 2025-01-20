@@ -1,16 +1,20 @@
 .logo {
     margin: auto;
-    padding: 10px;
+    padding: 0px;
 }
+
 
 .logo a:hover {
     border: none!important;
 }
 
-@media (max-width: 375px) {
-    .logo {
+#navbarNav button {
+    margin: auto;
+}
+/* @media (max-width: 375px) {
+    #navbarNav .logo {
         width: 100%;
         display: flex;
         justify-content: space-around;
     }
-}
+} */

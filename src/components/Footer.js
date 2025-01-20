@@ -1,6 +1,7 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
 import { Link } from 'react-router-dom';
+import LogoComponent from './logo/Logo';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap-icons/font/bootstrap-icons.css';
 import './css/Footer.css'
@@ -10,12 +11,14 @@ const Footer = () => {
 
     return (
         <footer className="bg-dark text-white py-4 px-5 ">
-        <div className="">
+        <div className="footer">
           <div className="row">
             {/* Первая колонка */}
             <div className="col-lg-3 col-md-6 mb-4">
               <h3 className="h5"><span className='text-primary-emphasis'>{t('footer.about.left')}</span>{t('footer.about.right')}</h3>
-              <p>{t('footer.about.desc')}</p>
+              <LogoComponent width={130}/>
+              <p className='about'>{t('footer.about.desc')}</p>
+              {/* <LogoComponent width={130}/> */}
             </div>
             {/* Вторая колонка */}
             <div className="col-lg-3 col-md-6 mb-4 ps-lg-5">

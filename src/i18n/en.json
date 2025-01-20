@@ -1,517 +1,240 @@
-{ 
-  "contacts": {
-    "address":"Plzen, Czech Republic",
-    "phone1":"+380 987 654 321",
-    "phone2":"+420 728 056 984", 
-    "email":"add.software.developer@gmail.com"
-  },
-
-  "pages": {
-  "mobAppDev": {
-    "mobileAppServices": {
-      "mobileAppDevelopment": {
-        "title": {
-          "left":"M",
-          "right":"obile Application Development"
-        },
-        "description": "We specialize in creating highly effective mobile applications that provide a smooth and intuitive user experience."
-      },
-      "androidIosSupport": {
-        "title":{ 
-          "left":"A",
-          "right":"ndroid and iOS Support"
-        },
-        "description": "Our team develops applications for both Android and iOS, ensuring that your product is refined, intuitive, and works flawlessly on both platforms. We use technologies such as Flutter and React Native to create high-speed cross-platform applications with optimized interfaces. We also offer native application development for maximum performance and deep platform integration."
-      },
-      "userFriendlyInterfaces": {
-        "title":{ 
-          "left":"U",
-          "right":"ser-Friendly Interfaces"
-        },
-        "description": "We create smooth and attractive designs that provide easy navigation for users, making interaction with the application enjoyable and simple."
-      },
-      "crossPlatformNativeSolutions": {
-        "title":{ 
-          "left":"C",
-          "right":"ross-Platform and Native Solutions"
-        },
-        "description": "Our cross-platform applications work equally well on both iOS and Android while maintaining high performance. If deeper integration is required, we also offer native application development to provide the most natural user experience."
-      },
-      "fullDevelopmentCycle": {
-        "title":{ 
-          "left":"F",
-          "right":"ull Development Cycle"
-        },
-        "description": "We offer a full cycle of mobile application development – from idea and design to launch and ongoing support. Our team will support you at every stage to ensure your application meets all set goals."
-      }
-    }
-  },
-  "webAppDev":{
-    "webAppServices": {
-      "webAppDevelopment": {
-        "title": {
-        "left": "W",
-        "right": "eb Application Development"
-      },
-        "description": "Our team develops high-quality web applications that provide your business with powerful tools to thrive in the digital space. We use modern frameworks like React, Angular, and Node.js to create custom solutions optimized for performance, scalability, and security."
-      },
-      "digitalSolutions": {
-        "title": {
-        "left": "P",
-        "right": "owerful Digital Solutions"
-      },
-        "description": "From e-commerce platforms to business management systems, our web applications help make your business more efficient and innovative. We offer customized solutions that meet your business requirements."
-      },
-      "scalabilityFlexibility": {
-        "title": {
-        "left": "S",
-        "right": "calability and Flexibility"
-      },
-        "description": "Our web applications grow with your business. Scalable architectures ensure easy expansion and adaptation to changing needs, allowing your business to evolve dynamically."
-      },
-      "cloudIntegration": {
-        "title": {
-        "left": "C",
-        "right": "loud Integration"
-      },
-        "description": "We provide secure and efficient integration with cloud services, ensuring reliable and fast data storage and processing, creating a seamless experience for your users."
-      },
-      "dataDrivenSolutions": {
-        "title": {
-        "left": "D",
-        "right": "ata-Driven Solutions"
-      },
-        "description": "Our tools for data analysis enable informed decision-making, contributing to your business growth. We develop web applications that not only perform their functions but also help you analyze data for successful business decisions."
-      }
-    }
-  },
-  "webSite": {
-    "webSiteServices": {
-      "websiteDevelopment": {
-        "title": {
-          "left": "W",
-          "right": "ebsite Development"
-        },
-        "description": "We create websites that are not only visually appealing but also highly functional. Whether it is an elegant landing page, a corporate website, or a powerful online store, we craft solutions that deliver results. Each website is designed to represent your brand, attract customers, and enhance your market presence."
-      },
-      "responsiveDesign": {
-        "title": {
-          "left": "R",
-          "right": "esponsive Design"
-        },
-        "description": "Websites that look great on every device. We ensure that your website is fully responsive and adapts seamlessly to different screen sizes, providing an optimal user experience."
-      },
-      "seoOptimization": {
-        "title": {
-          "left": "S",
-          "right": "EO Optimization"
-        },
-        "description": "Built to rank higher on search engines. Our SEO-optimized websites help improve your online visibility and attract more visitors to your site."
-      },
-      "highPerformance": {
-        "title": {
-          "left": "H",
-          "right": "igh Performance"
-        },
-        "description": "Fast, reliable, and easy to navigate. We focus on creating high-performance websites that load quickly, ensuring a smooth browsing experience for users."
-      }
-    }
-  },
-  "design":{
-    "uiUxServices": {
-      "uiUxDesign": {
-        "title": {
-          "left": "U",
-          "right": "I/UX Design"
-        },
-        "description": "Design is at the heart of what we do. Our UI/UX services focus on creating user-friendly and engaging experiences. We take the time to understand your audience and design intuitive interfaces that align with user needs. Good design can be the deciding factor between a potential customer staying or leaving your site."
-      },
-      "customUiDesign": {
-        "title": {
-          "left": "C",
-          "right": "ustom UI Design"
-        },
-        "description": "Unique visual identity to set you apart. Our custom UI design services create a unique look for your brand that distinguishes you from competitors."
-      },
-      "prototypingTesting": {
-        "title": {
-          "left": "P",
-          "right": "rototyping and Testing"
-        },
-        "description": "Ensuring your interface meets user expectations. We develop prototypes and conduct thorough testing to ensure the final product delivers the best user experience."
-      },
-      "userResearch": {
-        "title": {
-          "left": "U",
-          "right": "ser Research"
-        },
-        "description": "Tailored designs based on real audience insights. Our user research services help us create designs that truly meet the needs and preferences of your audience."
-      }
-  }
-  },
-  "portfolio": {
-    "helpCenter24": {
-      "title": "Help Center 24",
-      "subtitle": "Mobile Application",
-      "maintitle":"Holy Spirit Church",
-      "description": "Cross-platform application created using the Flutter framework.",
-      "body": {
-  "holySpiritChurch": {
-    "projectTitle": "Project: Mobile Application \"Holy Spirit Church\"",
-    "overview": "Overview",
-    "introduction1": "\"Holy Spirit Church\" is a mobile application developed for an Orthodox church to provide a modern digital solution for connecting with parishioners. The app offers convenient access to information about services, religious events, and spiritual materials. The main goal of the project was to improve communication between the church and its parishioners, as well as to create new opportunities for engaging users through digital channels.",
-    "introduction2": "This application demonstrates our capabilities in developing customized mobile solutions for religious and non-profit organizations, providing an intuitive interface and extensive functionality to support audience interaction.",
-    
-    "keyFeatures": "Key Features",
-    "features": {
-      "serviceSchedule": {
-        "title": "Service Schedule",
-        "description": "Display of up-to-date information about upcoming services and religious events, helping parishioners plan their time and stay informed about important events."
-      },
-      "news": {
-        "title": "News and Announcements",
-        "description": "Notifications about news, promotions, and other significant events of the church, ensuring effective communication within the community."
-      },
-      "library": {
-        "title": "Spiritual Library",
-        "description": "Access to prayers, sacred scriptures, sermons, and other spiritual materials that foster users' spiritual growth and strengthen their connection to faith."
-      },
-      "feedback": {
-        "title": "Feedback",
-        "description": "A convenient form for contacting the church's clergy or administration, allowing users to quickly ask questions or offer help."
-      },
-      "pushNotifications": {
-        "title": "Push Notifications",
-        "description": "Timely reminders about important religious holidays, events, and live broadcasts, helping users stay connected with the church's life."
-      },
-      "video": {
-        "title": "Video and Broadcasts",
-        "description": "Ability to watch live broadcasts of services via video stream links, as well as recordings from the church's YouTube channel, allowing participation for those who cannot attend in person."
-      },
-      "radio": {
-        "title": "Online Radio",
-        "description": "A 24/7 online radio feature with spiritual music, sermons, and educational programs, creating an atmosphere of spiritual unity at any time."
-      },
-      "contacts": {
-        "title": "Church Contacts and Addresses",
-        "description": "The app contains a database of contact information and addresses of churches in all cities and countries where the church is represented, simplifying the search for the nearest church and obtaining necessary information."
-      },
-      "messengers": {
-        "title": "Communication via Messengers",
-        "description": "Ability to contact the church via Viber or WhatsApp, allowing users from any country to quickly get answers to their questions or clarify information."
-      }
+{
+    "contacts": {
+        "address":"Plzen, Czech Republic",
+        "phone1":"+380 987 654 321",
+        "phone2":"+420 728 056 984", 
+        "email":"add.software.developer@gmail.com"
     },
 
-    "technologiesTitle": "Technologies and Tools",
-    "technologies": {
-      "flutter": {
-        "title": "Flutter (Dart)",
-        "description": "Used for cross-platform development for iOS and Android, reducing costs and development time while maintaining a single codebase for both platforms."
-      },
-      "restApi": {
-        "title": "REST API",
-        "description": "To provide up-to-date data on services, news, and other updates, ensuring reliable communication between the server and the application."
-      },
-      "firebase": {
-        "title": "Firebase",
-        "description": "Used for push notifications, user authentication, and analytics, helping to better understand the audience and improve user engagement."
-      },
-      "multimedia": {
-        "title": "Multimedia",
-        "description": "Integration with YouTube API for video playback and streaming services for online radio, expanding the app's capabilities for engaging users through multimedia."
-      }
+    "btn": {
+        "contactUs": "Contact Us",
+        "readmore": "Read More"
+    },
+    
+    "home": {
+        "banner": {
+            "title": {
+                "left": "Talent Freelancers Available to Create",
+                "center": "Websites & Mobile",
+                "right": "Applications"
+            },
+            "description": "We are a group of developers, with expertise ready to help your company grow its online presence using high quality solutions that are effective and budget friendly."
+        },
+
+        "about": {
+            "title": {
+                "left": "",
+                "center": "A",
+                "right": "bout Us"
+            },
+            "description": "We are a team of programmers specializing in the development of websites and applications for internet and smartphone use. Our team of experienced developers is ready to tackle tasks of any complexity, taking into account the individual needs of each client. We focus on designing modern websites and applications for the web and smartphones, offering solutions that help our clients grow and remain competitive. We strive to provide high-quality services at reasonable prices, making technology accessible to everyone."
+        },
+
+        "services": {
+            "title": {
+                "left": "Our ",
+                "center": "S",
+                "right": "ervices"
+            },
+            
+            "webDev": {
+                "title":{
+                    "left": "Website",
+                    "right": "Development",
+                    "description":"We create adaptive and functional websites that attract customers and help your business stand out. Our solutions include landing pages, corporate websites, and e-commerce platforms."
+                },
+                  
+                "item_1": {
+                    "title": "Website Development for Any Purpose",
+                    "text": "We create projects of any complexity — from simple landing pages to large corporate portals. We use popular CMS platforms and modern web development technologies to ensure stable performance and ease of use."
+                },
+                "item_2": {
+                    "title": "Custom Design with Responsive Layout",
+                    "text": "Our designers craft exclusive interfaces that make your website stand out from the competition. All projects are adapted for seamless performance on desktops, tablets, and smartphones."
+                },
+                "item_3": {
+                    "title": "Fast Development with Ready-Made Templates",
+                    "text": "When time is limited, we offer high-quality templates that can be customized to meet your requirements. This accelerates the website creation process while maintaining functionality and attractiveness."
+                },
+                "item_4": {
+                    "title": "E-commerce Website Development",
+                    "text": "We build user-friendly and reliable platforms for online commerce. Our e-commerce solutions include efficient product management systems, payment integration, and other essential features for successful operation."
+                },
+                "item_5": {
+                    "title": "Technical Maintenance and Support",
+                    "text": "After project completion, we offer website maintenance services, including regular updates, bug fixes, performance improvements, and technical support."
+                }
+            },
+
+            "appDev": {
+                "title": {
+                    "color_Mobile": "Mobile",
+                    "color_WebApp": "Web App",
+                    "black_Dev": "Development",
+                    "description": "We offer a full range of mobile and web application development services using modern technologies and approaches. Our team develops solutions of any complexity, tailored to meet your business needs."
+                },
+                "item_1": {
+                    "title": "Development for Any Platform",
+                    "text": "We create mobile and web applications that adapt to your business tasks. Using modern technologies and tools, we develop reliable solutions, whether they are simple utilities or complex corporate systems."
+                },
+                "item_2": {
+                    "title": "Custom UI/UX Design",
+                    "text": "We pay special attention to the appearance and usability of applications. Our designers create unique interfaces that make interaction with the application intuitive and pleasant."
+                },
+                "item_3": {
+                    "title": "Integration with External Systems",
+                    "text": "We ensure seamless integration with third-party services, such as payment systems, social networks, analytics platforms, and corporate tools (CRM, ERP). This expands the functionality of your application."
+                },
+                "item_4": {
+                    "title": "Maintenance and Support",
+                    "text": "Our work does not end at the development stage. We offer ongoing support services, including bug fixes, regular updates, and the addition of new functionality as needed."
+                }
+            },
+
+            "design": {
+                "title": {
+                    "color": "UI/UX",
+                    "black": "Design",
+                    "description": "Our designers create unique interfaces that provide users with the best experience interacting with your product. We focus on convenience and simplicity, so that every user finds it easy and enjoyable to use your application or website."
+                },
+                "item_1": {
+                    "title": "User and Business Goals Research",
+                    "text": "We study the target audience, user behavior, and project business goals to create an interface that is as efficient and user-friendly as possible."
+                },
+                "item_2": {
+                    "title": "User Experience (UX) Design",
+                    "text": "We design the structure and logic of the application or website. Our specialists create clear and intuitive interaction scenarios to ensure a comfortable user experience."
+                },
+                "item_3": {
+                    "title": "User Interface (UI) Design",
+                    "text": "We develop the visual style of the application or website. This includes: Selecting the color palette; Creating unique icons; Choosing fonts and their sizes; Drawing all screens or pages."
+                },
+                "item_4": {
+                    "title": "Prototyping",
+                    "text": "We create interactive prototypes that allow us to test the logic of the application or website before development begins. This helps identify and fix potential issues at an early stage."
+                },
+                "item_5": {
+                    "title": "Design Adaptation for Different Devices",
+                    "text": "Our solutions consider various screen sizes and specific features of mobile devices, tablets, and computers. We ensure the product is convenient to use on any platform."
+                },
+                "item_6": {
+                    "title": "Design System Development",
+                    "text": "We develop a set of rules and components used to maintain a consistent style as the product evolves. This speeds up the process of adding new features and pages."
+                },
+                "item_7": {
+                    "title": "Comprehensive Solution",
+                    "text": "We offer a comprehensive approach: from UX/UI design to prototyping and adaptation for different devices. The result is a fully finished product that meets your business objectives and user expectations."
+                }
+            }
+        },
+        "technologies":{
+            "title": {
+                "left": "T",
+                "right": "echnologies"}
+        },
+
+        "portfolio": {
+            "title": {
+                "left": "P",
+                "right": "ortfolio"
+            },
+          
+            "project": {
+                "Hirosaki": {
+                    "entry": "Mobile Application & Design",
+                    "title": "HIROSAKI",
+                    "desc": "The app provides users with a convenient interface for quickly placing orders and selecting a delivery or pickup time. Additionally, integration with social media and the payment functionality makes the ordering process as easy and fast as possible for users."
+                },
+                "HelpCenter": {
+                    "entry": "Mobile Application",
+                    "title": "Help Center 24",
+                    "desc": "The app combines media content, interactive features, and a user-friendly interface, making it a valuable tool for believers who want to stay connected with the church and keep up with all events and news."
+                },
+                "KinuLiutas": {
+                    "entry": "Design",
+                    "title": "Kinu Liutas",
+                    "desc": "The website design emphasizes the uniqueness and luxury of Tibetan Mastiffs, with a strong focus on visual elements. Simple navigation and a focus on the breed's history and the kennel's achievements help users easily find the necessary information and make a decision about purchasing a puppy."
+                },
+                "Tribo": {
+                    "entry": "Design",
+                    "title": "Tribo",
+                    "desc": "The website design was created in accordance with the client's requirements for minimalism and a focus on visual solutions. The site became the perfect platform for showcasing the company's creative approach and its ability to bring unique architectural metal projects to life."
+                },
+                "Designer": {
+                    "entry": "Design",
+                    "title": "Designer",
+                    "desc": "The website design combines humor and professionalism, allowing the company to easily engage with clients. Penguins — a symbol of friendliness and creativity — capture attention, while animations and bright colors add uniqueness. Thanks to this style, the website is memorable, and its content is easy for users to perceive."
+                },
+                "Arabora": {
+                    "entry": "Design",
+                    "title": "Arabora",
+                    "desc": "The website design is created to maximally showcase the quality and uniqueness of the products. The simplicity of navigation and the visual emphasis on the products help the company attract potential clients and build a strong connection between the brand and the audience."
+                }
+            }
+        },
+
+        "choose": {
+            "title": {
+                "left": "W",
+                "right": "hy Choose Us"
+            },
+            "item_1": {
+                "title": "High Quality and Professionalism",
+                "desc": "Our team consists of experienced developers and designers who use cutting-edge technologies to create modern and reliable solutions. We ensure that each project is executed with the utmost attention to detail and care."
+            },
+            "item_2": {
+                "title": "Comprehensive Approach",
+                "desc": "We offer a full range of services: from website and mobile app development to UI/UX design and post-launch support. We accompany projects through all stages, from the initial concept to the finished product."
+            },
+            "item_3": {
+                "title": "Tailored Solutions",
+                "desc": "Every project is unique, and we customize our solutions to fit the specific needs of our clients. We take the time to understand your business and deliver a product that aligns with your goals and expectations."
+            },
+            "item_4": {
+                "title": "On-Time Delivery",
+                "desc": "We value your time and always strive to complete projects within the agreed deadlines. Transparent planning and strict control over the development process ensure timely completion of tasks."
+            },
+            "item_5": {
+                "title": "Affordable Prices",
+                "desc": "We offer competitive prices for development services without compromising on quality. Thanks to our flexible approach to projects, we can provide the best solutions at reasonable costs."
+            }    
+        },
+
+        "contact": {
+          "title": {
+            "left": "C",
+            "right": "ontact Us"
+          },
+          "name": "Name",
+          "email": "E-mail",
+          "message": "Message",
+          "submit": "Send Message"
+        }
     },
 
-    "businessImpactTitle": "Why This Matters for Your Business",
-    "businessImpact": "This project highlights our expertise in creating functional and user-friendly mobile applications for religious and non-profit organizations. We offer solutions that not only enhance communication but also increase audience engagement, simplify donation processes, and maintain constant connection with users through multimedia channels."
-  }
-}
-
-      
-    }
-    
-  }
-  
-},
-  "button": {
-    "readmore": "Reead more"
-  },  
-  "nav": {
+    "nav": {
       "home": "Home",
       "about": "About",
       "services": "Services",
       "portfolio": "Portfolio",
       "contact": "Contact",
 
-      "mobApp":"Mobile App Development",
-      "webApp":"Web App Development",
+      
+      "app":"App Development",
       "website":"Websites Creation",
       "design":"UI/UX Design"
     },
-    "home": {
-      
-      "title-left": "Talent Freelancers Available to Create",
-      "title-center": "Websites & Mobile",
-      "title-right": "Aapplications",
-      "description": "We are a group of developers, with expertise ready to help your company grow its online presence using high quality solutions that are effective and budget friendly.",
-      "cta": "Contact Us"
-    },
-    "about": {
-      "title-left": "",
-      "title-center": "A",
-      "title-right": "bout Us",
-      "description": "We offer a full range of services for creating and supporting websites, as well as mobile and web applications, in the Czech Republic. With years of experience, our team can provide clients with solutions of any complexity, tailored to their individual needs.",
-      "description1": "We are a group of programmers specializing in designing websites and applications, for web and smartphone use. We aim to offer solutions to clients at prices. Our main customer base includes companies and startups looking for resources to enhance their growth and competitiveness, in the industry."
-    },
-        "about-page": {
-          "p1": {
-            "title":{
-              "left":"W",
-              "right":"elcome to ADDSOFTWARE"
-            },
-            "text":"A dedicated team of professionals specializing in web and mobile app development, design, and digital marketing solutions. Our mission is to help businesses of all sizes establish a strong online presence by creating unique, engaging, and highly functional digital products."
-          },
-          "p2": {
-            "title":{
-              "left":"W",
-              "right":"ho We Are"
-            },
-            "text":"At ADDSOFTWARE, we believe in combining creativity with technology to deliver outstanding results. With years of experience in the industry, our team of developers, designers, and strategists is passionate about crafting digital experiences that resonate with your audience and drive measurable results."
-          },
-          "p3": {
-            "title":{
-              "left":"W",
-              "right":"hat We Do"
-            },
-            "text":"We offer a full range of services to help you succeed in the digital world",
-            "list": {
-              "1": {
-                "title":"Website Development:",
-                "text":"From landing pages to complex e-commerce platforms, we build websites that are fast, secure, and easy to manage."
-              },
-              "2": {
-                "title":"Mobile App Development:",
-                "text":"Our team creates high-quality mobile applications for both Android and iOS, tailored to your business needs."
-              },
-              "3": {
-                "title":"UI/UX Design:",
-                "text":"We focus on user experience to create intuitive and visually appealing designs that leave a lasting impression."
-              },
-              "4": {
-                "title":"SEO & Digital Marketing:",
-                "text":"Boost your online visibility with our expert SEO and marketing strategies, ensuring your brand reaches its full potential."
-              }
-            }
-          },
-          "p4": {
-            "title":{
-              "left":"O",
-              "right":"ur Values"
-            },
-            "list": {
-              "1": {
-                "title":"Innovation:",
-                "text":"We stay ahead of the curve by using the latest technologies and trends to ensure our solutions are always cutting-edge."
-              },
-              "2": {
-                "title":"Quality:",
-                "text":"Every project we work on is crafted with attention to detail and a commitment to excellence."
-              },
-              "3": {
-                "title":"Collaboration:",
-                "text":"We believe in working closely with our clients to understand their needs and bring their vision to life."
-              }
-            }
-          },
-          "p5": {
-            "title":{
-              "left":"W",
-              "right":"hy Choose Us"
-            },
-            "text":"At ADDSOFTWARE, we pride ourselves on our personalized approach to every project. Whether you're a startup looking to build your first website or a large corporation in need of a custom mobile app, we have the expertise to make it happen. Our team works tirelessly to ensure every project exceeds expectations and delivers tangible results for your business. Let’s bring your ideas to life. Contact us today and take the first step towards digital success!"
-          }
-        },
-    "services": {
-      "title-left": "Our ",
-      "title-center": "S",
-      "title-right": "ervices",
-      
-      "websiteDev":{
-        "left": "Website",
-        "right": "Development"
-      },
-      "websiteDescription":"We create adaptive and functional websites that attract customers and help your business stand out. Our solutions include landing pages, corporate websites, and e-commerce platforms.",
-      
-      "appDev":{
-        "color_Mobile":"Mobile",
-        "color_WebApp":"Web App",
-        
-        "black_Dev":"Development"
-      },
-      "appDevDescription":"We offer a full range of mobile and web application development services using modern technologies and approaches. Our team develops solutions of any complexity, tailored to meet your business needs.",
-      
-      "design": {
-        "color": "UI/UX",
-        "black": "Design"
-      },
-      "designDescription":"Our designers create unique interfaces that provide users with the best experience interacting with your product. We focus on convenience and simplicity, so that every user finds it easy and enjoyable to use your application or website.",
 
-      "btnTitleReadmore": "Read more...",
-
-
-
-      "mobAppDev": "Mobile App Development",
-      "mobAppDescription":"We develop high-quality mobile applications for Android and iOS, focusing on user-friendliness and stability. We use modern technologies like Flutter and React Native to achieve the best results.",
-      "webSites": "Websites Creation",
-      "webSitesDescription":"Take your online retail presence to the next level with our e-commerce solutions, optimized for seamless transactions and a compelling shopping experience."      
-    },
-        "services-page": {
-          "webAppDevelopment": {
-            "title": {
-              "left":"W",
-              "right":"eb Application Development"
-            },
-            "description": "We create powerful web applications that help your business thrive in the digital environment. Our team uses modern technologies like React, Angular, and Node.js to develop high-performance, scalable, and secure solutions. We carefully analyze client needs and offer custom solutions tailored to the specifics of the business. Whether you need a corporate portal, CRM system, or custom web application, we guarantee high quality and timely project delivery.",
-            "whyUs": "Why Us?",
-            "whyUsList": {
-              "point1": "Experienced developers",
-              "point2": "Responsive and cross-browser solutions",
-              "point3": "Modern technologies",
-              "point4": "Guaranteed results"
-            },
-            "extra": "Our web development services go beyond just creating applications. We focus on ensuring seamless performance, security, and user satisfaction. By choosing us, you're partnering with experts dedicated to helping your business succeed."
-          },
-          "mobileAppDevelopment": {
-            "title":{
-              "left": "M",
-              "right": "obile Application Development"
-            },
-            "description": "We develop mobile applications for iOS and Android that attract and retain users. Our mobile applications help your business reach new heights. Using technologies like React Native and Flutter, we create applications with native user interfaces and high performance. Regardless of the complexity, we guarantee that your app will work efficiently and stably across all devices.",
-            "benefits": "Our Benefits:",
-            "benefitsList": {
-              "point1": "Native and cross-platform apps",
-              "point2": "Convenient user interface",
-              "point3": "High performance",
-              "point4": "Full support from concept to publication"
-            },
-            "extra": "Our end-to-end mobile development process ensures that your app is not only fully functional but also a delight to use. We walk with you from the initial concept all the way to app store publication, ensuring success at every step."
-          },
-          "websiteDevelopment": {
-            "title": {
-              "left":"W",
-              "right":"ebsite Development"
-            },
-            "description": "Websites that reflect your brand and attract clients. We offer comprehensive website creation services—from corporate portals and online stores to landing pages and blogs. We build unique websites on popular platforms like WordPress, Shopify, and more, ensuring fast loading times, intuitive navigation, and modern design. Your website will not only look great but will also be functional, enabling you to engage with your audience and increase conversions.",
-            "weOffer": "We Offer:",
-            "weOfferList": {
-              "point1": "Corporate websites and online stores",
-              "point2": "Search engine optimization (SEO)",
-              "point3": "Fast loading and responsive design",
-              "point4": "Support and updates"
-            },
-            "extra": "Every website we build is a reflection of your brand. With a focus on user engagement and functionality, we make sure that your online presence resonates with your audience and drives business growth."
-          },
-          "uiUxDesign": {
-            "title":{
-              "left": "U",
-              "right": "I/UX Design"
-            },
-            "description": "We create intuitive interfaces that improve user experience. Quality design is not just about looks; it's about user convenience. We design interfaces that are easy to understand and improve user interaction. Our approach is based on deep analysis of user behavior and target audience, allowing us to create solutions that lead to maximum conversions and user loyalty.",
-            "servicesInclude": "Our Services Include:",
-            "servicesIncludeList": {
-              "point1": "UI design",
-              "point2": "Prototyping and testing",
-              "point3": "User behavior analysis",
-              "point4": "Unique and responsive design"
-            },
-            "extra": "Good design isn't just about aesthetics; it's about delivering a seamless user experience. We combine creativity with analytical insights to craft designs that meet user needs and business objectives alike."
-          }
-        },    
-    "technologies":{
-      "title-left": "T",
-      "title-right": "echnologies"
-    },
-    "portfolio": {
-      "title-left": "P",
-      "title-right": "ortfolio",
-      "description": "Check out some of our recent projects",
-      "project": {
-        "Hirosaki": {
-          "entry": "Mobile Application & Design",
-          "title": "HIROSAKI",
-          "desc": "The app provides users with a convenient interface for quickly placing orders and selecting a delivery or pickup time. Additionally, integration with social media and the payment functionality makes the ordering process as easy and fast as possible for users."
-        },
-        "HelpCenter": {
-          "entry": "Mobile Application",
-          "title": "Help Center 24",
-          "desc": "The app combines media content, interactive features, and a user-friendly interface, making it a valuable tool for believers who want to stay connected with the church and keep up with all events and news."
-        },
-        "KinuLiutas": {
-          "entry": "Design",
-          "title": "Kinu Liutas",
-          "desc": "The website design emphasizes the uniqueness and luxury of Tibetan Mastiffs, with a strong focus on visual elements. Simple navigation and a focus on the breed's history and the kennel's achievements help users easily find the necessary information and make a decision about purchasing a puppy."
-        },
-        "Tribo": {
-          "entry": "Design",
-          "title": "Tribo",
-          "desc": "The website design was created in accordance with the client's requirements for minimalism and a focus on visual solutions. The site became the perfect platform for showcasing the company's creative approach and its ability to bring unique architectural metal projects to life."
-        },
-        "Designer": {
-          "entry": "Design",
-          "title": "Designer",
-          "desc": "The website design combines humor and professionalism, allowing the company to easily engage with clients. Penguins — a symbol of friendliness and creativity — capture attention, while animations and bright colors add uniqueness. Thanks to this style, the website is memorable, and its content is easy for users to perceive."
-        },
-        "Arabora": {
-          "entry": "Design",
-          "title": "Arabora",
-          "desc": "The website design is created to maximally showcase the quality and uniqueness of the products. The simplicity of navigation and the visual emphasis on the products help the company attract potential clients and build a strong connection between the brand and the audience."
-        }
-      }
-    },
-    "choose": {
-      "title-left": "W",
-      "title-right": "hy Choose Us",
-      "1": {
-        "title": "High Quality and Professionalism",
-        "desc": "Our team consists of experienced developers and designers who use cutting-edge technologies to create modern and reliable solutions. We ensure that each project is executed with the utmost attention to detail and care."
-      },
-      "2": {
-        "title": "Comprehensive Approach",
-        "desc": "We offer a full range of services: from website and mobile app development to UI/UX design and post-launch support. We accompany projects through all stages, from the initial concept to the finished product."
-      },
-      "3": {
-        "title": "Tailored Solutions",
-        "desc": "Every project is unique, and we customize our solutions to fit the specific needs of our clients. We take the time to understand your business and deliver a product that aligns with your goals and expectations."
-      },
-      "4": {
-        "title": "On-Time Delivery",
-        "desc": "We value your time and always strive to complete projects within the agreed deadlines. Transparent planning and strict control over the development process ensure timely completion of tasks."
-      },
-      "5": {
-        "title": "Affordable Prices",
-        "desc": "We offer competitive prices for development services without compromising on quality. Thanks to our flexible approach to projects, we can provide the best solutions at reasonable costs."
-      }    
-    },
-    "contact": {
-      "title": {
-        "left": "C",
-        "right": "ontact Us"
-      },
-      "name": "Name",
-      "email": "Email",
-      "message": "Message",
-      "submit": "Send Message"
-    },
     "footer": {
         "about": {
-          "left": "A",
-          "right": "bout Us",
-          "desc": "We create innovative web solutions, combining European quality with competitive prices."
+            "left": "A",
+            "right": "bout Us",
+            "desc": "We create innovative web solutions, combining European quality with competitive prices."
         },
         
         "quickLinks": {
-          "left": "Q",
-          "right": "uick Links"
+            "left": "Q",
+            "right": "uick Links"
         },
         
         "contact-left": "C",
@@ -522,5 +245,148 @@
         "followUs-left": "F",
         "followUs-right": "ollow Us",
         "allRightsReserved": "All rights reserved."
-      }
-  }
+    },
+
+    "pages": {
+        "portfolio": {
+            "helpCenter24": {
+                "title": "Help Center 24",
+                "subtitle": "Mobile Application",
+                "maintitle":"Holy Spirit Church",
+                "description": "Cross-platform application created using the Flutter framework.",
+                "body": {
+                    "holySpiritChurch": {
+                        "projectTitle": "Project: Mobile Application \"Holy Spirit Church\"",
+                        "overview": "Overview",
+                        "introduction1": "\"Holy Spirit Church\" is a mobile application developed for an Orthodox church to provide a modern digital solution for connecting with parishioners. The app offers convenient access to information about services, religious events, and spiritual materials. The main goal of the project was to improve communication between the church and its parishioners, as well as to create new opportunities for engaging users through digital channels.",
+                        "introduction2": "This application demonstrates our capabilities in developing customized mobile solutions for religious and non-profit organizations, providing an intuitive interface and extensive functionality to support audience interaction.",
+                        
+                        "keyFeatures": "Key Features",
+                        "features": {
+                            "serviceSchedule": {
+                                "title": "Service Schedule",
+                                "description": "Display of up-to-date information about upcoming services and religious events, helping parishioners plan their time and stay informed about important events."
+                            },
+                            "news": {
+                                "title": "News and Announcements",
+                                "description": "Notifications about news, promotions, and other significant events of the church, ensuring effective communication within the community."
+                            },
+                            "library": {
+                                "title": "Spiritual Library",
+                                "description": "Access to prayers, sacred scriptures, sermons, and other spiritual materials that foster users' spiritual growth and strengthen their connection to faith."
+                            },
+                            "feedback": {
+                                "title": "Feedback",
+                                "description": "A convenient form for contacting the church's clergy or administration, allowing users to quickly ask questions or offer help."
+                            },
+                            "pushNotifications": {
+                                "title": "Push Notifications",
+                                "description": "Timely reminders about important religious holidays, events, and live broadcasts, helping users stay connected with the church's life."
+                            },
+                            "video": {
+                                "title": "Video and Broadcasts",
+                                "description": "Ability to watch live broadcasts of services via video stream links, as well as recordings from the church's YouTube channel, allowing participation for those who cannot attend in person."
+                            },
+                            "radio": {
+                                "title": "Online Radio",
+                                "description": "A 24/7 online radio feature with spiritual music, sermons, and educational programs, creating an atmosphere of spiritual unity at any time."
+                            },
+                            "contacts": {
+                                "title": "Church Contacts and Addresses",
+                                "description": "The app contains a database of contact information and addresses of churches in all cities and countries where the church is represented, simplifying the search for the nearest church and obtaining necessary information."
+                            },
+                            "messengers": {
+                                "title": "Communication via Messengers",
+                                "description": "Ability to contact the church via Viber or WhatsApp, allowing users from any country to quickly get answers to their questions or clarify information."
+                            }
+                        },
+
+                        "technologiesTitle": "Technologies and Tools",
+                        "technologies": {
+                            "flutter": {
+                                "title": "Flutter (Dart)",
+                                "description": "Used for cross-platform development for iOS and Android, reducing costs and development time while maintaining a single codebase for both platforms."
+                            },
+                            "restApi": {
+                                "title": "REST API",
+                                "description": "To provide up-to-date data on services, news, and other updates, ensuring reliable communication between the server and the application."
+                            },
+                            "firebase": {
+                                "title": "Firebase",
+                                "description": "Used for push notifications, user authentication, and analytics, helping to better understand the audience and improve user engagement."
+                            },
+                            "multimedia": {
+                                "title": "Multimedia",
+                                "description": "Integration with YouTube API for video playback and streaming services for online radio, expanding the app's capabilities for engaging users through multimedia."
+                            }
+                        },
+
+                        "businessImpactTitle": "Why This Matters for Your Business",
+                        "businessImpact": "This project highlights our expertise in creating functional and user-friendly mobile applications for religious and non-profit organizations. We offer solutions that not only enhance communication but also increase audience engagement, simplify donation processes, and maintain constant connection with users through multimedia channels."
+                    }
+                }
+            }
+    
+        },
+
+        "services-page": {
+          "websiteDevelopment": {
+                "title": {
+                    "left":"W",
+                    "right":"ebsite Development"
+                },
+                "description": "Websites that reflect your brand and attract clients. We offer comprehensive website creation services—from corporate portals and online stores to landing pages and blogs. We build unique websites on popular platforms like WordPress, Shopify, and more, ensuring fast loading times, intuitive navigation, and modern design. Your website will not only look great but will also be functional, enabling you to engage with your audience and increase conversions.",
+                "weOffer": "We Offer:",
+                "weOfferList": {
+                    "point1": "Corporate websites and online stores",
+                    "point2": "Search engine optimization (SEO)",
+                    "point3": "Fast loading and responsive design",
+                    "point4": "Support and updates"
+                },
+                "extra": "Every website we build is a reflection of your brand. With a focus on user engagement and functionality, we make sure that your online presence resonates with your audience and drives business growth."
+          },
+          "appDevelopment": {
+                "title":{
+                    "left": "A",
+                    "right": "pplication Development"
+                },
+                "description": "We create modern mobile and web applications that empower your business to reach new heights in the digital environment. By leveraging advanced technologies like React Native, Flutter, React, Angular, and Node.js, we ensure the stability, convenience, and high performance of your products.",
+                "whyChooseUs": "Why Choose Us?",
+                "whyChooseUsList": {
+                    "point1": {
+                        "title":"Comprehensive Approach",
+                        "desciption":"We support your project at all stages—from idea to launch."
+                    },
+                    "point2": {
+                        "title":"Modern Technologies",
+                        "desciption":"We use the best tools to create cutting-edge solutions."
+                    },
+                    "point3": {
+                        "title":"On-Time Delivery",
+                        "desciption":"We guarantee quality execution within the agreed deadlines."
+                    },
+                    "point4": {
+                        "title":"Post-Launch Support",
+                        "desciption":"We provide technical maintenance and updates for your product."
+                    }
+                },
+                "extra": "We are confident that our solutions will help your business stand out among competitors. Contact us to discuss your ideas and transform them into a successful digital product."
+          },
+          "uiUxDesign": {
+                "title":{
+                    "left": "U",
+                    "right": "I/UX Design"
+                },
+                "description": "We create intuitive interfaces that improve user experience. Quality design is not just about looks; it's about user convenience. We design interfaces that are easy to understand and improve user interaction. Our approach is based on deep analysis of user behavior and target audience, allowing us to create solutions that lead to maximum conversions and user loyalty.",
+                "servicesInclude": "Our Services Include:",
+                "servicesIncludeList": {
+                    "point1": "UI design",
+                    "point2": "Prototyping and testing",
+                    "point3": "User behavior analysis",
+                    "point4": "Unique and responsive design"
+                },
+                "extra": "Good design isn't just about aesthetics; it's about delivering a seamless user experience. We combine creativity with analytical insights to craft designs that meet user needs and business objectives alike."
+          }
+        }
+    }
+}

@@ -7,8 +7,8 @@ const HomeContact = () => {
   return (
     <section className='section contact-form py-5 bg-light'>
         <h2 className="mb-5 text-center">
-            <span className="text-primary-emphasis">{t('contact.title.left')}</span>
-            {t('contact.title.right')}
+            <span className="text-primary-emphasis">{t('home.contact.title.left')}</span>
+            {t('home.contact.title.right')}
         </h2>
         <ContactForm />
     </section>

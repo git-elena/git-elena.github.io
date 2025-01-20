@@ -43,7 +43,7 @@
 }
 
 .services .item .img {
-    max-width: 160px;
+    max-width: 120px;
 }
 
 .services .service-title {
@@ -63,7 +63,7 @@
     text-transform: uppercase;
     font-weight: 800;
     font-size: 3rem;
-    line-height: 3rem;
+    line-height: 2.4rem;
 }
 
 
@@ -71,26 +71,52 @@
 .services .service-title .text {
     font-style: italic;
     margin-top: 1rem;
+    font-size: .8rem;
 }
 
 .services .item {
     justify-content: center;
 }
-
-/* .services  .text {
-    font-size: .9rem;
-    text-indent: 2.33em;
-}
-
-.services .item .title {
+/* card */
+.cardTitle {
     font-weight: bold;
-    font-size: 1.1rem;
+    font-size: 1rem;
     line-height: 1.5rem;
     margin-bottom: .5rem;
    
-    white-space: pre-line; /* Поддержка разрывов строк 
-    text-indent: 2em; /* Отступ первой строки на N символа (em) 
-} */
+    white-space: pre-line; /* Поддержка разрывов строк */
+    text-indent: 2em; /* Отступ первой строки на N символа (em) */
+  }
+  
+  .cardText {
+    font-size: .8rem;
+    text-indent: 2.33em;
+  }
+  
+  @media (min-width: 768px) {
+  
+  }
+  
+  @media (max-width: 480px) {
+    .section .service-title .title {
+      font-size: 2rem!important;
+      line-height: 1.6rem!important;
+      
+    }
+    .section-app .service-title .text {
+      padding-right: 2.5rem!important;
+    }
+    .services .section-card { 
+      padding:0!important;
+    }
+    .services .item .img img {
+     
+      margin-left: -2rem;
+      width: 96px;
+      max-width: none;
+    }
+}
+
 
 .services .section-card {
    
@@ -111,7 +137,7 @@
 }
 
 .services .section-design .num {
-    font-size: 5rem;
+    font-size: 4rem;
     font-weight: 100;
     line-height: 4rem;
     text-align: end;

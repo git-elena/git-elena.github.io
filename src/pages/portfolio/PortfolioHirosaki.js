@@ -194,33 +194,33 @@ const PortfolioHirosaki = () => {
                     text='An intuitive ordering system allows customers to place orders for delivery or pickup and even schedule them at a convenient time.'/>
                     
                     <HirosakiKeyFeature 
-                    title='Online Ordering' 
-                    text='An intuitive ordering system allows customers to place orders for delivery or pickup and even schedule them at a convenient time.'/>
+                    title='Offline Order History' 
+                    text='Users can access their past orders even when offline, enhancing the overall usability of the application.'/>
                     
                     <HirosakiKeyFeature 
-                    title='Online Ordering' 
-                    text='An intuitive ordering system allows customers to place orders for delivery or pickup and even schedule them at a convenient time.'/>
+                    title='PayPal Payments' 
+                    text='Integrated PayPal functionality enables users to pay for their orders quickly and securely.'/>
                     
                     <HirosakiKeyFeature 
-                    title='Online Ordering' 
-                    text='An intuitive ordering system allows customers to place orders for delivery or pickup and even schedule them at a convenient time.'/>
+                    title='Menu Browsing' 
+                    text='Users can explore a well-structured menu with high-quality photos and detailed descriptions of dishes to help them make informed choices.'/>
                     </div>
                     <div  className='right'>
                     <HirosakiKeyFeature 
-                    title='Online Ordering' 
-                    text='An intuitive ordering system allows customers to place orders for delivery or pickup and even schedule them at a convenient time.'/>
+                    title='Push Notifications' 
+                    text='Notifications about order status, new offers, and exclusive deals keep users informed and engaged.'/>
                     
                     <HirosakiKeyFeature 
-                    title='Online Ordering' 
-                    text='An intuitive ordering system allows customers to place orders for delivery or pickup and even schedule them at a convenient time.'/>
+                    title='Promotions and Discounts' 
+                    text='Real-time updates on current promotions and special offers encourage repeat orders and customer engagement.'/>
                     
                     <HirosakiKeyFeature 
-                    title='Online Ordering' 
-                    text='An intuitive ordering system allows customers to place orders for delivery or pickup and even schedule them at a convenient time.'/>
+                    title='Instant Order Notifications for Staff via Telegram' 
+                    text='All orders are immediately sent to the restaurant’s Telegram bot, ensuring that staff receives timely updates about new orders.'/>
                     
                     <HirosakiKeyFeature 
-                    title='Online Ordering' 
-                    text='An intuitive ordering system allows customers to place orders for delivery or pickup and even schedule them at a convenient time.'/>
+                    title='Integration with Bitrix24' 
+                    text='The application is integrated with the Bitrix24 API, allowing the restaurant to automate order management and maintain customer records efficiently.'/>
                     </div>
                 </div>
                 <div className='imgs'>
@@ -314,20 +314,20 @@ const PortfolioHirosaki = () => {
                         title='Flutter and Dart' 
                         text='We used Flutter to build a single codebase for both iOS and Android, ensuring a consistent experience across platforms. Dart was utilized to implement the app’s business logic.' />
                     <HirosakiTool 
-                        title='Flutter and Dart' 
-                        text='We used Flutter to build a single codebase for both iOS and Android, ensuring a consistent experience across platforms. Dart was utilized to implement the app’s business logic.' />
+                        title='REST API Integration' 
+                        text='REST API was used to ensure seamless communication between the server and the app, keeping menu and order data up-to-date in real-time.' />
                     <HirosakiTool 
-                        title='Flutter and Dart' 
-                        text='We used Flutter to build a single codebase for both iOS and Android, ensuring a consistent experience across platforms. Dart was utilized to implement the app’s business logic.' />
+                        title='State Management with Provider' 
+                        text='We used Provider to manage app data efficiently, delivering smooth and quick user interactions even under heavy loads.' />
                     <HirosakiTool 
-                        title='Flutter and Dart' 
-                        text='We used Flutter to build a single codebase for both iOS and Android, ensuring a consistent experience across platforms. Dart was utilized to implement the app’s business logic.' />
+                        title='Firebase Services' 
+                        text='Firebase was used to send push notifications, keeping users informed about order updates and promotions.' />
                     <HirosakiTool 
-                        title='Flutter and Dart' 
-                        text='We used Flutter to build a single codebase for both iOS and Android, ensuring a consistent experience across platforms. Dart was utilized to implement the app’s business logic.' />
+                        title='PayPal Integration' 
+                        text='We implemented PayPal functionality to enable convenient and secure online payments.' />
                     <HirosakiTool 
-                        title='Flutter and Dart' 
-                        text='We used Flutter to build a single codebase for both iOS and Android, ensuring a consistent experience across platforms. Dart was utilized to implement the app’s business logic.' />
+                        title='Telegram Bot for Staff' 
+                        text='We integrated a Telegram bot that instantly receives all new orders, ensuring that restaurant staff is promptly notified and can process orders without delay.' />
                     
                     
                 </div>

@@ -24,12 +24,12 @@ const PortfolioGallery = () => {
 
   // Массив изображений для галереи
   const images = [
-    {link:'/portfolio/hirosaki', src: projectHirosaki, title: t('portfolio.project.Hirosaki.title'), desc: t('portfolio.project.Hirosaki.desc'), entry: t('portfolio.project.Hirosaki.entry')},
-    {link:'/portfolio/helpcenter24', src: projectHelpcenter, title: t('portfolio.project.HelpCenter.title'), desc: t('portfolio.project.HelpCenter.desc'), entry:  t('portfolio.project.HelpCenter.entry')},
-    {link:'/', src: projectDesign2, title: t('portfolio.project.KinuLiutas.title'), desc: t('portfolio.project.KinuLiutas.desc'), entry: t('portfolio.project.KinuLiutas.entry') },
-    {link:'/', src: projectDesign4, title: t('portfolio.project.Tribo.title'), desc: t('portfolio.project.Tribo.desc'), entry: t('portfolio.project.Tribo.entry') },
-    {link:'/', src: projectDesign1, title: t('portfolio.project.Designer.title'), desc: t('portfolio.project.Designer.desc'), entry: t('portfolio.project.Designer.entry') },
-    {link:'/', src: projectDesign3, title: t('portfolio.project.Arabora.title'), desc: t('portfolio.project.Arabora.desc'), entry: t('portfolio.project.Arabora.entry') },
+    {link:'/portfolio/hirosaki', src: projectHirosaki, title: t('home.portfolio.project.Hirosaki.title'), desc: t('home.portfolio.project.Hirosaki.desc'), entry: t('home.portfolio.project.Hirosaki.entry')},
+    {link:'/portfolio/helpcenter24', src: projectHelpcenter, title: t('home.portfolio.project.HelpCenter.title'), desc: t('home.portfolio.project.HelpCenter.desc'), entry:  t('home.portfolio.project.HelpCenter.entry')},
+    {link:'/', src: projectDesign2, title: t('home.portfolio.project.KinuLiutas.title'), desc: t('home.portfolio.project.KinuLiutas.desc'), entry: t('home.portfolio.project.KinuLiutas.entry') },
+    {link:'/', src: projectDesign4, title: t('home.portfolio.project.Tribo.title'), desc: t('home.portfolio.project.Tribo.desc'), entry: t('home.portfolio.project.Tribo.entry') },
+    {link:'/', src: projectDesign1, title: t('home.portfolio.project.Designer.title'), desc: t('home.portfolio.project.Designer.desc'), entry: t('home.portfolio.project.Designer.entry') },
+    {link:'/', src: projectDesign3, title: t('home.portfolio.project.Arabora.title'), desc: t('home.portfolio.project.Arabora.desc'), entry: t('home.portfolio.project.Arabora.entry') },
     {link:'/', src: projectWebsite1, title: 'Omelchenko Olena', desc: 'Makeup Artist', entry: 'Website' },
     {link:'/', src: projectWebsite3, title: 'KRP', desc: 'Kyiv River Port', entry: 'Website' },
     {link:'/', src: projectWebsite2, title: 'MONDIS', desc: 'Wholesale vegetables. Delivery', entry: 'Website' },
@@ -112,7 +112,7 @@ const PortfolioGallery = () => {
                     tabIndex="-1" 
                     role="button" 
                     aria-disabled="true"
-                >{t('button.readmore')}</Link>
+                >{t('btn.readmore')}</Link>
                 
               </div>
             </div>

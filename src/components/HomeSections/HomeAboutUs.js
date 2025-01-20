@@ -8,10 +8,10 @@ const HomeAboutUs = () => {
             <div className="container">
                 <div className="col-lg-12 text-center">
                     <h2 className="mb-4">
-                        {t('about.title-left')}
-                        <span className="text-primary-emphasis">{t('about.title-center')}</span>
-                        {t('about.title-right')}</h2>
-                    <p className="text px-lg-5">{t('about.description')}</p>
+                        {t('home.about.title.left')}
+                        <span className="text-primary-emphasis">{t('home.about.title.center')}</span>
+                        {t('home.about.title.right')}</h2>
+                    <p className="text px-lg-5">{t('home.about.description')}</p>
                 </div>
             </div>
         </section>

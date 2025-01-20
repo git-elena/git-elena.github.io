@@ -38,7 +38,7 @@ const ContactForm = () => {
             <form onSubmit={handleSubmit} className='col-lg-8'>
               <div className='fields my-border'>
                 <div className="mb-3">
-                  <label htmlFor="name" className="form-label">Name</label>
+                  <label htmlFor="name" className="form-label">{t('home.contact.name')}</label>
                   <input
                       type="text"
                       className="form-control"
@@ -50,7 +50,7 @@ const ContactForm = () => {
                   />
                 </div>
                 <div className="mb-3">
-                  <label htmlFor="email" className="form-label">Email address</label>
+                  <label htmlFor="email" className="form-label">{t('home.contact.email')}</label>
                   <input
                       type="email"
                       className="form-control"
@@ -62,7 +62,7 @@ const ContactForm = () => {
                   />
                 </div>
                 <div className="mb-3">
-                  <label htmlFor="message" className="form-label">Message</label>
+                  <label htmlFor="message" className="form-label">{t('home.contact.message')}</label>
                   <textarea
                       className="form-control"
                       id="message"
@@ -73,7 +73,7 @@ const ContactForm = () => {
                       required
                   ></textarea>
                 </div>
-                <button type="submit" className="btn btn-secondary button-2 w-100">Send Message</button>
+                <button type="submit" className="btn btn-secondary button-2 w-100">{t('home.contact.submit')}</button>
               </div>
             </form>
             {/* <div className='col-1'></div> */}
