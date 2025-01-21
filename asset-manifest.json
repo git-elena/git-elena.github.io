@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.d66c3162.css",
-    "main.js": "/static/js/main.e8ec295c.js",
+    "main.css": "/static/css/main.b6aed443.css",
+    "main.js": "/static/js/main.65b577ca.js",
     "static/media/image_sushi_00.jpg": "/static/media/image_sushi_00.a589ca4fd5e78188aac9.jpg",
     "static/media/header_photo.jpg": "/static/media/header_photo.4e939372952c2dc041be.jpg",
     "static/media/image_sushi_02.jpg": "/static/media/image_sushi_02.1881242da92f4d3e8972.jpg",
@@ -63,11 +63,11 @@
     "index.html": "/index.html",
     "static/media/logo-typo3.svg": "/static/media/logo-typo3.594f3858cf4560a5abe7812254961d2c.svg",
     "static/media/logo-kotlin.svg": "/static/media/logo-kotlin.6d108dcd884eb40d0197a78e0a6fca62.svg",
-    "main.d66c3162.css.map": "/static/css/main.d66c3162.css.map",
-    "main.e8ec295c.js.map": "/static/js/main.e8ec295c.js.map"
+    "main.b6aed443.css.map": "/static/css/main.b6aed443.css.map",
+    "main.65b577ca.js.map": "/static/js/main.65b577ca.js.map"
   },
   "entrypoints": [
-    "static/css/main.d66c3162.css",
-    "static/js/main.e8ec295c.js"
+    "static/css/main.b6aed443.css",
+    "static/js/main.65b577ca.js"
   ]
 }
