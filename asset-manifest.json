@@ -1,22 +1,28 @@
 {
   "files": {
-    "main.css": "/static/css/main.c2c637b9.css",
-    "main.js": "/static/js/main.9ff3fb57.js",
+    "main.css": "/static/css/main.d66c3162.css",
+    "main.js": "/static/js/main.e8ec295c.js",
     "static/media/image_sushi_00.jpg": "/static/media/image_sushi_00.a589ca4fd5e78188aac9.jpg",
     "static/media/header_photo.jpg": "/static/media/header_photo.4e939372952c2dc041be.jpg",
     "static/media/image_sushi_02.jpg": "/static/media/image_sushi_02.1881242da92f4d3e8972.jpg",
     "static/media/YouTubePlayer.png": "/static/media/YouTubePlayer.874a974fd0875c8d78bc.png",
     "static/media/about-banner.jpg": "/static/media/about-banner.96296980ab1e5625f31f.jpg",
     "static/media/SpiritualLibrary.png": "/static/media/SpiritualLibrary.cd5520c63834c669eb2e.png",
+    "static/media/webDevelopmentImage.jpg": "/static/media/webDevelopmentImage.b09b3850b4a64386abae.jpg",
     "static/media/image_sushi_01.jpg": "/static/media/image_sushi_01.a591d7d035e33b9bc415.jpg",
+    "static/media/3_design.jpg": "/static/media/3_design.ccb0dda738d4671da1f0.jpg",
+    "static/media/1_web.jpg": "/static/media/1_web.078837b77d861a989aa7.jpg",
     "static/media/StreamingTV.png": "/static/media/StreamingTV.a6490924f48b7d4749a2.png",
+    "static/media/2_app.jpg": "/static/media/2_app.fc16ea08911d07937d40.jpg",
     "static/media/services-banner.webp": "/static/media/services-banner.74c8e456c4a7abe4f420.webp",
     "static/media/main-img.webp": "/static/media/main-img.7b79a5396ee1f0d5e060.webp",
     "static/media/YouTubePlayer_Messengers.jpg": "/static/media/YouTubePlayer_Messengers.b36a31cd69db2b7a938f.jpg",
     "static/media/homeAudioPlayers.jpg": "/static/media/homeAudioPlayers.c9e30c1c026837d5cf26.jpg",
+    "static/media/website-app.jpg": "/static/media/website-app.d7c625147e4ce3ae39c3.jpg",
     "static/media/Messengers.png": "/static/media/Messengers.d6a35c21be39092b7779.png",
     "static/media/choose-2.webp": "/static/media/choose-2.1bbfbb46e05f092af359.webp",
     "static/media/choose-4.webp": "/static/media/choose-4.0b48bebbd834c5cc197f.webp",
+    "static/media/mobile-app.jpg": "/static/media/mobile-app.2c70a4170157e2e4678b.jpg",
     "static/media/choose-1.webp": "/static/media/choose-1.d4bd608d9a569fb3dfc1.webp",
     "static/media/bootstrap-icons.woff?": "/static/media/bootstrap-icons.39795c0b4513de014cf8.woff",
     "static/media/homeListVideo.png": "/static/media/homeListVideo.030b40e8d824814e9cb5.png",
@@ -57,11 +63,11 @@
     "index.html": "/index.html",
     "static/media/logo-typo3.svg": "/static/media/logo-typo3.594f3858cf4560a5abe7812254961d2c.svg",
     "static/media/logo-kotlin.svg": "/static/media/logo-kotlin.6d108dcd884eb40d0197a78e0a6fca62.svg",
-    "main.c2c637b9.css.map": "/static/css/main.c2c637b9.css.map",
-    "main.9ff3fb57.js.map": "/static/js/main.9ff3fb57.js.map"
+    "main.d66c3162.css.map": "/static/css/main.d66c3162.css.map",
+    "main.e8ec295c.js.map": "/static/js/main.e8ec295c.js.map"
   },
   "entrypoints": [
-    "static/css/main.c2c637b9.css",
-    "static/js/main.9ff3fb57.js"
+    "static/css/main.d66c3162.css",
+    "static/js/main.e8ec295c.js"
   ]
 }
