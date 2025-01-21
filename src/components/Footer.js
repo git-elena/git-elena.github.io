@@ -11,7 +11,7 @@ const Footer = () => {
 
     return (
         <footer className="bg-dark text-white py-4 px-5 ">
-        <div className="footer">
+        <div className="footer container">
           <div className="row">
             {/* Первая колонка */}
             <div className="col-lg-3 col-md-6 mb-4">

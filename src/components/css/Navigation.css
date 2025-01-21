@@ -9,6 +9,10 @@ header ul {
     padding: .5rem 0;
 }
 
+.App .navbar button {
+   margin: auto;
+}
+
 #navbarNav .nav-link {
     padding: 0 .5rem;
 }
