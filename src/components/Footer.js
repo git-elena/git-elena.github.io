@@ -10,7 +10,7 @@ const Footer = () => {
   const { t } = useTranslation();
 
     return (
-        <footer className="bg-dark text-white py-4 px-5 ">
+        <footer className="bg-dark text-white py-4 px-4 px-md-5 ">
         <div className="footer container">
           <div className="row">
             {/* Первая колонка */}

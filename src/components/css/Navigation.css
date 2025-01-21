@@ -7,6 +7,7 @@ header ul {
 
 .App .navbar .container {
     padding: .5rem 0;
+    flex-wrap: nowrap;
 }
 
 .App .navbar button {
@@ -16,6 +17,13 @@ header ul {
 #navbarNav .nav-link {
     padding: 0 .5rem;
 }
+
+#navbarNav .dropdown-menu li {
+    padding: .5rem 0;
+}
+
+
+
 .navbar-nav .nav-item {
     padding-right: 30px;
     text-transform: uppercase;

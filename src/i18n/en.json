@@ -3,7 +3,7 @@
         "address":"Plzen, Czech Republic",
         "phone1":"+380 987 654 321",
         "phone2":"+420 728 056 984", 
-        "email":"add.software.developer@gmail.com"
+        "email":"add.software.developer"
     },
 
     "btn": {
@@ -387,6 +387,81 @@
                 },
                 "extra": "Good design isn't just about aesthetics; it's about delivering a seamless user experience. We combine creativity with analytical insights to craft designs that meet user needs and business objectives alike."
           }
+        },
+
+        "service":{
+            "table":{
+                "note":"* Note: All prices are approximate and may vary depending on project requirements.",
+                "col_1":"Type of Service",
+                "col_2":"Description",
+                "col_3":"Cost (CZK)",
+                "col_4":"Completion Time"
+            },
+            "web":{
+                "title":{
+                    "left": "Website",
+                    "right": "Development",
+                    "description":"We are a team of professionals ready to bring any web development idea to life. We offer a full range of services for creating, supporting, and improving websites in the Czech Republic. With many years of experience, we can provide solutions of any complexity, tailored to the specific needs of each client."
+                },
+                "tableTitle":"Sample Pricing for Website Development",
+                "endText":"We strive to create a reliable and effective web product that helps grow your business and enhances customer interaction. Contact us to discuss your project and get a personalized offer."
+                
+            },
+            "app":{
+                "title":{
+                    "left": "Application",
+                    "right": "Development"
+                    
+                },
+                "tableTitle":"Sample Pricing for Website Development",
+                "endText":"We are ready to help you bring your ideas to life and create a high-quality application that will benefit your business and be convenient for your customers. Contact us to discuss your project and get a cost estimate!",
+                "itemWeb": {
+                    "title": {
+                        "left":  "Web ",
+                        "right": "Application\nDevelopment"
+                    },
+                    "description": "Our team develops high-quality web applications that provide your business with powerful tools to thrive in the digital space. We use modern frameworks like React, Angular, and Node.js to create custom solutions optimized for performance, scalability, and security.",
+                    "item_1": {
+                        "title": "Powerful Digital Solutions",
+                        "text": "From e-commerce platforms to business management systems, our web applications help make your business more efficient and innovative. We offer customized solutions that meet your business requirements."
+                    },
+                    "item_2": {
+                        "title": "Scalability and Flexibility",
+                        "text": "Our web applications grow with your business. Scalable architectures ensure easy expansion and adaptation to changing needs, allowing your business to evolve dynamically."
+                    },
+                    "item_3": {
+                        "title": "Cloud Integration",
+                        "text": "We provide secure and efficient integration with cloud services, ensuring reliable and fast data storage and processing, creating a seamless experience for your users."
+                    },
+                    "item_4": {
+                        "title": "Data-Driven Solutions",
+                        "text": "Our tools for data analysis enable informed decision-making, contributing to your business growth. We develop web applications that not only perform their functions but also help you analyze data for successful business decisions."
+                    }
+                },
+                "itemMob": {
+                    "title": {
+                        "left":  "Mobile ",
+                        "right": "Application\nDevelopment"
+                    },
+                    "description": "We specialize in creating highly effective mobile applications that provide a smooth and intuitive user experience.",
+                    "item_1": {
+                        "title": "Android and iOS Support",
+                        "text": "Our team develops applications for both Android and iOS, ensuring that your product is refined, intuitive, and works flawlessly on both platforms. We use technologies such as Flutter and React Native to create high-speed cross-platform applications with optimized interfaces. We also offer native application development for maximum performance and deep platform integration."
+                    },
+                    "item_2": {
+                        "title": "User-Friendly Interfaces",
+                        "text": "We create smooth and attractive designs that provide easy navigation for users, making interaction with the application enjoyable and simple."
+                    },
+                    "item_3": {
+                        "title": "Cross-Platform and Native Solutions",
+                        "text": "Our cross-platform applications work equally well on both iOS and Android while maintaining high performance. If deeper integration is required, we also offer native application development to provide the most natural user experience."
+                    },
+                    "item_4": {
+                        "title": "Full Development Cycle",
+                        "text": "We offer a full cycle of mobile application development – from idea and design to launch and ongoing support. Our team will support you at every stage to ensure your application meets all set goals."
+                    }
+                }
+            }
         }
     }
 }

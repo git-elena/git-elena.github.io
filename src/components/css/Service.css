@@ -27,7 +27,7 @@
     padding-left: 8px;
 }
 
-.services .service-title .colored {
+.service-title .colored {
     color: var(--bs-primary-text-emphasis);
 }
 
@@ -46,18 +46,18 @@
     max-width: 120px;
 }
 
-.services .service-title {
+.service-title {
     margin-bottom: 3rem;
     margin-top: 2rem;
     /* white-space: pre; */
 }
 
-.services .service-title .title {
+.service-title .title {
     
     white-space: pre;
 }
 
-.services .service-title .title {
+.service-title .title {
     
     text-align: center;
     text-transform: uppercase;
@@ -68,7 +68,7 @@
 
 
 
-.services .service-title .text {
+.service-title .text {
     font-style: italic;
     margin-top: 1rem;
     font-size: .8rem;
@@ -142,4 +142,75 @@
     line-height: 4rem;
     text-align: end;
     color: var(--bs-primary-text-emphasis);
+}
+
+/* service pages */
+
+.service-banner {
+    height: 80vh;
+    margin-top: -3rem;
+    overflow: hidden;
+}
+
+/* service page */
+.service-page .tableTitle {
+    margin-top: 3rem;
+}
+
+.service-page .tableNote {
+    font-style: italic;
+}
+
+.service-page .endText {
+    text-align: center;
+    padding: 3rem 10rem;
+}
+
+.service-page .app-item {
+
+    height: 100%;
+    overflow: hidden;
+    /* padding-top: 1rem; */
+}
+
+.service-page .app-row {
+    margin-bottom: 1.5rem;
+}
+
+.service-page .app-item .app-content {
+    padding: 0rem 3rem;
+   
+}
+
+.service-page .app-item .app-title {
+    text-align: center;
+    font-weight: bold;
+    line-height: 1.1rem;
+    white-space: pre;
+    padding: 1rem 0;
+}
+
+.service-page .app-item .app-title .left {
+    color: var(--bs-primary-text-emphasis);
+}
+
+.service-page .app-item .item .title {
+    font-weight: bold;
+    margin-bottom: 0;
+    font-size: .9rem;
+}
+
+.service-page .app-item .item .text {
+    font-size: .8rem;
+}
+
+.service-page .app-item .desc {
+    font-size: .8rem;
+    font-style: italic;
+}
+
+.service-page .app-item .desc,
+.service-page .app-item .item .text,
+.service-page .app-item .item .title {
+    text-indent: 18px;
 }

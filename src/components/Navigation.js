@@ -44,7 +44,7 @@ function Navigation() {
 
 
   return (
-    <nav className='px-5 navbar navbar-expand-lg navbar-dark bg-dark fixed-top'>
+    <nav className='px-4 px-md-5 navbar navbar-expand-lg navbar-dark bg-dark fixed-top'>
       <div className="container">
           <LogoComponent width={150} />
           
