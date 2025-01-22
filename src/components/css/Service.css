@@ -93,11 +93,7 @@
     text-indent: 2.33em;
   }
   
-  @media (min-width: 768px) {
-  
-  }
-  
-  @media (max-width: 480px) {
+@media (max-width: 480px) {
     .section .service-title .title {
       font-size: 2rem!important;
       line-height: 1.6rem!important;
@@ -148,29 +144,35 @@
 
 .service-banner {
     height: 80vh;
+    
     margin-top: -3rem;
     overflow: hidden;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 /* service page */
 .service-page .tableTitle {
-    margin-top: 3rem;
+    margin: 3rem 0;
 }
 
 .service-page .tableNote {
     font-style: italic;
+    /* font-size: .8rem; */
+    color: rgba(128, 128, 128, 0.5);
 }
 
 .service-page .endText {
-    text-align: center;
-    padding: 3rem 10rem;
+    
+    padding: 3rem 0rem;
 }
 
-.service-page .app-item {
 
+.service-page .app-item {
     height: 100%;
     overflow: hidden;
-    /* padding-top: 1rem; */
 }
 
 .service-page .app-row {
@@ -213,4 +215,45 @@
 .service-page .app-item .item .text,
 .service-page .app-item .item .title {
     text-indent: 18px;
+}
+
+@media (max-width: 720px) {
+    .app-item {
+        /* border: none!important; */
+        border-radius: 0!important;
+    }
+
+}
+
+@media (max-width: 1280px) {
+    .service-banner {
+        /* display: flex;
+        justify-content: space-around; */
+    }
+}
+/* Table */
+
+.service-page .table tr {
+    color: var(--my-main-text-color);
+}
+
+.service-page .table .col_1 {
+    padding:  1rem;
+    width: 20%;
+}
+.service-page .table .col_2 {
+    padding:  1rem 2rem;
+}
+
+.service-page .table .col_3,
+.service-page .table .col_4 {
+    text-align: right;
+    width: 20%;
+    padding-right: 1rem;
+}
+
+.service-page .table table {
+    /* border: 1px solid rgba(128, 128, 128, 0.1); */
+    border-color: rgba(128, 128, 128, 0.3);
+    min-width: 700px;
 }

@@ -7,7 +7,7 @@ const Banner = ({src, alt}) => {
                 src={src}
                 alt={alt}
                 className=""
-                style={{ maxWidth: '100%' }}
+                style={{ objectFit: "cover"}}
             />  
            
         </div>

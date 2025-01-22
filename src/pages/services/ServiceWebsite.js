@@ -32,11 +32,59 @@ const ServiceWebsite = () => {
                 </div>
                 <h4 className='tableTitle text-center'>{t('pages.service.web.tableTitle')}</h4>
 
-                <div className='table'>-------</div>
+                <div className='table'>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th className='col_1'>{t('pages.service.table.col_1')}</th>
+                                <th className='col_2'>{t('pages.service.table.col_2')}</th>
+                                <th className='col_3'>{t('pages.service.table.col_3')}</th>
+                                <th className='col_4'>{t('pages.service.table.col_4')}</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td className='col_1'>{t('pages.service.web.table.row_1.col_1')}</td>
+                                <td className='col_2'>{t('pages.service.web.table.row_1.col_2')}</td>
+                                <td className='col_3'>{t('pages.service.web.table.row_1.col_3')}</td>
+                                <td className='col_4'>{t('pages.service.web.table.row_1.col_4')}</td>
+                            </tr>
+                            <tr>
+                                <td className='col_1'>{t('pages.service.web.table.row_2.col_1')}</td>
+                                <td className='col_2'>{t('pages.service.web.table.row_2.col_2')}</td>
+                                <td className='col_3'>{t('pages.service.web.table.row_2.col_3')}</td>
+                                <td className='col_4'>{t('pages.service.web.table.row_2.col_4')}</td>
+                            </tr>
+                            <tr>
+                                <td className='col_1'>{t('pages.service.web.table.row_3.col_1')}</td>
+                                <td className='col_2'>{t('pages.service.web.table.row_3.col_2')}</td>
+                                <td className='col_3'>{t('pages.service.web.table.row_3.col_3')}</td>
+                                <td className='col_4'>{t('pages.service.web.table.row_3.col_4')}</td>
+                            </tr>
+                            <tr>
+                                <td className='col_1'>{t('pages.service.web.table.row_4.col_1')}</td>
+                                <td className='col_2'>{t('pages.service.web.table.row_4.col_2')}</td>
+                                <td className='col_3'>{t('pages.service.web.table.row_4.col_3')}</td>
+                                <td className='col_4'>{t('pages.service.web.table.row_4.col_4')}</td>
+                            </tr>
+                            <tr>
+                                <td className='col_1'>{t('pages.service.web.table.row_5.col_1')}</td>
+                                <td className='col_2'>{t('pages.service.web.table.row_5.col_2')}</td>
+                                <td className='col_3'>{t('pages.service.web.table.row_5.col_3')}</td>
+                                <td className='col_4'>{t('pages.service.web.table.row_5.col_4')}</td>
+                            </tr>
+                        </tbody>
+                    </table> 
+                </div>
 
                 <p className='tableNote'>{t('pages.service.table.note')}</p>
-                <p className='endText'>{t('pages.service.web.endText')}</p>
                 
+                <div className='endText'>
+                    <ServiceTitle
+                        text={t('pages.service.web.endText')}
+                    />
+                </div>
+
             </section>
             <HomeContact />
         </div>

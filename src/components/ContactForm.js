@@ -35,8 +35,8 @@ const ContactForm = () => {
   return (
     <div className="container my-5 contactForm">
         <div className='row'>
-            <form onSubmit={handleSubmit} className='col-lg-8'>
-              <div className='fields my-border'>
+            <form onSubmit={handleSubmit} className='col-lg-6'>
+              <div className='fields m y-border'>
                 <div className="mb-3">
                   <label htmlFor="name" className="form-label">{t('home.contact.name')}</label>
                   <input
@@ -77,8 +77,8 @@ const ContactForm = () => {
               </div>
             </form>
             {/* <div className='col-1'></div> */}
-            <div className='col-4 d-none d-lg-block'>
-                <div className='contacts my-bg my-border'>
+            <div className='col-6 d-none d-lg-block'>
+                <div className='contacts my-border'>
                   <div>
                     <p>
                       <img className='iconContactForm' src={iconMap} />

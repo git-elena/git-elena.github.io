@@ -404,14 +404,45 @@
                     "description":"We are a team of professionals ready to bring any web development idea to life. We offer a full range of services for creating, supporting, and improving websites in the Czech Republic. With many years of experience, we can provide solutions of any complexity, tailored to the specific needs of each client."
                 },
                 "tableTitle":"Sample Pricing for Website Development",
-                "endText":"We strive to create a reliable and effective web product that helps grow your business and enhances customer interaction. Contact us to discuss your project and get a personalized offer."
-                
+                "endText":"We strive to create a reliable and effective web product that helps grow your business and enhances customer interaction. Contact us to discuss your project and get a personalized offer.",
+                "table": {
+                    "row_1": {
+                        "col_1":"Landing Page, Business Card Website",
+                        "col_2":"A single-page website or a multi-page site for presenting services or a business.",
+                        "col_3":"10,000",
+                        "col_4":"2 weeks"
+                    },
+                    "row_2": {
+                        "col_1":"Corporate Website, Product Catalog",
+                        "col_2":"A platform for companies or product showcasing with content management and navigation features.",
+                        "col_3":"16,000",
+                        "col_4":"3 weeks"
+                    },
+                    "row_3": {
+                        "col_1":"E-commerce Store",
+                        "col_2":"A full-featured online store with payment system integration and flexible catalog setup.",
+                        "col_3":"21,000",
+                        "col_4":"1 month"
+                    },
+                    "row_4": {
+                        "col_1":"Monthly Support",
+                        "col_2":"Technical maintenance, updates, and analytics for your website.",
+                        "col_3":"5,500",
+                        "col_4":"1 month"
+                    },
+                    "row_5": {
+                        "col_1":"Unique Design",
+                        "col_2":"Development of a custom design tailored to the client’s preferences and modern trends.",
+                        "col_3":"12,500",
+                        "col_4":"3 weeks"
+                    }
+                }
             },
             "app":{
                 "title":{
                     "left": "Application",
-                    "right": "Development"
-                    
+                    "right": "Development",
+                    "description": "We offer a full range of mobile and web application development services using modern technologies and approaches. Our team develops solutions of any complexity, tailored to meet your business needs."
                 },
                 "tableTitle":"Sample Pricing for Website Development",
                 "endText":"We are ready to help you bring your ideas to life and create a high-quality application that will benefit your business and be convenient for your customers. Contact us to discuss your project and get a cost estimate!",
@@ -459,6 +490,105 @@
                     "item_4": {
                         "title": "Full Development Cycle",
                         "text": "We offer a full cycle of mobile application development – from idea and design to launch and ongoing support. Our team will support you at every stage to ensure your application meets all set goals."
+                    }
+                },
+                "table": {
+                    "row_1": {
+                        "col_1":"Simple Mobile Application",
+                        "col_2":"A basic mobile application with limited functionality (e.g., utility or directory) for one platform (iOS or Android).",
+                        "col_3":"25,000",
+                        "col_4":"4 weeks"
+                    },
+                    "row_2": {
+                        "col_1":"Business Application",
+                        "col_2":"An application with custom business features (e.g., booking or order management) for one platform (iOS or Android).",
+                        "col_3":"40,000",
+                        "col_4":"6 weeks"
+                    },
+                    "row_3": {
+                        "col_1":"Web Application",
+                        "col_2":"A browser-based application with unique functionality and design.",
+                        "col_3":"35,000",
+                        "col_4":"5 weeks"
+                    },
+                    "row_4": {
+                        "col_1":"E-commerce Application",
+                        "col_2":"An application for online sales, including a product catalog, shopping cart, and payment functionality.",
+                        "col_3":"50,000",
+                        "col_4":"8 weeks"
+                    },
+                    "row_5": {
+                        "col_1":"Cross-platform Application",
+                        "col_2":"An application developed using frameworks (React Native, Flutter) that works on both iOS and Android.",
+                        "col_3":"45,000",
+                        "col_4":"6 weeks"
+                    },
+                    "row_6": {
+                        "col_1":"Monthly Support",
+                        "col_2":"Ongoing support, updates, and performance monitoring for your application.",
+                        "col_3":"10,000",
+                        "col_4":"month"
+                    }
+                }
+            },
+            "design":{
+                "title":{
+                    "left": "UI/UX",
+                    "right": "Design",
+                    "description":"Developing a unique website design is not just about choosing beautiful colors and fonts. It is a carefully planned process that includes analysis, creativity, and testing. We create tailored solutions that meet your goals and expectations."
+                },
+                "tableTitle":"Sample Pricing for UX/UI Design Services",
+                "endText":"We create interfaces that not only look great but also make interaction with the product as convenient and efficient as possible. Contact us to discuss your project and get a personalized offer!",
+                "items": {
+                    "1": {
+                        "title":"",
+                        "text":"",
+                        "list": {},
+                        "result": ""
+                    },
+                    "2": {
+                        "title":"",
+                        "text":"",
+                        "list": {},
+                        "result": ""
+                    },
+                    "3": {
+                        "title":"",
+                        "text":"",
+                        "list": {},
+                        "result": ""
+                    },
+                    "4": {
+                        "title":"",
+                        "text":"",
+                        "list": {},
+                        "result": ""
+                    },
+                    "5": {
+                        "title":"",
+                        "text":"",
+                        "list": {},
+                        "result": ""
+                    },
+                    "6": {
+                        "title":"",
+                        "text":"",
+                        "list": {},
+                        "result": ""
+                    }
+                },
+                "table": {
+                    "row_1": {
+                        "col_1":"Unique Design for a Simple Website",
+                        "col_2":"Visual style development and drawing of key pages for a simple website.",
+                        "col_3":"12,000",
+                        "col_4":"2 weeks"
+                    },
+                    "row_2": {
+                        "col_1":"Mobile Application Interface Design",
+                        "col_2":"Interface design for a simple mobile application (iOS or Android).",
+                        "col_3":"17,000",
+                        "col_4":"3 weeks"
                     }
                 }
             }

@@ -25,11 +25,21 @@ const ServiceApp = () => {
                     <ServiceTitle
                         title_left={t('pages.service.app.title.left')}
                         title_right={t('pages.service.app.title.right')}
-                         />
+                        text={t('pages.service.app.title.description')} />
                 </div>
                 <div>
                     <div className='row app-row'>
-                        <div className='col-6'>
+                    <div className='col-lg-6 d-block d-lg-none mb-4'>
+                            <div className='app-item my-border'>
+                                <img
+                                    src={mainImg_web}
+                                    alt="Web Application Development"
+                                    className=""
+                                    style={{ maxWidth: '100%' }}
+                                />
+                            </div>
+                        </div>
+                        <div className='col-lg-6'>
                             <div class="app-item my-border">                            
                                 <div class="app-content">
                                     <AppTitle left={t('pages.service.app.itemWeb.title.left')} right={t('pages.service.app.itemWeb.title.right')}/>
@@ -41,7 +51,7 @@ const ServiceApp = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className='col-6'>
+                        <div className='col-lg-6 d-none d-lg-block'>
                             <div className='app-item my-border'>
                                 <img
                                     src={mainImg_web}
@@ -53,7 +63,7 @@ const ServiceApp = () => {
                         </div>
                     </div>
                     <div className='row app-row'>
-                        <div className='col-6'>
+                        <div className='col-lg-6 mb-4 mb-lg-0'>
                             <div class="app-item my-border">
                                 <img
                                     src={mainImg_mob}
@@ -63,7 +73,7 @@ const ServiceApp = () => {
                                 />
                             </div>
                         </div>
-                        <div className='col-6'>
+                        <div className='col-lg-6'>
                             <div class="app-item my-border">                            
                                 <div class="app-content">
                                     <AppTitle left={t('pages.service.app.itemMob.title.left')} right={t('pages.service.app.itemMob.title.right')}/>
@@ -79,10 +89,66 @@ const ServiceApp = () => {
                 </div>
                 <h4 className='tableTitle text-center'>{t('pages.service.app.tableTitle')}</h4>
 
-                <div className='table'>-------</div>
+                <div className='table'>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th className='col_1'>{t('pages.service.table.col_1')}</th>
+                                <th className='col_2'>{t('pages.service.table.col_2')}</th>
+                                <th className='col_3'>{t('pages.service.table.col_3')}</th>
+                                <th className='col_4'>{t('pages.service.table.col_4')}</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td className='col_1'>{t('pages.service.app.table.row_1.col_1')}</td>
+                                <td className='col_2'>{t('pages.service.app.table.row_1.col_2')}</td>
+                                <td className='col_3'>{t('pages.service.app.table.row_1.col_3')}</td>
+                                <td className='col_4'>{t('pages.service.app.table.row_1.col_4')}</td>
+                            </tr>
+                            <tr>
+                                <td className='col_1'>{t('pages.service.app.table.row_2.col_1')}</td>
+                                <td className='col_2'>{t('pages.service.app.table.row_2.col_2')}</td>
+                                <td className='col_3'>{t('pages.service.app.table.row_2.col_3')}</td>
+                                <td className='col_4'>{t('pages.service.app.table.row_2.col_4')}</td>
+                            </tr>
+                            <tr>
+                                <td className='col_1'>{t('pages.service.app.table.row_3.col_1')}</td>
+                                <td className='col_2'>{t('pages.service.app.table.row_3.col_2')}</td>
+                                <td className='col_3'>{t('pages.service.app.table.row_3.col_3')}</td>
+                                <td className='col_4'>{t('pages.service.app.table.row_3.col_4')}</td>
+                            </tr>
+                            <tr>
+                                <td className='col_1'>{t('pages.service.app.table.row_4.col_1')}</td>
+                                <td className='col_2'>{t('pages.service.app.table.row_4.col_2')}</td>
+                                <td className='col_3'>{t('pages.service.app.table.row_4.col_3')}</td>
+                                <td className='col_4'>{t('pages.service.app.table.row_4.col_4')}</td>
+                            </tr>
+                            <tr>
+                                <td className='col_1'>{t('pages.service.app.table.row_5.col_1')}</td>
+                                <td className='col_2'>{t('pages.service.app.table.row_5.col_2')}</td>
+                                <td className='col_3'>{t('pages.service.app.table.row_5.col_3')}</td>
+                                <td className='col_4'>{t('pages.service.app.table.row_5.col_4')}</td>
+                            </tr>
+                            <tr>
+                                <td className='col_1'>{t('pages.service.app.table.row_5.col_1')}</td>
+                                <td className='col_2'>{t('pages.service.app.table.row_5.col_2')}</td>
+                                <td className='col_3'>{t('pages.service.app.table.row_5.col_3')}</td>
+                                <td className='col_4'>{t('pages.service.app.table.row_5.col_4')}</td>
+                            </tr>
+                        </tbody>
+                    </table> 
+                </div>
 
                 <p className='tableNote'>{t('pages.service.table.note')}</p>
-                <p className='endText'>{t('pages.service.app.endText')}</p>
+                
+                <div className='endText'>
+                    <ServiceTitle
+                        text={t('pages.service.app.endText')}
+                    />
+                </div>
+                
+                <p ></p>
                 
             </section>
             <HomeContact />
