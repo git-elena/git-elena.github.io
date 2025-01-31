@@ -539,43 +539,128 @@
                 },
                 "tableTitle":"Sample Pricing for UX/UI Design Services",
                 "endText":"We create interfaces that not only look great but also make interaction with the product as convenient and efficient as possible. Contact us to discuss your project and get a personalized offer!",
-                "items": {
+                
+                "listTitle": {
+                    "left":"Creating a",
+                    "center":"Unique Website Design: Step-by-Step",
+                    "right":"Process"
+                },
+                "listText": "Let’s go through the key stages of this process:",
+                
+                "resultText": "Result",
+
+                "list": {
                     "1": {
-                        "title":"",
-                        "text":"",
-                        "list": {},
-                        "result": ""
+                        "title": "Preparation and Research",
+                        "text": "At the first stage, we gather all the necessary information:",
+                        "list": {
+                            "item_1": {
+                                "title": "Defining Goals",
+                                "text": "We set the objectives of the website and the outcomes you aim to achieve."
+                            },
+                            "item_2": {
+                                "title": "Audience Analysis",
+                                "text": "We study the interests, behavior, and needs of your target audience."
+                            },
+                            "item_3": {
+                                "title": "Competitor Research",
+                                "text": "We analyze competitors to create a unique proposition."
+                            },
+                            "item_4": {
+                                "title": "Brief Creation",
+                                "text": "We document the key requirements and preferences in detail."
+                            }
+                        },
+                        "result": "a deep understanding of the project and visual direction."
                     },
                     "2": {
-                        "title":"",
-                        "text":"",
-                        "list": {},
-                        "result": ""
+                        "title": "Concept Development",
+                        "text": "This stage marks the beginning of the creative process:",
+                        "list": {
+                            "item_1": {
+                                "title": "Sketches and Wireframes",
+                                "text": "We create sketches of the site’s structure for convenient element placement."
+                            },
+                            "item_2": {
+                                "title": "Defining Style",
+                                "text": "We choose a color palette, fonts, and graphic elements."
+                            },
+                            "item_3": {
+                                "title": "Moodboard",
+                                "text": "We compile visual ideas that inspire and align with the brand."
+                            }
+                        },
+                        "result": "an approved concept that will form the basis of the design."
                     },
                     "3": {
-                        "title":"",
-                        "text":"",
-                        "list": {},
-                        "result": ""
+                        "title": "Prototyping",
+                        "text": "We move on to creating an interactive prototype:",
+                        "list": {
+                            "item_1": {
+                                "title": "Interactive Design",
+                                "text": "We display the layout of elements and user interaction with the interface."
+                            },
+                            "item_2": {
+                                "title": "UX Testing",
+                                "text": "We check how convenient the user journey (User Flow) is."
+                            }
+                        },
+                        "result": "a functional prototype showing how the website will work."
                     },
                     "4": {
-                        "title":"",
-                        "text":"",
-                        "list": {},
-                        "result": ""
+                        "title": "Visual Design Creation",
+                        "text": "The main stage of developing a unique design:",
+                        "list": {
+                            "item_1": {
+                                "title": "Homepage",
+                                "text": "We establish the style and atmosphere of the site."
+                            },
+                            "item_2": {
+                                "title": "Internal Pages",
+                                "text": "We design pages in a unified style."
+                            },
+                            "item_3": {
+                                "title": "UI Elements",
+                                "text": "We create buttons, forms, icons, and other interface elements."
+                            }
+                        },
+                        "result": "a professional mockup ready for implementation."
                     },
                     "5": {
-                        "title":"",
-                        "text":"",
-                        "list": {},
-                        "result": ""
-                    },
+                        "title": "Review and Approval",
+                        "text": "We take all your feedback into account:",
+                        "list": {
+                            "item_1": {
+                                "title": "Feedback Collection",
+                                "text": "We gather comments from the client."
+                            },
+                            "item_2": {
+                                "title": "Final Adjustments",
+                                "text": "We refine the design to fully meet your expectations."
+                            }
+                        }, 
+                        "result": "the final design ready to be handed over to developers."
+                    },                   
                     "6": {
-                        "title":"",
-                        "text":"",
-                        "list": {},
-                        "result": ""
+                        "title": "Handover to Developers",
+                        "text": "In the final stage, we prepare the project for implementation:",
+                        "list": {
+                            "item_1": {
+                                "title": "Element Export",
+                                "text": "We provide graphic files and resources."
+                            },
+                            "item_2": {
+                                "title": "Guidelines",
+                                "text": "We deliver recommendations on colors, fonts, and dimensions for developers."
+                            },
+                            "item_3": {
+                                "title": "Technical Support",
+                                "text": "We assist in integrating the design into the project."
+                            }
+                        },
+                        "result": "a ready-to-implement design that will bring your project to life."
                     }
+
                 },
                 "table": {
                     "row_1": {

@@ -16,7 +16,7 @@ const PortfolioHelpCenter24 = () => {
   const { t } = useTranslation();
 
   return (
-    <div className='portfolio-page page-content'>
+    <div className='portfolio-page page-content portfolio-helpcenter'>
       <div className='portfolio-banner'>
       <div className='glass- container'>
         <img className='banner-icon' src={iconSmall} alt="Small Icon" />
@@ -28,63 +28,7 @@ const PortfolioHelpCenter24 = () => {
 
       </div>
       </div>
-      {/* <section className='container holy-spirit-project'>
-  <h1>{t('pages.portfolio.helpCenter24.body.holySpiritChurch.projectTitle')}</h1>
-
-  <h2>{t('pages.portfolio.helpCenter24.body.holySpiritChurch.overview')}</h2>
-  <p>{t('pages.portfolio.helpCenter24.body.holySpiritChurch.introduction1')}</p>
-  <p>{t('pages.portfolio.helpCenter24.body.holySpiritChurch.introduction2')}</p>
-
-  <h3>{t('pages.portfolio.helpCenter24.body.holySpiritChurch.keyFeatures')}</h3>
-  <ul>
-    <li>
-      <p><span className='list-title'>{t('pages.portfolio.helpCenter24.body.holySpiritChurch.features.serviceSchedule.title')}:</span> {t('pages.portfolio.helpCenter24.body.holySpiritChurch.features.serviceSchedule.description')}</p>
-    </li>
-    <li>
-      <p><span className='list-title'>{t('pages.portfolio.helpCenter24.body.holySpiritChurch.features.news.title')}:</span> {t('pages.portfolio.helpCenter24.body.holySpiritChurch.features.news.description')}</p>
-    </li>
-    <li>
-      <p><span className='list-title'>{t('pages.portfolio.helpCenter24.body.holySpiritChurch.features.library.title')}:</span> {t('pages.portfolio.helpCenter24.body.holySpiritChurch.features.library.description')}</p>
-    </li>
-    <li>
-      <p><span className='list-title'>{t('pages.portfolio.helpCenter24.body.holySpiritChurch.features.feedback.title')}:</span> {t('pages.portfolio.helpCenter24.body.holySpiritChurch.features.feedback.description')}</p>
-    </li>
-    <li>
-      <p><span className='list-title'>{t('pages.portfolio.helpCenter24.body.holySpiritChurch.features.pushNotifications.title')}:</span> {t('pages.portfolio.helpCenter24.body.holySpiritChurch.features.pushNotifications.description')}</p>
-    </li>
-    <li>
-      <p><span className='list-title'>{t('pages.portfolio.helpCenter24.body.holySpiritChurch.features.video.title')}:</span> {t('pages.portfolio.helpCenter24.body.holySpiritChurch.features.video.description')}</p>
-    </li>
-    <li>
-      <p><span className='list-title'>{t('pages.portfolio.helpCenter24.body.holySpiritChurch.features.radio.title')}:</span> {t('pages.portfolio.helpCenter24.body.holySpiritChurch.features.radio.description')}</p>
-    </li>
-    <li>
-      <p><span className='list-title'>{t('pages.portfolio.helpCenter24.body.holySpiritChurch.features.contacts.title')}:</span> {t('pages.portfolio.helpCenter24.body.holySpiritChurch.features.contacts.description')}</p>
-    </li>
-    <li>
-      <p><span className='list-title'>{t('pages.portfolio.helpCenter24.body.holySpiritChurch.features.messengers.title')}:</span> {t('pages.portfolio.helpCenter24.body.holySpiritChurch.features.messengers.description')}</p>
-    </li>
-  </ul>
-
-  <h3>{t('pages.portfolio.helpCenter24.body.holySpiritChurch.technologiesTitle')}</h3>
-  <ul>
-    <li>
-      <p><span className='list-title'>{t('pages.portfolio.helpCenter24.body.holySpiritChurch.technologies.flutter.title')}:</span> {t('pages.portfolio.helpCenter24.body.holySpiritChurch.technologies.flutter.description')}</p>
-    </li>
-    <li>
-      <p><span className='list-title'>{t('pages.portfolio.helpCenter24.body.holySpiritChurch.technologies.restApi.title')}:</span> {t('pages.portfolio.helpCenter24.body.holySpiritChurch.technologies.restApi.description')}</p>
-    </li>
-    <li>
-      <p><span className='list-title'>{t('pages.portfolio.helpCenter24.body.holySpiritChurch.technologies.firebase.title')}:</span> {t('pages.portfolio.helpCenter24.body.holySpiritChurch.technologies.firebase.description')}</p>
-    </li>
-    <li>
-      <p><span className='list-title'>{t('pages.portfolio.helpCenter24.body.holySpiritChurch.technologies.multimedia.title')}:</span> {t('pages.portfolio.helpCenter24.body.holySpiritChurch.technologies.multimedia.description')}</p>
-    </li>
-  </ul>
-
-  <h3>{t('pages.portfolio.helpCenter24.body.holySpiritChurch.businessImpactTitle')}</h3>
-  <p>{t('pages.portfolio.helpCenter24.body.holySpiritChurch.businessImpact')}</p>
-</section> */}
+      
 
 <section className="project-intro">
 <div className="container">
@@ -251,6 +195,9 @@ const PortfolioHelpCenter24 = () => {
   <p>{t('pages.portfolio.helpCenter24.body.holySpiritChurch.businessImpact')}</p>
 </section>
 
+<section className='end'>
+  <h3>Thanks For Watching</h3>
+</section>
 
 
 

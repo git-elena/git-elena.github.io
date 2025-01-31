@@ -5,21 +5,6 @@ import '../../../src/pages/css/PortfolioHirosaki.css';
 import HirosakiKeyFeature from '../../components/PagePortfolio/HirosakiKeyFeature';
 import HirosakiTool from '../../components/PagePortfolio/HirosakiTool';
 
-// import overviewDevice00 from '../../images/portfolio/hirosaki/XXL/devices/overview-device-00.png';
-// import overviewDevice02 from '../../images/portfolio/hirosaki/XXL/devices/overview-device-02.png';
-
-// import keyDevice01 from '../../images/portfolio/hirosaki/XXL/devices/key-device-01.png';
-// import keyDevice02 from '../../images/portfolio/hirosaki/XXL/devices/key-device-02.png';
-// import keyDevice03 from '../../images/portfolio/hirosaki/XXL/devices/key-device-03.png';
-// import keyDevice04 from '../../images/portfolio/hirosaki/XXL/devices/key-device-04.png';
-// import keyDevice05 from '../../images/portfolio/hirosaki/XXL/devices/key-device-05.png';
-// import keyDevice06 from '../../images/portfolio/hirosaki/XXL/devices/key-device-06.png';
-
-// import screenDevice01 from '../../images/portfolio/hirosaki/XXL/devices/screenshot-device-01.png';
-// import screenDevice02 from '../../images/portfolio/hirosaki/XXL/devices/screenshot-device-02.png';
-// import screenDevice03 from '../../images/portfolio/hirosaki/XXL/devices/screenshot-device-03.png';
-// import screenDevice04 from '../../images/portfolio/hirosaki/XXL/devices/screenshot-device-04.png';
-
 import HirosakiRole from '../../components/PagePortfolio/HirosakiRole';
 import HirosakiSol  from '../../components/PagePortfolio/HirosakiSol';
 import HirosakiRes  from '../../components/PagePortfolio/HirosakiRes';

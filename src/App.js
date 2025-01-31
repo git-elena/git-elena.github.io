@@ -23,6 +23,7 @@ import PortfolioHelpCenter24 from './pages/portfolio/PortfolioHelpCenter24';
 import PortfolioHirosaki from './pages/portfolio/PortfolioHirosaki';
 import ScrollToTopButton from './components/ScrollToTopButton';
 import ServiceApp from './pages/services/ServiceApp';
+import PortfolioKinuLiutas from './pages/portfolio/KinuLiutas';
 
 function App() {
 
@@ -47,6 +48,8 @@ function App() {
 
           <Route path="/portfolio/helpcenter24" element={<PortfolioHelpCenter24 />} />
           <Route path="/portfolio/hirosaki" element={<PortfolioHirosaki />} />
+          <Route path="/portfolio/kinu-liutas" element={<PortfolioKinuLiutas />} />
+
         </Routes>
         <Footer />
         <ScrollToTopButton />
