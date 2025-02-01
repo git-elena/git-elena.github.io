@@ -6,7 +6,6 @@
     padding: 0;
 }
 
-
 .kinuliutas h1 {
     text-align: center;
     font-size: 5rem;
@@ -153,9 +152,171 @@
 .kinuliutas .section-end .container {
     background-color: #0A4F59;
     border-radius: 27px;
+    margin-top: 3rem;
 }
 
 .kinuliutas .section-end .container h3 {
-
     color: #f4ad00;
+}
+
+.kinuliutas .final .col-md-6, .kinuliutas .final .col-md-4 {
+    text-align: center;
+}
+
+@media (max-width: 1024px) {
+    .kinuliutas h1 {
+        font-size: 4rem;
+        line-height: 4rem;
+    }
+    
+    .kinuliutas h3 {
+        font-size: 2rem;
+        padding: 2rem 0;
+    }
+    
+    .kinuliutas h4 {
+        font-size: 1.4rem;
+    }
+
+    .kinuliutas .img-gerb {
+        margin: 3rem auto;
+    }
+    .kinuliutas .palette .color {
+        height: 5rem;
+        margin: .5rem 0; 
+        border-radius: 23px;  
+    }
+    .kinuliutas .palette {
+        margin: 0 3rem;
+    }
+    .kinuliutas .color-palette {
+        margin: 2rem 0;
+    }
+    .kinuliutas .prototyping .interactive {
+        margin: 1rem 0;
+    }
+    .kinuliutas img {
+        margin: .5rem 0;
+    }
+    .kinuliutas .table  {
+        font-size: small;
+    }
+}
+
+@media (max-width: 768px) {
+    body .kinuliutas {
+        font-size: .7rem;
+    }
+    .kinuliutas p, .kinuliutas h4 {
+        margin-bottom: .7rem;
+    }
+    .kinuliutas h1 {
+        font-size: 3rem;
+        line-height: 3rem;
+    }
+    .kinuliutas h3 {
+        font-size: 1.5rem;
+        padding: 1.5rem 0;
+    }
+    .kinuliutas h4 {
+        font-size: 1.1rem;
+    }
+    .kinuliutas .img-gerb {
+        margin: 2.5rem auto;
+    }
+    .kinuliutas .diagramLegend .row {
+        margin-top: .3rem;
+    }
+    .kinuliutas .palette .color {
+        height: 4.6rem;
+    }
+    .kinuliutas .palette {
+        margin: 0 2rem;
+    }
+    .kinuliutas .color-palette {
+        margin: 1rem 0;
+    }
+    .kinuliutas .prototyping .interactive {
+        margin: 1.4rem 0;
+    }
+    .kinuliutas img {
+        margin: .3rem 0;
+    }
+    .kinuliutas .table  {
+        font-size: .7rem;
+    }
+    .kinuliutas .final .out {
+        margin-top: -2.5rem;
+    }
+    .kinuliutas .section-end .container {
+        margin-top: 1.5rem;
+    }
+}
+@media (max-width: 767px) {
+    .kinuliutas .table  {
+        margin-top: 1rem;
+    }
+    .kinuliutas .final .out {
+        margin-top: 1rem;
+    }
+    .kinuliutas .container {
+        max-width: 94%;
+    }
+}
+@media (max-width: 425px) {
+    .kinuliutas p, .kinuliutas h4 {
+        margin-bottom: .5rem;
+    }
+    
+    .kinuliutas h1 {
+        font-size: 1.5rem;
+        line-height: 1.5rem;
+        margin-bottom: 1.5rem;
+    }
+    .kinuliutas h3 {
+        font-size: 1rem;
+        padding: 1rem 0;
+    }
+    .kinuliutas h4 {
+        font-size: .8rem;
+    }
+    .kinuliutas .img-gerb {
+        display: none;
+    }
+    
+    .kinuliutas .final .mobiles {
+        margin:  0;
+    }
+    .kinuliutas .final .col-4{
+        padding-right: 0;
+        padding-left: .3rem;
+
+    }
+    .kinuliutas .final-00 {
+        margin-left: .4rem;
+    }
+    .kinuliutas .section-end .container {
+        margin-top: 1rem;
+        border-radius: 17px;
+    }
+}
+
+@media (max-width: 375px) {
+    .kinuliutas p, .kinuliutas h4 {
+        margin-bottom: .4rem;
+    }
+    .kinuliutas h1 {
+        font-size: 1.1rem;
+        line-height: 1.1rem;
+        margin-bottom: 1.5rem;
+    }
+    .kinuliutas h4 {
+        font-weight: bold;
+    }
+    .kinuliutas .table {
+        font-size: .6rem;
+    }
+    .kinuliutas .table th {
+        font-weight: normal;
+    }
 }

@@ -65,14 +65,15 @@ const PortfolioKinuLiutas = () => {
                         <div className='col-6'>
                             <p className='note'>Diagram illustrating the segmentation of Tibetan Mastiff website audiences:</p>
                             <div class="div-diagram">
-                                <img className="img-diagram"
+                                <img className="img-diagram mt-3 mt-sm-0 mb-3 mb-sm-0"
                                     src={imgDiagram}
+                                    alt='Diagram'
                                 />
                             </div>
                             <div className='diagramLegend'>
                                 <p className='note'>Categories of Audience:</p>
                                 <div className='row'>
-                                    <div className='col-1'>
+                                    <div className='col-3 col-md-2 col-lg-1'>
                                         <div className='color color-1'></div>
                                     </div>
                                     <div className='col-9'>
@@ -80,7 +81,7 @@ const PortfolioKinuLiutas = () => {
                                     </div>
                                 </div>
                                 <div className='row'>
-                                    <div className='col-1'>
+                                    <div className='col-3 col-md-2 col-lg-1'>
                                         <div className='color color-2'></div>
                                     </div>
                                     <div className='col-9'>
@@ -88,7 +89,7 @@ const PortfolioKinuLiutas = () => {
                                     </div>
                                 </div>
                                 <div className='row'>
-                                    <div className='col-1'>
+                                    <div className='col-3 col-md-2 col-lg-1'>
                                         <div className='color color-3'></div>
                                     </div>
                                     <div className='col-9'>
@@ -102,7 +103,7 @@ const PortfolioKinuLiutas = () => {
                             <p><span>Website Goals: </span>Inform visitors about the kennel, showcase the beauty and merits of the dogs, and create a convenient platform for connecting with the owner.</p>
                             <p><span>Target Audience: </span>People interested in the Tibetan Mastiff breed, potential owners, and breeders.</p>
                             <p><span>Competitors: </span>Analyzed similar kennel websites to highlight the unique features of the Tibetan Mastiff website and enhance the user experience.</p>
-                            <div className='table'>
+                            <div className='table d-none d-md-block'>
                                 <p className='note'>Table comparing competitor websites based on key parameters</p>
                                 <table>
                                     <tbody>
@@ -137,10 +138,47 @@ const PortfolioKinuLiutas = () => {
                                     </tbody>
                                 </table>
                             </div>
-                            <p><span>Outcome: </span>A clear brief was created, outlining the requirements for the site's design and functionality.</p>
+                            <p  className='d-none d-md-block'><span>Outcome: </span>A clear brief was created, outlining the requirements for the site's design and functionality.</p>
 
                         </div>
                     </div>
+                    <div className='table d-md-none d-block'>
+                                <p className='note'>Table comparing competitor websites based on key parameters</p>
+                                <table>
+                                    <tbody>
+                                        <tr>
+                                            <th style={{width:"100%"}}>Website</th>
+                                            <th >Design</th>
+                                            <th className='td'>Navigation Usability</th>
+                                            <th className='td'>Breed Information</th>
+                                            <th className='td'>Contact Information</th>
+                                        </tr>
+                                        <tr>
+                                            <td>tibetan-mastiff.ru</td>
+                                            <td>7/10 (Traditional)</td>
+                                            <td className='td'>8/10</td>
+                                            <td className='td'>9/10</td>
+                                            <td className='td'>9/10</td>
+                                        </tr>
+                                        <tr>
+                                            <td>tmnnov.ru</td>
+                                            <td>8/10 (Modern)</td>
+                                            <td className='td'>7/10</td>
+                                            <td className='td'>8/10</td>
+                                            <td className='td'>8/10</td>
+                                        </tr>
+                                        <tr>
+                                            <td>mastif.info</td>
+                                            <td>6/10 (Minimalistic)</td>
+                                            <td className='td'>7/10</td>
+                                            <td className='td'>7/10</td>
+                                            <td className='td'>7/10</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                            <p  className='d-md-none d-block'><span>Outcome: </span>A clear brief was created, outlining the requirements for the site's design and functionality.</p>
+
                 </div>
             </section>
 
@@ -149,7 +187,7 @@ const PortfolioKinuLiutas = () => {
                     <h3>Design Concept</h3>
                 
                     <div className='row'>
-                        <div className='col-6'>
+                        <div className='col-md-6'>
                             <div className='row moodboard'>
                                 <div className='col-6'>
                                     <img 
@@ -168,7 +206,7 @@ const PortfolioKinuLiutas = () => {
                                 <div className='col-6'></div>
                             </div>
                         </div>
-                        <div className='col-6'>
+                        <div className='col-md-6 mt-3 mt-md-0'>
                             <p>During the concept development phase, a Moodboard was created, featuring elements associated with warmth, trust, and natural aesthetics. The color palette consisted of natural shades: green, beige, and brown, creating a comfortable and cozy atmosphere for users.</p>
                             <div class="color-palette">
                                 <p className='note'>Color palette:</p>
@@ -193,14 +231,14 @@ const PortfolioKinuLiutas = () => {
                 <div className='container'>
                     <h3>Prototyping</h3>
                     <div className='row prototyping'>
-                        <div className='col-6'>
+                        <div className='col-md-6'>
                             <img 
                                 src={imgWireframe}
                                 alt='Wireframe'
                                 style={{ maxWidth: '100%' }}
                             />
                         </div>
-                        <div className='col-6'>
+                        <div className='col-md-6 mt-3 mt-md-0'>
                             <p>Wireframes of key pages were designed to clarify the structure and functional elements of the site. Additionally, animations were implemented to demonstrate interactive elements.</p>
                             <div className='row interactive'>
                                 <div className='col-6'>
@@ -229,22 +267,22 @@ const PortfolioKinuLiutas = () => {
                     <h3>Final Website Version</h3>
                     <div className='row'>
                         <div className='col-6'></div>
-                        <div className='col-6'>The completed website combines an intuitive interface, stylish design, and robust functionality. Key features include cards with puppy information, detailed breed descriptions, and kennel contact details.</div>
+                        <div className='col-6'><p>The completed website combines an intuitive interface, stylish design, and robust functionality. Key features include cards with puppy information, detailed breed descriptions, and kennel contact details.</p></div>
                     </div>
-                    <img 
+                    <img
                         alt='Final Image'
                         src={imgFinal_00}
                         style={{ maxWidth: '100%' }}
                     />
                     <div className='row'>
-                        <div className='col-6'>
+                        <div className='col-md-6'>
                             <img 
                                 alt='Final Image'
                                 src={imgFinal_11}
                                 style={{ maxWidth: '100%' }}
                             />
                         </div>
-                        <div className='col-6'>
+                        <div className='col-md-6'>
                             <img 
                                 alt='Final Image'
                                 src={imgFinal_12}
@@ -253,17 +291,17 @@ const PortfolioKinuLiutas = () => {
                         </div>
                     </div>
                     <div className='row'>
-                        <div className='col-6'>
-                            <img 
-                                alt='Final Image'
-                                src={imgFinal_21}
-                                style={{ maxWidth: '100%' }}
-                            />
-                        </div>
-                        <div className='col-6'>
+                        <div className='col-md-6'>
                             <img 
                                 alt='Final Image'
                                 src={imgFinal_22}
+                                style={{ maxWidth: '100%' }}
+                            />
+                        </div>
+                        <div className='col-md-6'>
+                            <img 
+                                alt='Final Image'
+                                src={imgFinal_21}
                                 style={{ maxWidth: '100%' }}
                             />
                         </div>
@@ -276,19 +314,19 @@ const PortfolioKinuLiutas = () => {
                     <div className='row'>
                         <div className='col-6'></div>
                         <div className='col-6 mt-3'>
-                            The mobile version was optimized to ensure a seamless experience across devices:
+                            <p>The mobile version was optimized to ensure a seamless experience across devices:</p>
                         </div>
                     </div>
                     
                     <div className='row'>
-                        <div className='col-4'>
-                            <img 
+                        <div className='col-md-4'>
+                            <img className='final-00'
                                 alt='Mobile'
                                 src={imgMobile_00}
                                 style={{ maxWidth: '100%' }}
                             />
                         </div>
-                        <div className='col-8'>
+                        <div className='col-md-8'>
                             <div className='row mobiles'>
                                 <div className='col-4'>
                                     <img 
