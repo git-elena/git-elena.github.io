@@ -1,0 +1,135 @@
+/* .templates {
+    margin-top: 5rem;
+} */
+.templates .container {
+    max-width: 80%;
+}
+
+.templates section {
+    margin-top: 5rem;
+}
+
+.templates p {
+    text-indent: 30px;
+    text-align: justify;
+}
+
+.templates h1 {
+    color: var(--my-main-text-color);
+    white-space: pre;
+    text-align: center;
+    
+    font-weight: bolder;
+
+    padding: 3rem 0;
+}
+.templates h4 {
+    text-align: center;
+    margin: 3rem 0;
+    text-transform: uppercase;
+}
+.templates .overview {
+    display: flex;
+    align-items: center;
+}
+.templates ul {
+    margin: 0;
+}
+.templates ul li {
+    padding-bottom: 1rem;
+}
+.templates ul li:last-child{
+    padding-bottom: 0;
+}
+/* -------------------------- */
+.templates .grid-container {
+    display: flex;
+    align-items: stretch;
+    width: 100%;
+}
+
+.templates .text-item {
+   flex: 1;
+   padding-left: 10px;
+}
+
+.templates .image-item {
+    width: 50%;
+    overflow: hidden;
+    
+    position: relative;
+   
+}
+
+.templates .image-item img {
+   
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.templates .proj {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    margin: 0 6rem;
+}
+
+.templates h6 {
+    /* color: var(--my-main-text-color); */
+    color:brown
+}
+
+
+.templates .project .note {
+    font-style: italic;
+
+}
+
+.templates .proj p {
+    text-align: left;
+    
+    margin: 0;
+}
+
+.templates .project .items {
+    margin-bottom: 3rem;
+}
+
+.templates .project .items p,
+.templates .project .items-fast li {
+    /* font-size: .8rem; */
+}
+
+.templates .project .item {
+    /* border-top: 1px solid rgba(128, 128, 128, 0.2); */
+    border-bottom: 1px solid rgba(128, 128, 128, 0.2);
+    padding: 3rem 0;
+}
+
+.templates .project .items-fast ul li {
+    padding: 0rem;
+}
+
+.templates .project .items-fast {
+    margin: 3rem 0;
+}
+
+.templates .project .items-fast .row {
+    margin-bottom: 3rem;
+}
+
+.templates .end {
+    padding-bottom: 3rem;
+}
+
+.templates .end div {
+    background-color: brown;
+    text-align: center;
+    color: white;
+    margin: auto;
+}

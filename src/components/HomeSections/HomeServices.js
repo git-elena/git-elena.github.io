@@ -19,7 +19,7 @@ import imgServiceApp_04 from '../../images/home/services/app/item_04.png'
 const HomeServices = () => {
     const { t } = useTranslation();
   return (
-    <section className='section services py-5 bg-white'>
+    <section className='section services bg-white'>
             <div className="container">
 {/* --------------------------------------- */}
                 <h2 className="mb-4 text-center">
@@ -87,7 +87,7 @@ const HomeServices = () => {
                         </div>
                         <div className='col-1'></div>
                     </div>
-                    <div className='btn'>
+                    <div className='_btn'>
                         <button className='button-2'>{t('btn.readmore')}</button>
                     </div> 
                 </div>
@@ -127,7 +127,7 @@ const HomeServices = () => {
                                             text={t('home.services.appDev.item_4.text')}
                                             img={imgServiceApp_04}
                                         />
-                                        <div className='btn'>
+                                        <div className='_btn'>
                                             <button className='button-2'>{t('btn.readmore')}</button>
                                         </div> 
                                     </div>
@@ -211,7 +211,7 @@ const HomeServices = () => {
                             </div>
                             <div className='col-4'></div>
                         </div>
-                        <div className='btn'>
+                        <div className='_btn'>
                             <button className='button-2'>{t('btn.readmore')}</button>
                         </div> 
                     </div>

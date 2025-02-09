@@ -1,13 +1,9 @@
-/* src/pages/css/helpcenter24.css */
-
 .portfolio-banner {
-    /* background-image: url('/src/images/portfolio/helpcenter24/helpcenter24_banner_01.jpg'); */
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     width: 100%;
-    height: 400px; /* Установите нужную высоту */
-    /* color: rgb(231, 4, 4); */
+    height: 400px; 
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -36,24 +32,19 @@
 
 .banner-icon {
     width: 100px;
-    
     margin-bottom: 10px;
     object-fit: cover;
 }
 
 .banner-title {
     font-size: 1.5em;
-    /* font-weight: 800; */
     margin: 0;
-    /* text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3); */
-    /* color: #A41030; */
 }
 
 .banner-subtitle {
     font-size: 2.1em;
     margin: 5px 0;
     font-weight: 300;
-    /* text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2); */
     color: #3c58a6;
 }
 
@@ -61,42 +52,12 @@
     font-size: 1.2em;
     margin: 10px 0;
     text-align: center;    
-    /* text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5); */
     color: dimgrey;
 }
 
 .list-title {
     font-weight: bold;
 }
-/* ------------- ChatGPT -------------------------- */
-/* Общий стиль для всей секции */
-/* .holy-spirit-project {
-    font-family: Arial, sans-serif;
-    color: #333;
-    padding: 20px;
-    max-width: 800px;
-    margin: 0 auto;
-    background-color: #f9f9f9;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-} */
-
-/* Основной заголовок */
-/* .holy-spirit-project h1 {
-    font-size: 2.5em;
-    text-align: center;
-    color: #4a90e2;
-    margin-bottom: 20px;
-} */
-
-/* Подзаголовок для секций
-.holy-spirit-project h2, .holy-spirit-project h3 {
-    font-size: 1.8em;
-    color: #333;
-    margin-top: 30px;
-    border-bottom: 2px solid #4a90e2;
-    padding-bottom: 5px;
-} */
 
 /* Заголовок списка и технологии */
 .holy-spirit-project ul {
@@ -147,12 +108,6 @@
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
 }
   
-  .header {
-    background-color: #3c58a6;
-    color: #fff;
-    padding: 20px;
-    text-align: center;
-  }
   
   .header-logo {
     max-width: 50px;

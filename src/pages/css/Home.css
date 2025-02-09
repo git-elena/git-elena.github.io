@@ -119,6 +119,10 @@
 
 .contactForm .fields {
   padding: 3rem 6rem;
-  
 }
 
+@media (max-width: 480px) {
+  .contactForm .fields {
+    padding: 3rem 3rem;
+  }
+}

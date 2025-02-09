@@ -5,19 +5,27 @@
     background-color: grey;
     background-blend-mode: multiply;
     background-position: center;
-  }
+}
   
-  .services-page h2 {
-      text-align: center;
-  }
-  
-  .services-content {
-      /* background-image: url('../../images/services/services-side1.jpg'); */
-      background-size: contain;
-      background-repeat: no-repeat;
-      background-position: left;
-  }
-  
-  .services-page ul {
-      padding-left: 70px;
-  }
+.services-page h3 {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.services-content {
+    /* background-image: url('../../images/services/services-side1.jpg'); */
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.services-page ul {
+    padding-left: 70px;
+}
+.services-page a {
+  text-decoration: none;
+ }
+
+.services-page p {
+    text-indent: 3rem;
+}

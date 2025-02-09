@@ -1,20 +1,25 @@
+.service-page .table {
+    display: none;
+}
+
 .services .service-table {
     margin-bottom: 3rem;
 }
 
-.services .button-2 {
-    /* background-color: var(--bs-primary-text-emphasis); */
+.services .button-2,
+.services-page .button-2 {
     padding: 1rem 10vw;
     color: white;
     font-weight: normal;
-    /* box-shadow: 0px 3px 9px #00000033; */
 }
-
-
-.services .btn {
+.services-page .button-2:hover ,
+.services .button-2:hover {
+    letter-spacing: 3px;
+}
+.services-page  ._btn,
+.services ._btn {
     display: flex;
     justify-content: center;
-    
 }
 /* .services a {
     text-decoration: none;
@@ -222,9 +227,27 @@
         /* border: none!important; */
         border-radius: 0!important;
     }
+    
 
 }
 
+@media (max-width: 425px) {
+    .service-page .app-item .app-content {
+        padding: 0rem 2rem;
+    }
+}
+
+@media (max-width: 375px) {
+    .service-page .app-item .app-content {
+        padding: 0rem 1.5rem;
+    }
+}
+
+@media (max-width: 320px) {
+    .service-page .app-item .app-content {
+        padding: 0rem 1rem;
+    }
+}
 
 /* Table */
 

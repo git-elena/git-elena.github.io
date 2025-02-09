@@ -27,14 +27,14 @@ const PortfolioGallery = () => {
     {link:'/portfolio/hirosaki', src: projectHirosaki, title: t('home.portfolio.project.Hirosaki.title'), desc: t('home.portfolio.project.Hirosaki.desc'), entry: t('home.portfolio.project.Hirosaki.entry')},
     {link:'/portfolio/helpcenter24', src: projectHelpcenter, title: t('home.portfolio.project.HelpCenter.title'), desc: t('home.portfolio.project.HelpCenter.desc'), entry:  t('home.portfolio.project.HelpCenter.entry')},
     {link:'/portfolio/kinu-liutas', src: projectDesign2, title: t('home.portfolio.project.KinuLiutas.title'), desc: t('home.portfolio.project.KinuLiutas.desc'), entry: t('home.portfolio.project.KinuLiutas.entry') },
-    {link:'/', src: projectDesign4, title: t('home.portfolio.project.Tribo.title'), desc: t('home.portfolio.project.Tribo.desc'), entry: t('home.portfolio.project.Tribo.entry') },
-    {link:'/', src: projectDesign1, title: t('home.portfolio.project.Designer.title'), desc: t('home.portfolio.project.Designer.desc'), entry: t('home.portfolio.project.Designer.entry') },
-    {link:'/', src: projectDesign3, title: t('home.portfolio.project.Arabora.title'), desc: t('home.portfolio.project.Arabora.desc'), entry: t('home.portfolio.project.Arabora.entry') },
-    {link:'/', src: projectWebsite1, title: 'Omelchenko Olena', desc: 'Makeup Artist', entry: 'Website' },
-    {link:'/', src: projectWebsite3, title: 'KRP', desc: 'Kyiv River Port', entry: 'Website' },
-    {link:'/', src: projectWebsite2, title: 'MONDIS', desc: 'Wholesale vegetables. Delivery', entry: 'Website' },
-    {link:'/', src: projectWebsite4, title: 'GV', desc: 'Grand Vision', entry: 'Website' },
-    {link:'/', src: projectWebsite5, title: 'M GROUP', desc: 'Engineering & Construction company', entry: 'Website' },
+    {link:'/portfolio/templates', src: projectDesign4, title: t('home.portfolio.project.Tribo.title'), desc: t('home.portfolio.project.Tribo.desc'), entry: t('home.portfolio.project.Tribo.entry') },
+    {link:'/portfolio/templates', src: projectDesign1, title: t('home.portfolio.project.Designer.title'), desc: t('home.portfolio.project.Designer.desc'), entry: t('home.portfolio.project.Designer.entry') },
+    {link:'/portfolio/templates', src: projectDesign3, title: t('home.portfolio.project.Arabora.title'), desc: t('home.portfolio.project.Arabora.desc'), entry: t('home.portfolio.project.Arabora.entry') },
+    {link:'/portfolio/templates', src: projectWebsite1, title: 'Omelchenko Olena', desc: 'Makeup Artist', entry: 'Website' },
+    {link:'/portfolio/templates', src: projectWebsite3, title: 'KRP', desc: 'Kyiv River Port', entry: 'Website' },
+    // {link:'/', src: projectWebsite2, title: 'MONDIS', desc: 'Wholesale vegetables. Delivery', entry: 'Website' },
+    {link:'/portfolio/templates', src: projectWebsite4, title: 'GV', desc: 'Grand Vision', entry: 'Website' },
+    {link:'/portfolio/templates/', src: projectWebsite5, title: 'M GROUP', desc: 'Engineering & Construction company', entry: 'Website' },
     
   ];
 

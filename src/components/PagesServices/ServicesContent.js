@@ -13,47 +13,35 @@ const ServicesContent = () => {
 
   return (
     <section className='section p-5 mx-lg-5 row'>
-      
-      {/* <ContentPageServiceMobApp />
-      <div>
-        <Link to='/service/mob-app' 
-              className="btn btn-secondary button-2 mb-5" 
-              tabIndex="-1" 
-              role="button" 
-              aria-disabled="true">{t('btn.readmore')}</Link>
-      </div>
-
-      <ContentPageServiceWebApp />
-      <div>  
-        <Link to='/service/web-app' 
-              className="btn btn-secondary button-2 mb-5" 
-              tabIndex="-1" 
-              role="button" 
-              aria-disabled="true">{t('btn.readmore')}</Link>
-      </div> */}
-
+{/* --------------------------------------- */}
+<h2 className="mb-4 text-center">
+                    {t('home.services.title.left')}
+                    <span className="text-primary-emphasis">{t('home.services.title.center')}</span>
+                        {t('home.services.title.right')}
+                </h2>
+{/* --------------------------------------- */}
       <PageServiceWebsite />
-      <div>
+      <div className='_btn'>
         <Link to='/service/website' 
-              className="btn btn-secondary button-2 mb-5" 
+              className="btn-secondary button-2 mb-5" 
               tabIndex="-1" 
               role="button" 
               aria-disabled="true">{t('btn.readmore')}</Link>
       </div>
 
       <PageServiceApp />
-      <div>
+      <div className='_btn'>
         <Link to='/service/app' 
-              className="btn btn-secondary button-2 mb-5" 
+              className="btn-secondary button-2 mb-5" 
               tabIndex="-1" 
               role="button" 
               aria-disabled="true">{t('btn.readmore')}</Link>
       </div>
 
       <PageServiceDesign />
-      <div>
+      <div className='_btn'>
         <Link to='/service/design' 
-              className="btn btn-secondary button-2 mb-5" 
+              className="btn-secondary button-2 mb-5" 
               tabIndex="-1" 
               role="button" 
               aria-disabled="true">{t('btn.readmore')}</Link>

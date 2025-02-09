@@ -1,14 +1,15 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
-import '../../../src/pages/css/Portfolio.css'
+import '../css/PortfolioHelpCenter.css'
+
 import iconSmall from '../../images/portfolio/helpcenter24/helpcenter24_logo.png';
 
 import homeAudioPlayers from '../../images/portfolio/helpcenter24/homeAudioPlayers.jpg';
 import homeListVideo from '../../images/portfolio/helpcenter24/homeListVideo.png';
-import messengers from '../../images/portfolio/helpcenter24/Messengers.png';
+// import messengers from '../../images/portfolio/helpcenter24/Messengers.png';
 import spiritualLibrary from '../../images/portfolio/helpcenter24/SpiritualLibrary.png';
 import streamingTV from '../../images/portfolio/helpcenter24/StreamingTV.png';
-import youTubePlayer from '../../images/portfolio/helpcenter24/YouTubePlayer.png';
+// import youTubePlayer from '../../images/portfolio/helpcenter24/YouTubePlayer.png';
 import messengers_youtube from '../../images/portfolio/helpcenter24/YouTubePlayer_Messengers.jpg';
 import contacts from '../../images/portfolio/helpcenter24/Contacts.jpg';
 
