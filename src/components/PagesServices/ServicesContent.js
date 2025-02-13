@@ -14,14 +14,14 @@ const ServicesContent = () => {
   return (
     <section className='section p-5 mx-lg-5 row'>
 {/* --------------------------------------- */}
-<h2 className="mb-4 text-center">
-                    {t('home.services.title.left')}
-                    <span className="text-primary-emphasis">{t('home.services.title.center')}</span>
-                        {t('home.services.title.right')}
-                </h2>
+      <h2 className="mb-4 text-center">
+        {t('home.services.title.left')}
+        <span className="text-primary-emphasis">{t('home.services.title.center')}</span>
+        {t('home.services.title.right')}
+      </h2>
 {/* --------------------------------------- */}
       <PageServiceWebsite />
-      <div className='_btn'>
+      <div className='_btn border-bottom mb-4'>
         <Link to='/service/website' 
               className="btn-secondary button-2 mb-5" 
               tabIndex="-1" 
@@ -30,7 +30,7 @@ const ServicesContent = () => {
       </div>
 
       <PageServiceApp />
-      <div className='_btn'>
+      <div className='_btn border-bottom mb-4'>
         <Link to='/service/app' 
               className="btn-secondary button-2 mb-5" 
               tabIndex="-1" 

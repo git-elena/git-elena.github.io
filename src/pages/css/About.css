@@ -8,10 +8,12 @@
   background-position: top center;
 }
 
-.about-page h2 {
+.about-page h3 {
     text-align: center;
 }
-
+.about-page p {
+    text-indent: 30px;
+}
 .about-content {
     /* background-image: url('../../images/about/about-side2.jpg'); */
     background-size: contain;

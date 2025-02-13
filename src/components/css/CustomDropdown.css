@@ -1,0 +1,54 @@
+/* Контейнер дропдауна */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Кнопка дропдауна */
+.lang .dropdown-button {
+    padding: 10px 15px;
+    background: transparent;
+    color: rgba(255, 255, 255, 0.7);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+}
+
+.lang .dropdown-button:focus, .dropdown-button:hover  {
+    color: var(--bs-primary-text-emphasis)
+}
+
+/* Список выпадающих элементов */
+.lang .dropdown-list {
+    position: absolute;
+    background-color: #343a40;
+    color: #ffffff8c;
+    border-radius: 5px;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+    padding: 5px;
+    list-style: none;
+    margin-top: 5px;
+    width: 120px;
+    z-index: 1000;
+}
+
+/* Элементы списка */
+.lang .dropdown-item {
+    padding: 10px!important;
+    cursor: pointer;
+    transition: background 0.2s ease-in-out;
+}
+
+/* Ховер эффект */
+.lang .dropdown-item:hover {
+    font-weight: 500;
+    color: #fff;
+}
+
+/* Стили для активного элемента */
+.lang .dropdown-item.active {
+    color: white;
+}

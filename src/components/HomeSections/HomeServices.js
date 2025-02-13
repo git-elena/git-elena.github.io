@@ -14,12 +14,13 @@ import imgServiceApp_01 from '../../images/home/services/app/item_01.png'
 import imgServiceApp_02 from '../../images/home/services/app/item_02.png'
 import imgServiceApp_03 from '../../images/home/services/app/item_03.png'
 import imgServiceApp_04 from '../../images/home/services/app/item_04.png'
+import { Link } from 'react-router-dom';
 
 
 const HomeServices = () => {
     const { t } = useTranslation();
   return (
-    <section className='section services bg-white'>
+    <section className='section services bg-white py-5'>
             <div className="container">
 {/* --------------------------------------- */}
                 <h2 className="mb-4 text-center">
@@ -87,9 +88,16 @@ const HomeServices = () => {
                         </div>
                         <div className='col-1'></div>
                     </div>
+
                     <div className='_btn'>
-                        <button className='button-2'>{t('btn.readmore')}</button>
+                        <Link to="/service/website"
+                            className="button-2"
+                            tabIndex="-1" 
+                            role="button" 
+                            aria-disabled="true"
+                        >{t('btn.readmore')}</Link>
                     </div> 
+
                 </div>
 {/* --------------------------------------- */}
                 <div className='section-app'>
@@ -127,9 +135,16 @@ const HomeServices = () => {
                                             text={t('home.services.appDev.item_4.text')}
                                             img={imgServiceApp_04}
                                         />
+
                                         <div className='_btn'>
-                                            <button className='button-2'>{t('btn.readmore')}</button>
+                                            <Link to="/service/app"
+                                                className="button-2"
+                                                tabIndex="-1" 
+                                                role="button" 
+                                                aria-disabled="true"
+                                            >{t('btn.readmore')}</Link>
                                         </div> 
+
                                     </div>
                                     <div className='col-md-1'></div>
                                 </div>
@@ -211,9 +226,16 @@ const HomeServices = () => {
                             </div>
                             <div className='col-4'></div>
                         </div>
+
                         <div className='_btn'>
-                            <button className='button-2'>{t('btn.readmore')}</button>
+                            <Link to="/service/design"
+                                className="button-2"
+                                tabIndex="-1" 
+                                role="button" 
+                                aria-disabled="true"
+                            >{t('btn.readmore')}</Link>
                         </div> 
+                        
                     </div>
                 </div>
 {/* --------------------------------------- */}              

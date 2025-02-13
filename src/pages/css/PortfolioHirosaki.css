@@ -30,11 +30,11 @@
     display: block;
 }
 
-.hirosaki .container {
+/* .hirosaki .content {
     padding: 0;
     margin: 0 10%;
     max-width: 80%;
-}
+} */
 
 .hirosaki .container h1 {
     text-align: left;
@@ -56,10 +56,10 @@
     margin: 1em 0;
 }
 
-.hirosaki h3 {
+.hirosaki .container h3 {
     text-align: left;
     font-size: 1.5em;
-    padding: 3rem;
+    padding: 3rem 0;
     margin: auto;
 
     text-transform: lowercase;
@@ -69,7 +69,7 @@
     
 }
 
-.hirosaki .container p {
+.hirosaki  .container p {
     text-align: left;
     font-size: 1em;
     color: var(--hi-body-text);
@@ -82,9 +82,9 @@
 }
 
 @media (max-width: 768px) {
-    .hirosaki .container {
+    /* .hirosaki .content {
         margin: 0 40px;
-    }
+    } */
   
 }
 /* images section */
@@ -143,7 +143,7 @@
     margin-top: 4rem;
     color: #ffffff;
 }
-.hirosaki .portfolio-header .container p {
+.hirosaki .portfolio-header p {
     width: 30%;
 }
 
@@ -182,6 +182,7 @@
     .hirosaki .container h1  {
         font-size: 6em;
         margin-top: .7em;
+        text-transform: uppercase;
     }
     .hirosaki .container h2 {
         font-size: 2em;
@@ -197,7 +198,7 @@
     .hirosaki .container h2 {
         font-size: 1.5em;
     }
-    .hirosaki .portfolio-header h3 { 
+    .hirosaki .portfolio-header .container h3 { 
         color: var(--hi-ascent2-text);
     }
     .hirosaki .portfolio-header {
@@ -247,7 +248,7 @@
 }
 
 /* overview */
-.project-overview {
+.hirosaki .project-overview {
     background-color: #f5f5f5;
  }
 
@@ -327,14 +328,14 @@
 
 /* project-design */
 
-.project-design {
+.hirosaki .project-design {
     z-index: 999;
     padding-top: 1px;
     
     width: 100%;
     position: relative;
 }
-.project-design::before {
+.hirosaki .project-design::before {
     background-image: url('../../images/portfolio/hirosaki/XXL/image_sushi_00.jpg');
     background-position: center top;
     background-size: cover;
@@ -349,42 +350,42 @@
 }
 
 
-.project-design h3 {
+.hirosaki .project-design .container h3 {
     color: #ffffff!important;
 }
 
-.project-design .container-fonts,
-.project-design .container-colors {
+.hirosaki .project-design .content-fonts,
+.hirosaki .project-design .content-colors {
     width: 100%;
     display: flex;
     justify-content: end;
-    /* height: 9em; */
 }
-.project-design .fonts,
-.project-design .colors {
+
+.hirosaki .project-design .fonts,
+.hirosaki .project-design .colors {
     display: flex;
-    width: 80%;
+    width: 72.4%;
     justify-content: space-between;
 }
 
-.project-design .font {
+.hirosaki .project-design .font {
     background-color: #ffffff;
     width: 30%;
     padding: 12px;
     border-radius: 16px;
 }
 
-.project-design .color {
+.hirosaki .project-design .color {
    text-align: center;
    align-items: center;
 }
 
-.project-design .font,
-.project-design .color-content {
+.hirosaki .project-design .font,
+.hirosaki .project-design .color-content {
     box-shadow: 7px 14px 25px #00000050;
 }
 
-.project-design .color-content {
+.hirosaki .project-design .color-content {
    
    border-radius: 100px;
    width: 130px;
@@ -392,13 +393,13 @@
    margin-top: 3em;
 }
 
-.project-design .color-example {
+.hirosaki .project-design .color-example {
     width: 100%;
     display: flex;
     justify-content: center;
 }
 
-.project-design .color-title {
+.hirosaki .project-design .color-title {
     text-align: center;
     color: white;
     margin-top: 1em;
@@ -407,12 +408,12 @@
 
 
 
-.project-design .font-title {
+.hirosaki .project-design .font-title {
     display: flex;
     justify-content: space-between;
 }
 
-.project-design .font-content {
+.hirosaki .project-design .font-content {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -420,95 +421,95 @@
     font-size: 96px;
 }
 
-.project-design .font-logo .font-content {
+.hirosaki .project-design .font-logo .font-content {
     font-family: 'MadeInChina';
   
 }
-.project-design .font-android .font-content {
+.hirosaki .project-design .font-android .font-content {
     font-family: 'Roboto';
 
 }
-.project-design .font-iphone .font-content {
+.hirosaki .project-design .font-iphone .font-content {
     font-family: 'SanFrancisco';
 
 }
-.project-design .color-main .color-content {
+.hirosaki .project-design .color-main .color-content {
     background-color: #FF4132;
 }
-.project-design .color-back .color-content {
+.hirosaki .project-design .color-back .color-content {
     background-color: #FFFFFF;
 }
-.project-design .color-text .color-content {
+.hirosaki .project-design .color-text .color-content {
     background-color: #202020;
 }
-.project-design .color-ascent .color-content {
+.hirosaki .project-design .color-ascent .color-content {
     background-color: #FF9900;
 }
-.project-design .color-hint .color-content {
+.hirosaki .project-design .color-hint .color-content {
     background-color: #FFC200;
 }
 
 @media (max-width: 1440px) {
-    .project-design::before {
+    .hirosaki .project-design::before {
         background-image: url('../../images/portfolio/hirosaki/max-1440/image_sushi_00.jpg');
     }    
 }
 
 
 @media (max-width: 992px) {
-    .project-design .fonts,
-    .project-design .colors {
+    .hirosaki .project-design .fonts,
+    .hirosaki .project-design .colors {
         width: 100%;
     }
 
-    .project-design .color-content {
+    .hirosaki .project-design .color-content {
         width: 100px;
         height: 100px;
      }
 }
 
 @media (max-width: 624px) {
-    .project-design .color-content {
+    .hirosaki .project-design .color-content {
         width: 80px;
         height: 80px;
      }
 }
 
 @media (max-width: 576px) {
-    .project-design .color-content {
+    .hirosaki .project-design .color-content {
         width: 50px;
         height: 50px;
      }
-    .project-design  .font-content {
+    .hirosaki .project-design  .font-content {
         
         font-size: 52px;
     }
-    .project-design  .font-title {
+    .hirosaki .project-design  .font-title {
         display: block;
     }
-    .project-design  .font-name,
-    .project-design  .color-name {
+    .hirosaki .project-design  .font-name,
+    .hirosaki .project-design  .color-name {
         font-weight: bold;
         min-height: 3em;
     }
 }
 @media (max-width: 390px) {
-    .project-design::before {
+    .hirosaki .project-design::before {
         background-image: url('../../images/portfolio/hirosaki/max-768/image_sushi_00.jpg');
     }
-    .project-design .colors {
+    .hirosaki .project-design .colors {
         display: block;
         margin-bottom: 2em;
     }
-    .project-design .color-title {
+    .hirosaki .project-design .color-title {
         margin-bottom: 0;
     }
     
-    .project-design  .color-name {
+    .hirosaki .project-design  .color-name {
         min-height: 1em;
     }
 
-    .project-design .color-content {
+    .hirosaki .project-design .color-content {
    
         width: 130px;
         height: 130px;
@@ -517,30 +518,29 @@
 }
 /* Key Features */
 
-.key-features {
+.hirosaki .key-features {
    background-color: #f5f5f5;
 }
 
-.key-features .container {
+.hirosaki .key-features .content {
     display: flex;
 }
 
-.key-features .keys-imgs {
+.hirosaki .key-features .keys-imgs {
     display: flex;
     padding-left: 5%;
-    
 }
 
-.key-features .keys-img img {
+.hirosaki .key-features .keys-img img {
     width: 100%;
 }
 
-.key-features .keys-img-02 img {
+.hirosaki .key-features .keys-img-02 img {
    margin-top: 4.5em;
    margin-left: -40%;
 }
 
-.key-features .keys-img-05 img {
+.hirosaki .key-features .keys-img-05 img {
     margin-top: 4.5em;
     z-index: 9;
     position: relative;
@@ -548,31 +548,29 @@
 }
 
 @media (max-width: 1200px) {
-    .key-features .container {
+    .hirosaki .key-features .content {
         display: block;
     }
 
-    .key-features .container .text {
+    .hirosaki .key-features .content  .text {
         display: flex;
     }
-
-    
 }
 
 @media (min-width: 1980px) {
-    .key-features .keys-imgs-second {
+    .hirosaki .key-features .keys-imgs-second {
         display: none;
     }
     
 }
 /* Screenshots */
 
-.screenshots .container .screen-imgs {
+.hirosaki .screenshots .content .screen-imgs {
     display: flex;
 
 }
 
-.screenshots .screen-img img {
+.hirosaki .screenshots .screen-img img {
    width: 100%;
    transform: rotate(17deg);
 }
@@ -580,7 +578,7 @@
 
 /* Tools */
 
-.tools {
+.hirosaki .tools {
     position: relative;
     padding-bottom: 1em;
     z-index: 9;
@@ -590,31 +588,31 @@
 
 /* role */
 
-.role {
+.hirosaki .role {
     background-color: #f5f5f5;
 }
-.role .container .context-role {
+.hirosaki .role .content .context-role {
     display: flex;
     justify-content: center;
 }
 
 
 /* sol */
-.sol {
+.hirosaki .sol {
     background-color: #f5f5f5;
 }
 
-.sol .container .desc {
+.hirosaki .sol .content .desc {
     display: flex;
     justify-content: center;
 }
 
-.sol .context-sol-left, 
-.sol .context-sol-right {
+.hirosaki .sol .context-sol-left, 
+.hirosaki .sol .context-sol-right {
     width: 40%;
 }
 
-.sol .context-sol-left {
+.hirosaki .sol .context-sol-left {
     padding-right: 5%;
 }
 
@@ -623,12 +621,12 @@
 }
 
 @media (max-width: 768px) {
-    .sol .context-sol-left, 
-    .sol .context-sol-right {
+    .hirosaki .sol .context-sol-left, 
+    .hirosaki .sol .context-sol-right {
         width: 100%;
         padding: 0;
     }
-    .sol .sol-right .sol-item {
+    .hirosaki .sol .sol-right .sol-item {
         padding-right: 10%;
     }
 }
@@ -637,54 +635,21 @@
 
 
 
-.res .container {
+.hirosaki .res .content {
     display: flex;
     justify-content: center;
 }
 
-.res .context-res-left, 
-.res .context-res-right {
+.hirosaki .res .context-res-left, 
+.hirosaki .res .context-res-right {
     width: 50%;
 }
 
-.res .context-res-left {
+.hirosaki .res .context-res-left {
     padding-right: 5%;
 }
 
-
-/* end */
-
-.end div {
-    text-align: center;
-    background-color: #f53635;
-    /* background-color: #2B3C42; */
-    /* background-color: var(--bs-primary-text-emphasis)!important; */
-    margin: 0 5% 40px  5%;
-    padding: 2em 5%;
-    border-radius: 27px;
-
+.hirosaki .end div {
     color: #FFC200;
-    /* color: #ffb300; */
-    /* color: rgba(var(--bs-dark-rgb),var(--bs-bg-opacity))!important; */
-    font-size: 3em;
-    font-weight: 400;
-    text-shadow: 0 0 30px rgba(0, 0, 0, 0.27);
-}
-
-@media (max-width: 1440px) {
-    .end div {
-        font-size: 2em;
-    }
-}
-
-@media (max-width: 768px) {
-    .end div {
-        font-size: 1.7em;
-    }
-}
-
-@media (max-width: 425px) {
-    .end div {
-        font-size: 1em;
-    }
+    background-color: #f53635;
 }

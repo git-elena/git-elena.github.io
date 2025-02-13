@@ -95,6 +95,11 @@
 }
 
 /* contact form */
+.contact-form {
+  margin-bottom: 0!important;
+  
+}
+
 .contactForm .contacts {
   
   height: 100%;

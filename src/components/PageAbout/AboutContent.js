@@ -5,6 +5,12 @@ const AboutContent = () => {
     const { t } = useTranslation();
   return (
     <section className='section p-5 mx-lg-5 row '>
+        <h2 className="mb-4 text-center">
+          {t('home.about.title.left')}
+          <span className="text-primary-emphasis">{t('home.about.title.center')}</span>
+          {t('home.about.title.right')}
+        </h2>
+
         <h3><span className="text-primary-emphasis">{t('about-page.p1.title.left')}</span>{t('about-page.p1.title.right')}</h3>
         
         <p>{t('about-page.p1.text')}</p>

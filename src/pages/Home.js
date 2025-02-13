@@ -1,5 +1,6 @@
 import React from 'react';
 import './css/Home.css'
+import './css/Portfolio.css'
 
 import HomeAboutUs from '../components/HomeSections/HomeAboutUs';
 import HomeServices from '../components/HomeSections/HomeServices';

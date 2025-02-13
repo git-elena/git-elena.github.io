@@ -5,7 +5,7 @@ import { useTranslation } from 'react-i18next';
 const HomeChooseUs = () => {
     const { t } = useTranslation();
   return (
-    <section className='section chose py-5 bg-white'>
+    <section className='section chose pt-5 bg-white'>
                 <div className="container">
                     <h2 className="mb-5 text-center">
                         

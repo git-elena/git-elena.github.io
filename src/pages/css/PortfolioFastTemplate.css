@@ -1,16 +1,19 @@
-/* .templates {
+.templates {
     margin-top: 5rem;
-} */
-.templates .container {
-    max-width: 80%;
 }
+/* .templates .container {
+    max-width: 80%;
+} */
 
-.templates section {
-    margin-top: 5rem;
+.templates .container {
+    margin-top: 3rem;
 }
 
 .templates p {
     text-indent: 30px;
+}
+
+.templates .portfolio-header p {
     text-align: justify;
 }
 
@@ -18,10 +21,10 @@
     color: var(--my-main-text-color);
     white-space: pre;
     text-align: center;
-    
     font-weight: bolder;
-
     padding: 3rem 0;
+
+    text-wrap: auto;
 }
 .templates h4 {
     text-align: center;
@@ -115,21 +118,27 @@
     padding: 0rem;
 }
 
-.templates .project .items-fast {
-    margin: 3rem 0;
-}
-
-.templates .project .items-fast .row {
+.templates .project .item-fast {
     margin-bottom: 3rem;
 }
 
-.templates .end {
-    padding-bottom: 3rem;
-}
+/* .templates .project .items-fast .row {
+    margin-bottom: 3rem;
+} */
+
 
 .templates .end div {
     background-color: brown;
-    text-align: center;
     color: white;
-    margin: auto;
+}
+
+@media (max-width: 1024px) {
+    .templates .proj {
+        margin: 0 3rem;
+    }
+}
+@media (max-width: 768px) {
+    .templates .proj {
+        margin: 0 0rem;
+    }
 }

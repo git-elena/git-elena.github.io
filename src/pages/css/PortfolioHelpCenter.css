@@ -1,4 +1,8 @@
-.portfolio-banner {
+.portfolio-helpcenter{
+    margin-top: 5rem;
+}
+
+.portfolio-helpcenter .portfolio-banner {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -13,59 +17,48 @@
 }
 
 @media (max-width: 768px) {
-    .portfolio-banner {
+  .portfolio-helpcenter .portfolio-banner {
         background-position: 20%;
     }
 }
 
 
-
-.glass-container {
-    background: rgba(9, 7, 142, 0.241);
-    backdrop-filter: blur(10px);
-    border-radius: 10px;
-    padding: 20px;
-    max-width: 80%;
-    color: rgb(255, 255, 255);
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
-}
-
-.banner-icon {
+.portfolio-helpcenter .banner-icon {
     width: 100px;
     margin-bottom: 10px;
     object-fit: cover;
 }
 
-.banner-title {
+.portfolio-helpcenter .banner-title {
     font-size: 1.5em;
     margin: 0;
 }
 
-.banner-subtitle {
+.portfolio-helpcenter .banner-subtitle {
     font-size: 2.1em;
     margin: 5px 0;
     font-weight: 300;
     color: #3c58a6;
 }
 
-.banner-description {
+.portfolio-helpcenter .banner-description {
     font-size: 1.2em;
     margin: 10px 0;
     text-align: center;    
     color: dimgrey;
 }
 
-.list-title {
+.portfolio-helpcenter .list-title {
     font-weight: bold;
 }
 
 /* Заголовок списка и технологии */
-.holy-spirit-project ul {
+.portfolio-helpcenter .holy-spirit-project ul {
     list-style: none;
     padding: 0;
 }
 
-.holy-spirit-project ul li {
+.portfolio-helpcenter .holy-spirit-project ul li {
     margin: 10px 0;
     padding: 10px;
     background: #fff;
@@ -73,33 +66,33 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-.holy-spirit-project ul li p {
+.portfolio-helpcenter .holy-spirit-project ul li p {
     margin: 0;
     font-size: 1.1em;
     line-height: 1.6;
 }
 
 /* Стиль для заголовков в пунктах списка */
-.list-title {
+.portfolio-helpcenter .list-title {
     font-weight: bold;
     color: #4a90e2;
     font-size: 1.1em;
 }
 
 /* Стили для абзацев */
-.holy-spirit-project p {
+.portfolio-helpcenter .holy-spirit-project p {
     margin: 10px 0;
     line-height: 1.6;
 }
 
 /* Дополнительные стили */
-.holy-spirit-project .section-title {
+.portfolio-helpcenter .holy-spirit-project .section-title {
     font-size: 1.5em;
     color: #4a90e2;
     margin-top: 20px;
 }
 
-.inline-image {
+.portfolio-helpcenter .inline-image {
     width: 100%;
     max-width: 300px;
     margin: 15px auto;
@@ -109,53 +102,57 @@
 }
   
   
-  .header-logo {
+.portfolio-helpcenter .header-logo {
     max-width: 50px;
     margin-bottom: 10px;
   }
   
-  .project-title {
+  .portfolio-helpcenter .project-title {
     font-size: 2.5em;
     margin: 0;
   }
   
-  .project-subtitle {
+  .portfolio-helpcenter .project-subtitle {
     font-size: 1.2em;
     color: #ddd;
   }
   
-  .portfolio-page .project-intro, .features, .portfolio-page .technologies, .portfolio-page .business-impact {
+  .portfolio-helpcenter .project-intro, 
+  .portfolio-helpcenter .features, 
+  .portfolio-helpcenter .technologies, 
+  .portfolio-helpcenter .business-impact {
     padding: 40px 20px;
     max-width: 1200px;
     margin: 0 auto;
   }
  
 
-.text-intro {
+.portfolio-helpcenter .text-intro {
     display: grid;
     place-items: center;
     height: 100%;
 }
 
-  .intro-content {
+  .portfolio-helpcenter .intro-content {
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin-top: 20px;
   }
   
-  .intro-text {
+  .portfolio-helpcenter .intro-text {
     max-width: 600px;
   }
   
-  .intro-image {
+  .portfolio-helpcenter .intro-image {
     max-width: 300px;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   }
   
-  .section-title {
-    font-size: 2em;
+  .portfolio-helpcenter .section-title {
+    font-size: 1.7rem;
+    line-height: 1.2rem;
     font-weight: bold;
     font-variant-caps: all-petite-caps;
     color: #3c58a6;
@@ -163,14 +160,16 @@
     margin-bottom: 40px;
   }
   
-  .features-list, .technologies-list {
+  .portfolio-helpcenter .features-list, 
+  .portfolio-helpcenter .technologies-list {
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
     /* justify-content: space-around; */
   }
   
-  .feature-item, .technology-item {
+  .portfolio-helpcenter .feature-item, 
+  .portfolio-helpcenter .technology-item {
     /* background-color: #f9f9f9; */
     padding: 20px;
     margin-bottom: 15px;
@@ -179,8 +178,8 @@
     /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
   }
   
-  .portfolio-page h3 {
-    font-size: 4em;
+  .portfolio-helpcenter h3 {
+    font-size: 3em;
     font-weight: lighter;
     color: #3c58a6;
   }
@@ -189,7 +188,7 @@
   
 
 
-  .table-cell {
+  .portfolio-helpcenter .table-cell {
     /* border: 1px solid #ccc; */
     padding: 20px;
     /* background-color: #f9f9f9; */
@@ -197,18 +196,18 @@
     height: 100%;
     /* display: grid; */
   }
-  .full-height {
+  .portfolio-helpcenter .full-height {
     height: 100%;
   }
 
   /* -------------- */
-  .portfolio-page h6 {
+  .portfolio-helpcenter h6 {
     font-weight: bold;
     color: #3c58a6;
   }
 
   @media (min-width: 768px) { 
-    .row-img {
+    .portfolio-helpcenter .row-img {
         background-image: url('../../images/portfolio/helpcenter24/homeAudioPlayers.jpg'); 
         background-size: contain;
         background-position: right bottom;
@@ -219,8 +218,8 @@
 
   @media (max-width: 768px) { 
   
-    .portfolio-page h3 {
-        font-size: 2.9em;
+    .portfolio-helpcenter h3 {
+        font-size: 2.7em;
         font-weight: 200;
     }
 }
@@ -228,14 +227,14 @@
 
 
 @media (max-width: 480px) {
-    .row-inner {
+    .portfolio-helpcenter .row-inner {
         display: grid;
     }
-    .only-sm-img {
+    .portfolio-helpcenter .only-sm-img {
         margin-left: -25%;
         width: 100%;
     }
-    .portfolio-page h3 {
+    .portfolio-helpcenter h3 {
         font-size: 2.7em;
         font-weight: 200;
     }
@@ -243,15 +242,7 @@
 
 /* Help Center + */
 
-.portfolio-helpcenter .end { 
+.portfolio-helpcenter .end div { 
   background-color: #3c58a6;
-  padding: 40px 20px;
-  max-width: 1200px;
-  margin: 1rem auto;
-  border-radius: 33px;
-
-}
-.portfolio-helpcenter .end h3 { 
-  text-align: center;
   color: #fff;
 }

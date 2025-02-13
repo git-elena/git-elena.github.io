@@ -1,4 +1,5 @@
 {
+    "name":"DK SoftLab",
     "contacts": {
         "address":"Plzen, Czech Republic",
         "phone1":"+380 987 654 321",
@@ -169,6 +170,26 @@
                     "entry": "Design",
                     "title": "Arabora",
                     "desc": "The website design is created to maximally showcase the quality and uniqueness of the products. The simplicity of navigation and the visual emphasis on the products help the company attract potential clients and build a strong connection between the brand and the audience."
+                },
+                "OO": {
+                    "entry": "Website",
+                    "title": "Omelchenko Olena",
+                    "desc": "A makeup artist's website from Kyiv. The website was created according to the client's design."
+                },
+                "GV": {
+                    "entry": "Website",
+                    "title": "GV (Grand Vision)",
+                    "desc": "Corporate website for an advertising company in Spain. The website was created according to the client's design."
+                },
+                "KRP": {
+                    "entry": "Website",
+                    "title": "KRP (Kyiv River Port)",
+                    "desc": "Official website of the Kyiv River Port. The website was created according to the client's design."
+                },
+                "MG": {
+                    "entry": "Website",
+                    "title": "M GROUP",
+                    "desc": "An engineering and construction company. The website was created according to the client's design."
                 }
             }
         },
@@ -249,6 +270,7 @@
 
     "pages": {
         "portfolio": {
+            "TFW":"Thanks For Watching",
             "helpCenter24": {
                 "title": "Help Center 24",
                 "subtitle": "Mobile Application",
@@ -325,8 +347,359 @@
                         "businessImpact": "This project highlights our expertise in creating functional and user-friendly mobile applications for religious and non-profit organizations. We offer solutions that not only enhance communication but also increase audience engagement, simplify donation processes, and maintain constant connection with users through multimedia channels."
                     }
                 }
+            },
+            "hirosaki": {
+                "title": "Hirosaki",
+                "subtitle": "Mobile Application",
+                "maintitle":"Sushi House",
+                "description": "\"Hirosaki Sushi House\" is a commercial mobile application developed by our team for a real Japanese restaurant with an established customer base.",
+                "body": {
+                    "alt":"Device Screenshot",
+                    "section_1": {
+                        "title":"Project Overview",
+                        "text":{
+                            "p1":"The primary goal of the project was to improve customer interaction and simplify the ordering process.",
+                            "p2":"The application provides users with a convenient way to browse the menu, place orders, pay online, and stay informed about special offers.",
+                            "p3":"We designed this product to meet the specific needs of the restaurant and its customers while supporting business growth.",
+                            "p4":"Additionally, users can view their past orders offline, adding to the convenience of the app."
+                        }
+                    },
+                    "section_2":{
+                        "title":"Project Design",
+                        "text":{
+                            "c1":"Main Color",
+                            "c2":"Background",
+                            "c3":"Main Text",
+                            "c4":"Ascent Text",
+                            "c5":"Hint"
+                        }
+                    },
+                    "section_3":{
+                        "title":"Key Features",
+                        "text":{
+                            "p1": {
+                                "header":"Online Ordering",
+                                "text":"An intuitive ordering system allows customers to place orders for delivery or pickup and even schedule them at a convenient time."
+                            },
+                            "p2": {
+                                "header":"Offline Order History",
+                                "text":"Users can access their past orders even when offline, enhancing the overall usability of the application."
+                            },
+                            "p3": {
+                                "header":"PayPal Payments",
+                                "text":"Integrated PayPal functionality enables users to pay for their orders quickly and securely."
+                            },
+                            "p4": {
+                                "header":"Menu Browsing",
+                                "text":"Users can explore a well-structured menu with high-quality photos and detailed descriptions of dishes to help them make informed choices."
+                            },
+                            "p5": {
+                                "header":"Push Notifications",
+                                "text":"Notifications about order status, new offers, and exclusive deals keep users informed and engaged."
+                            },
+                            "p6": {
+                                "header":"Promotions and Discounts",
+                                "text":"Real-time updates on current promotions and special offers encourage repeat orders and customer engagement."
+                            },
+                            "p7": {
+                                "header":"Instant Order Notifications for Staff via Telegram",
+                                "text":"All orders are immediately sent to the restaurant’s Telegram bot, ensuring that staff receives timely updates about new orders."
+                            },
+                            "p8": {
+                                "header":"Integration with Bitrix24",
+                                "text":"The application is integrated with the Bitrix24 API, allowing the restaurant to automate order management and maintain customer records efficiently."
+                            }
+                        }
+                    },
+                    "section_4":{
+                        "title":"Screenshots"
+                    },
+                    "section_5": {
+                        "title":"Technologies and Tools",
+                        "text": {
+                            "p1": {
+                                "header":"Flutter and Dart",
+                                "text":"We used Flutter to build a single codebase for both iOS and Android, ensuring a consistent experience across platforms. Dart was utilized to implement the app’s business logic."
+                            },
+                            "p2": {
+                                "header":"REST API Integration",
+                                "text":"REST API was used to ensure seamless communication between the server and the app, keeping menu and order data up-to-date in real-time."
+                            },
+                            "p3": {
+                                "header":"State Management with Provider",
+                                "text":"We used Provider to manage app data efficiently, delivering smooth and quick user interactions even under heavy loads."
+                            },
+                            "p4": {
+                                "header":"Firebase Services",
+                                "text":"Firebase was used to send push notifications, keeping users informed about order updates and promotions."
+                            },
+                            "p5": {
+                                "header":"PayPal Integration",
+                                "text":"We implemented PayPal functionality to enable convenient and secure online payments."
+                            },
+                            "p6": {
+                                "header":"Telegram Bot for Staff",
+                                "text":"We integrated a Telegram bot that instantly receives all new orders, ensuring that restaurant staff is promptly notified and can process orders without delay."
+                            }
+                        }
+                    },
+                    "section_6":{
+                        "title":"Our Role in the Project",
+                        "text": {
+                            "p1": {
+                                "header":"UI/UX Design",
+                                "text":"We created a simple, intuitive design to ensure easy access to the menu and a smooth ordering process."
+                            },
+                            "p2": {
+                                "header":"Backend Integration",
+                                "text":"We connected the app to the restaurant's backend via REST API, ensuring that all data was synchronized and updated in real-time."
+                            },
+                            "p3": {
+                                "header":"Testing and Optimization",
+                                "text":"Our team conducted extensive testing to fix bugs, improve performance, and optimize the app for a smooth user experience."
+                            },
+                            "p4": {
+                                "header":"Integration with Bitrix24",
+                                "text":"We implemented Bitrix24 API integration to streamline order management and make it easier for the restaurant to maintain customer records."
+                            },
+                            "p5": {
+                                "header":"Telegram Bot Integration",
+                                "text":"We configured a Telegram bot to instantly notify staff about new orders, reducing delays and improving service efficiency."
+                            }
+                        }
+                    },
+                    "section_7":{
+                        "title":"Challenges And Solutions",
+                        "text": {
+                            "p1": {
+                                "header":"Timely Order Notifications for Staff",
+                                "text":"We integrated a Telegram bot to ensure that orders were instantly sent to the staff, minimizing delays in processing."
+                            },
+                            "p2": {
+                                "header":"Bitrix24 Integration",
+                                "text":"By connecting the app with Bitrix24, we helped the restaurant automate its order management, simplifying administrative tasks."
+                            },
+                            "p3": {
+                                "header":"PayPal Integration",
+                                "text":"We successfully implemented PayPal to provide users with a fast and secure online payment option."
+                            }
+                        }
+                    },
+                    "section_8":{
+                        "title":"Results",
+                        "text": {
+                            "p1": {
+                                "header":"Successful Launch",
+                                "text":"The app was launched on both Google Play and the App Store, receiving positive reviews for its ease of use and functionality."
+                            },
+                            "p2": {
+                                "header":"Increased Sales",
+                                "text":"The simple and convenient ordering process contributed to a 25% increase in online sales during the first month of launch."
+                            },
+                            "p3": {
+                                "header":"Improved Customer Satisfaction",
+                                "text":"The intuitive interface, seamless navigation, fast payment system, and the ability to view orders offline received high praise from users, increasing customer loyalty."
+                            }
+                        }
+                    }
+                }
+            },
+            "TM": {
+                "title": "Tibetan Mastiffs",
+                "subtitle": "Website Development\nfor a Dog Kennel",
+                "maintitle":"Project Description",
+                "description":"The project focused on creating a unique website design for a Tibetan Mastiff kennel. The main goal was to develop a visually appealing, intuitive, and functional interface that highlights the exclusivity of the breed.",
+                "body": {
+                    "section_1": {
+                        "title": "Preparation and Research",
+                        "diagram": {
+                            "title": "Diagram illustrating the segmentation of Tibetan Mastiff website audiences:",
+                            "legend": {
+                                "title": "Categories of Audience:",
+                                "p1": "Potential Owners (50%)",
+                                "p2": "Breeders (30%)",
+                                "p3": "Breed Enthusiasts (20%)"
+                            }
+                        },
+                        "text": {
+                            "title": "We began with an analysis of:",
+                            "p1": {
+                                "title": "Website Goals:",
+                                "text": "Inform visitors about the kennel, showcase the beauty and merits of the dogs, and create a convenient platform for connecting with the owner."
+                            },
+                            "p2": {
+                                "title": "Target Audience:",
+                                "text": "People interested in the Tibetan Mastiff breed, potential owners, and breeders."
+                            },
+                            "p3": {
+                                "title": "Competitors:",
+                                "text": "Analyzed similar kennel websites to highlight the unique features of the Tibetan Mastiff website and enhance the user experience."
+                            },
+                            "table": {
+                                "title": "Table comparing competitor websites based on key parameters",
+                                "col_1": {
+                                    "title":"Website"
+                                },
+                                "col_2": {
+                                    "title":"Design",
+                                    "r1": "Traditional",
+                                    "r2": "Modern",
+                                    "r3": "Minimalistic"
+                                },
+                                "col_3": {
+                                    "title":"Navigation Usability"
+                                },
+                                "col_4": {
+                                    "title":"Breed Information"
+                                },
+                                "col_5": {
+                                    "title":"Contact Information"
+                                }
+                            },
+                            "p4": {
+                                "title": "Outcome:",
+                                "text": "A clear brief was created, outlining the requirements for the site's design and functionality."
+                            }
+                        }
+                    },
+                    "section_2": {
+                        "title": "Design Concept",
+                        "text": "During the concept development phase, a Moodboard was created, featuring elements associated with warmth, trust, and natural aesthetics. The color palette consisted of natural shades: green, beige, and brown, creating a comfortable and cozy atmosphere for users.",
+                        "palette": "Color palette:",
+                        "p": {
+                            "title":"Outcome:",
+                            "text": "A style and tone were developed to convey the brand's values and ensure a comfortable user experience."
+                        }
+                    },
+                    "section_3": {
+                        "title": "Prototyping",
+                        "text": "Wireframes of key pages were designed to clarify the structure and functional elements of the site. Additionally, animations were implemented to demonstrate interactive elements.",
+                        "p": {
+                            "title":"Outcome:",
+                            "text": "A solid foundation was established for the visual and functional implementation of the website."
+                        }
+                    },
+                    "section_4": {
+                        "title": "Final Website Version",
+                        "text_1": "The completed website combines an intuitive interface, stylish design, and robust functionality. Key features include cards with puppy information, detailed breed descriptions, and kennel contact details.",
+                        "text_2": "The mobile version was optimized to ensure a seamless experience across devices:",
+                        "p": {
+                            "title":"Outcome:",
+                            "text": "A polished final product that emphasizes the kennel's uniqueness and meets the needs of the target audience."
+                        }
+                    }
+                }
+            },
+            "template": {
+                "title": "Fast and Efficient Website Development\nUsing Templates and Custom Designs",
+                "section_1": {
+                    "title": "Overview",
+                    "text": "In today’s fast-paced digital world, businesses often require a swift and reliable approach to launching their online presence. This case study showcases a series of websites that were successfully developed within tight deadlines using ready-made templates, custom client designs, or reference examples provided by the client. Our streamlined development process allowed for rapid deployment without sacrificing quality or functionality."
+                },
+                "section_2": {
+                    "title": "Development Approach",
+                    "text": {
+                        "p1": {
+                            "title":"Leveraging Ready-Made Templates",
+                            "text": "We efficiently adapted and customized existing templates, enabling faster development while maintaining a professional and polished look."
+                        },
+                        "p2": {
+                            "title":"Implementing Custom Client Designs",
+                            "text": "When clients provided their own designs, we ensured precise implementation according to modern UX/UI standards to deliver visually appealing and user-friendly interfaces."
+                        },
+                        "p3": {
+                            "title":"Developing Based on Reference Examples",
+                            "text": "For projects where clients provided inspiration or reference sites, we recreated the desired look and feel while incorporating tailored adjustments to meet business needs."
+                        },
+                        "p4": {
+                            "title":"Ensuring Full Responsiveness",
+                            "text": "Each website was designed and tested for compatibility across various devices, ensuring seamless performance on desktops, tablets, and smartphones."
+                        },
+                        "p5": {
+                            "title":"Optimizing for Speed and SEO",
+                            "text": "We applied best practices in web performance optimization, including fast-loading assets, clean code structures, and search engine-friendly configurations."
+                        },
+                        "p6": {
+                            "title":"Integrating Essential Features",
+                            "text": "Functional elements such as contact forms, social media links, and analytics tracking were set up to enhance user engagement and data-driven decision-making."
+                        }
+                    }
+                },
+                "section_3": {
+                    "title": "Key Outcomes",
+                    "text": {
+                        "p1": {
+                            "title":"Rapid Deployment",
+                            "text": "The websites were successfully launched in minimal timeframes without compromising functionality or user experience."
+                        },
+                        "p2": {
+                            "title":"Cost-Efficient Solutions",
+                            "text": "By leveraging templates and predefined frameworks, we minimized development costs while maximizing quality."
+                        },
+                        "p3": {
+                            "title":"Scalable and Adaptable Results",
+                            "text": "Clients received fully operational web solutions that could be expanded or customized further as their business evolved."
+                        }
+                    }
+                },
+                "section_4": {
+                    "title": "Project Showcase",
+                    "text": {
+                        "p1":"A unique design crafted using client-provided examples as inspiration while maintaining originality and brand identity:",
+                        "p2":"Websites built precisely according to the clients’ designs, ensuring full adherence to their visions and specifications:"
+                    },
+                    "case": {
+                        "c1": {
+                            "title":"Designer",
+                            "text":"A humorous yet professional web design that engages clients. Uses animations and bright colors for memorability."
+                        },
+                        "c2": {
+                            "title":"Tribo",
+                            "text":"A minimalist website that showcases the company's creative approach to architectural metal projects. Custom design created using client-provided references as inspiration."
+                        },
+                        "c3": {
+                            "title":"Arabora",
+                            "text":"A website design that emphasizes the quality and uniqueness of products. Simple navigation to attract potential clients."
+                        },
+                        "c4": {
+                            "title":"Czech Center",
+                            "text": {
+                                "p1":"A website designed for employment opportunities in the Czech Republic. Features a clean, professional layout that ensures easy navigation for job seekers and employers.",
+                                "p2":"In addition to the website design, a custom logo was also developed to establish a strong brand identity."
+                            }
+                        },
+                        "c5": {
+                            "title":"Omelchenko Olena",
+                            "text": {
+                                "p1":"A makeup artist's website from Kyiv.",
+                                "p2":"Created on MODx Revolution."
+                            }
+                        },
+                        "c6": {
+                            "title":"GV (Grand Vision)",
+                            "text": {
+                                "p1":"Corporate website for an advertising company in Spain.",
+                                "p2":"Built on MODx Revolution."
+                            }
+                        },
+                        "c7": {
+                            "title":"KRP (Kyiv River Port)",
+                            "text": {
+                                "p1":"Official website of the Kyiv River Port.",
+                                "p2":"Built on MODx Revolution."
+                            }
+                        },
+                        "c8": {
+                            "title":"M GROUP",
+                            "text": {
+                                "p1":"An engineering and construction company.",
+                                "p2":"Built on MODx Revolution."
+                            }
+                        }
+                    },
+                    "end":"This case study highlights our ability to deliver high-quality web solutions quickly and effectively. By leveraging industry best practices, we ensure that businesses not only get online swiftly but also have a robust digital foundation to grow and succeed."
+                }
             }
-    
         },
 
         "services-page": {

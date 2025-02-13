@@ -95,7 +95,7 @@ const Footer = () => {
           </div>
           <div className="text-center pt-4 border-top">
             <p>
-              &copy; {new Date().getFullYear()} AddSoftware.{' '}
+              &copy; {new Date().getFullYear()} {t('name')}.{' '}
               {t('footer.allRightsReserved')}
             </p>
           </div>

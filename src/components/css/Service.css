@@ -11,6 +11,7 @@
     padding: 1rem 10vw;
     color: white;
     font-weight: normal;
+    text-decoration: none;
 }
 .services-page .button-2:hover ,
 .services .button-2:hover {
@@ -100,8 +101,8 @@
   
 @media (max-width: 480px) {
     .section .service-title .title {
-      font-size: 2rem!important;
-      line-height: 1.6rem!important;
+      font-size: 2rem;
+      line-height: 1.6rem;
       
     }
     .section-app .service-title .text {
@@ -118,7 +119,13 @@
     }
 }
 
+@media (max-width: 375px) {
+    .section .service-title .title {
+      font-size: 1.5rem;
+      line-height: 1.25rem;
+    }
 
+}
 .services .section-card {
    
     background-color: white;

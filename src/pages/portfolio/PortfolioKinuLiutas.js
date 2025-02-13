@@ -25,6 +25,7 @@ import imgMobile_00 from '../../images/portfolio/kinuliutas/mobile_00.jpg'
 import imgMobile_01 from '../../images/portfolio/kinuliutas/mobile_01.jpg'
 import imgMobile_02 from '../../images/portfolio/kinuliutas/mobile_02.jpg'
 import imgMobile_03 from '../../images/portfolio/kinuliutas/mobile_03.jpg'
+import HomeContact from '../../components/HomeSections/HomeContact';
 
 const PortfolioKinuLiutas = () => {
     const { t } = useTranslation();
@@ -32,7 +33,7 @@ const PortfolioKinuLiutas = () => {
     return (
         <div className='portfolio-page page-content kinuliutas'>
             <section className='portfolio-header'>
-                <h3>Website Development for a Dog Kennel</h3>
+                
                 <div className='container'>
                     <div className='row'>
                         <div className='col-6'>
@@ -44,15 +45,18 @@ const PortfolioKinuLiutas = () => {
                         />
                         </div>
                         <div className='col-6'>
-                            <h1>Tibetan Mastiff Kennel</h1>
+                            <h3>{t('pages.portfolio.TM.subtitle')}</h3>
+                            
                             <div class="div-gerb">
                                 <img className="img-gerb"
                                     src={imgKinuLiutas}
                                     alt='Kinu Liutas'
                                 />
                             </div>
-                            <h4>Project Description</h4>
-                            <p>The project focused on creating a unique website design for a Tibetan Mastiff kennel. The main goal was to develop a visually appealing, intuitive, and functional interface that highlights the exclusivity of the breed.</p>
+
+                            <h1>{t('pages.portfolio.TM.title')}</h1>
+                            <h4 className='d-none d-md-block'>{t('pages.portfolio.TM.maintitle')}</h4>
+                            <p>{t('pages.portfolio.TM.description')}</p>
                         </div>
                     </div>
                 </div>
@@ -60,10 +64,10 @@ const PortfolioKinuLiutas = () => {
             
             <section className='section-1'>
                 <div class="container">
-                    <h3>Preparation and Research</h3>
+                    <h3>{t('pages.portfolio.TM.body.section_1.title')}</h3>
                     <div className='row'>
                         <div className='col-6'>
-                            <p className='note'>Diagram illustrating the segmentation of Tibetan Mastiff website audiences:</p>
+                            <p className='note'>{t('pages.portfolio.TM.body.section_1.diagram.title')}</p>
                             <div class="div-diagram">
                                 <img className="img-diagram mt-3 mt-sm-0 mb-3 mb-sm-0"
                                     src={imgDiagram}
@@ -71,13 +75,13 @@ const PortfolioKinuLiutas = () => {
                                 />
                             </div>
                             <div className='diagramLegend'>
-                                <p className='note'>Categories of Audience:</p>
+                                <p className='note'>{t('pages.portfolio.TM.body.section_1.diagram.legend.title')}</p>
                                 <div className='row'>
                                     <div className='col-3 col-md-2 col-lg-1'>
                                         <div className='color color-1'></div>
                                     </div>
                                     <div className='col-9'>
-                                        <p>Potential Owners (50%)</p>
+                                        <p>{t('pages.portfolio.TM.body.section_1.diagram.legend.p1')}</p>
                                     </div>
                                 </div>
                                 <div className='row'>
@@ -85,7 +89,7 @@ const PortfolioKinuLiutas = () => {
                                         <div className='color color-2'></div>
                                     </div>
                                     <div className='col-9'>
-                                        <p>Breeders (30%)</p>
+                                        <p>{t('pages.portfolio.TM.body.section_1.diagram.legend.p2')}</p>
                                     </div>
                                 </div>
                                 <div className='row'>
@@ -93,44 +97,44 @@ const PortfolioKinuLiutas = () => {
                                         <div className='color color-3'></div>
                                     </div>
                                     <div className='col-9'>
-                                        <p>Breed Enthusiasts (20%)</p>
+                                        <p>{t('pages.portfolio.TM.body.section_1.diagram.legend.p3')}</p>
                                     </div>
                                 </div>
                             </div>
                         </div>
                         <div className='col-6'>
-                            <h4>We began with an analysis of:</h4>
-                            <p><span>Website Goals: </span>Inform visitors about the kennel, showcase the beauty and merits of the dogs, and create a convenient platform for connecting with the owner.</p>
-                            <p><span>Target Audience: </span>People interested in the Tibetan Mastiff breed, potential owners, and breeders.</p>
-                            <p><span>Competitors: </span>Analyzed similar kennel websites to highlight the unique features of the Tibetan Mastiff website and enhance the user experience.</p>
+                            <h4>{t('pages.portfolio.TM.body.section_1.text.title')}</h4>
+                            <p><span>{t('pages.portfolio.TM.body.section_1.text.p1.title')} </span>{t('pages.portfolio.TM.body.section_1.text.p1.text')}</p>
+                            <p><span>{t('pages.portfolio.TM.body.section_1.text.p2.title')} </span>{t('pages.portfolio.TM.body.section_1.text.p2.text')}</p>
+                            <p><span>{t('pages.portfolio.TM.body.section_1.text.p3.title')} </span>{t('pages.portfolio.TM.body.section_1.text.p3.text')}</p>
                             <div className='table d-none d-md-block'>
-                                <p className='note'>Table comparing competitor websites based on key parameters</p>
+                                <p className='note'>{t('pages.portfolio.TM.body.section_1.text.table.title')}</p>
                                 <table>
                                     <tbody>
                                         <tr>
-                                            <th style={{width:"100%"}}>Website</th>
-                                            <th >Design</th>
-                                            <th className='td'>Navigation Usability</th>
-                                            <th className='td'>Breed Information</th>
-                                            <th className='td'>Contact Information</th>
+                                            <th style={{width:"100%"}}>{t('pages.portfolio.TM.body.section_1.text.table.col_1.title')}</th>
+                                            <th >{t('pages.portfolio.TM.body.section_1.text.table.col_2.title')}</th>
+                                            <th className='td'>{t('pages.portfolio.TM.body.section_1.text.table.col_3.title')}</th>
+                                            <th className='td'>{t('pages.portfolio.TM.body.section_1.text.table.col_4.title')}</th>
+                                            <th className='td'>{t('pages.portfolio.TM.body.section_1.text.table.col_5.title')}</th>
                                         </tr>
                                         <tr>
                                             <td>tibetan-mastiff.ru</td>
-                                            <td>7/10 (Traditional)</td>
+                                            <td>7/10 ({t('pages.portfolio.TM.body.section_1.text.table.col_2.r1')})</td>
                                             <td className='td'>8/10</td>
                                             <td className='td'>9/10</td>
                                             <td className='td'>9/10</td>
                                         </tr>
                                         <tr>
                                             <td>tmnnov.ru</td>
-                                            <td>8/10 (Modern)</td>
+                                            <td>8/10 ({t('pages.portfolio.TM.body.section_1.text.table.col_2.r2')})</td>
                                             <td className='td'>7/10</td>
                                             <td className='td'>8/10</td>
                                             <td className='td'>8/10</td>
                                         </tr>
                                         <tr>
                                             <td>mastif.info</td>
-                                            <td>6/10 (Minimalistic)</td>
+                                            <td>6/10 ({t('pages.portfolio.TM.body.section_1.text.table.col_2.r3')})</td>
                                             <td className='td'>7/10</td>
                                             <td className='td'>7/10</td>
                                             <td className='td'>7/10</td>
@@ -138,53 +142,55 @@ const PortfolioKinuLiutas = () => {
                                     </tbody>
                                 </table>
                             </div>
-                            <p  className='d-none d-md-block'><span>Outcome: </span>A clear brief was created, outlining the requirements for the site's design and functionality.</p>
+                            <p  className='d-none d-md-block'><span>{t('pages.portfolio.TM.body.section_1.text.p4.title')} </span>{t('pages.portfolio.TM.body.section_1.text.p4.text')}</p>
 
                         </div>
                     </div>
+                    
                     <div className='table d-md-none d-block'>
-                                <p className='note'>Table comparing competitor websites based on key parameters</p>
-                                <table>
-                                    <tbody>
-                                        <tr>
-                                            <th style={{width:"100%"}}>Website</th>
-                                            <th >Design</th>
-                                            <th className='td'>Navigation Usability</th>
-                                            <th className='td'>Breed Information</th>
-                                            <th className='td'>Contact Information</th>
-                                        </tr>
-                                        <tr>
-                                            <td>tibetan-mastiff.ru</td>
-                                            <td>7/10 (Traditional)</td>
-                                            <td className='td'>8/10</td>
-                                            <td className='td'>9/10</td>
-                                            <td className='td'>9/10</td>
-                                        </tr>
-                                        <tr>
-                                            <td>tmnnov.ru</td>
-                                            <td>8/10 (Modern)</td>
-                                            <td className='td'>7/10</td>
-                                            <td className='td'>8/10</td>
-                                            <td className='td'>8/10</td>
-                                        </tr>
-                                        <tr>
-                                            <td>mastif.info</td>
-                                            <td>6/10 (Minimalistic)</td>
-                                            <td className='td'>7/10</td>
-                                            <td className='td'>7/10</td>
-                                            <td className='td'>7/10</td>
-                                        </tr>
-                                    </tbody>
-                                </table>
-                            </div>
-                            <p  className='d-md-none d-block'><span>Outcome: </span>A clear brief was created, outlining the requirements for the site's design and functionality.</p>
+                        <p className='note'>{t('pages.portfolio.TM.body.section_1.text.table.title')}</p>
+                        <table>
+                            <tbody>
+                                <tr>
+                                <th style={{width:"100%"}}>{t('pages.portfolio.TM.body.section_1.text.table.col_1.title')}</th>
+                                    <th >{t('pages.portfolio.TM.body.section_1.text.table.col_2.title')}</th>
+                                    <th className='td'>{t('pages.portfolio.TM.body.section_1.text.table.col_3.title')}</th>
+                                    <th className='td'>{t('pages.portfolio.TM.body.section_1.text.table.col_4.title')}</th>
+                                    <th className='td'>{t('pages.portfolio.TM.body.section_1.text.table.col_5.title')}</th>
+                                </tr>
+                                <tr>
+                                    <td>tibetan-mastiff.ru</td>
+                                    <td>7/10 ({t('pages.portfolio.TM.body.section_1.text.table.col_2.r1')})</td>
+                                    <td className='td'>8/10</td>
+                                    <td className='td'>9/10</td>
+                                    <td className='td'>9/10</td>
+                                </tr>
+                                <tr>
+                                    <td>tmnnov.ru</td>
+                                    <td>8/10 ({t('pages.portfolio.TM.body.section_1.text.table.col_2.r2')})</td>
+                                    <td className='td'>7/10</td>
+                                    <td className='td'>8/10</td>
+                                    <td className='td'>8/10</td>
+                                </tr>
+                                <tr>
+                                    <td>mastif.info</td>
+                                    <td>6/10 ({t('pages.portfolio.TM.body.section_1.text.table.col_2.r3')})</td>
+                                    <td className='td'>7/10</td>
+                                    <td className='td'>7/10</td>
+                                    <td className='td'>7/10</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    
+                    <p  className='d-md-none d-block'><span>{t('pages.portfolio.TM.body.section_1.text.p4.title')} </span>{t('pages.portfolio.TM.body.section_1.text.p4.text')}</p>
 
                 </div>
             </section>
 
             <section className='section-2'>
                 <div className='container'>
-                    <h3>Design Concept</h3>
+                    <h3>{t('pages.portfolio.TM.body.section_2.title')}</h3>
                 
                     <div className='row'>
                         <div className='col-md-6'>
@@ -207,9 +213,9 @@ const PortfolioKinuLiutas = () => {
                             </div>
                         </div>
                         <div className='col-md-6 mt-3 mt-md-0'>
-                            <p>During the concept development phase, a Moodboard was created, featuring elements associated with warmth, trust, and natural aesthetics. The color palette consisted of natural shades: green, beige, and brown, creating a comfortable and cozy atmosphere for users.</p>
+                            <p>{t('pages.portfolio.TM.body.section_2.text')}</p>
                             <div class="color-palette">
-                                <p className='note'>Color palette:</p>
+                                <p className='note'>{t('pages.portfolio.TM.body.section_2.palette')}</p>
                                 <div className='row palette'>
                                     <div className='col-6'>
                                         <div className='color-1 color'>#0A4F59</div>
@@ -221,7 +227,7 @@ const PortfolioKinuLiutas = () => {
                                     </div>
                                 </div>
                             </div>
-                            <p><span>Outcome: </span>A style and tone were developed to convey the brand's values and ensure a comfortable user experience.</p>
+                            <p><span>{t('pages.portfolio.TM.body.section_2.p.title')} </span>{t('pages.portfolio.TM.body.section_2.p.text')}</p>
                         </div>
                     </div>
                 </div>
@@ -229,7 +235,7 @@ const PortfolioKinuLiutas = () => {
 
             <section className='section-3'>
                 <div className='container'>
-                    <h3>Prototyping</h3>
+                    <h3>{t('pages.portfolio.TM.body.section_3.title')}</h3>
                     <div className='row prototyping'>
                         <div className='col-md-6'>
                             <img 
@@ -239,7 +245,7 @@ const PortfolioKinuLiutas = () => {
                             />
                         </div>
                         <div className='col-md-6 mt-3 mt-md-0'>
-                            <p>Wireframes of key pages were designed to clarify the structure and functional elements of the site. Additionally, animations were implemented to demonstrate interactive elements.</p>
+                            <p>{t('pages.portfolio.TM.body.section_3.text')}</p>
                             <div className='row interactive'>
                                 <div className='col-6'>
                                     <img 
@@ -256,7 +262,7 @@ const PortfolioKinuLiutas = () => {
                                     />
                                 </div>
                             </div>
-                            <p><span>Outcome: </span>A solid foundation was established for the visual and functional implementation of the website.</p>
+                            <p><span>{t('pages.portfolio.TM.body.section_3.p.title')} </span>{t('pages.portfolio.TM.body.section_3.p.text')}</p>
                         </div>
                     </div>
                 </div>
@@ -264,10 +270,10 @@ const PortfolioKinuLiutas = () => {
 
             <section className='section-4'>
                 <div className='container final'>
-                    <h3>Final Website Version</h3>
+                    <h3>{t('pages.portfolio.TM.body.section_4.title')}</h3>
                     <div className='row'>
                         <div className='col-6'></div>
-                        <div className='col-6'><p>The completed website combines an intuitive interface, stylish design, and robust functionality. Key features include cards with puppy information, detailed breed descriptions, and kennel contact details.</p></div>
+                        <div className='col-6'><p>{t('pages.portfolio.TM.body.section_4.text_1')}</p></div>
                     </div>
                     <img
                         alt='Final Image'
@@ -314,7 +320,7 @@ const PortfolioKinuLiutas = () => {
                     <div className='row'>
                         <div className='col-6'></div>
                         <div className='col-6 mt-3'>
-                            <p>The mobile version was optimized to ensure a seamless experience across devices:</p>
+                            <p>{t('pages.portfolio.TM.body.section_4.text_2')}</p>
                         </div>
                     </div>
                     
@@ -356,7 +362,7 @@ const PortfolioKinuLiutas = () => {
                     <div className='row out'>
                         <div className='col-6'></div>
                         <div className='col-6'>
-                            <p><span>Outcome: </span>A polished final product that emphasizes the kennel's uniqueness and meets the needs of the target audience.</p>
+                            <p><span>{t('pages.portfolio.TM.body.section_4.p.title')} </span>{t('pages.portfolio.TM.body.section_4.p.text')}</p>
                         
                         </div>
                     </div>
@@ -364,9 +370,11 @@ const PortfolioKinuLiutas = () => {
                 </div>
             </section>
 
-            <section className='section-end'>
-                <div className='container'><h3>Thanks For Watching</h3></div>
+            <section className='end'>
+                <div className='container'>{t('pages.portfolio.TFW')}</div>
             </section>
+
+            <HomeContact />
         </div>
     );
 }

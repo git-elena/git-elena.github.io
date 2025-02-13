@@ -30,11 +30,10 @@ const PortfolioGallery = () => {
     {link:'/portfolio/templates', src: projectDesign4, title: t('home.portfolio.project.Tribo.title'), desc: t('home.portfolio.project.Tribo.desc'), entry: t('home.portfolio.project.Tribo.entry') },
     {link:'/portfolio/templates', src: projectDesign1, title: t('home.portfolio.project.Designer.title'), desc: t('home.portfolio.project.Designer.desc'), entry: t('home.portfolio.project.Designer.entry') },
     {link:'/portfolio/templates', src: projectDesign3, title: t('home.portfolio.project.Arabora.title'), desc: t('home.portfolio.project.Arabora.desc'), entry: t('home.portfolio.project.Arabora.entry') },
-    {link:'/portfolio/templates', src: projectWebsite1, title: 'Omelchenko Olena', desc: 'Makeup Artist', entry: 'Website' },
-    {link:'/portfolio/templates', src: projectWebsite3, title: 'KRP', desc: 'Kyiv River Port', entry: 'Website' },
-    // {link:'/', src: projectWebsite2, title: 'MONDIS', desc: 'Wholesale vegetables. Delivery', entry: 'Website' },
-    {link:'/portfolio/templates', src: projectWebsite4, title: 'GV', desc: 'Grand Vision', entry: 'Website' },
-    {link:'/portfolio/templates/', src: projectWebsite5, title: 'M GROUP', desc: 'Engineering & Construction company', entry: 'Website' },
+    {link:'/portfolio/templates', src: projectWebsite1, title: t('home.portfolio.project.OO.title'), desc: t('home.portfolio.project.OO.desc'), entry: t('home.portfolio.project.OO.entry') },
+    {link:'/portfolio/templates', src: projectWebsite3, title: t('home.portfolio.project.KRP.title'), desc: t('home.portfolio.project.KRP.desc'), entry: t('home.portfolio.project.KRP.entry') },
+    {link:'/portfolio/templates', src: projectWebsite4, title: t('home.portfolio.project.GV.title'), desc: t('home.portfolio.project.GV.desc'), entry: t('home.portfolio.project.GV.entry') },
+    {link:'/portfolio/templates/', src: projectWebsite5, title: t('home.portfolio.project.MG.title'), desc: t('home.portfolio.project.MG.desc'), entry: t('home.portfolio.project.MG.entry') },
     
   ];
 

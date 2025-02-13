@@ -5,6 +5,7 @@ import LanguageSwitcher from './LanguageSwitcher';
 import './css/Navigation.css';
 import { NavLink, useLocation, useNavigate } from 'react-router-dom';
 import LogoComponent from './logo/Logo';
+import CustomDropdown from './CustomDropdown';
 
 function Navigation() {
   const { t } = useTranslation();
@@ -169,7 +170,8 @@ function Navigation() {
 
             </ul>
           </div>
-        <LanguageSwitcher />
+        {/* <LanguageSwitcher /> */}
+        <CustomDropdown/>
       </div>
     </nav>
   );

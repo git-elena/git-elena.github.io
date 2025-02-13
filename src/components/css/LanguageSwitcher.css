@@ -30,3 +30,37 @@
     outline: none; /* Убирает стандартное выделение при фокусе */
     
 }
+
+/* Style for the dropdown options */
+.langSw select option {
+    background: white;
+    color: black;
+    font-size: 14px;
+}
+
+/* Изменение фона и цвета текста для выбранного пункта */
+/* Убираем стандартное выделение активного пункта */
+.langSw select option:checked {
+    background-color: #ff5722 !important; /* Оранжевый фон */
+    color: white !important;
+    font-weight: bold;
+    filter: brightness(1.1); /* Принудительная перерисовка */
+}
+
+
+/* Фон при наведении */
+.langSw select option:hover {
+    background-color: #ffcc00; /* Желтый */
+    color: black;
+}
+
+/* Стилизация при фокусе */
+.langSw select:focus option {
+    background-color: #ff5722; /* Оранжевый */
+    color: white;
+}
+.langSw select {
+    -webkit-appearance: none; /* Убирает стандартные стрелки (Safari, Chrome) */
+    -moz-appearance: none; /* Для Firefox */
+    appearance: none;
+}

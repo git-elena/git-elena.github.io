@@ -48,7 +48,7 @@ const Choose = () => {
           </div>
         ))}
     </div>
-    <div className='row  py-md-5'>
+    <div className='tt row  pt-md-5'>
       {images_III.map((image, index) => (
         <div className="col-md-4 " key={index}>
           <div className="row myCard">

@@ -1,8 +1,8 @@
 import React from 'react'
 import './css/Services.css'
 import '../components/css/Service.css'
-import ServicesBanner from '../components/PagesServices/ServicesBanner'
 import ServicesContent from '../components/PagesServices/ServicesContent'
+import HomeContact from '../components/HomeSections/HomeContact'
 
 const Services = () => {
   return (
@@ -18,6 +18,7 @@ const Services = () => {
         </div>
       </div>
 
+      <HomeContact />
     </div>
 
     
