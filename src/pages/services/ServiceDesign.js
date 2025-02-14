@@ -7,6 +7,7 @@ import mainImg from '../../images/services/design/ui-ux-design.jpg'
 import ServiceTitle from '../../components/HomeSections/Services/Title'
 import HomeContact from '../../components/HomeSections/HomeContact'
 import DesignList from './designItem/DesignList'
+import PricesGallery from '../../components/PricesGallery'
 
 const ServiceDesign = () => {
     const { t } = useTranslation()
@@ -46,7 +47,7 @@ const ServiceDesign = () => {
 
                 <h4 className='tableTitle text-center'>{t('pages.service.design.tableTitle')}</h4>
 
-                <div className='table'>
+                <div className='table d-none d-md-block'>
                     <table>
                         <thead>
                             <tr>
@@ -71,6 +72,24 @@ const ServiceDesign = () => {
                             </tr>
                         </tbody>
                     </table> 
+                </div>
+
+                <div className='service-prices d-md-none'>
+                  <PricesGallery items={[
+                    {
+                      name:           t('pages.service.design.table.row_1.col_1'),
+                      description:    t('pages.service.design.table.row_1.col_2'),
+                      price:          t('pages.service.design.table.row_1.col_3'),
+                      period:         t('pages.service.design.table.row_1.col_4')
+                  },
+                  {
+                      name:           t('pages.service.design.table.row_2.col_1'),
+                      description:    t('pages.service.design.table.row_2.col_2'),
+                      price:          t('pages.service.design.table.row_2.col_3'),
+                      period:         t('pages.service.design.table.row_2.col_4')
+                  }
+                  ]}
+                  />  
                 </div>
 
                 <p className='tableNote'>{t('pages.service.table.note')}</p>

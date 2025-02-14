@@ -8,6 +8,7 @@ import HomeContact from '../../components/HomeSections/HomeContact'
 
 import bannerImg from '../../images/services/web/1_web.jpg'
 import mainImg from '../../images/services/web/webDevelopmentImage.jpg'
+import PricesGallery from '../../components/PricesGallery'
 
 
 const ServiceWebsite = () => {
@@ -32,7 +33,7 @@ const ServiceWebsite = () => {
                 </div>
                 <h4 className='tableTitle text-center'>{t('pages.service.web.tableTitle')}</h4>
 
-                <div className='table'>
+                <div className='table d-none d-md-block'>
                     <table>
                         <thead>
                             <tr>
@@ -75,6 +76,43 @@ const ServiceWebsite = () => {
                             </tr>
                         </tbody>
                     </table> 
+                </div>
+
+                <div className='service-prices d-md-none'>
+                    <PricesGallery items={[
+                        {
+                            name:           t('pages.service.web.table.row_1.col_1'),
+                            description:    t('pages.service.web.table.row_1.col_2'),
+                            price:          t('pages.service.web.table.row_1.col_3'),
+                            period:         t('pages.service.web.table.row_1.col_4')
+                        },
+                        {
+                            name:           t('pages.service.web.table.row_2.col_1'),
+                            description:    t('pages.service.web.table.row_2.col_2'),
+                            price:          t('pages.service.web.table.row_2.col_3'),
+                            period:         t('pages.service.web.table.row_2.col_4')
+                        },
+                        {
+                            name:           t('pages.service.web.table.row_3.col_1'),
+                            description:    t('pages.service.web.table.row_3.col_2'),
+                            price:          t('pages.service.web.table.row_3.col_3'),
+                            period:         t('pages.service.web.table.row_3.col_4')
+                        },
+                        {
+                            name:           t('pages.service.web.table.row_4.col_1'),
+                            description:    t('pages.service.web.table.row_4.col_2'),
+                            price:          t('pages.service.web.table.row_4.col_3'),
+                            period:         t('pages.service.web.table.row_4.col_4'),
+                            style:        'px-5'
+                        },
+                        {
+                            name:           t('pages.service.web.table.row_5.col_1'),
+                            description:    t('pages.service.web.table.row_5.col_2'),
+                            price:          t('pages.service.web.table.row_5.col_3'),
+                            period:         t('pages.service.web.table.row_5.col_4'),
+                            style:        'px-5'
+                        }
+                    ]}/>
                 </div>
 
                 <p className='tableNote'>{t('pages.service.table.note')}</p>

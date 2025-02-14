@@ -41,7 +41,7 @@
 /* Изменение фона и цвета текста для выбранного пункта */
 /* Убираем стандартное выделение активного пункта */
 .langSw select option:checked {
-    background-color: #ff5722 !important; /* Оранжевый фон */
+    background-color:  var(--bs-primary-text-emphasis) !important; /* Оранжевый фон */
     color: white !important;
     font-weight: bold;
     filter: brightness(1.1); /* Принудительная перерисовка */
@@ -56,7 +56,7 @@
 
 /* Стилизация при фокусе */
 .langSw select:focus option {
-    background-color: #ff5722; /* Оранжевый */
+    background-color:  var(--bs-primary-text-emphasis); /* Оранжевый */
     color: white;
 }
 .langSw select {

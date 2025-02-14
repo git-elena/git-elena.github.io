@@ -1,0 +1,41 @@
+.service-prices .price-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    border: 1px solid #e0e0e0;
+    border-radius: 25px;
+    margin: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s;
+
+    height: 100%;
+    min-width: 300px;
+}
+
+.service-prices .price-content h5 {
+    font-size: 1.7rem;
+    font-weight: 700;
+    color: white;
+    margin: 0;
+    height: 40%;
+    padding: 0 1rem;
+}
+
+.service-prices .price-content .row {
+    width: 100%;
+    margin: 1rem auto;
+    padding: 0;
+    color:  var(--bs-primary-text-emphasis);
+}
+
+.service-prices .price-content p {
+    text-align: left;
+    color: rgba(128, 128, 128, 1);
+    height: 5rem;
+}
+
+.service-prices .price-content {}
+.service-prices .price-content {}
+.service-prices .price-content {}

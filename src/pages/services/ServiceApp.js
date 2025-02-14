@@ -12,6 +12,7 @@ import AppItem from './appItem/AppItem'
 import bannerImg from '../../images/services/app/2_app.jpg'
 import mainImg_web from '../../images/services/app/website-app.jpg'
 import mainImg_mob from '../../images/services/app/mobile-app.jpg'
+import PricesGallery from '../../components/PricesGallery'
 
 
 
@@ -89,7 +90,7 @@ const ServiceApp = () => {
                 </div>
                 <h4 className='tableTitle text-center'>{t('pages.service.app.tableTitle')}</h4>
 
-                <div className='table'>
+                <div className='table d-none d-md-block'>
                     <table>
                         <thead>
                             <tr>
@@ -138,6 +139,42 @@ const ServiceApp = () => {
                             </tr>
                         </tbody>
                     </table> 
+                </div>
+
+                <div className='service-prices d-md-none'>
+                    <PricesGallery items={[
+                        {
+                            name:           t('pages.service.app.table.row_1.col_1'),
+                            description:    t('pages.service.app.table.row_1.col_2'),
+                            price:          t('pages.service.app.table.row_1.col_3'),
+                            period:         t('pages.service.app.table.row_1.col_4')
+                        },
+                        {
+                            name:           t('pages.service.app.table.row_2.col_1'),
+                            description:    t('pages.service.app.table.row_2.col_2'),
+                            price:          t('pages.service.app.table.row_2.col_3'),
+                            period:         t('pages.service.app.table.row_2.col_4')
+                        },
+                        {
+                            name:           t('pages.service.app.table.row_3.col_1'),
+                            description:    t('pages.service.app.table.row_3.col_2'),
+                            price:          t('pages.service.app.table.row_3.col_3'),
+                            period:         t('pages.service.app.table.row_3.col_4'),
+                            style:          'px-5'
+                        },
+                        {
+                            name:           t('pages.service.app.table.row_4.col_1'),
+                            description:    t('pages.service.app.table.row_4.col_2'),
+                            price:          t('pages.service.app.table.row_4.col_3'),
+                            period:         t('pages.service.app.table.row_4.col_4')
+                        },
+                        {
+                            name:           t('pages.service.app.table.row_5.col_1'),
+                            description:    t('pages.service.app.table.row_5.col_2'),
+                            price:          t('pages.service.app.table.row_5.col_3'),
+                            period:         t('pages.service.app.table.row_5.col_4')
+                        },
+                    ]}/>
                 </div>
 
                 <p className='tableNote'>{t('pages.service.table.note')}</p>
