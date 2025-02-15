@@ -1,263 +1,1100 @@
 {
-  "button": {
-    "readmore": "Čtěte více"
-  },
-  "nav": {
-    "home": "Domů",
-    "about": "O nás",
-    "services": "Služby",
-    "portfolio": "Portfolio",
-    "contact": "Kontakt"
-  },
-  "home": {
-    "title-left": "",
-    "title-center": "Web a Mobilní",
-    "title-right": "Vývojové Studio",
-    "description": "Mezinárodní kvalita, dostupná řešení: vytváříme digitální budoucnost společně.",
-    "cta": "Kontaktujte nás"
-  },
-  "about": {
-    "title-left": "",
-    "title-center": "O",
-    "title-right": " nás",
-    "description": "Vyvíjíme moderní webové stránky a mobilní aplikace, nabízející našim klientům vysokou úroveň kvality za dostupné ceny. Přilákáním talentovaných ukrajinských vývojářů se naše projekty vyznačují vysokou efektivitou a optimálním využitím zdrojů, což nám umožňuje nejen splnit, ale i překročit očekávání klientů jak v kvalitě, tak v ceně."
-  },
-  "about-page": {
-    "p1": {
-      "title": {
-        "left": "V",
-        "right": "ítejte v ADDSOFTWARE"
-      },
-      "text": "Oddaný tým profesionálů specializujících se na vývoj webových a mobilních aplikací, design a digitální marketingová řešení. Naším posláním je pomáhat podnikům všech velikostí vytvořit silnou online přítomnost tím, že vytváříme unikátní, poutavé a vysoce funkční digitální produkty."
+    
+    "contacts": {
+        "address": "Plzen, Czech Republic"
     },
-    "p2": {
-      "title": {
-        "left": "K",
-        "right": "do jsme"
-      },
-      "text": "V ADDSOFTWARE věříme v kombinaci kreativity s technologií pro dosažení vynikajících výsledků. S lety zkušeností v oboru je náš tým vývojářů, designérů a stratégů nadšený pro tvorbu digitálních zážitků, které rezonují s vaším publikem a přinášejí měřitelné výsledky."
+    "btn": {
+        "contactUs": "Kontaktujte nás",
+        "readmore": "Číst více"
     },
-    "p3": {
-      "title": {
-        "left": "C",
-        "right": "o děláme"
+    "home": {
+        "banner": {
+            "title": {
+                "left": "Talentovaní freelanceři k dispozici pro tvorbu",
+                "center": "Webové stránky a mobilní",
+                "right": "Aplikace"
+            },
+            "description": "Jsme skupina vývojářů připravených pomoci vaší společnosti rozšířit online přítomnost pomocí vysoce kvalitních řešení, která jsou efektivní a cenově dostupná."
+        },
+        "about": {
+            "title": {
+                "left": "",
+                "center": "O",
+                "right": " nás"
+            },
+            "description": "Jsme tým programátorů specializujících se na vývoj webových stránek a aplikací pro internet a chytré telefony. Náš tým zkušených vývojářů je připraven řešit úkoly jakékoli složitosti, přičemž zohledňuje individuální potřeby každého klienta. Zaměřujeme se na návrh moderních webových stránek a aplikací pro web a chytré telefony, nabízíme řešení, která pomáhají našim klientům růst a zůstat konkurenceschopnými. Snažíme se poskytovat vysoce kvalitní služby za rozumné ceny a zpřístupnit technologii všem."
+        },
+        "services": {
+            "title": {
+                "left": "Naše ",
+                "center": "S",
+                "right": "lužby"
+            },
+
+            "webDev": {
+                "title": {
+                    "left": "Vývoj",
+                    "right": "Webových Stránek",
+                    "description": "Vytváříme adaptivní a funkční webové stránky, které přitahují zákazníky a pomáhají vašemu podnikání vyniknout. Naše řešení zahrnují vstupní stránky, firemní weby a e-commerce platformy."
+                },
+                "item_1": {
+                    "title": "Vývoj webových stránek pro jakýkoli účel",
+                    "text": "Vytváříme projekty jakékoli složitosti – od jednoduchých vstupních stránek až po rozsáhlé firemní portály. Používáme populární CMS platformy a moderní technologie vývoje webu, abychom zajistili stabilní výkon a snadné používání."
+                },
+                "item_2": {
+                    "title": "Vlastní design s responzivním rozložením",
+                    "text": "Naši designéři vytvářejí exkluzivní rozhraní, díky kterým vaše webové stránky vyniknou mezi konkurencí. Všechny projekty jsou přizpůsobeny pro bezproblémový provoz na počítačích, tabletech a chytrých telefonech."
+                },
+                "item_3": {
+                    "title": "Rychlý vývoj s připravenými šablonami",
+                    "text": "Když je čas omezený, nabízíme vysoce kvalitní šablony, které lze přizpůsobit vašim požadavkům. To urychluje proces vytváření webu při zachování funkčnosti a atraktivity."
+                },
+                "item_4": {
+                    "title": "Vývoj e-commerce webových stránek",
+                    "text": "Vytváříme uživatelsky přívětivé a spolehlivé platformy pro online obchodování. Naše e-commerce řešení zahrnují efektivní systémy správy produktů, integraci plateb a další klíčové funkce pro úspěšný provoz."
+                },
+                "item_5": {
+                    "title": "Technická údržba a podpora",
+                    "text": "Po dokončení projektu nabízíme služby údržby webových stránek, včetně pravidelných aktualizací, oprav chyb, vylepšení výkonu a technické podpory."
+                }
+            },
+            
+            "appDev": {
+                "title": {
+                    "color_Mobile": "Mobil",
+                    "color_WebApp": "Webová Aplikace",
+                    "black_Dev": "Vývoj",
+                    "description": "Nabízíme kompletní spektrum služeb v oblasti vývoje mobilních a webových aplikací s využitím moderních technologií a postupů. Náš tým vyvíjí řešení jakékoli složitosti, přizpůsobená vašim obchodním potřebám."
+                },
+                "item_1": {
+                    "title": "Vývoj pro jakoukoli platformu",
+                    "text": "Vytváříme mobilní a webové aplikace, které se přizpůsobí vašim obchodním úkolům. Pomocí moderních technologií a nástrojů vyvíjíme spolehlivá řešení, ať už se jedná o jednoduché nástroje nebo komplexní firemní systémy."
+                },
+                "item_2": {
+                    "title": "Zakázkový UI/UX design",
+                    "text": "Zvláštní pozornost věnujeme vzhledu a použitelnosti aplikací. Naši designéři vytvářejí jedinečná rozhraní, která umožňují intuitivní a příjemnou interakci s aplikací."
+                },
+                "item_3": {
+                    "title": "Integrace s externími systémy",
+                    "text": "Zajišťujeme bezproblémovou integraci se službami třetích stran, jako jsou platební systémy, sociální sítě, analytické platformy a firemní nástroje (CRM, ERP). Tím rozšiřujeme funkčnost vaší aplikace."
+                },
+                "item_4": {
+                    "title": "Údržba a podpora",
+                    "text": "Naše práce nekončí ve fázi vývoje. Nabízíme kontinuální podpůrné služby, včetně oprav chyb, pravidelných aktualizací a přidávání nové funkčnosti podle potřeby."
+                }
+            },
+            "design": {
+                "title": {
+                    "color": "UI/UX",
+                    "black": "Design",
+                    "description": "Naši designéři vytvářejí jedinečná rozhraní, která uživatelům poskytují nejlepší zážitek z interakce s vaším produktem. Zaměřujeme se na pohodlí a jednoduchost, aby každý uživatel našel používání vaší aplikace nebo webu snadné a příjemné."
+                },
+                "item_1": {
+                    "title": "Výzkum uživatelských a obchodních cílů",
+                    "text": "Studujeme cílovou skupinu, chování uživatelů a obchodní cíle projektu, abychom vytvořili rozhraní, které je co nejefektivnější a nejpřívětivější."
+                },
+                "item_2": {
+                    "title": "Návrh uživatelského prostředí (UX)",
+                    "text": "Navrhujeme strukturu a logiku aplikace nebo webu. Naši specialisté vytvářejí jasné a intuitivní scénáře interakce, aby byl zajištěn komfortní zážitek pro uživatele."
+                },
+                "item_3": {
+                    "title": "Návrh uživatelského rozhraní (UI)",
+                    "text": "Vyvíjíme vizuální styl aplikace nebo webu. To zahrnuje: výběr barevné palety; tvorbu jedinečných ikon; volbu písem a jejich velikostí; navrhování všech obrazovek nebo stránek."
+                },
+                "item_4": {
+                    "title": "Prototypování",
+                    "text": "Vytváříme interaktivní prototypy, které nám umožňují otestovat logiku aplikace nebo webu před začátkem vývoje. To pomáhá odhalit a odstranit potenciální problémy v rané fázi."
+                },
+                "item_5": {
+                    "title": "Adaptace designu pro různá zařízení",
+                    "text": "Naše řešení zohledňují různé velikosti obrazovek a specifika mobilních zařízení, tabletů a počítačů. Zajišťujeme, aby byl produkt pohodlný na použití na jakékoli platformě."
+                },
+                "item_6": {
+                    "title": "Vývoj design systému",
+                    "text": "Vyvíjíme soubor pravidel a komponent, které pomáhají udržovat konzistentní styl, jak se produkt vyvíjí. To urychluje proces přidávání nových funkcí a stránek."
+                },
+                "item_7": {
+                    "title": "Komplexní řešení",
+                    "text": "Nabízíme komplexní přístup: od UX/UI designu až po prototypování a adaptaci pro různá zařízení. Výsledkem je zcela hotový produkt, který splňuje vaše obchodní cíle a očekávání uživatelů."
+                }
+            }
+                            
+        },
+        "technologies": {
+            "title": {
+                "left": "T",
+                "right": "echnologie"
+            }
+        },
+        "portfolio": {
+            "title": {
+                "left": "P",
+                "right": "ortfolio"
+            },
+            "project": {
+                "Hirosaki": {
+                    "entry": "Mobilní aplikace a design",
+                    "title": "HIROSAKI",
+                    "desc": "Aplikace poskytuje uživatelům pohodlné rozhraní pro rychlé zadávání objednávek a výběr času doručení nebo vyzvednutí. Navíc integrace se sociálními sítěmi a platební funkce činí objednávkový proces co nejjednodušším a nejrychlejším."
+                },
+                "HelpCenter": {
+                    "entry": "Mobilní aplikace",
+                    "title": "Help Center 24",
+                    "desc": "Aplikace kombinuje mediální obsah, interaktivní prvky a uživatelsky přívětivé rozhraní, čímž se stává cenným nástrojem pro věřící, kteří chtějí zůstat v kontaktu s církví a sledovat všechny události a novinky."
+                },
+                "KinuLiutas": {
+                    "entry": "Design",
+                    "title": "Kinu Liutas",
+                    "desc": "Design webu zdůrazňuje jedinečnost a luxus tibetských mastifů, s výrazným zaměřením na vizuální prvky. Jednoduchá navigace a důraz na historii plemene a úspěchy chovatelství pomáhají uživatelům snadno najít potřebné informace a rozhodnout se o koupi štěněte."
+                },
+                "Tribo": {
+                    "entry": "Design",
+                    "title": "Tribo",
+                    "desc": "Design webu byl vytvořen v souladu s požadavky klienta na minimalismus a důraz na vizuální řešení. Stránka se stala ideální platformou pro prezentaci kreativního přístupu společnosti a její schopnosti oživit jedinečné architektonické kovové projekty."
+                },
+                "Designer": {
+                    "entry": "Design",
+                    "title": "Designer",
+                    "desc": "Design webu kombinuje humor a profesionalitu, což společnosti umožňuje snadnou komunikaci s klienty. Tučňáci — symbol přátelskosti a kreativity — upoutávají pozornost, zatímco animace a výrazné barvy dodávají jedinečnost. Díky tomuto stylu je web zapamatovatelný a jeho obsah snadno pochopitelný pro uživatele."
+                },
+                "Arabora": {
+                    "entry": "Design",
+                    "title": "Arabora",
+                    "desc": "Design webu je vytvořen tak, aby co nejvíce zdůraznil kvalitu a jedinečnost produktů. Jednoduchost navigace a vizuální zaměření na produkty pomáhají společnosti přilákat potenciální klienty a vybudovat silné propojení mezi značkou a publikem."
+                },
+                "OO": {
+                    "entry": "Webové stránky",
+                    "title": "Omelchenko Olena",
+                    "desc": "Webové stránky vizážistky z Kyjeva. Web byl vytvořen podle klientova designu."
+                },
+                "GV": {
+                    "entry": "Webové stránky",
+                    "title": "GV (Grand Vision)",
+                    "desc": "Korporátní webové stránky pro reklamní společnost ve Španělsku. Web byl vytvořen podle klientova designu."
+                },
+                "KRP": {
+                    "entry": "Webové stránky",
+                    "title": "KRP (Kyiv River Port)",
+                    "desc": "Oficiální webové stránky Kyjevského říčního přístavu. Web byl vytvořen podle klientova designu."
+                },
+                "MG": {
+                    "entry": "Webové stránky",
+                    "title": "M GROUP",
+                    "desc": "Inženýrská a stavební společnost. Web byl vytvořen podle klientova designu."
+                }
+            }
+        },
+        "choose": {
+            "title": {
+              "left": "P",
+              "right": "roč si nás vybrat"
+            },
+            "item_1": {
+              "title": "Vysoká kvalita a profesionalita",
+              "desc": "Náš tým tvoří zkušení vývojáři a designéři, kteří používají nejmodernější technologie k tvorbě moderních a spolehlivých řešení. Dbáme na to, aby každý projekt byl realizován s maximální péčí a důrazem na detail."
+            },
+            "item_2": {
+              "title": "Komplexní přístup",
+              "desc": "Nabízíme kompletní spektrum služeb: od vývoje webových stránek a mobilních aplikací až po UI/UX design a podporu po spuštění. Projekty doprovázíme ve všech fázích, od počátečního konceptu až po hotový produkt."
+            },
+            "item_3": {
+              "title": "Řešení šitá na míru",
+              "desc": "Každý projekt je jedinečný, a proto naše řešení přizpůsobujeme konkrétním potřebám našich klientů. Věnujeme čas pochopení vašeho podnikání a dodáváme produkt, který odpovídá vašim cílům a očekáváním."
+            },
+            "item_4": {
+              "title": "Dodání včas",
+              "desc": "Vážíme si vašeho času a vždy se snažíme dokončit projekty v dohodnutých termínech. Transparentní plánování a přísná kontrola nad vývojovým procesem zajišťují včasné dokončení úkolů."
+            },
+            "item_5": {
+              "title": "Dostupné ceny",
+              "desc": "Nabízíme konkurenceschopné ceny za vývojové služby bez kompromisů na kvalitě. Díky našemu flexibilnímu přístupu k projektům dokážeme poskytnout nejlepší řešení za přijatelnou cenu."
+            }
+        },
+        "contact": {
+            "title": {
+              "left": "K",
+              "right": "ontaktujte nás"
+            },
+            "name": "Jméno",
+            "email": "E-mail",
+            "message": "Zpráva",
+            "submit": "Odeslat zprávu"
+        }
+    },
+
+    "nav": {
+        "home": "Domů",
+        "about": "O nás",
+        "services": "Služby",
+        "portfolio": "Portfolio",
+        "contact": "Kontakt",
+        "app": "Vývoj aplikací",
+        "website": "Tvorba webových stránek",
+        "design": "UI/UX design"
+    },
+    "footer": {
+        "about": {
+            "left": "O",
+            "right": " nás",
+            "desc": "Vytváříme inovativní webová řešení, kombinující evropskou kvalitu s konkurenceschopnými cenami."
+        },
+        "quickLinks": {
+            "left": "R",
+            "right": "ychlé odkazy"
+        },
+        "contact-left": "K",
+        "contact-right": "ontakt",
+        "phone": "Telefon",
+        "email": "Email",
+        "followUs-left": "S",
+        "followUs-right": "ledujte nás",
+        "allRightsReserved": "Všechna práva vyhrazena."
+    },
+
+    "pages": {
+        "portfolio": {
+          "TFW": "Děkujeme za sledování",
+          "helpCenter24": {
+            "title": "Help Center 24",
+            "subtitle": "Mobilní aplikace",
+            "maintitle": "Církev Ducha svatého",
+            "description": "Multiplatformní aplikace vytvořená pomocí Flutter frameworku.",
+            "body": {
+              "holySpiritChurch": {
+                "projectTitle": "Projekt: Mobilní aplikace \"Církev Ducha svatého\"",
+                "overview": "Přehled",
+                "introduction1": "„Církev Ducha svatého“ je mobilní aplikace vyvinutá pro ortodoxní církev, která poskytuje moderní digitální řešení pro spojení s věřícími. Aplikace nabízí pohodlný přístup k informacím o bohoslužbách, náboženských událostech a duchovních materiálech. Hlavním cílem projektu bylo zlepšit komunikaci mezi církví a jejími věřícími a vytvořit nové příležitosti pro zapojení uživatelů prostřednictvím digitálních kanálů.",
+                "introduction2": "Tato aplikace ukazuje naše schopnosti ve vývoji zakázkových mobilních řešení pro náboženské a neziskové organizace, poskytující intuitivní rozhraní a rozsáhlou funkcionalitu pro podporu interakce s publikem.",
+                "keyFeatures": "Klíčové funkce",
+                "features": {
+                  "serviceSchedule": {
+                    "title": "Rozpis bohoslužeb",
+                    "description": "Zobrazení aktuálních informací o nadcházejících bohoslužbách a náboženských událostech, které pomáhají věřícím plánovat svůj čas a být informováni o důležitých událostech."
+                  },
+                  "news": {
+                    "title": "Novinky a oznámení",
+                    "description": "Upozornění na novinky, propagační akce a další důležité události církve, zajišťující efektivní komunikaci v rámci komunity."
+                  },
+                  "library": {
+                    "title": "Duchovní knihovna",
+                    "description": "Přístup k modlitbám, posvátným písmům, kázáním a dalším duchovním materiálům, které podporují duchovní růst uživatelů a posilují jejich vztah k víře."
+                  },
+                  "feedback": {
+                    "title": "Zpětná vazba",
+                    "description": "Pohodlný formulář pro kontaktování církevního duchovenstva nebo správy, který umožňuje uživatelům rychle se ptát nebo nabízet pomoc."
+                  },
+                  "pushNotifications": {
+                    "title": "Push oznámení",
+                    "description": "Včasná upozornění na důležité náboženské svátky, události a živé přenosy, která pomáhají uživatelům zůstat v kontaktu s životem církve."
+                  },
+                  "video": {
+                    "title": "Video a přenosy",
+                    "description": "Možnost sledovat živé přenosy bohoslužeb prostřednictvím video streamů, stejně jako záznamy z církevního YouTube kanálu, což umožňuje účast těm, kteří se nemohou zúčastnit osobně."
+                  },
+                  "radio": {
+                    "title": "Online rádio",
+                    "description": "Funkce online rádia 24/7 s duchovní hudbou, kázáními a vzdělávacími programy, která vytváří atmosféru duchovní jednoty kdykoliv."
+                  },
+                  "contacts": {
+                    "title": "Kontakty a adresy církve",
+                    "description": "Aplikace obsahuje databázi kontaktních informací a adres církví ve všech městech a zemích, kde je církev zastoupena, což usnadňuje vyhledání nejbližší církve a získání potřebných informací."
+                  },
+                  "messengers": {
+                    "title": "Komunikace přes messengery",
+                    "description": "Možnost kontaktovat církev prostřednictvím Viberu nebo WhatsApp, což umožňuje uživatelům z jakékoliv země rychle získat odpovědi na své dotazy nebo upřesnit informace."
+                  }
+                },
+                "technologiesTitle": "Technologie a nástroje",
+                "technologies": {
+                  "flutter": {
+                    "title": "Flutter (Dart)",
+                    "description": "Používá se pro multiplatformní vývoj pro iOS a Android, čímž snižuje náklady a dobu vývoje při zachování jednotné základny kódu pro obě platformy."
+                  },
+                  "restApi": {
+                    "title": "REST API",
+                    "description": "Pro poskytování aktuálních dat o službách, novinkách a dalších aktualizacích, což zajišťuje spolehlivou komunikaci mezi serverem a aplikací."
+                  },
+                  "firebase": {
+                    "title": "Firebase",
+                    "description": "Používá se pro push oznámení, autentizaci uživatelů a analytiku, což pomáhá lépe porozumět publiku a zlepšit zapojení uživatelů."
+                  },
+                  "multimedia": {
+                    "title": "Multimédia",
+                    "description": "Integrace s YouTube API pro přehrávání videí a streamovací služby pro online rádio, čímž se rozšiřují možnosti aplikace pro zapojení uživatelů prostřednictvím multimédií."
+                  }
+                },
+                "businessImpactTitle": "Proč je to důležité pro vaše podnikání",
+                "businessImpact": "Tento projekt zdůrazňuje naše odborné znalosti ve vytváření funkčních a uživatelsky přívětivých mobilních aplikací pro náboženské a neziskové organizace. Nabízíme řešení, která nejen zlepšují komunikaci, ale také zvyšují zapojení publika, zjednodušují proces darování a udržují neustálý kontakt s uživateli prostřednictvím multimediálních kanálů."
+              }
+            }
+          },
+          "hirosaki": {
+            "title": "Hirosaki",
+            "subtitle": "Mobilní aplikace",
+            "maintitle": "Sushi House",
+            "description": "\"Hirosaki Sushi House\" je komerční mobilní aplikace vyvinutá naším týmem pro skutečnou japonskou restauraci s ustálenou klientelou.",
+            "body": {
+              "alt": "Snímek obrazovky zařízení",
+              "section_1": {
+                "title": "Přehled projektu",
+                "text": {
+                  "p1": "Hlavním cílem projektu bylo zlepšit interakci se zákazníky a zjednodušit proces objednávání.",
+                  "p2": "Aplikace poskytuje uživatelům pohodlný způsob, jak prohlížet nabídku, zadávat objednávky, platit online a být informován o speciálních nabídkách.",
+                  "p3": "Tento produkt jsme navrhli tak, aby vyhovoval specifickým potřebám restaurace a jejích zákazníků a podporoval růst podnikání.",
+                  "p4": "Navíc si uživatelé mohou zobrazit své předchozí objednávky offline, což přispívá k pohodlí aplikace."
+                }
+              },
+              "section_2": {
+                "title": "Design projektu",
+                "text": {
+                  "c1": "Hlavní barva",
+                  "c2": "Pozadí",
+                  "c3": "Hlavní text",
+                  "c4": "Akcentní text",
+                  "c5": "Nápověda"
+                }
+              },
+              "section_3": {
+                "title": "Klíčové funkce",
+                "text": {
+                  "p1": {
+                    "header": "Online objednávky",
+                    "text": "Intuitivní objednávkový systém umožňuje zákazníkům zadávat objednávky na doručení nebo vyzvednutí a dokonce je naplánovat na vhodný čas."
+                  },
+                  "p2": {
+                    "header": "Historie objednávek offline",
+                    "text": "Uživatelé mohou přistupovat ke svým předchozím objednávkám i bez připojení k internetu, čímž se zvyšuje celková použitelnost aplikace."
+                  },
+                  "p3": {
+                    "header": "Platby přes PayPal",
+                    "text": "Integrovaná funkce PayPal umožňuje uživatelům platit za objednávky rychle a bezpečně."
+                  },
+                  "p4": {
+                    "header": "Prohlížení nabídky",
+                    "text": "Uživatelé mohou procházet přehledné menu s kvalitními fotografiemi a podrobnými popisy jídel, které jim pomáhají při výběru."
+                  },
+                  "p5": {
+                    "header": "Push oznámení",
+                    "text": "Upozornění na stav objednávky, nové nabídky a exkluzivní akce udržují uživatele informované a zapojené."
+                  },
+                  "p6": {
+                    "header": "Propagace a slevy",
+                    "text": "Aktuální informace o probíhajících akcích a speciálních nabídkách podněcují opakované objednávky a angažovanost zákazníků."
+                  },
+                  "p7": {
+                    "header": "Okamžitá oznámení o objednávkách pro personál přes Telegram",
+                    "text": "Všechny objednávky jsou okamžitě odesílány do Telegram bota restaurace, což zajišťuje, že personál dostane včasné informace o nových objednávkách."
+                  },
+                  "p8": {
+                    "header": "Integrace s Bitrix24",
+                    "text": "Aplikace je integrována s Bitrix24 API, což restauraci umožňuje automatizovat správu objednávek a efektivně udržovat zákaznické záznamy."
+                  }
+                }
+              },
+              "section_4": {
+                "title": "Screenshoty"
+              },
+              "section_5": {
+                "title": "Technologie a nástroje",
+                "text": {
+                  "p1": {
+                    "header": "Flutter a Dart",
+                    "text": "Použili jsme Flutter k vytvoření jednotné kódové základny pro iOS i Android, což zajišťuje konzistentní zážitek napříč platformami. Dart byl použit pro implementaci obchodní logiky aplikace."
+                  },
+                  "p2": {
+                    "header": "Integrace REST API",
+                    "text": "REST API bylo použito pro zajištění plynulé komunikace mezi serverem a aplikací, čímž se udržují data o nabídce a objednávkách aktuální v reálném čase."
+                  },
+                  "p3": {
+                    "header": "Správa stavu pomocí Provider",
+                    "text": "Použili jsme Provider pro efektivní správu dat v aplikaci, což zajišťuje plynulé a rychlé interakce uživatelů i při vysoké zátěži."
+                  },
+                  "p4": {
+                    "header": "Firebase služby",
+                    "text": "Firebase byl použit pro zasílání push oznámení, které udržují uživatele informované o aktualizacích objednávek a propagačních akcích."
+                  },
+                  "p5": {
+                    "header": "Integrace PayPal",
+                    "text": "Implementovali jsme funkci PayPal pro umožnění pohodlných a bezpečných online plateb."
+                  },
+                  "p6": {
+                    "header": "Telegram bot pro personál",
+                    "text": "Integrovali jsme Telegram bota, který okamžitě přijímá všechny nové objednávky, což zajišťuje, že personál restaurace je včas informován a může objednávky okamžitě zpracovat."
+                  }
+                }
+              },
+              "section_6": {
+                "title": "Naše role v projektu",
+                "text": {
+                  "p1": {
+                    "header": "UI/UX design",
+                    "text": "Vytvořili jsme jednoduchý a intuitivní design, který zajišťuje snadný přístup k nabídce a plynulý proces objednávání."
+                  },
+                  "p2": {
+                    "header": "Integrace backendu",
+                    "text": "Propojili jsme aplikaci se systémem restaurace pomocí REST API, což zajistilo synchronizaci a aktualizaci všech dat v reálném čase."
+                  },
+                  "p3": {
+                    "header": "Testování a optimalizace",
+                    "text": "Náš tým provedl rozsáhlé testování, aby odstranil chyby, zlepšil výkon a optimalizoval aplikaci pro plynulý uživatelský zážitek."
+                  },
+                  "p4": {
+                    "header": "Integrace s Bitrix24",
+                    "text": "Implementovali jsme integraci Bitrix24 API, aby byla správa objednávek efektivnější a usnadnila restauraci vedení zákaznických záznamů."
+                  },
+                  "p5": {
+                    "header": "Integrace Telegram bota",
+                    "text": "Nakonfigurovali jsme Telegram bota, který okamžitě upozorňuje personál na nové objednávky, čímž snižuje zpoždění a zlepšuje efektivitu služeb."
+                  }
+                }
+              },
+              "section_7": {
+                "title": "Výzvy a řešení",
+                "text": {
+                  "p1": {
+                    "header": "Včasná oznámení objednávek pro personál",
+                    "text": "Integrovali jsme Telegram bota, aby objednávky byly okamžitě odesílány personálu, což minimalizuje zpoždění při zpracování."
+                  },
+                  "p2": {
+                    "header": "Integrace Bitrix24",
+                    "text": "Propojením aplikace s Bitrix24 jsme pomohli restauraci automatizovat správu objednávek a zjednodušit administrativní úkony."
+                  },
+                  "p3": {
+                    "header": "Integrace PayPal",
+                    "text": "Úspěšně jsme implementovali PayPal, aby uživatelům poskytl rychlou a bezpečnou možnost online platby."
+                  }
+                }
+              },
+              "section_8": {
+                "title": "Výsledky",
+                "text": {
+                  "p1": {
+                    "header": "Úspěšné spuštění",
+                    "text": "Aplikace byla spuštěna jak na Google Play, tak v App Store a obdržela pozitivní ohlasy za svou jednoduchost použití a funkčnost."
+                  },
+                  "p2": {
+                    "header": "Zvýšení prodeje",
+                    "text": "Jednoduchý a pohodlný proces objednávání přispěl k 25% nárůstu online prodeje během prvního měsíce od spuštění."
+                  },
+                  "p3": {
+                    "header": "Zlepšení spokojenosti zákazníků",
+                    "text": "Intuitivní rozhraní, plynulá navigace, rychlý platební systém a možnost prohlížet objednávky offline získaly od uživatelů velké uznání, což vedlo ke zvýšení loajality zákazníků."
+                  }
+                }
+              }
+            }
+          },
+          "TM": {
+            
+            "subtitle": "Vývoj webu\npro psí chovatelství",
+            "maintitle": "Popis projektu",
+            "description": "Projekt se zaměřil na vytvoření jedinečného designu webových stránek pro chov tibetských mastifů. Hlavním cílem bylo vyvinout vizuálně atraktivní, intuitivní a funkční rozhraní, které zdůrazňuje exkluzivitu tohoto plemene.",
+            "body": {
+              "section_1": {
+                "title": "Příprava a výzkum",
+                "diagram": {
+                  "title": "Diagram ilustrující segmentaci publika webových stránek pro tibetské mastify:",
+                  "legend": {
+                    "title": "Kategorie publika:",
+                    "p1": "Potenciální majitelé (50%)",
+                    "p2": "Chovatelé (30%)",
+                    "p3": "Nadšenci do plemene (20%)"
+                  }
+                },
+                "text": {
+                  "title": "Začali jsme analýzou:",
+                  "p1": {
+                    "title": "Cíle webu:",
+                    "text": "Informovat návštěvníky o chovu, představit krásu a přednosti psů a vytvořit pohodlnou platformu pro spojení s majitelem."
+                  },
+                  "p2": {
+                    "title": "Cílové publikum:",
+                    "text": "Lidé, kteří mají zájem o plemeno tibetských mastifů, potenciální majitelé a chovatelé."
+                  },
+                  "p3": {
+                    "title": "Konkurenti:",
+                    "text": "Analyzovali jsme podobné webové stránky chovů, abychom zdůraznili jedinečné vlastnosti webu pro tibetské mastify a zlepšili uživatelský zážitek."
+                  },
+                  "table": {
+                    "title": "Tabulka srovnávající weby konkurence podle klíčových parametrů",
+                    "col_1": {
+                      "title": "Web"
+                    },
+                    "col_2": {
+                      "title": "Design",
+                      "r1": "Tradiční",
+                      "r2": "Moderní",
+                      "r3": "Minimalistický"
+                    },
+                    "col_3": {
+                      "title": "Použitelnost navigace"
+                    },
+                    "col_4": {
+                      "title": "Informace o plemeni"
+                    },
+                    "col_5": {
+                      "title": "Kontaktní informace"
+                    }
+                  },
+                  "p4": {
+                    "title": "Výsledek:",
+                    "text": "Byl vytvořen jasný zadání, který stanovuje požadavky na design a funkčnost webu."
+                  }
+                }
+              },
+              "section_2": {
+                "title": "Koncept designu",
+                "text": "Během fáze vývoje konceptu byl vytvořen moodboard, který obsahoval prvky spojené s teplem, důvěrou a přírodní estetikou. Barevná paleta se skládala z přírodních odstínů: zelené, béžové a hnědé, což vytvářelo pohodlnou a útulnou atmosféru pro uživatele.",
+                "palette": "Barevná paleta:",
+                "p": {
+                  "title": "Výsledek:",
+                  "text": "Byl vyvinut styl a tón, který předává hodnoty značky a zajišťuje pohodlný uživatelský zážitek."
+                }
+              },
+              "section_3": {
+                "title": "Tvorba prototypu",
+                "text": "Byly navrženy wireframy klíčových stránek pro upřesnění struktury a funkčních prvků webu. Navíc byly implementovány animace, které demonstrují interaktivní prvky.",
+                "p": {
+                  "title": "Výsledek:",
+                  "text": "Byla vytvořena pevná základna pro vizuální a funkční implementaci webu."
+                }
+              },
+              "section_4": {
+                "title": "Konečná verze webu",
+                "text_1": "Hotový web kombinuje intuitivní rozhraní, stylový design a robustní funkčnost. Klíčové prvky zahrnují karty s informacemi o štěňatech, podrobné popisy plemene a kontaktní údaje chovu.",
+                "text_2": "Mobilní verze byla optimalizována, aby zajistila plynulý zážitek napříč zařízeními:",
+                "p": {
+                  "title": "Výsledek:",
+                  "text": "Finální produkt, který zdůrazňuje jedinečnost chovu a vyhovuje potřebám cílového publika."
+                }
+              }
+            }
+          },
+          "template": {
+            "title": "Rychlý a efektivní vývoj webu\npomocí šablon a zakázkových designů",
+            "section_1": {
+              "title": "Přehled",
+              "text": "V dnešním rychlém digitálním světě firmy často vyžadují rychlý a spolehlivý přístup k spuštění své online přítomnosti. Tato případová studie představuje řadu webů, které byly úspěšně vyvinuty v krátkých termínech pomocí hotových šablon, zakázkových designů klientů nebo referenčních příkladů poskytnutých klientem. Náš optimalizovaný vývojový proces umožnil rychlé nasazení bez kompromisů na kvalitě či funkčnosti."
+            },
+            "section_2": {
+              "title": "Přístup k vývoji",
+              "text": {
+                "p1": {
+                  "title": "Využití hotových šablon",
+                  "text": "Efektivně jsme přizpůsobili a upravili stávající šablony, což umožnilo rychlejší vývoj při zachování profesionálního a upraveného vzhledu."
+                },
+                "p2": {
+                  "title": "Implementace zakázkových designů klientů",
+                  "text": "Když klienti poskytli vlastní design, zajistili jsme přesnou implementaci podle moderních UX/UI standardů, abychom dodali vizuálně atraktivní a uživatelsky přívětivá rozhraní."
+                },
+                "p3": {
+                  "title": "Vývoj na základě referenčních příkladů",
+                  "text": "U projektů, kde klienti poskytli inspiraci nebo referenční weby, jsme znovu vytvořili požadovaný vzhled a atmosféru a zároveň začlenili úpravy šité na míru, aby vyhovovaly obchodním potřebám."
+                },
+                "p4": {
+                  "title": "Zajištění plné responzivity",
+                  "text": "Každý web byl navržen a testován pro kompatibilitu s různými zařízeními, což zajišťuje plynulý výkon na desktopových počítačích, tabletech a smartphonech."
+                },
+                "p5": {
+                  "title": "Optimalizace pro rychlost a SEO",
+                  "text": "Aplikovali jsme osvědčené postupy při optimalizaci webového výkonu, včetně rychle načítaných zdrojů, čistých struktur kódu a konfigurací přátelských k vyhledávačům."
+                },
+                "p6": {
+                  "title": "Integrace základních funkcí",
+                  "text": "Byly nastaveny funkční prvky, jako jsou kontaktní formuláře, odkazy na sociální média a sledování analytiky, aby se zvýšila angažovanost uživatelů a usnadnilo rozhodování na základě dat."
+                }
+              }
+            },
+            "section_3": {
+              "title": "Klíčové výsledky",
+              "text": {
+                "p1": {
+                  "title": "Rychlé nasazení",
+                  "text": "Weby byly úspěšně spuštěny v minimálních časových rámcích bez kompromisů na funkčnosti či uživatelském zážitku."
+                },
+                "p2": {
+                  "title": "Nákladově efektivní řešení",
+                  "text": "Využitím šablon a předdefinovaných rámců jsme minimalizovali náklady na vývoj a zároveň maximalizovali kvalitu."
+                },
+                "p3": {
+                  "title": "Škálovatelné a adaptabilní výsledky",
+                  "text": "Klienti obdrželi plně funkční webová řešení, která mohou být dále rozšiřována nebo přizpůsobována s rozvojem jejich podnikání."
+                }
+              }
+            },
+            "section_4": {
+              "title": "Představení projektu",
+              "text": {
+                "p1": "Unikátní design vytvořený s využitím klientských příkladů jako inspirace, který zároveň zachovává originalitu a identitu značky:",
+                "p2": "Weby postavené přesně podle designů klientů, které plně odpovídají jejich představám a specifikacím:"
+              },
+              "case": {
+                "c1": {
+                  "title": "Designer",
+                  "text": "Humorný, ale profesionální webový design, který zaujme klienty. Používá animace a výrazné barvy pro zapamatovatelnost."
+                },
+                "c2": {
+                  "title": "Tribo",
+                  "text": "Minimalistický web, který představuje kreativní přístup společnosti k architektonickým kovovým projektům. Zakázkový design vytvořený s inspirací z referencí poskytnutých klientem."
+                },
+                "c3": {
+                  "title": "Arabora",
+                  "text": "Webový design, který zdůrazňuje kvalitu a jedinečnost produktů. Jednoduchá navigace pro přilákání potenciálních klientů."
+                },
+                "c4": {
+                  "title": "Czech Center",
+                  "text": {
+                    "p1": "Web navržený pro pracovní příležitosti v České republice. Disponuje čistým, profesionálním rozložením, které zajišťuje snadnou navigaci pro uchazeče o zaměstnání i zaměstnavatele.",
+                    "p2": "Kromě designu webu byl vyvinut i zakázkový logo pro vytvoření silné identity značky."
+                  }
+                },
+                "c5": {
+                  "title": "Omelchenko Olena",
+                  "text": {
+                    "p1": "Web vizážistky z Kyjeva.",
+                    "p2": "Vytvořen na MODx Revolution."
+                  }
+                },
+                "c6": {
+                  "title": "GV (Grand Vision)",
+                  "text": {
+                    "p1": "Korporátní web pro reklamní společnost ve Španělsku.",
+                    "p2": "Postaven na MODx Revolution."
+                  }
+                },
+                "c7": {
+                  "title": "KRP (Kyjevský říční přístav)",
+                  "text": {
+                    "p1": "Oficiální web Kyjevského říčního přístavu.",
+                    "p2": "Postaven na MODx Revolution."
+                  }
+                },
+                "c8": {
+                  "title": "M GROUP",
+                  "text": {
+                    "p1": "Inženýrská a stavební společnost.",
+                    "p2": "Postaveno na MODx Revolution."
+                  }
+                }
+              },
+              "end": "Tato případová studie zdůrazňuje naši schopnost dodávat vysoce kvalitní webová řešení rychle a efektivně. Využitím nejlepších postupů v oboru zajišťujeme, že firmy nejen rychle vstoupí do online prostředí, ale mají také robustní digitální základnu pro růst a úspěch."
+            }
+          }
+        },
+        "services-page": {
+          "websiteDevelopment": {
+            "title": {
+              "left": "V",
+              "right": "ývoj Webových Stránek"
+            },
+            "description": "Webové stránky, které odrážejí vaši značku a přitahují klienty. Nabízíme komplexní služby tvorby webových stránek – od firemních portálů a internetových obchodů po vstupní stránky a blogy. Vytváříme jedinečné weby na populárních platformách jako WordPress, Shopify a další, s rychlým načítáním, intuitivní navigací a moderním designem. Vaše webové stránky nejen skvěle vypadají, ale jsou také funkční, což vám umožňuje zapojit vaše publikum a zvýšit konverze.",
+            "weOffer": "Nabízíme:",
+            "weOfferList": {
+              "point1": "Firemní webové stránky a internetové obchody",
+              "point2": "Optimalizace pro vyhledávače (SEO)",
+              "point3": "Rychlé načítání a responzivní design",
+              "point4": "Podpora a aktualizace"
+            },
+            "extra": "Každý web, který vytvoříme, je odrazem vaší značky. S důrazem na zapojení uživatelů a funkčnost se staráme o to, aby vaše online přítomnost rezonovala s vaším publikem a podporovala růst podnikání."
+          },
+          "appDevelopment": {
+            "title": {
+              "left": "V",
+              "right": "ývoj Aplikací"
+            },
+            "description": "Vytváříme moderní mobilní a webové aplikace, které umožňují vašemu podnikání dosáhnout nových výšin v digitálním prostředí. Využitím pokročilých technologií jako React Native, Flutter, React, Angular a Node.js zajišťujeme stabilitu, pohodlí a vysoký výkon vašich produktů.",
+            "whyChooseUs": "Proč si nás vybrat?",
+            "whyChooseUsList": {
+              "point1": {
+                "title": "Komplexní přístup",
+                "desciption": "Podporujeme váš projekt ve všech fázích – od nápadu po spuštění."
+              },
+              "point2": {
+                "title": "Moderní technologie",
+                "desciption": "Používáme nejlepší nástroje pro tvorbu špičkových řešení."
+              },
+              "point3": {
+                "title": "Dodání včas",
+                "desciption": "Garantujeme kvalitní realizaci v dohodnutých termínech."
+              },
+              "point4": {
+                "title": "Podpora po spuštění",
+                "desciption": "Poskytujeme technickou údržbu a aktualizace vašeho produktu."
+              }
+            },
+            "extra": "Jsme přesvědčeni, že naše řešení pomohou vašemu podnikání vyniknout mezi konkurencí. Kontaktujte nás a proberme vaše nápady, které proměníme v úspěšný digitální produkt."
+          },
+          "uiUxDesign": {
+            "title": {
+              "left": "N",
+              "right": "ávrh UI/UX"
+            },
+            "description": "Vytváříme intuitivní rozhraní, která zlepšují uživatelský zážitek. Kvalitní design není jen o vzhledu, ale také o pohodlí uživatele. Navrhujeme rozhraní, která jsou snadno pochopitelná a zlepšují interakci s uživatelem. Náš přístup je založen na důkladné analýze chování uživatelů a cílového publika, což nám umožňuje vytvářet řešení vedoucí k maximálním konverzím a loajalitě uživatelů.",
+            "servicesInclude": "Naše služby zahrnují:",
+            "servicesIncludeList": {
+              "point1": "UI design",
+              "point2": "Prototypování a testování",
+              "point3": "Analýzu chování uživatelů",
+              "point4": "Jedinečný a responzivní design"
+            },
+            "extra": "Dobrý design není jen o estetice, ale o poskytování plynulého uživatelského zážitku. Kombinujeme kreativitu s analytickými poznatky, abychom vytvořili návrhy, které vyhovují potřebám uživatelů i obchodním cílům."
+          }
+        },
+        "service": {
+          "table": {
+            "note": "* Poznámka: Všechny ceny jsou orientační a mohou se lišit v závislosti na požadavcích projektu.",
+            "col_1": "Typ služby",
+            "col_2": "Popis",
+            "col_3": "Cena (Kč)",
+            "col_4": "Doba dokončení"
+          },
+          "web": {
+            "title": {
+              "left": "Vývoj",
+              "right": "webu"
+            },
+            "description": "Jsme tým profesionálů připravených oživit jakoukoli myšlenku na vývoj webu. Nabízíme kompletní spektrum služeb pro tvorbu, podporu a vylepšování webových stránek v České republice. Díky mnohaletým zkušenostem dokážeme poskytnout řešení jakékoli složitosti, přizpůsobená specifickým potřebám každého klienta.",
+            "tableTitle": "Ukázkové ceny za vývoj webu",
+            "endText": "Usilujeme o vytvoření spolehlivého a efektivního webového produktu, který pomáhá růstu vašeho podnikání a zlepšuje interakci se zákazníky. Kontaktujte nás a proberme váš projekt, abychom vám mohli nabídnout individuální řešení.",
+            "table": {
+              "row_1": {
+                "col_1": "Landing Page, vizitka",
+                "col_2": "Jednostránkový web nebo vícestránkový web pro prezentaci služeb či firmy.",
+                "col_3": "10,000",
+                "col_4": "2 týdny"
+              },
+              "row_2": {
+                "col_1": "Korporátní web, katalog produktů",
+                "col_2": "Platforma pro firmy nebo prezentaci produktů s funkcemi správy obsahu a navigace.",
+                "col_3": "16,000",
+                "col_4": "3 týdny"
+              },
+              "row_3": {
+                "col_1": "E-shop",
+                "col_2": "Plnohodnotný internetový obchod s integrací platebního systému a flexibilním nastavením katalogu.",
+                "col_3": "21,000",
+                "col_4": "1 měsíc"
+              },
+              "row_4": {
+                "col_1": "Měsíční podpora",
+                "col_2": "Technická údržba, aktualizace a analýza pro váš web.",
+                "col_3": "5,500",
+                "col_4": "1 měsíc"
+              },
+              "row_5": {
+                "col_1": "Unikátní design",
+                "col_2": "Vývoj zakázkového designu šitého na míru podle preferencí klienta a moderních trendů.",
+                "col_3": "12,500",
+                "col_4": "3 týdny"
+              }
+            }
+          },
+
+          "app": {
+            "title": {
+              "left": "Vývoj",
+              "right": "aplikací"
+            },
+            "description": "Nabízíme kompletní spektrum služeb vývoje mobilních a webových aplikací s využitím moderních technologií a přístupů. Náš tým vyvíjí řešení jakékoli složitosti, přizpůsobená potřebám vašeho podnikání.",
+            "tableTitle": "Ukázkové ceny za vývoj aplikací",
+            "endText": "Jsme připraveni vám pomoci oživit vaše nápady a vytvořit vysoce kvalitní aplikaci, která prospěje vašemu podnikání a bude pohodlná pro vaše zákazníky. Kontaktujte nás a získejte cenový odhad!",
+            "itemWeb": {
+              "title": {
+                "left": "Webová",
+                "right": "aplikace\nVývoj"
+              },
+              "description": "Náš tým vyvíjí vysoce kvalitní webové aplikace, které poskytují vašemu podnikání silné nástroje pro úspěch v digitálním prostoru. Používáme moderní frameworky jako React, Angular a Node.js k vytváření zakázkových řešení optimalizovaných pro výkon, škálovatelnost a bezpečnost.",
+              "item_1": {
+                "title": "Silná digitální řešení",
+                "text": "Od e-commerce platforem po systémy pro řízení podnikání – naše webové aplikace pomáhají zefektivnit vaše podnikání a podporují inovace. Nabízíme řešení šitá na míru, která vyhovují požadavkům vašeho podnikání."
+              },
+              "item_2": {
+                "title": "Škálovatelnost a flexibilita",
+                "text": "Naše webové aplikace rostou spolu s vaším podnikáním. Škálovatelné architektury umožňují snadné rozšíření a přizpůsobení se měnícím se potřebám, což umožňuje dynamický rozvoj vašeho podnikání."
+              },
+              "item_3": {
+                "title": "Integrace s cloudem",
+                "text": "Zajišťujeme bezpečnou a efektivní integraci s cloudovými službami, což zaručuje spolehlivé a rychlé ukládání a zpracování dat a vytváří plynulý zážitek pro vaše uživatele."
+              },
+              "item_4": {
+                "title": "Řešení založená na datech",
+                "text": "Naše nástroje pro analýzu dat umožňují informované rozhodování, což přispívá k růstu vašeho podnikání. Vyvíjíme webové aplikace, které nejen plní své funkce, ale také vám pomáhají analyzovat data pro úspěšná obchodní rozhodnutí."
+              }
+            },
+            "itemMob": {
+              "title": {
+                "left": "Mobilní",
+                "right": "aplikace\nVývoj"
+              },
+              "description": "Specializujeme se na tvorbu vysoce efektivních mobilních aplikací, které poskytují plynulý a intuitivní uživatelský zážitek.",
+              "item_1": {
+                "title": "Podpora pro Android a iOS",
+                "text": "Náš tým vyvíjí aplikace pro Android i iOS, čímž zajišťuje, že váš produkt je propracovaný, intuitivní a bezchybně funguje na obou platformách. Používáme technologie jako Flutter a React Native pro tvorbu rychlých multiplatformních aplikací s optimalizovanými rozhraními. Nabízíme také vývoj nativních aplikací pro maximální výkon a hlubokou integraci s platformou."
+              },
+              "item_2": {
+                "title": "Uživatelsky přívětivá rozhraní",
+                "text": "Vytváříme plynulé a atraktivní designy, které zajišťují snadnou navigaci pro uživatele, a tím činí interakci s aplikací příjemnou a jednoduchou."
+              },
+              "item_3": {
+                "title": "Multiplatformní a nativní řešení",
+                "text": "Naše multiplatformní aplikace fungují stejně dobře na iOS i Android, přičemž zachovávají vysoký výkon. Pokud je vyžadována hlubší integrace, nabízíme také vývoj nativních aplikací pro co nejpřirozenější uživatelský zážitek."
+              },
+              "item_4": {
+                "title": "Kompletní vývojový cyklus",
+                "text": "Nabízíme kompletní cyklus vývoje mobilních aplikací – od nápadu a designu až po spuštění a průběžnou podporu. Náš tým vás podpoří v každé fázi, aby vaše aplikace splnila všechna stanovená očekávání."
+              }
+            },
+            "table": {
+              "row_1": {
+                "col_1": "Jednoduchá mobilní aplikace",
+                "col_2": "Základní mobilní aplikace s omezenou funkčností (např. nástroj nebo adresář) pro jednu platformu (iOS nebo Android).",
+                "col_3": "25,000",
+                "col_4": "4 týdny"
+              },
+              "row_2": {
+                "col_1": "Obchodní aplikace",
+                "col_2": "Aplikace se zakázkovými obchodními funkcemi (např. rezervace nebo správa objednávek) pro jednu platformu (iOS nebo Android).",
+                "col_3": "40,000",
+                "col_4": "6 týdnů"
+              },
+              "row_3": {
+                "col_1": "Webová aplikace",
+                "col_2": "Aplikace založená na prohlížeči s jedinečnou funkčností a designem.",
+                "col_3": "35,000",
+                "col_4": "5 týdnů"
+              },
+              "row_4": {
+                "col_1": "E-commerce aplikace",
+                "col_2": "Aplikace pro online prodej, zahrnující katalog produktů, nákupní košík a platební funkce.",
+                "col_3": "50,000",
+                "col_4": "8 týdnů"
+              },
+              "row_5": {
+                "col_1": "Multiplatformní aplikace",
+                "col_2": "Aplikace vyvinutá pomocí frameworků (React Native, Flutter), která funguje na iOS i Android.",
+                "col_3": "45,000",
+                "col_4": "6 týdnů"
+              },
+              "row_6": {
+                "col_1": "Měsíční podpora",
+                "col_2": "Průběžná podpora, aktualizace a monitoring výkonu vaší aplikace.",
+                "col_3": "10,000",
+                "col_4": "měsíc"
+              }
+            }
+          },
+
+          "design": {
+            "title": {
+              "left": "UI/UX",
+              "right": "Design",
+              "description": "Vývoj jedinečného designu webu není jen o výběru krásných barev a písem. Je to pečlivě plánovaný proces, který zahrnuje analýzu, kreativitu a testování. Vytváříme řešení šitá na míru, která splňují vaše cíle a očekávání."
+            },
+            "tableTitle": "Ukázkové ceny za služby UX/UI designu",
+            "endText": "Vytváříme rozhraní, která nejen skvěle vypadají, ale také zajišťují co nejpohodlnější a nejefektivnější interakci s produktem. Kontaktujte nás a proberme váš projekt, abychom vám mohli nabídnout individuální řešení!",
+            "listTitle": {
+              "left": "Vytváření",
+              "center": "jedinečného designu webu: krok za krokem",
+              "right": "proces"
+            },
+            "listText": "Pojďme si projít klíčové fáze tohoto procesu:",
+            "resultText": "Výsledek",
+            "list": {
+              "1": {
+                "title": "Příprava a výzkum",
+                "text": "V první fázi shromažďujeme všechny potřebné informace:",
+                "list": {
+                  "item_1": {
+                    "title": "Stanovení cílů",
+                    "text": "Definujeme cíle webu a výsledky, kterých chcete dosáhnout."
+                  },
+                  "item_2": {
+                    "title": "Analýza publika",
+                    "text": "Studujeme zájmy, chování a potřeby vašeho cílového publika."
+                  },
+                  "item_3": {
+                    "title": "Analýza konkurence",
+                    "text": "Analyzujeme konkurenty, abychom vytvořili jedinečnou nabídku."
+                  },
+                  "item_4": {
+                    "title": "Vytvoření zadání",
+                    "text": "Detailně zaznamenáme klíčové požadavky a preference."
+                  }
+                },
+                "result": "hluboké porozumění projektu a vizuálnímu směru."
+              },
+              "2": {
+                "title": "Koncept vývoje",
+                "text": "Tato fáze značí začátek kreativního procesu:",
+                "list": {
+                  "item_1": {
+                    "title": "Náčrty a wireframy",
+                    "text": "Vytváříme náčrty struktury webu pro pohodlné rozmístění prvků."
+                  },
+                  "item_2": {
+                    "title": "Stanovení stylu",
+                    "text": "Vybereme barevnou paletu, písma a grafické prvky."
+                  },
+                  "item_3": {
+                    "title": "Moodboard",
+                    "text": "Sestavíme vizuální nápady, které inspirují a ladí se značkou."
+                  }
+                },
+                "result": "schválený koncept, který bude tvořit základ designu."
+              },
+              "3": {
+                "title": "Tvorba prototypu",
+                "text": "Přecházíme k vytvoření interaktivního prototypu:",
+                "list": {
+                  "item_1": {
+                    "title": "Interaktivní design",
+                    "text": "Zobrazíme rozmístění prvků a interakci uživatele s rozhraním."
+                  },
+                  "item_2": {
+                    "title": "UX testování",
+                    "text": "Ověříme, jak pohodlná je uživatelská cesta (User Flow)."
+                  }
+                },
+                "result": "funkční prototyp ukazující, jak bude web fungovat."
+              },
+              "4": {
+                "title": "Vytvoření vizuálního designu",
+                "text": "Hlavní fáze vývoje jedinečného designu:",
+                "list": {
+                  "item_1": {
+                    "title": "Domovská stránka",
+                    "text": "Stanovíme styl a atmosféru webu."
+                  },
+                  "item_2": {
+                    "title": "Vnitřní stránky",
+                    "text": "Navrhujeme stránky v jednotném stylu."
+                  },
+                  "item_3": {
+                    "title": "UI prvky",
+                    "text": "Vytváříme tlačítka, formuláře, ikony a další prvky rozhraní."
+                  }
+                },
+                "result": "profesionální návrh připravený k implementaci."
+              },
+              "5": {
+                "title": "Revize a schválení",
+                "text": "Zohledňujeme veškerou vaši zpětnou vazbu:",
+                "list": {
+                  "item_1": {
+                    "title": "Sbírání zpětné vazby",
+                    "text": "Shromažďujeme připomínky od klienta."
+                  },
+                  "item_2": {
+                    "title": "Konečné úpravy",
+                    "text": "Vylepšujeme design tak, aby plně vyhovoval vašim očekáváním."
+                  }
+                },
+                "result": "konečný design připravený k předání vývojářům."
+              },
+              "6": {
+                "title": "Předání vývojářům",
+                "text": "V závěrečné fázi připravíme projekt k implementaci:",
+                "list": {
+                  "item_1": {
+                    "title": "Export prvků",
+                    "text": "Poskytujeme grafické soubory a zdroje."
+                  },
+                  "item_2": {
+                    "title": "Pokyny",
+                    "text": "Předáváme doporučení ohledně barev, písem a rozměrů pro vývojáře."
+                  },
+                  "item_3": {
+                    "title": "Technická podpora",
+                    "text": "Pomáháme s integrací designu do projektu."
+                  }
+                },
+                "result": "design připravený k implementaci, který oživí váš projekt."
+              }
+            },
+            "table": {
+              "row_1": {
+                "col_1": "Unikátní design pro jednoduchý web",
+                "col_2": "Vytvoření vizuálního stylu a návrh klíčových stránek pro jednoduchý web.",
+                "col_3": "12,000",
+                "col_4": "2 týdny"
+              },
+              "row_2": {
+                "col_1": "Návrh rozhraní mobilní aplikace",
+                "col_2": "Návrh rozhraní pro jednoduchou mobilní aplikaci (iOS nebo Android).",
+                "col_3": "17,000",
+                "col_4": "3 týdny"
+              }
+            }
+          }
+        }
       },
-      "text": "Nabízíme kompletní škálu služeb, které vám pomohou uspět v digitálním světě",
-      "list": {
-        "1": {
-          "title": "Vývoj webových aplikací:",
-          "text": "Od vstupních stránek po složité e-commerce platformy, vytváříme webové stránky, které jsou rychlé, bezpečné a snadno spravovatelné."
+
+      "about-page": {
+        "p1": {
+            "title": {
+                "left": "V",
+                "right": "ítejte v \"DK SoftLab\""
+            },
+            "text": "Odborný tým profesionálů specializujících se na vývoj webových a mobilních aplikací, design a digitální marketingová řešení. Naším posláním je pomoci firmám všech velikostí vytvořit silnou online přítomnost prostřednictvím tvorby jedinečných, poutavých a vysoce funkčních digitálních produktů."
         },
-        "2": {
-          "title": "Vývoj mobilních aplikací:",
-          "text": "Náš tým vytváří vysoce kvalitní mobilní aplikace pro Android i iOS, přizpůsobené potřebám vašeho podnikání."
+        "p2": {
+            "title": {
+                "left": "K",
+                "right": "do jsme"
+            },
+            "text": "V \"DK SoftLab\" věříme v kombinaci kreativity a technologií k dosažení vynikajících výsledků. Díky mnohaletým zkušenostem v oboru je náš tým vývojářů, designérů a stratégů nadšený z tvorby digitálních zážitků, které rezonují s vaším publikem a přinášejí měřitelné výsledky."
         },
-        "3": {
-          "title": "UI/UX Design:",
-          "text": "Zaměřujeme se na uživatelskou zkušenost a vytváříme intuitivní a vizuálně přitažlivé designy, které zanechají trvalý dojem."
+        "p3": {
+            "title": {
+                "left": "C",
+                "right": "o děláme"
+            },
+            "text": "Nabízíme kompletní škálu služeb, které vám pomohou uspět v digitálním světě",
+            "list": {
+                "1": {
+                    "title": "Vývoj webových stránek:",
+                    "text": "Od vstupních stránek až po složité e-commerce platformy, vytváříme weby, které jsou rychlé, bezpečné a snadno spravovatelné."
+                },
+                "2": {
+                    "title": "Vývoj mobilních aplikací:",
+                    "text": "Náš tým vytváří vysoce kvalitní mobilní aplikace pro Android i iOS, přizpůsobené potřebám vašeho podnikání."
+                },
+                "3": {
+                    "title": "UI/UX design:",
+                    "text": "Zaměřujeme se na uživatelský zážitek a vytváříme intuitivní a vizuálně atraktivní designy, které zanechají trvalý dojem."
+                },
+                "4": {
+                    "title": "SEO a digitální marketing:",
+                    "text": "Zvyšte svou online viditelnost s našimi odbornými SEO a marketingovými strategiemi, které zajistí, že vaše značka dosáhne svého plného potenciálu."
+                }
+            }
         },
-        "4": {
-          "title": "SEO & Digitální marketing:",
-          "text": "Zvyšte svou online viditelnost s našimi odbornými SEO a marketingovými strategiemi, které zajistí, že vaše značka dosáhne svého plného potenciálu."
+        "p4": {
+            "title": {
+                "left": "N",
+                "right": "aše hodnoty"
+            },
+            "list": {
+                "1": {
+                    "title": "Inovace:",
+                    "text": "Držíme krok s dobou a využíváme nejnovější technologie a trendy, abychom zajistili, že naše řešení jsou vždy na špičkové úrovni."
+                },
+                "2": {
+                    "title": "Kvalita:",
+                    "text": "Každý projekt, na kterém pracujeme, je zpracován s důrazem na detail a závazkem k dokonalosti."
+                },
+                "3": {
+                    "title": "Spolupráce:",
+                    "text": "Věříme v úzkou spolupráci s našimi klienty, abychom pochopili jejich potřeby a proměnili jejich vizi ve skutečnost."
+                }
+            }
+        },
+        "p5": {
+        "title": {
+            "left": "P",
+            "right": "roč si nás vybrat"
+        },
+        "text": "V \"DK SoftLab\" jsme hrdí na náš individuální přístup ke každému projektu. Ať už jste startup, který chce vytvořit své první webové stránky, nebo velká korporace potřebující zakázkovou mobilní aplikaci, máme odborné znalosti, které to umožní. Náš tým pracuje neúnavně, aby každý projekt překonal očekávání a přinesl hmatatelné výsledky pro vaše podnikání. Proměňme vaše nápady ve skutečnost. Kontaktujte nás ještě dnes a udělejte první krok k digitálnímu úspěchu!"
         }
       }
-    },
-    "p4": {
-      "title": {
-        "left": "N",
-        "right": "aše hodnoty"
-      },
-      "list": {
-        "1": {
-          "title": "Inovace:",
-          "text": "Jsme vždy napřed díky používání nejnovějších technologií a trendů, abychom zajistili, že naše řešení jsou vždy na špičce."
-        },
-        "2": {
-          "title": "Kvalita:",
-          "text": "Každý projekt, na kterém pracujeme, je vytvořen s důrazem na detail a závazkem k dokonalosti."
-        },
-        "3": {
-          "title": "Spolupráce:",
-          "text": "Věříme v úzkou spolupráci s našimi klienty, abychom pochopili jejich potřeby a přivedli jejich vizi k životu."
-        }
-      }
-    },
-    "p5": {
-      "title": {
-        "left": "P",
-        "right": "roč si vybrat nás"
-      },
-      "text": "V ADDSOFTWARE se pyšníme naším personalizovaným přístupem ke každému projektu. Ať už jste startup, který hledá vytvoření své první webové stránky, nebo velká korporace, která potřebuje vlastní mobilní aplikaci, máme odborné znalosti, abychom to uskutečnili. Náš tým pracuje neúnavně, aby zajistil, že každý projekt překročí očekávání a přinese hmatatelné výsledky pro vaše podnikání. Přiveďme vaše nápady k životu. Kontaktujte nás ještě dnes a udělejte první krok k digitálnímu úspěchu!"
-    }
-  },
-  "services": {
-    "title-left": "Naše ",
-    "title-center": "S",
-    "title-right": "lužby",
-    "webAppDev": "Vývoj webových aplikací",
-    "webAppDescription": "Vytváříme na míru šité webové aplikace, integrující inovativní funkce a intuitivní rozhraní pro podporu vašich jedinečných obchodních potřeb a zlepšení uživatelské zkušenosti.",
-    "mobAppDev": "Vývoj mobilních aplikací",
-    "mobAppDescription": "Náš tým vytváří vizuálně ohromující a uživatelsky přívětivé mobilní aplikace, využívající nejnovější technologie, které vám pomohou efektivně oslovit a zapojit vaše publikum.",
-    "webSites": "Tvorba webových stránek",
-    "webSitesDescription": "Pozvedněte svou online přítomnost na vyšší úroveň s našimi e-commerce řešeními, optimalizovanými pro bezproblémové transakce a poutavý nákupní zážitek.",
-    "design": "UI/UX Design",
-    "designDescription": "Nabízíme odborné poradenství v oblasti uživatelského rozhraní a designu zkušeností, zajišťující, že vaše digitální platformy jsou intuitivní, vizuálně přitažlivé a optimalizované pro konverze.",
-    "btnTitleReadmore": "Čtěte více..."
-  },
-  "services-page": {
-    "webAppDevelopment": {
-      "title": {
-        "left": "V",
-        "right": "ývoj webových aplikací"
-      },
-      "description": "Vytváříme výkonné webové aplikace, které pomáhají vašemu podnikání prosperovat v digitálním prostředí. Náš tým používá moderní technologie jako React, Angular a Node.js k vývoji vysoce výkonných, škálovatelných a bezpečných řešení. Pečlivě analyzujeme potřeby klienta a nabízíme vlastní řešení přizpůsobená specifikům podnikání. Ať už potřebujete firemní portál, CRM systém nebo vlastní webovou aplikaci, garantujeme vysokou kvalitu a včasné dodání projektu.",
-      "whyUs": "Proč my?",
-      "whyUsList": {
-        "point1": "Zkušení vývojáři",
-        "point2": "Responzivní a cross-browser řešení",
-        "point3": "Moderní technologie",
-        "point4": "Zaručené výsledky"
-      },
-      "extra": "Naše služby webového vývoje přesahují pouhé vytváření aplikací. Zaměřujeme se na zajištění bezproblémového výkonu, bezpečnosti a spokojenosti uživatelů. Výběrem nás se spojíte s odborníky oddanými pomoci vašemu podnikání uspět."
-    },
-    "mobileAppDevelopment": {
-      "title": {
-        "left": "V",
-        "right": "ývoj mobilních aplikací"
-      },
-      "description": "Vyvíjíme mobilní aplikace pro iOS a Android, které přitahují a udržují uživatele. Naše mobilní aplikace pomáhají vašemu podnikání dosáhnout nových výšin. Použitím technologií jako React Native a Flutter vytváříme aplikace s nativními uživatelskými rozhraními a vysokým výkonem. Bez ohledu na složitost garantujeme, že vaše aplikace bude efektivně a stabilně fungovat na všech zařízeních.",
-      "benefits": "Naše výhody:",
-      "benefitsList": {
-        "point1": "Nativní a cross-platformní aplikace",
-        "point2": "Pohodlné uživatelské rozhraní",
-        "point3": "Vysoký výkon",
-        "point4": "Plná podpora od konceptu po publikaci"
-      },
-      "extra": "Náš komplexní proces mobilního vývoje zajišťuje, že vaše aplikace není jen plně funkční, ale také radost ji používat. Provázíme vás od počátečního konceptu až po publikaci v obchodech s aplikacemi, zajišťujeme úspěch na každém kroku."
-    },
-    "websiteDevelopment": {
-      "title": {
-        "left": "T",
-        "right": "vorba webových stránek"
-      },
-      "description": "Webové stránky, které odrážejí vaši značku a přitahují klienty. Nabízíme komplexní služby tvorby webových stránek — od firemních portálů a online obchodů po vstupní stránky a blogy. Vytváříme unikátní webové stránky na populárních platformách jako WordPress, Shopify a další, zajišťující rychlé načítání, intuitivní navigaci a moderní design. Vaše webové stránky nejenže budou skvěle vypadat, ale budou také funkční, umožňující vám komunikovat s publikem a zvyšovat konverze.",
-      "weOffer": "Nabízíme:",
-      "weOfferList": {
-        "point1": "Firemní weby a online obchody",
-        "point2": "Optimalizace pro vyhledávače (SEO)",
-        "point3": "Rychlé načítání a responzivní design",
-        "point4": "Podpora a aktualizace"
-      },
-      "extra": "Každá webová stránka, kterou vytváříme, je odrazem vaší značky. S důrazem na zapojení uživatelů a funkčnost zajišťujeme, že vaše online přítomnost rezonuje s vaším publikem a podporuje růst podnikání."
-    },
-    "uiUxDesign": {
-      "title": {
-        "left": "U",
-        "right": "I/UX Design"
-      },
-      "description": "Vytváříme intuitivní rozhraní, která zlepšují uživatelskou zkušenost. Kvalitní design není jen o vzhledu; jde o pohodlí uživatele. Navrhujeme rozhraní, která jsou snadno pochopitelná a zlepšují interakci uživatelů. Náš přístup je založen na hluboké analýze chování uživatelů a cílového publika, což nám umožňuje vytvářet řešení, která vedou k maximálním konverzím a loajalitě uživatelů.",
-      "servicesInclude": "Naše služby zahrnují:",
-      "servicesIncludeList": {
-        "point1": "UI design",
-        "point2": "Prototypování a testování",
-        "point3": "Analýza chování uživatelů",
-        "point4": "Unikátní a responzivní design"
-      },
-      "extra": "Dobrý design není jen o estetice; jde o poskytování bezproblémového uživatelského zážitku. Kombinujeme kreativitu s analytickými poznatky, abychom vytvořili designy, které splňují potřeby uživatelů i obchodní cíle."
-    }
-  },
-  "technologies": {
-    "title-left": "T",
-    "title-right": "echnologie"
-  },
-  "portfolio": {
-    "title-left": "P",
-    "title-right": "ortfolio",
-    "description": "Podívejte se na některé z našich nedávných projektů",
-    "project": {
-      "Hirosaki": {
-        "entry": "Mobilní aplikace a design",
-        "title": "HIROSAKI",
-        "desc": "Aplikace poskytuje uživatelům pohodlné rozhraní pro rychlé zadávání objednávek a výběr času doručení nebo vyzvednutí. Integrace se sociálními sítěmi a platební funkce navíc usnadňují a urychlují proces objednávání pro uživatele."
-      },
-      "HelpCenter": {
-        "entry": "Mobilní aplikace",
-        "title": "Help Center 24",
-        "desc": "Aplikace kombinuje mediální obsah, interaktivní funkce a uživatelsky přívětivé rozhraní, což z ní činí cenný nástroj pro věřící, kteří chtějí zůstat v kontaktu s církví a sledovat všechny události a novinky."
-      },
-      "KinuLiutas": {
-        "entry": "Design",
-        "title": "Kinu Liutas",
-        "desc": "Design webových stránek zdůrazňuje jedinečnost a luxus tibetských mastifů se silným zaměřením na vizuální prvky. Jednoduchá navigace a důraz na historii plemene a úspěchy chovatelské stanice pomáhají uživatelům snadno najít potřebné informace a rozhodnout se o koupi štěněte."
-      },
-      "Tribo": {
-        "entry": "Design",
-        "title": "Tribo",
-        "desc": "Design webových stránek byl vytvořen v souladu s požadavky klienta na minimalismus a zaměření na vizuální řešení. Stránka se stala ideální platformou pro předvedení kreativního přístupu společnosti a její schopnosti přivést k životu jedinečné projekty architektonických kovových konstrukcí."
-      },
-      "Designer": {
-        "entry": "Design",
-        "title": "Designer",
-        "desc": "Design webových stránek kombinuje humor a profesionalitu, což společnosti umožňuje snadno komunikovat s klienty. Tučňáci — symbol přátelskosti a kreativity — přitahují pozornost, zatímco animace a jasné barvy dodávají jedinečnost. Díky tomuto stylu je webová stránka zapamatovatelná a její obsah je pro uživatele snadno pochopitelný."
-      },
-      "Arabora": {
-        "entry": "Design",
-        "title": "Arabora",
-        "desc": "Design webových stránek je vytvořen tak, aby maximálně předvedl kvalitu a jedinečnost produktů. Jednoduchost navigace a vizuální důraz na produkty pomáhají společnosti přilákat potenciální klienty a vytvořit silné spojení mezi značkou a publikem."
-      }
-    }
-  },
-  "choose": {
-    "title-left": "P",
-    "title-right": "roč si nás vybrat",
-    "1": {
-      "title": "Vysoká kvalita a profesionalita",
-      "desc": "Náš tým se skládá ze zkušených vývojářů a designérů, kteří používají nejmodernější technologie k vytváření moderních a spolehlivých řešení. Zajišťujeme, aby každý projekt byl proveden s maximální pozorností k detailu a péčí."
-    },
-    "2": {
-      "title": "Komplexní přístup",
-      "desc": "Nabízíme kompletní škálu služeb: od vývoje webových stránek a mobilních aplikací po UI/UX design a podporu po spuštění. Doprovázíme projekty ve všech fázích, od počátečního konceptu až po hotový produkt."
-    },
-    "3": {
-      "title": "Řešení na míru",
-      "desc": "Každý projekt je jedinečný a my přizpůsobujeme naše řešení specifickým potřebám našich klientů. Věnujeme čas pochopení vašeho podnikání a dodáváme produkt, který odpovídá vašim cílům a očekáváním."
-    },
-    "4": {
-      "title": "Dodání včas",
-      "desc": "Vážíme si vašeho času a vždy se snažíme dokončit projekty v dohodnutých termínech. Transparentní plánování a přísná kontrola nad vývojovým procesem zajišťují včasné dokončení úkolů."
-    },
-    "5": {
-      "title": "Dostupné ceny",
-      "desc": "Nabízíme konkurenceschopné ceny za vývojové služby bez kompromisů v kvalitě. Díky našemu flexibilnímu přístupu k projektům můžeme poskytnout nejlepší řešení za rozumné náklady."
-    }
-  },
-  "contact": {
-    "title": {
-      "left": "K",
-      "right": "ontaktujte nás"
-    },
-    "name": "Jméno",
-    "email": "E-mail",
-    "message": "Zpráva",
-    "submit": "Odeslat zprávu"
-  },
-  "footer": {
-    "about": {
-      "left": "O",
-      "right": " nás",
-      "desc": "Vytváříme inovativní webová řešení, která kombinují evropskou kvalitu s konkurenceschopnými cenami."
-    },
-    "quickLinks": {
-      "left": "R",
-      "right": "ychlé odkazy"
-    },
-    "contact-left": "K",
-    "contact-right": "ontakt",
-    "address": "Plzeň, Česká republika",
-    "phone": "Telefon",
-    "email": "E-mail",
-    "followUs-left": "S",
-    "followUs-right": "ledujte nás",
-    "allRightsReserved": "Všechna práva vyhrazena."
-  }
 }

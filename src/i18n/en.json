@@ -2,9 +2,9 @@
     "name":"DK SoftLab",
     "contacts": {
         "address":"Plzen, Czech Republic",
-        "phone1":"+380 987 654 321",
-        "phone2":"+420 728 056 984", 
-        "email":"add.software.developer"
+        "phone1":"+420 773 478 589 (CZ)",
+        "phone2":"+420 728 056 984 (UA)", 
+        "email":"info@dksoftlab.cz"
     },
 
     "btn": {
@@ -821,7 +821,7 @@
                 "endText":"We are ready to help you bring your ideas to life and create a high-quality application that will benefit your business and be convenient for your customers. Contact us to discuss your project and get a cost estimate!",
                 "itemWeb": {
                     "title": {
-                        "left":  "Web ",
+                        "left":  "Web",
                         "right": "Application\nDevelopment"
                     },
                     "description": "Our team develops high-quality web applications that provide your business with powerful tools to thrive in the digital space. We use modern frameworks like React, Angular, and Node.js to create custom solutions optimized for performance, scalability, and security.",
@@ -844,7 +844,7 @@
                 },
                 "itemMob": {
                     "title": {
-                        "left":  "Mobile ",
+                        "left":  "Mobile",
                         "right": "Application\nDevelopment"
                     },
                     "description": "We specialize in creating highly effective mobile applications that provide a smooth and intuitive user experience.",
