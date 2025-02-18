@@ -741,6 +741,10 @@
           }
         },
         "service": {
+          "title": {
+            "left": "S",
+            "right": "lužba"
+          },
           "table": {
             "note": "* Poznámka: Všechny ceny jsou orientační a mohou se lišit v závislosti na požadavcích projektu.",
             "col_1": "Typ služby",
@@ -750,10 +754,11 @@
           },
           "web": {
             "title": {
-              "left": "Vývoj",
-              "right": "webu"
+              "left": "",
+              "center": "Vývoj",
+              "right": "Webu",
+              "description": "Jsme tým profesionálů připravených oživit jakoukoli myšlenku na vývoj webu. Nabízíme kompletní spektrum služeb pro tvorbu, podporu a vylepšování webových stránek v České republice. Díky mnohaletým zkušenostem dokážeme poskytnout řešení jakékoli složitosti, přizpůsobená specifickým potřebám každého klienta."
             },
-            "description": "Jsme tým profesionálů připravených oživit jakoukoli myšlenku na vývoj webu. Nabízíme kompletní spektrum služeb pro tvorbu, podporu a vylepšování webových stránek v České republice. Díky mnohaletým zkušenostem dokážeme poskytnout řešení jakékoli složitosti, přizpůsobená specifickým potřebám každého klienta.",
             "tableTitle": "Ukázkové ceny za vývoj webu",
             "endText": "Usilujeme o vytvoření spolehlivého a efektivního webového produktu, který pomáhá růstu vašeho podnikání a zlepšuje interakci se zákazníky. Kontaktujte nás a proberme váš projekt, abychom vám mohli nabídnout individuální řešení.",
             "table": {
@@ -792,16 +797,17 @@
 
           "app": {
             "title": {
-              "left": "Vývoj",
-              "right": "aplikací"
+              "left": "",
+              "center": "Vývoj",
+              "right": "Aplikací",
+              "description": "Nabízíme kompletní spektrum služeb vývoje mobilních a webových aplikací s využitím moderních technologií a přístupů. Náš tým vyvíjí řešení jakékoli složitosti, přizpůsobená potřebám vašeho podnikání."
             },
-            "description": "Nabízíme kompletní spektrum služeb vývoje mobilních a webových aplikací s využitím moderních technologií a přístupů. Náš tým vyvíjí řešení jakékoli složitosti, přizpůsobená potřebám vašeho podnikání.",
             "tableTitle": "Ukázkové ceny za vývoj aplikací",
             "endText": "Jsme připraveni vám pomoci oživit vaše nápady a vytvořit vysoce kvalitní aplikaci, která prospěje vašemu podnikání a bude pohodlná pro vaše zákazníky. Kontaktujte nás a získejte cenový odhad!",
             "itemWeb": {
               "title": {
-                "left": "Webová",
-                "right": "aplikace\nVývoj"
+                "left": "Webové",
+                "right": "Aplikace"
               },
               "description": "Náš tým vyvíjí vysoce kvalitní webové aplikace, které poskytují vašemu podnikání silné nástroje pro úspěch v digitálním prostoru. Používáme moderní frameworky jako React, Angular a Node.js k vytváření zakázkových řešení optimalizovaných pro výkon, škálovatelnost a bezpečnost.",
               "item_1": {
@@ -824,7 +830,7 @@
             "itemMob": {
               "title": {
                 "left": "Mobilní",
-                "right": "aplikace\nVývoj"
+                "right": "Aplikace"
               },
               "description": "Specializujeme se na tvorbu vysoce efektivních mobilních aplikací, které poskytují plynulý a intuitivní uživatelský zážitek.",
               "item_1": {
@@ -886,7 +892,8 @@
 
           "design": {
             "title": {
-              "left": "UI/UX",
+              "left": "",
+              "center": "UI/UX",
               "right": "Design",
               "description": "Vývoj jedinečného designu webu není jen o výběru krásných barev a písem. Je to pečlivě plánovaný proces, který zahrnuje analýzu, kreativitu a testování. Vytváříme řešení šitá na míru, která splňují vaše cíle a očekávání."
             },

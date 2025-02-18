@@ -763,6 +763,10 @@
         },
 
         "service":{
+            "title": {
+                "left": "S",
+                "right": "ervice"
+            },
             "table":{
                 "note":"* Note: All prices are approximate and may vary depending on project requirements.",
                 "col_1":"Type of Service",
@@ -772,8 +776,9 @@
             },
             "web":{
                 "title":{
-                    "left": "Website",
-                    "right": "Development",
+                    "left": "Website", 
+                    "center": "Development",
+                    "right": "",
                     "description":"We are a team of professionals ready to bring any web development idea to life. We offer a full range of services for creating, supporting, and improving websites in the Czech Republic. With many years of experience, we can provide solutions of any complexity, tailored to the specific needs of each client."
                 },
                 "tableTitle":"Sample Pricing for Website Development",
@@ -814,7 +819,8 @@
             "app":{
                 "title":{
                     "left": "Application",
-                    "right": "Development",
+                    "center": "Development",
+                    "right": "",
                     "description": "We offer a full range of mobile and web application development services using modern technologies and approaches. Our team develops solutions of any complexity, tailored to meet your business needs."
                 },
                 "tableTitle":"Sample Pricing for Website Development",
@@ -907,7 +913,8 @@
             "design":{
                 "title":{
                     "left": "UI/UX",
-                    "right": "Design",
+                    "center": "Design",
+                    "right": "",
                     "description":"Developing a unique website design is not just about choosing beautiful colors and fonts. It is a carefully planned process that includes analysis, creativity, and testing. We create tailored solutions that meet your goals and expectations."
                 },
                 "tableTitle":"Sample Pricing for UX/UI Design Services",

@@ -23,6 +23,10 @@ h2 {
   background-color: #343a40;
 }
 
+.service-page {
+  margin-top: 4rem;
+}
+
 .page {
   color: var(--my-main-text-color);
   background-color: white;

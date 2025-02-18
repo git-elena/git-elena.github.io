@@ -8,8 +8,9 @@ const CustomDropdown = () => {
     const dropdownRef = useRef(null);
 
     const languages = [
-        { code: 'en', label: 'English' },
         { code: 'cs', label: 'Čeština' },
+        { code: 'en', label: 'English' },
+        
         { code: 'uk', label: 'Українська' }
     ];
 

@@ -1,8 +1,8 @@
 import React from 'react'
 import { useTranslation } from 'react-i18next'
-import Banner from './banner'
+// import Banner from './banner'
 
-import bannerImg from '../../images/services/design/3_design.jpg'
+// import bannerImg from '../../images/services/design/3_design.jpg'
 import mainImg from '../../images/services/design/ui-ux-design.jpg'
 import ServiceTitle from '../../components/HomeSections/Services/Title'
 import HomeContact from '../../components/HomeSections/HomeContact'
@@ -14,13 +14,22 @@ const ServiceDesign = () => {
 
     return (
         <div className='service-page page'>
-            <Banner src={bannerImg}/>
-            <section className='section p-3 mx-lg-5 row '>
+            {/* <Banner src={bannerImg}/> */}
+            <section className='section px-5 mx-lg-5 row '>
+                {/* --------------------------------------- */}
+                <h2 className="mt-5 mb-4 text-center">
+                        <span className="text-primary-emphasis">
+                            {t('pages.service.title.left')}
+                        </span>
+                            {t('pages.service.title.right')}
+                    </h2>
+                {/* --------------------------------------- */}
                 <div className='service-title'>
                     <ServiceTitle
-                        title_color={t('pages.service.design.title.left')}
-                        title_black={t('pages.service.design.title.right')}
-                        text={t('pages.service.design.title.description')} />
+                        title_left=  {t('pages.service.design.title.left')}
+                        title_center={t('pages.service.design.title.center')}
+                        title_right= {t('pages.service.design.title.right')}
+                        text= {t('pages.service.design.title.description')} />
                 </div>
 
                 <div className='row designContent'>

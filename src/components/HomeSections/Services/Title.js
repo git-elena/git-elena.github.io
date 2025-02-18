@@ -6,8 +6,11 @@ const ServiceTitle = (props) => {
         <div className='row'>
             {/* <div className='col-2'></div> */}
             <div className='col'>
-                {props.title_left  != null  && (<div className='colored title'>{props.title_left}</div>)}
-                {props.title_right != null && (<div className='title'>{props.title_right}</div>)}
+                <div class="row-title">
+                    {props.title_left   != null && (<div className='colored title'>{props.title_left} </div>)}
+                    {props.title_center != null && (<div className='title'>{props.title_center} </div>)}
+                    {props.title_right  != null && (<div className='colored title'>{props.title_right}</div>)}
+                </div>
 
                 <div className='row-title'>
                     {props.title_color != null && (<div className='colored title'>{props.title_color} </div>)}

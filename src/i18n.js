@@ -17,8 +17,8 @@ i18n
       cs: { translation: csTranslations },
       uk: { translation: ukTranslations },
     },
-    lng: 'en', // default language
-    fallbackLng: 'en',
+    lng: 'cs', // default language
+    fallbackLng: 'cs',
     interpolation: {
       escapeValue: false,
     },

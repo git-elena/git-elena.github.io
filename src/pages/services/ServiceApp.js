@@ -1,6 +1,6 @@
 import React from 'react'
 import { useTranslation } from 'react-i18next'
-import Banner from './banner'
+// import Banner from './banner'
 
 import ServiceTitle from '../../components/HomeSections/Services/Title'
 import HomeContact from '../../components/HomeSections/HomeContact'
@@ -9,7 +9,7 @@ import AppTitle from './appItem/AppTitle'
 import AppDesc from './appItem/AppDesc'
 import AppItem from './appItem/AppItem'
 
-import bannerImg from '../../images/services/app/2_app.jpg'
+// import bannerImg from '../../images/services/app/2_app.jpg'
 import mainImg_web from '../../images/services/app/website-app.jpg'
 import mainImg_mob from '../../images/services/app/mobile-app.jpg'
 import PricesGallery from '../../components/PricesGallery'
@@ -20,13 +20,23 @@ const ServiceApp = () => {
     const { t } = useTranslation()
     return (       
         <div className='service-page page'>
-            <Banner src={bannerImg}/>
+            {/* <Banner src={bannerImg}/> */}
             <section className='section px-5 mx-lg-5 row '>
+                {/* --------------------------------------- */}
+                <h2 className="mt-5 mb-4 text-center">
+                        <span className="text-primary-emphasis">
+                            {t('pages.service.title.left')}
+                        </span>
+                            {t('pages.service.title.right')}
+                    </h2>
+                {/* --------------------------------------- */}
+                
                 <div className='service-title'>
                     <ServiceTitle
-                        title_left={t('pages.service.app.title.left')}
-                        title_right={t('pages.service.app.title.right')}
-                        text={t('pages.service.app.title.description')} />
+                        title_left=  {t('pages.service.app.title.left')}
+                        title_center={t('pages.service.app.title.center')}
+                        title_right= {t('pages.service.app.title.right')}
+                        text= {t('pages.service.app.title.description')} />
                 </div>
                 <div>
                     <div className='row app-row'>
