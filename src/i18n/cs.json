@@ -1,7 +1,11 @@
 {
     
+    "name":"DK SoftLab",
     "contacts": {
-        "address": "Plzen, Czech Republic"
+        "address":"Plzen, Czech Republic",
+        "phone1":"+420 773 478 589 (CZ)",
+        "phone2":"+420 728 056 984 (UA)", 
+        "email":"info@dksoftlab.cz"
     },
     "btn": {
         "contactUs": "Kontaktujte nás",

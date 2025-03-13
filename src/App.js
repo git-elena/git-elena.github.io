@@ -25,6 +25,7 @@ import PortfolioHelpCenter24 from './pages/portfolio/PortfolioHelpCenter24';
 import PortfolioHirosaki from './pages/portfolio/PortfolioHirosaki';
 import PortfolioKinuLiutas from './pages/portfolio/PortfolioKinuLiutas';
 import PortfolioFastTemplate from './pages/portfolio/PortfolioFastTemplate';
+import PortfolioWolfvelity from './pages/portfolio/PortfolioWolfvelity';
 
 
 function App() {
@@ -52,6 +53,8 @@ function App() {
           <Route path="/portfolio/hirosaki" element={<PortfolioHirosaki />} />
           <Route path="/portfolio/kinu-liutas" element={<PortfolioKinuLiutas />} />
           <Route path="/portfolio/templates" element={<PortfolioFastTemplate />} />
+
+          <Route path="/portfolio/wolfvelity" element={<PortfolioWolfvelity />} />
 
         </Routes>
         <Footer />
