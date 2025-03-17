@@ -16,6 +16,7 @@ import imgElena from '../../images/portfolio/templates/elena-style.jpg'
 import imgGV from '../../images/portfolio/templates/gran-vision.jpg'
 import imgKRP from '../../images/portfolio/templates/krp.jpg'
 import imgMGroup from '../../images/portfolio/templates/m-group.jpg'
+import WebsiteModX from '../../components/PagePortfolio/PortfolioFastTemplate/WebsiteModX';
 
 
 const PortfolioFastTemplate = () => {
@@ -189,68 +190,47 @@ const PortfolioFastTemplate = () => {
 
                     <div className='row'>
                         <div className='col-md-6'>
-                            <div className='item-fast'>
-                                <img
-                                    src={imgElena}
-                                    alt='Olena Project'
-                                    className="img-header"
-                                    style={{ maxWidth: '100%' }}
-                                />
-                                <h6>{t('pages.portfolio.template.section_4.case.c5.title')}</h6>
-                                <ul>
-                                    <li>{t('pages.portfolio.template.section_4.case.c5.text.p1')}</li>
-                                    <li>{t('pages.portfolio.template.section_4.case.c5.text.p2')}</li>
-                                </ul>
-                            </div>
+                            <WebsiteModX 
+                                name={'Olena Project'} 
+                                title={t('pages.portfolio.template.section_4.case.c5.title')}
+                                text_1={t('pages.portfolio.template.section_4.case.c5.text.p1')}
+                                text_2={t('pages.portfolio.template.section_4.case.c5.text.p2')}
+                                link={'http://elena-style.com.ua/'}
+                                img={imgElena}
+                            />
                         </div>
                         <div className='col-md-6'>
-                            <div className='item-fast'>
-                                <img
-                                    src={imgGV}
-                                    alt='Grand Vision Project'
-                                    className="img-header"
-                                    style={{ maxWidth: '100%' }}
-                                />
-                                <h6>{t('pages.portfolio.template.section_4.case.c6.title')}</h6>
-                                <ul>
-                                    <li>{t('pages.portfolio.template.section_4.case.c6.text.p1')}</li>
-                                    <li>{t('pages.portfolio.template.section_4.case.c6.text.p2')}</li>
-                                </ul>
-                                
-                            </div>
-                        </div>
+                            <WebsiteModX
+                                name={'Grand Vision Project'}
+                                title={t('pages.portfolio.template.section_4.case.c6.title')}
+                                text_1={t('pages.portfolio.template.section_4.case.c6.text.p1')}
+                                text_2={t('pages.portfolio.template.section_4.case.c6.text.p2')}
+                                link={'https://gran-vision.es/'}
+                                img={imgGV}
+                            />
+                        </div> 
                     </div>
 
                     <div className='row'>
                         <div className='col-md-6'>
-                            <div className='item-fast'>
-                                <img
-                                    src={imgKRP}
-                                    alt='Kyiv River Port Project'
-                                    className="img-header"
-                                    style={{ maxWidth: '100%' }}
-                                />
-                                <h6>{t('pages.portfolio.template.section_4.case.c7.title')}</h6>
-                                <ul>
-                                    <li>{t('pages.portfolio.template.section_4.case.c7.text.p1')}</li>
-                                    <li>{t('pages.portfolio.template.section_4.case.c7.text.p2')}</li>
-                                </ul>
-                            </div>
+                            <WebsiteModX
+                                name={'Kyiv River Port Project'}
+                                title={t('pages.portfolio.template.section_4.case.c7.title')}
+                                text_1={t('pages.portfolio.template.section_4.case.c7.text.p1')}
+                                text_2={t('pages.portfolio.template.section_4.case.c7.text.p2')}
+                                link={'https://krp.ua/'}
+                                img={imgKRP}
+                            />
                         </div>
                         <div className='col-md-6'>
-                            <div className='item-fast'>
-                                <img
-                                    src={imgMGroup}
-                                    alt='M-Group Project'
-                                    className="img-header"
-                                    style={{ maxWidth: '100%' }}
-                                />
-                                <h6>{t('pages.portfolio.template.section_4.case.c8.title')}</h6>
-                                <ul>
-                                    <li>{t('pages.portfolio.template.section_4.case.c8.text.p1')}</li>
-                                    <li>{t('pages.portfolio.template.section_4.case.c8.text.p2')}</li>
-                                </ul>
-                            </div>
+                            <WebsiteModX
+                                name={'M-Group Project'}
+                                title={t('pages.portfolio.template.section_4.case.c8.title')}
+                                text_1={t('pages.portfolio.template.section_4.case.c8.text.p1')}
+                                text_2={t('pages.portfolio.template.section_4.case.c8.text.p2')}
+                                link={'https://m-group.org.ua/'}
+                                img={imgMGroup}
+                            />
                         </div>
                     </div>
 
