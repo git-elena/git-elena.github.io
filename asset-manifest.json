@@ -1,10 +1,12 @@
 {
   "files": {
-    "main.css": "/static/css/main.dded4350.css",
-    "main.js": "/static/js/main.ca3c9837.js",
+    "main.css": "/static/css/main.e93cba43.css",
+    "main.js": "/static/js/main.5750fdd8.js",
     "static/media/desktop_screenshot_home.png": "/static/media/desktop_screenshot_home.6fcefd519364f59020d7.png",
     "static/media/image_sushi_00.jpg": "/static/media/image_sushi_00.a589ca4fd5e78188aac9.jpg",
+    "static/media/Tribo.jpg": "/static/media/Tribo.617b503750113fd3f17a.jpg",
     "static/media/header_photo.jpg": "/static/media/header_photo.4e939372952c2dc041be.jpg",
+    "static/media/YBI.jpg": "/static/media/YBI.f9c7d8aad720e00e941d.jpg",
     "static/media/ui-ux-design.jpg": "/static/media/ui-ux-design.d560cf4633bb3afb7ad5.jpg",
     "static/media/image_sushi_02.jpg": "/static/media/image_sushi_02.1881242da92f4d3e8972.jpg",
     "static/media/about-banner.jpg": "/static/media/about-banner.96296980ab1e5625f31f.jpg",
@@ -90,11 +92,11 @@
     "index.html": "/index.html",
     "static/media/logo-typo3.svg": "/static/media/logo-typo3.594f3858cf4560a5abe7812254961d2c.svg",
     "static/media/logo-kotlin.svg": "/static/media/logo-kotlin.6d108dcd884eb40d0197a78e0a6fca62.svg",
-    "main.dded4350.css.map": "/static/css/main.dded4350.css.map",
-    "main.ca3c9837.js.map": "/static/js/main.ca3c9837.js.map"
+    "main.e93cba43.css.map": "/static/css/main.e93cba43.css.map",
+    "main.5750fdd8.js.map": "/static/js/main.5750fdd8.js.map"
   },
   "entrypoints": [
-    "static/css/main.dded4350.css",
-    "static/js/main.ca3c9837.js"
+    "static/css/main.e93cba43.css",
+    "static/js/main.5750fdd8.js"
   ]
 }
