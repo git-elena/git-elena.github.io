@@ -16,8 +16,11 @@ import imgElena from '../../images/portfolio/templates/elena-style.jpg'
 import imgGV from '../../images/portfolio/templates/gran-vision.jpg'
 import imgKRP from '../../images/portfolio/templates/krp.jpg'
 import imgMGroup from '../../images/portfolio/templates/m-group.jpg'
-import WebsiteModX from '../../components/PagePortfolio/PortfolioFastTemplate/WebsiteModX';
+import WebsiteModX from '../../components/PagePortfolio/PortfolioFastTemplate/WebsiteModX'
 
+import imgFull_designer from '../../images/portfolio/templates/fullScreenshot/YBI.jpg'
+import imgFull_tribo from '../../images/portfolio/templates/fullScreenshot/Tribo.jpg'
+import ImageFullView from '../../components/ImageFullView';
 
 const PortfolioFastTemplate = () => {
   const { t } = useTranslation();
@@ -102,12 +105,17 @@ const PortfolioFastTemplate = () => {
                 <div class="items">
                     <div className='row item'>
                         <div className='col-md-6'>
-                            <img
+                            <ImageFullView 
+                                name={'Designer Project'} 
+                                thumbnail={imgDesigner}
+                                fullImage={imgFull_designer}
+                            />
+                            {/* <img
                                 src={imgDesigner}
                                 alt='Designer Project'
                                 className="img-header"
                                 style={{ maxWidth: '100%' }}
-                            />
+                            /> */}
                         </div>
                         <div className='col-md-6'>
                             <div class="proj">
@@ -128,12 +136,17 @@ const PortfolioFastTemplate = () => {
                             </div>
                         </div>
                         <div className='col-md-6'>
-                            <img
+                            <ImageFullView
+                                name={'Tribo Project'}
+                                thumbnail={imgTribo}
+                                fullImage={imgFull_tribo}
+                            />
+                            {/* <img
                                 src={imgTribo}
                                 alt='Tribo Project'
                                 className="img-header"
                                 style={{ maxWidth: '100%' }}
-                            />
+                            /> */}
                         </div>
                     </div>
                     <div className='row item'>

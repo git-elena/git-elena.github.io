@@ -1,9 +1,10 @@
 import React from 'react'
+import '../../css/portfolio/FastTemplateModX.css'
 
 const WebsiteModX = ({name, title, text_1, text_2, link, img}) => {
   return (
     <div className='item-fast'>
-        <a href={link}>
+        <a href={link} target="_blank">
             <img
                 src={img}
                 alt={name}
@@ -21,3 +22,5 @@ const WebsiteModX = ({name, title, text_1, text_2, link, img}) => {
 }
 
 export default WebsiteModX
+
+
