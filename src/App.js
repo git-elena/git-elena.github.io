@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { HashRouter as Router, Route, Routes } from 'react-router-dom';
 // import { HashRouter } from 'react-router-dom';
 
@@ -14,7 +14,7 @@ import './i18n';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min.js'; // Включает Popper.js
 import './App.css';
-import ScrollToTop from './servers/ScrollToTop';
+
 import ScrollToTopButton from './components/ScrollToTopButton';
 
 import ServiceApp from './pages/services/ServiceApp';
@@ -26,15 +26,21 @@ import PortfolioHirosaki from './pages/portfolio/PortfolioHirosaki';
 import PortfolioKinuLiutas from './pages/portfolio/PortfolioKinuLiutas';
 import PortfolioFastTemplate from './pages/portfolio/PortfolioFastTemplate';
 import PortfolioWolfvelity from './pages/portfolio/PortfolioWolfvelity';
+import ScrollToTop from './servers/ScrollToTop';
 
 
 function App() {
+  const [isMenuVisible, setMenuVisible] = useState(true);
+
+  const handleMenuVisibility = (shouldHide) => {
+    setMenuVisible(!shouldHide);
+  };
 
   return (
     <Router>
-      <ScrollToTop />
+      <ScrollToTop /> {/* Прокрутка в начало страницы при переходе на новую страницу*/}
       <div className="App">
-        <Navigation />
+        {isMenuVisible && <Navigation />}
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
@@ -52,13 +58,13 @@ function App() {
           <Route path="/portfolio/helpcenter24" element={<PortfolioHelpCenter24 />} />
           <Route path="/portfolio/hirosaki" element={<PortfolioHirosaki />} />
           <Route path="/portfolio/kinu-liutas" element={<PortfolioKinuLiutas />} />
-          <Route path="/portfolio/templates" element={<PortfolioFastTemplate />} />
+          <Route path="/portfolio/templates" element={<PortfolioFastTemplate hideMenu={handleMenuVisibility} />} />
 
           <Route path="/portfolio/wolfvelity" element={<PortfolioWolfvelity />} />
 
         </Routes>
         <Footer />
-        <ScrollToTopButton />
+        {isMenuVisible && <ScrollToTopButton />} {/* Кнопка прокрутки в начало страниц*/}
       </div>
     </Router>
   );

@@ -22,7 +22,7 @@ import imgFull_designer from '../../images/portfolio/templates/fullScreenshot/YB
 import imgFull_tribo from '../../images/portfolio/templates/fullScreenshot/Tribo.jpg'
 import ImageFullView from '../../components/ImageFullView';
 
-const PortfolioFastTemplate = () => {
+const PortfolioFastTemplate = ({hideMenu}) => {
   const { t } = useTranslation();
 
   return (
@@ -109,6 +109,7 @@ const PortfolioFastTemplate = () => {
                                 name={'Designer Project'} 
                                 thumbnail={imgDesigner}
                                 fullImage={imgFull_designer}
+                                hideMenu={hideMenu}
                             />
                             {/* <img
                                 src={imgDesigner}
@@ -140,6 +141,7 @@ const PortfolioFastTemplate = () => {
                                 name={'Tribo Project'}
                                 thumbnail={imgTribo}
                                 fullImage={imgFull_tribo}
+                                hideMenu={hideMenu}
                             />
                             {/* <img
                                 src={imgTribo}
@@ -189,7 +191,7 @@ const PortfolioFastTemplate = () => {
                         </div>
                     </div>
                 </div>
-
+{/*
                 <div className='row'>
                     <div className='col-6'></div>
                     <div className='col-6'>
@@ -199,7 +201,7 @@ const PortfolioFastTemplate = () => {
                     </div>
                 </div>
 
-                <div class="items-fast">
+                 <div class="items-fast">
 
                     <div className='row'>
                         <div className='col-md-6'>
@@ -247,7 +249,7 @@ const PortfolioFastTemplate = () => {
                         </div>
                     </div>
 
-                </div>
+                </div> */}
 
             </div>
         </section>

@@ -30,10 +30,10 @@ const PortfolioGallery = () => {
     {link:'/portfolio/templates', src: projectDesign4, title: t('home.portfolio.project.Tribo.title'), desc: t('home.portfolio.project.Tribo.desc'), entry: t('home.portfolio.project.Tribo.entry') },
     {link:'/portfolio/templates', src: projectDesign1, title: t('home.portfolio.project.Designer.title'), desc: t('home.portfolio.project.Designer.desc'), entry: t('home.portfolio.project.Designer.entry') },
     {link:'/portfolio/templates', src: projectDesign3, title: t('home.portfolio.project.Arabora.title'), desc: t('home.portfolio.project.Arabora.desc'), entry: t('home.portfolio.project.Arabora.entry') },
-    {link:'/portfolio/templates', src: projectWebsite1, title: t('home.portfolio.project.OO.title'), desc: t('home.portfolio.project.OO.desc'), entry: t('home.portfolio.project.OO.entry') },
-    {link:'/portfolio/templates', src: projectWebsite3, title: t('home.portfolio.project.KRP.title'), desc: t('home.portfolio.project.KRP.desc'), entry: t('home.portfolio.project.KRP.entry') },
-    {link:'/portfolio/templates', src: projectWebsite4, title: t('home.portfolio.project.GV.title'), desc: t('home.portfolio.project.GV.desc'), entry: t('home.portfolio.project.GV.entry') },
-    {link:'/portfolio/templates/', src: projectWebsite5, title: t('home.portfolio.project.MG.title'), desc: t('home.portfolio.project.MG.desc'), entry: t('home.portfolio.project.MG.entry') },
+    // {link:'/portfolio/templates', src: projectWebsite1, title: t('home.portfolio.project.OO.title'), desc: t('home.portfolio.project.OO.desc'), entry: t('home.portfolio.project.OO.entry') },
+    // {link:'/portfolio/templates', src: projectWebsite3, title: t('home.portfolio.project.KRP.title'), desc: t('home.portfolio.project.KRP.desc'), entry: t('home.portfolio.project.KRP.entry') },
+    // {link:'/portfolio/templates', src: projectWebsite4, title: t('home.portfolio.project.GV.title'), desc: t('home.portfolio.project.GV.desc'), entry: t('home.portfolio.project.GV.entry') },
+    // {link:'/portfolio/templates/', src: projectWebsite5, title: t('home.portfolio.project.MG.title'), desc: t('home.portfolio.project.MG.desc'), entry: t('home.portfolio.project.MG.entry') },
     
   ];
 
@@ -95,12 +95,14 @@ const PortfolioGallery = () => {
               >
                 
                 {/* <h6 className='text-center '>{image.entry}</h6> */}
-              <img
-                src={image.src}
-                alt={image.title}
-                className=""
-                style={{ cursor: 'pointer', maxWidth: '100%' }}
-              />
+              <a href={`#${image.link}`}>
+                <img
+                  src={image.src}
+                  alt={image.title}
+                  className=""
+                  style={{ cursor: 'pointer', maxWidth: '100%' }}
+                />
+              </a>
               <div className="card-body">
                       <h5 className="card-title text-center">{image.title}</h5>
                       <p className='text-secondary desc'>{image.desc}</p>

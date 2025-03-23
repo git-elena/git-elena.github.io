@@ -1,8 +1,18 @@
 import React, { useState } from 'react';
 import './css/ImageFullView.css';
 
-const ImageFullView = ({ name, thumbnail, fullImage }) => {
+const ImageFullView = ({ name, thumbnail, fullImage, hideMenu }) => {
   const [isOpen, setIsOpen] = useState(false);
+
+  const handleOpen = () => {
+    setIsOpen(true);
+    hideMenu(true);
+  };
+
+  const handleClose = () => {
+    setIsOpen(false);
+    hideMenu(false);
+  };
 
   return (
     <div className='thumbnail-container'>
@@ -10,11 +20,11 @@ const ImageFullView = ({ name, thumbnail, fullImage }) => {
         src={thumbnail}
         alt={name}
         className="thumbnail-image"
-        onClick={() => setIsOpen(true)}
+        onClick={() => handleOpen()}
       />
 
       {isOpen && (
-        <div className="fullscreen-overlay" onClick={() => setIsOpen(false)}>
+        <div className="fullscreen-overlay" onClick={() => handleClose()}>
             <div class="fullscreen-container">
                 <img src={fullImage} alt={name} className="fullscreen-image" />
             </div>
