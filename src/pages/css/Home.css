@@ -21,6 +21,19 @@
     border-bottom: solid 1px rgba(128, 128, 128, 0.233);
   }
 }
+
+@media (max-height: 640px) {
+  .top-banner, .top-banner .banner {
+    height: 110vh;
+  }
+  
+}
+@media (max-height: 500px) {
+  .top-banner, .top-banner .banner {
+    height: 150vh;
+  }
+  
+}
 /* --------- */
 
 

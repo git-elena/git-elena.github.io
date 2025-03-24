@@ -35,7 +35,7 @@ const HomeServices = () => {
                         <div className='col-lg-8'>
                             <div className='service-title'>
                                 <ServiceTitle 
-                                    title_left={t('home.services.webDev.title.left')} 
+                                    title_center={t('home.services.webDev.title.left')} 
                                     title_right={t('home.services.webDev.title.right')}
                                     text={t('home.services.webDev.title.description')} />
                             </div>
@@ -59,6 +59,7 @@ const HomeServices = () => {
                         </div>
                         <div className='col-1'></div>
                     </div>
+
                     <div className='row'>
                         <div className='col-1'></div>
                         <div className='col-12 col-md-5'>
@@ -75,6 +76,7 @@ const HomeServices = () => {
                         </div>
                         <div className='col-1'></div>
                     </div>
+
                     <div className='row'>
                         <div className='col-1'></div>
                         <div className='col-12 col-md-5'>
@@ -110,6 +112,7 @@ const HomeServices = () => {
                                     <div className='col col-lg-10'>
                                         <div className='service-title'>
                                             <ServiceTitle 
+                                                title_black={t('home.services.appDev.title.black')}
                                                 mobile={t('home.services.appDev.title.color_Mobile')}
                                                 webApp={t('home.services.appDev.title.color_WebApp')}
                                                 dev={t('home.services.appDev.title.black_Dev')}

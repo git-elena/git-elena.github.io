@@ -46,6 +46,7 @@
 .row-title {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 .services .item .img {
@@ -234,7 +235,9 @@
         /* border: none!important; */
         border-radius: 0!important;
     }
-    
+    .services .section-app .service-title .text {
+        margin-right: 0;
+    }
 
 }
 

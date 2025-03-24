@@ -65,6 +65,7 @@
             
             "appDev": {
                 "title": {
+                  "black": "",
                     "color_Mobile": "Mobil",
                     "color_WebApp": "Webová Aplikace",
                     "black_Dev": "Vývoj",
