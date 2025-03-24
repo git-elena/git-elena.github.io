@@ -16,12 +16,12 @@ function Home() {
     return (
         <main className='home-page page-content'>
             <HomeBanner />
-            {/* <HomeAboutUs /> */}
+            <HomeAboutUs />
             <HomeServices />
-            {/* <HomeTechnologies />
+            <HomeTechnologies />
             <HomePortfolio />
             <HomeChooseUs />
-            <HomeContact /> */}
+            <HomeContact />
         </main>
     );
 }
