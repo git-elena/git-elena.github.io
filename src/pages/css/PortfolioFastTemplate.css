@@ -142,3 +142,8 @@
         margin: 0 0rem;
     }
 }
+@media (max-width: 480px) {
+    .templates h1 {
+        white-space: unset;
+    }
+}
