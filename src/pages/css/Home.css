@@ -15,6 +15,17 @@
 }
 
 
+/* @media (max-width: 640px) and (max-height: 361px) {
+  .top-banner, .top-banner .banner {
+    height: 100vh;
+  }
+} */
+@media (max-height: 360px) {
+  .top-banner, .top-banner .banner {
+    height: 120vh;
+  }
+}
+
 
 @media (min-width: 480px) {
   .home-page .border-b {
@@ -22,13 +33,9 @@
   }
 }
 
-@media (max-height: 640px) {
-  .top-banner, .top-banner .banner {
-    height: 110vh;
-  }
-  
-}
-@media (max-height: 500px) {
+
+
+@media (max-width: 240px) {
   .top-banner, .top-banner .banner {
     height: 150vh;
   }
@@ -142,5 +149,11 @@
 @media (max-width: 480px) {
   .contactForm .fields {
     padding: 3rem 3rem;
+  }
+}
+
+@media (max-width: 240px) {
+  .button-85 {
+    padding: 1em;
   }
 }

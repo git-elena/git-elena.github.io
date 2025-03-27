@@ -27,6 +27,7 @@ import PortfolioKinuLiutas from './pages/portfolio/PortfolioKinuLiutas';
 import PortfolioFastTemplate from './pages/portfolio/PortfolioFastTemplate';
 import PortfolioWolfvelity from './pages/portfolio/PortfolioWolfvelity';
 import ScrollToTop from './servers/ScrollToTop';
+import Politica from './pages/Politica';
 
 
 function App() {
@@ -47,6 +48,7 @@ function App() {
           <Route path="/services" element={<Services />} />
           <Route path="/portfolio" element={<Portfolio />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/politica" element={<Politica />} />
 
           {/* <Route path="/service/mob-app" element={<ServiceMobApp />} />
           <Route path="/service/web-app" element={<ServiceWebApp />} /> */}
@@ -61,7 +63,7 @@ function App() {
           <Route path="/portfolio/templates" element={<PortfolioFastTemplate hideMenu={handleMenuVisibility} />} />
 
           <Route path="/portfolio/wolfvelity" element={<PortfolioWolfvelity />} />
-
+          
         </Routes>
         <Footer />
         {isMenuVisible && <ScrollToTopButton />} {/* Кнопка прокрутки в начало страниц*/}

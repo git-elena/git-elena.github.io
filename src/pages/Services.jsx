@@ -21,8 +21,6 @@ const Services = () => {
       <HomeContact />
     </div>
 
-    
   )
 }
-
 export default Services 

@@ -14,11 +14,14 @@ const Footer = () => {
         <div className="footer container">
           <div className="row">
             {/* Первая колонка */}
-            <div className="col-lg-3 col-md-6 mb-4">
+            <div className="col-lg-4 col-md-6 mb-4">
               <h3 className="h5"><span className='text-primary-emphasis'>{t('footer.about.left')}</span>{t('footer.about.right')}</h3>
               <LogoComponent width={130}/>
               <p className='about'>{t('footer.about.desc')}</p>
               {/* <LogoComponent width={130}/> */}
+              <Link to='/politica' className='text-primary-emphasis text-decoration-none'>
+                Zásady bezpečnosti
+              </Link>
             </div>
             {/* Вторая колонка */}
             <div className="col-lg-3 col-md-6 mb-4 ps-lg-5">
@@ -67,7 +70,7 @@ const Footer = () => {
               </p>
             </div>
             {/* Четвертая колонка */}
-            <div className="col-lg-3 col-md-6 mb-4">
+            <div className="col-lg-2 col-md-6 mb-4">
               <h3 className="h5"><span className='text-primary-emphasis'>{t('footer.followUs-left')}</span>{t('footer.followUs-right')}</h3>
               <div>
                 <a href="#"

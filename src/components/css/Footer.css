@@ -15,5 +15,14 @@ footer i {
 .footer .about {
     font-size: .8rem;
     font-style: italic;
-    padding-right: 25%;
+    padding-right: 10%;
+}
+
+.footer a:hover {
+    color: var(--bs-primary-text-emphasis)!important;
+}
+
+.footer a:hover, 
+.footer p span:hover {
+    font-weight: bold;
 }
