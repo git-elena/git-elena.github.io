@@ -1,8 +1,7 @@
-/* body {
-  background-color: rgb(255, 255, 255);
-} */
-html {
-  scroll-behavior: smooth!important;
+html, body, #root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
 }
 
 h1 {
@@ -56,9 +55,6 @@ h2 {
   -webkit-user-select: none;
   touch-action: manipulation;
 }
-/* .button-2 {
-  background-color: var(--bs-primary-text-emphasis)!important;
-} */
 .banner {
   overflow: hidden; 
   position: relative;

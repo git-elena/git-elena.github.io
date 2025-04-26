@@ -1,0 +1,22 @@
+.admin-panel {
+  background-color: #f8f9fa;
+  border: 1px solid #dee2e6;
+  border-radius: 8px;
+  padding: 16px;
+  margin-bottom: 16px;
+}
+
+.admin-panel h2 {
+  font-size: 1.25rem;
+  margin-bottom: 16px;
+}
+
+.admin-panel label {
+  font-weight: bold;
+}
+
+.admin-panel input {
+  display: block;
+  width: 100%;
+  margin-top: 8px;
+}

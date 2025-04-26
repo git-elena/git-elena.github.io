@@ -1,0 +1,211 @@
+[
+  {
+    "id": "site_goal",
+    "question": "Яка основна мета вашого сайту?",
+    "type": "single-select",
+    "options": [
+      "Презентувати послуги або продукт",
+      "Продавати товари онлайн",
+      "Створити багатосторінковий сайт з інформацією",
+      "Залучати ліди (контакти)",
+      "Презентувати бренд / портфоліо / себе",
+      "Інше"
+    ]
+  },
+  {
+    "id": "has_offer",
+    "question": "Чи маєте чітко сформульовану пропозицію (офер)?",
+    "type": "single-select",
+    "options": ["Так", "Ні"],
+    "showIf": {
+      "site_goal": [
+        "Презентувати послуги або продукт",
+        "Залучати ліди (контакти)"
+      ]
+    }
+  },
+  {
+    "id": "landing_page_standard",
+    "question": "Яка дія є головною на сайті?",
+    "type": "single-line-text",
+    "showIf": {
+      "has_offer": ["Так"]
+    }
+  },
+  {
+    "id": "crm_integration",
+    "question": "Чи потрібна інтеграція з CRM або email-маркетингом?",
+    "type": "single-select",
+    "options": ["Так", "Ні"],
+    "showIf": {
+      "has_offer": ["Так"]
+    }
+  },
+  {
+    "id": "multilingual",
+    "question": "Чи має бути багатомовність?",
+    "type": "single-select",
+    "options": ["Так", "Ні"],
+    "showIf": {
+      "has_offer": ["Так"]
+    }
+  },
+  {
+    "id": "need_blog",
+    "question": "Чи потрібен блог або новинна стрічка?",
+    "type": "single-select",
+    "options": ["Так", "Ні"],
+    "showIf": {
+      "has_offer": ["Так"]
+    }
+  },
+  {
+    "id": "what_offer",
+    "question": "Що саме ви пропонуєте своїм клієнтам?",
+    "type": "multi-line-text",
+    "showIf": {
+      "has_offer": ["Ні"]
+    }
+  },
+  {
+    "id": "main_value",
+    "question": "У чому основна цінність вашої пропозиції?",
+    "type": "multi-line-text",
+    "showIf": {
+      "has_offer": ["Ні"]
+    }
+  },
+  {
+    "id": "target_audience",
+    "question": "Хто ваша основна цільова аудиторія?",
+    "type": "multi-line-text",
+    "showIf": {
+      "has_offer": ["Ні"]
+    }
+  },
+  {
+    "id": "site_goal_detail",
+    "question": "Якого результату ви хочете досягти через цей сайт?",
+    "type": "multi-line-text",
+    "showIf": {
+      "has_offer": ["Ні"]
+    }
+  },
+  {
+    "id": "product_count",
+    "question": "Скільки товарів планується продавати?",
+    "type": "single-line-text",
+    "showIf": {
+      "site_goal": ["Продавати товари онлайн"]
+    }
+  },
+  {
+    "id": "product_type",
+    "question": "Який тип товарів?",
+    "type": "single-line-text",
+    "showIf": {
+      "site_goal": ["Продавати товари онлайн"]
+    }
+  },
+  {
+    "id": "payment_integration",
+    "question": "Чи потрібна інтеграція з платіжними системами?",
+    "type": "single-select",
+    "options": ["Так", "Ні"],
+    "showIf": {
+      "site_goal": ["Продавати товари онлайн"]
+    }
+  },
+  {
+    "id": "delivery_methods",
+    "question": "Які способи доставки плануються?",
+    "type": "multi-line-text",
+    "showIf": {
+      "site_goal": ["Продавати товари онлайн"]
+    }
+  },
+  {
+    "id": "user_account",
+    "question": "Чи має бути особистий кабінет користувача?",
+    "type": "single-select",
+    "options": ["Так", "Ні"],
+    "showIf": {
+      "site_goal": ["Продавати товари онлайн"]
+    }
+  },
+  {
+    "id": "stock_system",
+    "question": "Чи потрібна складська система або синхронізація з 1С / ERP?",
+    "type": "single-select",
+    "options": ["Так", "Ні"],
+    "showIf": {
+      "site_goal": ["Продавати товари онлайн"]
+    }
+  },
+  {
+    "id": "sections_count",
+    "type": "single-line-text",
+    "showIf": {
+      "site_goal": ["Створити багатосторінковий сайт з інформацією"]
+    }
+  },
+  {
+    "id": "portfolio_needed",
+    "question": "Чи потрібно розмістити портфоліо / кейси / відгуки?",
+    "type": "single-select",
+    "options": ["Так", "Ні"],
+    "showIf": {
+      "site_goal": ["Створити багатосторінковий сайт з інформацією"]
+    }
+  },
+  {
+    "id": "admin_panel",
+    "question": "Чи потрібна адмін-панель для самостійного редагування контенту?",
+    "type": "single-select",
+    "options": ["Так", "Ні"],
+    "showIf": {
+      "site_goal": ["Створити багатосторінковий сайт з інформацією"]
+    }
+  },
+  {
+    "id": "internal_systems",
+    "question": "Чи потрібно підключення до внутрішніх систем компанії (CRM, база знань)?",
+    "type": "single-select",
+    "options": ["Так", "Ні"],
+    "showIf": {
+      "site_goal": ["Створити багатосторінковий сайт з інформацією"]
+    }
+  },
+  {
+    "id": "audience",
+    "question": "Кому ви адресуєте сайт?",
+    "showIf": {
+      "site_goal": ["Презентувати бренд / портфоліо / себе"]
+    }
+  },
+  {
+    "id": "highlight_content",
+    "question": "Що ви хочете показати найбільше?",
+    "type": "multi-line-text",
+    "showIf": {
+      "site_goal": ["Презентувати бренд / портфоліо / себе"]
+    }
+  },
+  {
+    "id": "preferred_style",
+    "question": "Який стиль вам ближчий?",
+    "type": "multi-line-text",
+    "showIf": {
+      "site_goal": ["Презентувати бренд / портфоліо / себе"]
+    }
+  },
+  {
+    "id": "interactivity",
+    "question": "Чи має бути інтерактивність (галереї, анімації, ефекти)?",
+    "type": "single-select",
+    "options": ["Так", "Ні"],
+    "showIf": {
+      "site_goal": ["Презентувати бренд / портфоліо / себе"]
+    }
+  }
+]

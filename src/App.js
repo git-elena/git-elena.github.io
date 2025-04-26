@@ -28,6 +28,7 @@ import PortfolioFastTemplate from './pages/portfolio/PortfolioFastTemplate';
 import PortfolioWolfvelity from './pages/portfolio/PortfolioWolfvelity';
 import ScrollToTop from './servers/ScrollToTop';
 import Politica from './pages/Politica';
+import Chat from './pages/Chat';
 
 
 function App() {
@@ -44,6 +45,8 @@ function App() {
         {isMenuVisible && <Navigation />}
         <Routes>
           <Route path="/" element={<Home />} />
+          <Route path="/chat" element={<Chat />} />
+          
           <Route path="/about" element={<About />} />
           <Route path="/services" element={<Services />} />
           <Route path="/portfolio" element={<Portfolio />} />
