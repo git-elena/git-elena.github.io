@@ -1,4 +1,6 @@
-html, body, #root {
+html,
+body,
+#root {
   height: 100%;
   margin: 0;
   padding: 0;
@@ -14,7 +16,7 @@ h2 {
 }
 
 :root {
-  --bs-primary-text-emphasis: rgb(255, 140, 0); 
+  --bs-primary-text-emphasis: rgb(255, 140, 0);
   --my-main-text-color: #424242;
 }
 
@@ -34,7 +36,7 @@ h2 {
 /* btn - 2 */
 .button-2 {
   /* background-color: rgba(51, 51, 51, 0.05); */
-  background-color: var(--bs-primary-text-emphasis)!important;
+  background-color: var(--bs-primary-text-emphasis) !important;
   border-radius: 3rem;
   border-width: 0;
   /* color: #333333; */
@@ -55,15 +57,16 @@ h2 {
   -webkit-user-select: none;
   touch-action: manipulation;
 }
+
 .banner {
-  overflow: hidden; 
+  overflow: hidden;
   position: relative;
   background-color: rgba(0, 0, 0, 0.7);
   /* height: ull-screen-display; */
 }
 
 .banner::before {
- 
+
   content: "";
   position: fixed;
   top: 0;
@@ -71,8 +74,8 @@ h2 {
   width: 100%;
   height: 100%;
   background-size: cover;
-  opacity: 0.8;  
-  z-index: -1; 
+  opacity: 0.8;
+  z-index: -1;
 }
 
 /* text */
@@ -94,6 +97,13 @@ h2 {
   text-align: left;
 }
 
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh;
+}
+
 .App footer {
   z-index: 1010;
   position: relative;
@@ -106,7 +116,7 @@ h2 {
 
 .my-bg {
   border-color: transparent;
-  background-color:  rgba(128, 128, 128, 0.1);
+  background-color: rgba(128, 128, 128, 0.1);
 }
 
 @media (max-width: 1024px) {
@@ -115,14 +125,16 @@ h2 {
     line-height: 4rem;
   }
 }
+
 @media (max-width: 768px) {
   .banner h1 {
     font-size: 3.5em;
     line-height: 3.5rem;
-   
-  } 
+
+  }
+
   .banner p {
- 
+
     padding-left: 0;
     padding-right: 0;
     text-align: center;
@@ -141,8 +153,9 @@ h2 {
   .banner h1 {
     line-height: 2.1rem;
     font-size: 2.1rem;
-    padding-top:2rem;
-  } 
+    padding-top: 2rem;
+  }
+
   .banner p {
     font-size: 1rem;
   }
@@ -155,22 +168,22 @@ h2 {
 @media (max-width: 384px) {
   .banner h1 {
     margin-top: 2rem;
-}
+  }
 }
 
 @media (max-width: 375px) {
   .banner h1 {
-      font-size: 2em;
-      line-height: 2rem;
+    font-size: 2em;
+    line-height: 2rem;
   }
 }
 
 @media (max-width: 320px) {
   .banner h1 {
-      margin-top: 4rem;
+    margin-top: 4rem;
 
-      font-size: 1.5em;
-      line-height: 1.6rem;
+    font-size: 1.5em;
+    line-height: 1.6rem;
   }
 }
 
@@ -179,5 +192,5 @@ h2 {
     /* margin-top: 7rem; */
     font-size: 1.2em;
     line-height: 1.2rem;
-  } 
+  }
 }
