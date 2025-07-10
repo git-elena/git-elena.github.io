@@ -75,7 +75,7 @@ export default function StepByStepQuiz() {
             <button
               key={opt}
               onClick={() => handleSelect(opt)}
-              className={`block w-full text-left px-4 py-2 mb-2 rounded ${answers[current.id] === opt ? 'bg-blue-500 text-white' : 'bg-gray-100 hover:bg-gray-200'}`}
+              className={`block w-full text-left px-4 py-2 mb-2 rounded ${answers[current.id] === opt ? 'bg-blue-600 text-white' : 'bg-gray-100 hover:bg-gray-200'}`}
             >
               {opt}
             </button>
@@ -103,18 +103,34 @@ export default function StepByStepQuiz() {
             </div>
           )}
 
-          <div className="flex justify-between mt-4">
-            <button
-              onClick={handleBack}
-              disabled={step === 0}
-              className="bg-gray-400 text-white py-2 px-4 rounded disabled:opacity-50"
-            >Назад</button>
-            <button
-              onClick={handleNext}
-              disabled={!answers[current.id]}
-              className="bg-blue-600 text-white py-2 px-4 rounded disabled:opacity-50"
-            >Далі</button>
-          </div>
+<div className="flex justify-between mt-4">
+  <button
+    onClick={handleBack}
+    disabled={step === 0}
+    className="bg-gray-400 text-blac py-2 px-4 rounded disabled:opacity-50"
+  >
+    Назад
+  </button>
+
+  {step === visibleQuestions.length - 1 ? (
+    <button
+      onClick={handleSubmit}
+      disabled={!answers[current.id]}
+      className="bg-blue-600 text-white py-2 px-4 rounded disabled:opacity-50"
+    >
+      Завершити
+    </button>
+  ) : (
+    <button
+      onClick={handleNext}
+      disabled={!answers[current.id]}
+      className="bg-blue-600 text-white py-2 px-4 rounded disabled:opacity-50"
+    >
+      Далі
+    </button>
+  )}
+</div>
+
         </motion.div>
       </AnimatePresence>
     </div>
